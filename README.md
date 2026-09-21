@@ -40,24 +40,50 @@ english-vocab-practice/
 - Docker Engine >= 20.10
 - Docker Compose v2
 
-### 一键部署
+### 方式 A：拉取预构建镜像（最快，推荐）
+
+每次 push 到 `main` 分支，GitHub Actions 自动构建并推送镜像到 **GHCR**，任何人无需本地构建即可部署：
+
+```bash
+# 创建 docker-compose.yml（复制下方代码）
+mkdir englishbook && cd englishbook
+curl -O https://raw.githubusercontent.com/blackanubis/englishbook/main/docker-compose.yml
+# 编辑 docker-compose.yml 取消 image 行注释（推荐）：
+#   image: ghcr.io/blackanubis/englishbook:latest
+
+# 一键启动
+docker-compose up -d
+```
+
+或者直接用命令行拉取镜像运行：
+
+```bash
+docker run -d \
+  --name englishbook \
+  -p 13001:13001 \
+  --restart unless-stopped \
+  ghcr.io/blackanubis/englishbook:latest
+```
+
+**镜像地址**：
+- GitHub Container Registry：`ghcr.io/blackanubis/englishbook:latest`
+- Docker Hub：`blackanubis/englishbook:latest`
+
+### 方式 B：从源码构建（适合二次开发）
 
 ```bash
 # 克隆仓库
 git clone https://github.com/blackanubis/englishbook.git
 cd englishbook
 
-# 一键启动（后台模式）
-docker-compose up -d
+# 一键启动（后台模式，构建镜像 + 启动）
+docker-compose up -d --build
 
 # 查看日志
 docker-compose logs -f
 
 # 停止
 docker-compose down
-
-# 重新构建（修改文件后）
-docker-compose up -d --build
 ```
 
 部署后访问：**http://localhost:13001**
@@ -84,7 +110,28 @@ docker logs englishbook
 
 - **基础镜像**：`nginx:1.27-alpine`（约 8MB）
 - **大小**：约 30MB（含词库 + 句子库）
+- **架构**：linux/amd64 + linux/arm64（自动构建）
 - **健康检查**：每 30 秒访问首页
+
+### 🔄 自动构建镜像（GitHub Actions）
+
+仓库自带 `.github/workflows/docker.yml`，**每次 push 到 main 分支会自动触发构建**：
+
+1. ✅ 自动构建多架构镜像（amd64 + arm64）
+2. ✅ 自动推送到 GHCR + Docker Hub（配置了 secrets 时）
+3. ✅ 自动生成 tags：`latest` / `<branch>` / `<sha>` / `<semver>`
+4. ✅ 启用 GHA 缓存加速构建
+
+**首次配置 Docker Hub（可选）**：
+
+GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret：
+
+| Secret 名 | 值 |
+|----------|------|
+| `DOCKERHUB_USERNAME` | 您的 Docker Hub 用户名 |
+| `DOCKERHUB_TOKEN` | Docker Hub Access Token（在 hub.docker.com/settings/security 创建） |
+
+配置后 workflow 会同时推送到 Docker Hub。
 
 ## 🔧 不使用 Docker 的部署
 

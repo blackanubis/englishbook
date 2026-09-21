@@ -1,0 +1,90 @@
+name: Build and Push Docker Image
+
+# ============ 触发条件 ============
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: '自定义 tag（如 latest / dev / v1.0.0）'
+        required: false
+        default: 'latest'
+
+# ============ 权限 ============
+permissions:
+  contents: read
+  packages: write
+
+# ============ 任务 ============
+jobs:
+  build:
+    name: Build & Push (GHCR + Docker Hub)
+    runs-on: ubuntu-latest
+
+    steps:
+      # ────────────── 1. 检出代码 ──────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ────────────── 2. 提取元数据（tags + labels） ──────────────
+      - name: Extract Docker metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: |
+            ghcr.io/${{ github.repository_owner }}/englishbook
+            ${{ github.repository_owner }}/englishbook
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=sha,format=short
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=raw,value=latest,enable={{is_default_branch}}
+          labels: |
+            org.opencontainers.image.title=englishbook
+            org.opencontainers.image.description=英语分级词汇练习网页 · 江苏版
+            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.licenses=MIT
+
+      # ────────────── 3. 设置 QEMU + Buildx（支持多架构） ──────────────
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # ────────────── 4. 登录 GHCR ──────────────
+      - name: Log in to GHCR
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # ────────────── 5. 登录 Docker Hub（可选，配置了 secrets 才登录） ──────────────
+      - name: Log in to Docker Hub
+        if: github.event_name != 'pull_request' && secrets.DOCKERHUB_USERNAME != ''
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # ────────────── 6. 构建并推送 ──────────────
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          provenance: false

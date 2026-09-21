@@ -1,34 +1,78 @@
-# ============ 英语学习网页 · 一键部署 ============
-# 用法：docker-compose up -d
-# 访问：http://<your-ip>:13001
+# ============ 英语分级词汇练习网页 · Docker Compose 部署 ============
+# 用法：
+#   1. 把本文件放在项目根目录（与 index.html、Dockerfile 同级）
+#   2. 执行：docker-compose up -d
+#   3. 访问：http://localhost:13001
+#
+# 停服：docker-compose down
+# 重建：docker-compose up -d --build
+# 看日志：docker-compose logs -f
 
 version: "3.8"
 
 services:
   englishbook:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    # ────────────── 镜像来源（选其一） ──────────────
+    # 模式 A：使用预构建镜像（一键部署，无需本地构建，推荐）
+    #   镜像由 GitHub Actions 自动构建并推送到 GHCR（每次 push main 触发）
+    #   注意：取消下面 2 行注释 + 注释掉 build 段
+    image: ghcr.io/blackanubis/englishbook:latest
+    pull_policy: always
+
+    # 模式 B：从本地 Dockerfile 构建（适合二次开发，注释上面 image 段 + 启用 build）
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+
     container_name: englishbook
     restart: unless-stopped
+
+    # ────────────── 端口映射 ──────────────
+    # 宿主机端口 : 容器内端口
+    # 改宿主机端口：把左侧 13001 改成其他端口（容器内 13001 不可改，与 nginx.conf 绑定）
     ports:
-      # 端口映射：宿主 13001 → 容器 13001
       - "13001:13001"
+
+    # ────────────── 数据卷挂载（可选，热更新词库/句子库） ──────────────
+    # 取消注释下列挂载，本地修改 JSON 后执行 `docker-compose restart` 即可生效
     volumes:
-      # 可选：挂载 JSON 数据目录以便热更新词库（替换文件后需重启容器）
+      # 词库 JSON（词库目录任一文件修改后，重启容器即可）
       # - ./vocab-data:/usr/share/nginx/html/vocab-data:ro
+      # 句子库 JSON
       # - ./sentence-data:/usr/share/nginx/html/sentence-data:ro
+      # 自动生成的 JS 模块（运行期不用改）
       # - ./vocab-data-js:/usr/share/nginx/html/vocab-data-js:ro
       # - ./sentence-data-js:/usr/share/nginx/html/sentence-data-js:ro
+      # 单文件热更新（推荐修改这个词库时用）
+      # - ./index.html:/usr/share/nginx/html/index.html:ro
+
+    # ────────────── 健康检查 ──────────────
     healthcheck:
       test: ["CMD", "wget", "-q", "--spider", "http://localhost/"]
       interval: 30s
       timeout: 5s
       retries: 3
       start_period: 10s
+
+    # ────────────── 日志限制 ──────────────
     logging:
       driver: json-file
       options:
         max-size: "10m"
         max-file: "3"
-    restart: unless-stopped
+
+    # ────────────── 资源限制（可选，低配机器可启用） ──────────────
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: "0.5"
+    #       memory: 128M
+    #     reservations:
+    #       cpus: "0.1"
+    #       memory: 32M
+
+# ────────────── 可选：使用外部网络（与其他容器互通） ──────────────
+# networks:
+#   englishbook_net:
+#     external: true
+#     name: my_network
