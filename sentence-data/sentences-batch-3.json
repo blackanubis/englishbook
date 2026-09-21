@@ -1,0 +1,1901 @@
+{
+  "sentenceBank": [
+    {
+      "level": "高中",
+      "en": "There is no denying that the issue of X has gained increasing attention.",
+      "cn": "不可否认，X问题日益受到关注。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "When it comes to X, opinions vary from person to person.",
+      "cn": "谈到X，人们观点各异。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "As is known to all, X plays a vital role in our daily life.",
+      "cn": "众所周知，X在我们的日常生活中起着至关重要的作用。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Recently, the issue of X has aroused wide concern.",
+      "cn": "近来，X问题引起了广泛关注。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "With the rapid development of society, X has become a hot topic.",
+      "cn": "随着社会的快速发展，X已成为热门话题。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "In recent years, X has been brought into focus.",
+      "cn": "近年来，X已成为人们关注的焦点。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "People's views on X vary from person to person.",
+      "cn": "人们对X的看法因人而异。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Different people hold different views on X.",
+      "cn": "不同的人对X有不同的看法。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Now people in growing numbers are beginning to believe that X.",
+      "cn": "越来越多的人开始相信X。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "The issue whether X should be X is a controversial one.",
+      "cn": "X是否X这一问题颇有争议。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "There are different opinions among people as to X.",
+      "cn": "人们对X持有不同的看法。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "X has become a heated topic among people.",
+      "cn": "X已成为人们热议的话题。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Recently, X has been in the limelight and has aroused wide concern.",
+      "cn": "近来，X受到广泛关注。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "First and foremost, we need to understand that X is crucial.",
+      "cn": "首先，我们需要理解X至关重要。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "There is no doubt that X plays a key role in modern society.",
+      "cn": "毫无疑问，X在现代社会中起着关键作用。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "It is well known that X plays a vital part in...",
+      "cn": "众所周知，X在...中起着重要作用。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Many experts point out that X is a complex phenomenon.",
+      "cn": "许多专家指出X是一个复杂现象。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "From my perspective, X is of great significance.",
+      "cn": "在我看来，X具有重大意义。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "In my opinion, X has more advantages than disadvantages.",
+      "cn": "在我看来，X利大于弊。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "As far as I am concerned, X is the best choice.",
+      "cn": "就我而言，X是最佳选择。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "On the one hand, X is beneficial. On the other hand, X brings problems.",
+      "cn": "一方面X有利，另一方面X带来问题。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "X is not only X but also X.",
+      "cn": "X不仅是X，也是X。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "The reasons for X are as follows. First, X. Second, X.",
+      "cn": "X的原因如下：第一，X；第二，X。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "There are several reasons why X is important.",
+      "cn": "X重要的原因有几个。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "X plays a key role in our daily life.",
+      "cn": "X在我们的日常生活中起着关键作用。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "As for me, I am strongly in favor of X.",
+      "cn": "就我而言，我坚决支持X。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "It is high time that we took effective measures.",
+      "cn": "现在是我们采取有效措施的时候了。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Effective measures should be taken to X.",
+      "cn": "应采取有效措施来X。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "It is necessary that immediate actions be taken.",
+      "cn": "有必要立即采取行动。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Only in this way can we X.",
+      "cn": "只有这样我们才能X。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "I strongly suggest that X be encouraged.",
+      "cn": "我强烈建议鼓励X。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "It is high time that we placed X on the agenda.",
+      "cn": "现在该把X列入议程了。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "The government should take steps to X.",
+      "cn": "政府应采取措施X。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Everyone should make an effort to X.",
+      "cn": "每个人都应努力X。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "I firmly believe that X will benefit us in the long run.",
+      "cn": "我坚信X长远来看会让我们受益。",
+      "grammar": "作文模板-建议",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Taking all these factors into consideration, I believe that X.",
+      "cn": "综合考虑这些因素，我认为X。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "All in all, X will play a more and more important role.",
+      "cn": "总之，X将发挥越来越重要的作用。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "In conclusion, I would like to stress that X.",
+      "cn": "总之，我想强调X。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "From what has been discussed above, we can see that X.",
+      "cn": "从以上讨论可以看出X。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "Only when we X can we have a better future.",
+      "cn": "只有当我们X时，我们才能拥有更美好的未来。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "The future of X depends on our joint efforts.",
+      "cn": "X的未来取决于我们的共同努力。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "It is hoped that X will be further improved.",
+      "cn": "希望X能进一步改善。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "To sum up, X is more than just X, it represents X.",
+      "cn": "总之，X不仅仅是X，它代表着X。",
+      "grammar": "作文模板-结论",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "No doubt, X is becoming an important factor in modern life.",
+      "cn": "毫无疑问，X正成为现代生活中的重要因素。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "In modern society, X has become increasingly important.",
+      "cn": "在现代社会，X变得越来越重要。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "As a popular saying goes, X is X.",
+      "cn": "俗话说，X就是X。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "To put it simply, X is X.",
+      "cn": "简而言之，X就是X。",
+      "grammar": "作文模板-引入",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "From what I see, X is X.",
+      "cn": "在我看来，X就是X。",
+      "grammar": "作文模板-观点",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "This case effectively illustrates that X.",
+      "cn": "这个例子有效地说明了X。",
+      "grammar": "作文模板-论证",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "A case in point is that X.",
+      "cn": "一个典型的例子是X。",
+      "grammar": "作文模板-论证",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "The reason why X is X is that X.",
+      "cn": "X之所以X的原因是X。",
+      "grammar": "作文模板-论证",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "According to a recent survey, X.",
+      "cn": "根据最近的一项调查，X。",
+      "grammar": "作文模板-论证",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "There is no denying that X.",
+      "cn": "无可否认的是X。",
+      "grammar": "作文模板-论证",
+      "tags": "高考"
+    },
+    {
+      "level": "高中",
+      "en": "According to the passage, the author mainly intends to tell us that...",
+      "cn": "根据短文，作者主要想告诉我们...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Which of the following statements is true?",
+      "cn": "下列哪项陈述是正确的？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What does the underlined word probably mean?",
+      "cn": "划线单词可能是什么意思？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The author's attitude toward this issue is...",
+      "cn": "作者对这个问题的态度是...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The main idea of this passage is...",
+      "cn": "这篇短文的主旨是...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "We can infer from the passage that...",
+      "cn": "我们可以从短文中推断...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The word X can be best replaced by...",
+      "cn": "单词X最可以被...代替。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The best title for the passage would be...",
+      "cn": "本文最佳标题可能是...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "According to the author, X is the most important...",
+      "cn": "作者认为X是最重要的...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage is mainly about...",
+      "cn": "本文主要是关于...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It can be concluded that...",
+      "cn": "可以得出结论...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What is the author's main concern?",
+      "cn": "作者主要关心什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The author mentions X in order to...",
+      "cn": "作者提到X是为了...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "We can learn from the passage that...",
+      "cn": "我们可以从短文中得知...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The example of X is given to show that...",
+      "cn": "举X的例子是为了表明...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The last paragraph mainly tells us that...",
+      "cn": "最后一段主要告诉我们...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "By saying X, the author means that...",
+      "cn": "作者说X的意思是...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It can be inferred that the author X.",
+      "cn": "可以推断作者X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What does the author want to tell us?",
+      "cn": "作者想告诉我们什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The author would most probably agree that...",
+      "cn": "作者最可能同意...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It is implied in the passage that...",
+      "cn": "文章暗示...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage suggests that...",
+      "cn": "文章表明...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "We can draw a conclusion that...",
+      "cn": "我们可以得出结论...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Which of the following is TRUE about X?",
+      "cn": "关于X，下列哪项正确？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What is the best title of the passage?",
+      "cn": "短文的最佳标题是什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "In the passage, the author mainly discusses...",
+      "cn": "在短文中，作者主要讨论...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The underlined sentence shows that...",
+      "cn": "划线句子表明...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage is intended to...",
+      "cn": "本文旨在...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What do we know about X according to the passage?",
+      "cn": "根据短文，我们对X了解什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The phrase X most probably means...",
+      "cn": "the phrase X最可能意思是...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Why does the author mention X in the passage?",
+      "cn": "作者为什么在文中提到X？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The main purpose of the passage is to...",
+      "cn": "本文的主要目的是...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "We can learn from the passage that X is X.",
+      "cn": "从文中我们可以看出...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It can be seen from the passage that...",
+      "cn": "从文中可以看出...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The author of the passage seems to be X.",
+      "cn": "本短文作者似乎是...",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The author's purpose in writing this passage is to X.",
+      "cn": "作者写本文的目的是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Which of the following best describes X?",
+      "cn": "下列哪项最好地描述了X？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What would be the best title for this passage?",
+      "cn": "本文最佳的标题是什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It can be concluded from the passage that X X.",
+      "cn": "从短文可以得出X X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage tries to tell us X.",
+      "cn": "短文试图告诉我们X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The author wants to X by writing this passage.",
+      "cn": "作者通过写这篇文章想X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage tells us X about X.",
+      "cn": "文章告诉我们关于X的X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It can be reasonably inferred that X.",
+      "cn": "可以合理地推断X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The main point of the passage is X.",
+      "cn": "文章的主要观点是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Which of the following is NOT mentioned in the passage?",
+      "cn": "下列哪项文章没有提到？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "According to the passage, X is X.",
+      "cn": "根据短文，X是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "From the passage we know that X is X.",
+      "cn": "从文中我们知道X是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What is the main idea of paragraph X?",
+      "cn": "第X段的主要思想是什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage mainly deals with X.",
+      "cn": "短文主要讨论X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The best summary of the passage is X.",
+      "cn": "短文最好的总结是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What is the purpose of the passage?",
+      "cn": "短文的目的是什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Why does the author say X in the passage?",
+      "cn": "作者为什么在文中说X？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The first paragraph is mainly about X.",
+      "cn": "第一段主要是关于X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage is mainly about X of X.",
+      "cn": "短文主要是关于X的X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The author believes that X is X.",
+      "cn": "作者相信X是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "From the passage we can conclude that X.",
+      "cn": "从文中我们可以得出X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Which of the following can be inferred?",
+      "cn": "下列哪项可以推断出来？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The purpose of the passage is to X.",
+      "cn": "短文的目的是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It can be seen that X is X.",
+      "cn": "可以看出X是X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What does the passage mainly discuss?",
+      "cn": "短文主要讨论什么？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "Which of the following best describes the author?",
+      "cn": "下列哪项最好地描述了作者？",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "It is suggested in the passage that X.",
+      "cn": "文章表明X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "From the passage we can see that X.",
+      "cn": "从文中我们可以看到X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "The passage is mainly written to X.",
+      "cn": "本文主要是为了X。",
+      "grammar": "阅读理解",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "What's up?",
+      "cn": "怎么了？",
+      "grammar": "口语",
+      "tags": "问候"
+    },
+    {
+      "level": "高中",
+      "en": "I am just kidding.",
+      "cn": "我只是开玩笑。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Are you serious?",
+      "cn": "你是认真的吗？",
+      "grammar": "口语",
+      "tags": "询问"
+    },
+    {
+      "level": "高中",
+      "en": "Don't push me.",
+      "cn": "别逼我。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "I am fed up with it.",
+      "cn": "我受够了。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "That's so cool!",
+      "cn": "太酷了！",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "No way!",
+      "cn": "不可能！",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "It drives me crazy.",
+      "cn": "它快把我逼疯了。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "I can't stand it.",
+      "cn": "我受不了。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "Whatever.",
+      "cn": "随便吧。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Sounds great!",
+      "cn": "听起来不错！",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "I'll be right back.",
+      "cn": "我马上回来。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "I'm running late.",
+      "cn": "我要迟到了。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "I have no idea.",
+      "cn": "我不知道。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Long time no see!",
+      "cn": "好久不见！",
+      "grammar": "口语",
+      "tags": "问候"
+    },
+    {
+      "level": "高中",
+      "en": "It's not a big deal.",
+      "cn": "没什么大不了。",
+      "grammar": "口语",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "I'm just looking around.",
+      "cn": "我只是随便看看。",
+      "grammar": "口语",
+      "tags": "购物"
+    },
+    {
+      "level": "高中",
+      "en": "What brings you here?",
+      "cn": "什么风把你吹来了？",
+      "grammar": "口语",
+      "tags": "问候"
+    },
+    {
+      "level": "高中",
+      "en": "I'm just kidding around.",
+      "cn": "我只是开个玩笑。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "Cut it out.",
+      "cn": "别闹了。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "You made my day.",
+      "cn": "你让我今天很开心。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "Take it easy.",
+      "cn": "别紧张。",
+      "grammar": "口语",
+      "tags": "安慰"
+    },
+    {
+      "level": "高中",
+      "en": "Take your time.",
+      "cn": "慢慢来。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Mind your own business.",
+      "cn": "管好你自己的事。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Let's call it a day.",
+      "cn": "今天就到这儿吧。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Time will tell.",
+      "cn": "时间会证明一切。",
+      "grammar": "口语",
+      "tags": "谚语"
+    },
+    {
+      "level": "高中",
+      "en": "Don't get me wrong.",
+      "cn": "别误解我。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "That's the last straw.",
+      "cn": "我忍无可忍了。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "I am at a loss for words.",
+      "cn": "我无言以对。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "Let me get this straight.",
+      "cn": "让我搞清楚。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "I'll think about it.",
+      "cn": "我考虑一下。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "That's a good point.",
+      "cn": "说得好。",
+      "grammar": "口语",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "I couldn't agree more.",
+      "cn": "我完全同意。",
+      "grammar": "口语",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "I beg to differ.",
+      "cn": "恕我不能同意。",
+      "grammar": "口语",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "That's exactly what I mean.",
+      "cn": "我正是这个意思。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "That's the spirit!",
+      "cn": "这就对了！",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "Hold on a second.",
+      "cn": "稍等一下。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Don't get me started.",
+      "cn": "别让我开始说。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "I will keep that in mind.",
+      "cn": "我会记住的。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "Let's get started.",
+      "cn": "我们开始吧。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "I am on my way.",
+      "cn": "我在路上了。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "I'm afraid not.",
+      "cn": "恐怕不行。",
+      "grammar": "口语",
+      "tags": "拒绝"
+    },
+    {
+      "level": "高中",
+      "en": "That's what I thought.",
+      "cn": "我正是这么想的。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "Let's agree to disagree.",
+      "cn": "我们求同存异。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "I'm afraid so.",
+      "cn": "恐怕是这样。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "I am lost.",
+      "cn": "我迷路了。",
+      "grammar": "口语",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "I am full.",
+      "cn": "我吃饱了。",
+      "grammar": "口语",
+      "tags": "饮食"
+    },
+    {
+      "level": "高中",
+      "en": "I am starving.",
+      "cn": "我快饿死了。",
+      "grammar": "口语",
+      "tags": "饮食"
+    },
+    {
+      "level": "高中",
+      "en": "It's driving me nuts.",
+      "cn": "它快把我逼疯了。",
+      "grammar": "口语",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "Let's hit the road.",
+      "cn": "我们出发吧。",
+      "grammar": "口语",
+      "tags": "旅行"
+    },
+    {
+      "level": "高中",
+      "en": "Let me think about it.",
+      "cn": "让我想想。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "I'll figure it out.",
+      "cn": "我会搞清楚的。",
+      "grammar": "口语",
+      "tags": "对话"
+    },
+    {
+      "level": "高中",
+      "en": "Keep up the good work.",
+      "cn": "继续保持。",
+      "grammar": "口语",
+      "tags": "鼓励"
+    },
+    {
+      "level": "高中",
+      "en": "You are doing great.",
+      "cn": "你做得很好。",
+      "grammar": "口语",
+      "tags": "鼓励"
+    },
+    {
+      "level": "高中",
+      "en": "Let's schedule a meeting for next week.",
+      "cn": "我们下周安排一个会议吧。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll send you the agenda by email.",
+      "cn": "我会通过邮件把议程发给你。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Could we move the deadline to Friday?",
+      "cn": "我们能把截止日期挪到周五吗？",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll get back to you on that.",
+      "cn": "我会在那个问题上回复你。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let me know if you have any questions.",
+      "cn": "如果你有任何问题，请告诉我。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'm looking forward to working with you.",
+      "cn": "我期待与你合作。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Please find the attached file.",
+      "cn": "请查看附件。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Thanks for your prompt reply.",
+      "cn": "感谢您的及时回复。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I appreciate your cooperation.",
+      "cn": "感谢您的合作。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let's set up a call to discuss this.",
+      "cn": "我们设个电话会议讨论这个问题。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We need to align our priorities.",
+      "cn": "我们需要对齐优先级。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Could you share your thoughts on this?",
+      "cn": "你能分享一下你对此的看法吗？",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll keep you in the loop.",
+      "cn": "我会让你知道进展。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let's schedule a follow-up meeting.",
+      "cn": "我们安排一个跟进会议吧。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I need to consult my manager first.",
+      "cn": "我需要先咨询一下我的经理。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let me clarify the requirements.",
+      "cn": "让我澄清一下需求。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll prioritize the urgent tasks.",
+      "cn": "我会优先处理紧急任务。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "The deadline is approaching.",
+      "cn": "截止日期快到了。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let me walk you through the process.",
+      "cn": "让我带你过一遍流程。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll draft a proposal by tomorrow.",
+      "cn": "我明天之前起草一份提案。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let me know your availability.",
+      "cn": "告诉我你什么时候有空。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll share my screen with you.",
+      "cn": "我会和你分享我的屏幕。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Please review the document.",
+      "cn": "请审阅文件。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "The meeting has been postponed.",
+      "cn": "会议已延期。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We need to set a clear timeline.",
+      "cn": "我们需要设定明确的时间表。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll brief the team on this.",
+      "cn": "我会向团队汇报这件事。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let me address your concerns.",
+      "cn": "让我解决你的顾虑。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We should leverage our resources.",
+      "cn": "我们应该利用资源。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We need to streamline the process.",
+      "cn": "我们需要精简流程。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll prioritize this issue.",
+      "cn": "我会优先处理这个问题。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "The result exceeded our expectations.",
+      "cn": "结果超出了预期。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll follow up on this issue.",
+      "cn": "我会跟进这个问题。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let's wrap up the meeting.",
+      "cn": "我们结束会议吧。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'm available at 3 PM tomorrow.",
+      "cn": "我明天下午3点有空。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I will get back to you shortly.",
+      "cn": "我会很快回复您。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Thanks for bringing this to my attention.",
+      "cn": "感谢您提醒我注意这件事。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll prioritize customer satisfaction.",
+      "cn": "我会优先考虑客户满意度。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let's move on to the next agenda item.",
+      "cn": "我们进入下一个议程。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Could you confirm receipt of this email?",
+      "cn": "您能确认收到这封邮件吗？",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll escalate this issue immediately.",
+      "cn": "我会立刻升级这个问题。",
+      "grammar": "商务",
+      "tags": "工作"
+    },
+    {
+      "level": "初中",
+      "en": "I have been looking forward to your visit.",
+      "cn": "我一直期待您的来访。",
+      "grammar": "现在完成进行",
+      "tags": "期待"
+    },
+    {
+      "level": "初中",
+      "en": "I was about to leave when the phone rang.",
+      "cn": "我正要离开时电话响了。",
+      "grammar": "be about to",
+      "tags": "日常"
+    },
+    {
+      "level": "初中",
+      "en": "It's high time we started our journey.",
+      "cn": "我们该出发了。",
+      "grammar": "虚拟语气",
+      "tags": "建议"
+    },
+    {
+      "level": "初中",
+      "en": "He made a speech at the meeting.",
+      "cn": "他在会议上发表了演讲。",
+      "grammar": "一般过去",
+      "tags": "演讲"
+    },
+    {
+      "level": "初中",
+      "en": "The teacher assigned us a lot of homework.",
+      "cn": "老师给我们布置了很多作业。",
+      "grammar": "一般过去",
+      "tags": "学校"
+    },
+    {
+      "level": "初中",
+      "en": "I found the book very interesting.",
+      "cn": "我发现这本书很有趣。",
+      "grammar": "find+宾补",
+      "tags": "阅读"
+    },
+    {
+      "level": "初中",
+      "en": "Please make yourself at home.",
+      "cn": "请随意（别拘束）。",
+      "grammar": "make+宾补",
+      "tags": "礼貌"
+    },
+    {
+      "level": "初中",
+      "en": "My advice is that you should go now.",
+      "cn": "我的建议是你现在该走了。",
+      "grammar": "虚拟语气",
+      "tags": "建议"
+    },
+    {
+      "level": "初中",
+      "en": "I can't help laughing at his jokes.",
+      "cn": "我忍不住笑他的笑话。",
+      "grammar": "can't help doing",
+      "tags": "情感"
+    },
+    {
+      "level": "初中",
+      "en": "He turned out to be a good teacher.",
+      "cn": "他结果是一个好老师。",
+      "grammar": "turn out",
+      "tags": "评价"
+    },
+    {
+      "level": "初中",
+      "en": "The more I read, the more I understand.",
+      "cn": "读得越多，懂得越多。",
+      "grammar": "the more...the more",
+      "tags": "学习"
+    },
+    {
+      "level": "初中",
+      "en": "Let's not waste any more time.",
+      "cn": "我们别再浪费时间了。",
+      "grammar": "祈使句",
+      "tags": "日常"
+    },
+    {
+      "level": "初中",
+      "en": "I'm dying to see the movie.",
+      "cn": "我超想看这部电影。",
+      "grammar": "die to",
+      "tags": "口语"
+    },
+    {
+      "level": "初中",
+      "en": "Don't worry about it.",
+      "cn": "别担心。",
+      "grammar": "祈使句",
+      "tags": "安慰"
+    },
+    {
+      "level": "初中",
+      "en": "I'll make sure everything is ready.",
+      "cn": "我会确保一切就绪。",
+      "grammar": "make sure",
+      "tags": "承诺"
+    },
+    {
+      "level": "初中",
+      "en": "Would you please open the window?",
+      "cn": "请开下窗好吗？",
+      "grammar": "would please",
+      "tags": "礼貌"
+    },
+    {
+      "level": "初中",
+      "en": "She came back with a smile.",
+      "cn": "她微笑着回来了。",
+      "grammar": "with短语",
+      "tags": "描述"
+    },
+    {
+      "level": "初中",
+      "en": "It happened to be a sunny day.",
+      "cn": "那天恰好是晴天。",
+      "grammar": "happen to",
+      "tags": "日常"
+    },
+    {
+      "level": "初中",
+      "en": "He happened to pass by.",
+      "cn": "他恰好路过。",
+      "grammar": "happen to",
+      "tags": "日常"
+    },
+    {
+      "level": "初中",
+      "en": "Let me know if there's anything I can do.",
+      "cn": "如果有我能做的，请告诉我。",
+      "grammar": "if从句",
+      "tags": "礼貌"
+    },
+    {
+      "level": "初中",
+      "en": "We had a good time at the party.",
+      "cn": "我们在派对上玩得很开心。",
+      "grammar": "have a good time",
+      "tags": "娱乐"
+    },
+    {
+      "level": "初中",
+      "en": "I'd like to make a reservation.",
+      "cn": "我想预订。",
+      "grammar": "would like",
+      "tags": "日常"
+    },
+    {
+      "level": "初中",
+      "en": "I cannot help but cry.",
+      "cn": "我忍不住哭了。",
+      "grammar": "can't help but",
+      "tags": "情感"
+    },
+    {
+      "level": "初中",
+      "en": "It cost me ten dollars.",
+      "cn": "这花了我十美元。",
+      "grammar": "it cost",
+      "tags": "花费"
+    },
+    {
+      "level": "初中",
+      "en": "It's no use trying again.",
+      "cn": "再试也没用。",
+      "grammar": "It's no use",
+      "tags": "哲理"
+    },
+    {
+      "level": "初中",
+      "en": "The accident happened at midnight.",
+      "cn": "事故发生在午夜。",
+      "grammar": "一般过去",
+      "tags": "事故"
+    },
+    {
+      "level": "初中",
+      "en": "I am used to getting up early.",
+      "cn": "我习惯早起。",
+      "grammar": "be used to",
+      "tags": "日常"
+    },
+    {
+      "level": "初中",
+      "en": "I'm looking forward to your reply.",
+      "cn": "我期待您的回复。",
+      "grammar": "look forward to",
+      "tags": "通信"
+    },
+    {
+      "level": "初中",
+      "en": "He warned me not to go there.",
+      "cn": "他警告我不要去那里。",
+      "grammar": "warn+to do",
+      "tags": "警告"
+    },
+    {
+      "level": "初中",
+      "en": "The meeting lasted two hours.",
+      "cn": "会议持续了两个小时。",
+      "grammar": "一般过去",
+      "tags": "会议"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing is known as the 'Six Dynasties Capital'.",
+      "cn": "南京被誉为'六朝古都'。",
+      "grammar": "被动+as",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "The Yangtze River runs through Nanjing.",
+      "cn": "长江流经南京。",
+      "grammar": "一般现在时",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Suzhou is famous for its silk.",
+      "cn": "苏州以丝绸闻名。",
+      "grammar": "被动+for",
+      "tags": "苏州"
+    },
+    {
+      "level": "江苏",
+      "en": "Wuxi is home to many successful entrepreneurs.",
+      "cn": "无锡是许多成功企业家的故乡。",
+      "grammar": "主系表+to",
+      "tags": "无锡"
+    },
+    {
+      "level": "江苏",
+      "en": "Changzhou is a vibrant industrial city.",
+      "cn": "常州是一座充满活力的工业城市。",
+      "grammar": "主系表",
+      "tags": "常州"
+    },
+    {
+      "level": "江苏",
+      "en": "Huai'an is a famous historical city.",
+      "cn": "淮安是著名的历史文化名城。",
+      "grammar": "主系表",
+      "tags": "淮安"
+    },
+    {
+      "level": "江苏",
+      "en": "Yancheng's coastal wetland is famous worldwide.",
+      "cn": "盐城的滨海湿地世界闻名。",
+      "grammar": "被动+worldwide",
+      "tags": "盐城"
+    },
+    {
+      "level": "江苏",
+      "en": "Lianyungang is an important port city.",
+      "cn": "连云港是一个重要的港口城市。",
+      "grammar": "主系表",
+      "tags": "连云港"
+    },
+    {
+      "level": "江苏",
+      "en": "Suzhou's classical gardens are UNESCO heritage sites.",
+      "cn": "苏州古典园林是联合国教科文组织遗产。",
+      "grammar": "主系表",
+      "tags": "苏州"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing Road is a famous shopping street in Shanghai.",
+      "cn": "南京路是上海著名的购物街。",
+      "grammar": "主系表",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "The city has over 10 million residents.",
+      "cn": "这座城市有超过一千万居民。",
+      "grammar": "主谓宾",
+      "tags": "城市"
+    },
+    {
+      "level": "江苏",
+      "en": "Jiangsu's GDP ranks second in China.",
+      "cn": "江苏GDP在中国排名第二。",
+      "grammar": "主谓+second",
+      "tags": "经济"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing has a thriving tech industry.",
+      "cn": "南京拥有蓬勃发展的科技产业。",
+      "grammar": "主谓宾",
+      "tags": "经济"
+    },
+    {
+      "level": "江苏",
+      "en": "Suzhou is China's top manufacturing base.",
+      "cn": "苏州是中国顶级制造业基地。",
+      "grammar": "主系表+of",
+      "tags": "经济"
+    },
+    {
+      "level": "江苏",
+      "en": "The new airport will open next year.",
+      "cn": "新机场将于明年开放。",
+      "grammar": "一般将来",
+      "tags": "交通"
+    },
+    {
+      "level": "江苏",
+      "en": "Tourists are attracted by the natural beauty.",
+      "cn": "游客被自然美景吸引。",
+      "grammar": "被动+by",
+      "tags": "旅游"
+    },
+    {
+      "level": "江苏",
+      "en": "Many students choose to study in Nanjing.",
+      "cn": "许多学生选择在南京学习。",
+      "grammar": "choose to",
+      "tags": "教育"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing University is ranked among the best.",
+      "cn": "南京大学排名靠前。",
+      "grammar": "被动+among",
+      "tags": "教育"
+    },
+    {
+      "level": "江苏",
+      "en": "The province covers an area of 100,000 square kilometers.",
+      "cn": "该省面积10万平方公里。",
+      "grammar": "主谓宾",
+      "tags": "江苏地理"
+    },
+    {
+      "level": "江苏",
+      "en": "The city is famous for its long history.",
+      "cn": "这座城市以其悠久历史而闻名。",
+      "grammar": "被动+for",
+      "tags": "城市"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing's Yuhuatai is a famous scenic spot.",
+      "cn": "南京雨花台是著名景点。",
+      "grammar": "主系表",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Yangzhou is known for its ancient streets.",
+      "cn": "扬州以其古街闻名。",
+      "grammar": "被动+for",
+      "tags": "扬州"
+    },
+    {
+      "level": "江苏",
+      "en": "Zhenjiang's金山寺 is a famous Buddhist temple.",
+      "cn": "镇江金山寺是著名的佛寺。",
+      "grammar": "主系表",
+      "tags": "镇江"
+    },
+    {
+      "level": "江苏",
+      "en": "Suzhou's Kan Garden is one of the world heritage sites.",
+      "cn": "苏州拙政园是世界遗产之一。",
+      "grammar": "主系表",
+      "tags": "苏州"
+    },
+    {
+      "level": "江苏",
+      "en": "The provincial capital is Nanjing.",
+      "cn": "省会城市是南京。",
+      "grammar": "主系表",
+      "tags": "江苏地理"
+    },
+    {
+      "level": "江苏",
+      "en": "Jiangsu province is in the east of China.",
+      "cn": "江苏省在中国的东部。",
+      "grammar": "主系表",
+      "tags": "江苏地理"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing's purple mountain scenic area is famous.",
+      "cn": "南京紫金山景区很有名。",
+      "grammar": "主系表+所有格",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Wuxi is a city famous for filming.",
+      "cn": "无锡是一座以影视闻名的城市。",
+      "grammar": "主系表+for",
+      "tags": "无锡"
+    },
+    {
+      "level": "江苏",
+      "en": "Yangzhou fried rice is a famous dish.",
+      "cn": "扬州炒饭是一道名菜。",
+      "grammar": "主系表",
+      "tags": "扬州"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing has many famous universities.",
+      "cn": "南京有许多著名大学。",
+      "grammar": "主谓宾",
+      "tags": "教育"
+    }
+  ]
+}

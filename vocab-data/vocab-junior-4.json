@@ -1,0 +1,2166 @@
+{
+  "customVocab": {
+    "junior": [
+      {
+        "level": "初中",
+        "word": "machine",
+        "phonetic": "/məˈʃiːn/",
+        "chinese": "机器",
+        "example": "A washing machine.",
+        "tags": "物品"
+      },
+      {
+        "level": "初中",
+        "word": "magazine",
+        "phonetic": "/ˌmæɡəˈziːn/",
+        "chinese": "杂志",
+        "example": "A fashion magazine.",
+        "tags": "日常"
+      },
+      {
+        "level": "初中",
+        "word": "major",
+        "phonetic": "/ˈmeɪdʒə/",
+        "chinese": "主要的",
+        "example": "A major issue.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "majority",
+        "phonetic": "/məˈdʒɒrəti/",
+        "chinese": "大多数",
+        "example": "The majority.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "manage",
+        "phonetic": "/ˈmænɪdʒ/",
+        "chinese": "管理",
+        "example": "Manage time well.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "manner",
+        "phonetic": "/ˈmænə/",
+        "chinese": "方式",
+        "example": "Good manners.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "mark",
+        "phonetic": "/mɑːk/",
+        "chinese": "标记",
+        "example": "Mark the answer.",
+        "tags": "名词"
+      },
+      {
+        "level": "初中",
+        "word": "market",
+        "phonetic": "/ˈmɑːkɪt/",
+        "chinese": "市场",
+        "example": "Stock market.",
+        "tags": "商业"
+      },
+      {
+        "level": "初中",
+        "word": "marriage",
+        "phonetic": "/ˈmærɪdʒ/",
+        "chinese": "婚姻",
+        "example": "Happy marriage.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "master",
+        "phonetic": "/ˈmɑːstə/",
+        "chinese": "掌握",
+        "example": "Master English.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "material",
+        "phonetic": "/məˈtɪəriəl/",
+        "chinese": "材料",
+        "example": "Building material.",
+        "tags": "物品"
+      },
+      {
+        "level": "初中",
+        "word": "matter",
+        "phonetic": "/ˈmætə/",
+        "chinese": "问题；物质",
+        "example": "No matter what.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "measure",
+        "phonetic": "/ˈmeʒə/",
+        "chinese": "测量",
+        "example": "Measure carefully.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "mechanism",
+        "phonetic": "/ˈmekənɪzəm/",
+        "chinese": "机制",
+        "example": "Defense mechanism.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "media",
+        "phonetic": "/ˈmiːdiə/",
+        "chinese": "媒体",
+        "example": "Social media.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "memory",
+        "phonetic": "/ˈmeməri/",
+        "chinese": "记忆",
+        "example": "A good memory.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "mention",
+        "phonetic": "/ˈmenʃn/",
+        "chinese": "提到",
+        "example": "Don't mention it.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "method",
+        "phonetic": "/ˈmeθəd/",
+        "chinese": "方法",
+        "example": "A new method.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "million",
+        "phonetic": "/ˈmɪljən/",
+        "chinese": "百万",
+        "example": "One million.",
+        "tags": "数量"
+      },
+      {
+        "level": "初中",
+        "word": "minor",
+        "phonetic": "/ˈmaɪnə/",
+        "chinese": "次要的",
+        "example": "A minor issue.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "minority",
+        "phonetic": "/maɪˈnɒrəti/",
+        "chinese": "少数",
+        "example": "A minority group.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "minute",
+        "phonetic": "/ˈmɪnɪt/",
+        "chinese": "分钟",
+        "example": "Wait a minute.",
+        "tags": "时间"
+      },
+      {
+        "level": "初中",
+        "word": "miracle",
+        "phonetic": "/ˈmɪrəkl/",
+        "chinese": "奇迹",
+        "example": "A medical miracle.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "mirror",
+        "phonetic": "/ˈmɪrə/",
+        "chinese": "镜子",
+        "example": "Look in the mirror.",
+        "tags": "物品"
+      },
+      {
+        "level": "初中",
+        "word": "miss",
+        "phonetic": "/mɪs/",
+        "chinese": "想念",
+        "example": "I miss you.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "mission",
+        "phonetic": "/ˈmɪʃn/",
+        "chinese": "任务",
+        "example": "A difficult mission.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "mixture",
+        "phonetic": "/ˈmɪkstʃə/",
+        "chinese": "混合物",
+        "example": "A strange mixture.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "mobile",
+        "phonetic": "/ˈməʊbaɪl/",
+        "chinese": "移动的",
+        "example": "Mobile phone.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "mode",
+        "phonetic": "/məʊd/",
+        "chinese": "模式",
+        "example": "Sleep mode.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "model",
+        "phonetic": "/ˈmɒdl/",
+        "chinese": "模型",
+        "example": "A fashion model.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "modern",
+        "phonetic": "/ˈmɒdn/",
+        "chinese": "现代的",
+        "example": "Modern art.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "modify",
+        "phonetic": "/ˈmɒdɪfaɪ/",
+        "chinese": "修改",
+        "example": "Modify the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "moment",
+        "phonetic": "/ˈməʊmənt/",
+        "chinese": "时刻",
+        "example": "A special moment.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "monitor",
+        "phonetic": "/ˈmɒnɪtə/",
+        "chinese": "监视",
+        "example": "Monitor progress.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "mood",
+        "phonetic": "/muːd/",
+        "chinese": "心情",
+        "example": "In a good mood.",
+        "tags": "情感"
+      },
+      {
+        "level": "初中",
+        "word": "moral",
+        "phonetic": "/ˈmɒrəl/",
+        "chinese": "道德的",
+        "example": "Moral values.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "motivate",
+        "phonetic": "/ˈməʊtɪveɪt/",
+        "chinese": "激励",
+        "example": "Motivate students.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "motive",
+        "phonetic": "/ˈməʊtɪv/",
+        "chinese": "动机",
+        "example": "A hidden motive.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "multiple",
+        "phonetic": "/ˈmʌltɪpl/",
+        "chinese": "多个的",
+        "example": "Multiple choice.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "murder",
+        "phonetic": "/ˈmɜːdə/",
+        "chinese": "谋杀",
+        "example": "A murder mystery.",
+        "tags": "社会"
+      },
+      {
+        "level": "初中",
+        "word": "muscle",
+        "phonetic": "/ˈmʌsl/",
+        "chinese": "肌肉",
+        "example": "Strong muscle.",
+        "tags": "身体"
+      },
+      {
+        "level": "初中",
+        "word": "museum",
+        "phonetic": "/mjuːˈzɪəm/",
+        "chinese": "博物馆",
+        "example": "Visit the museum.",
+        "tags": "场所"
+      },
+      {
+        "level": "初中",
+        "word": "mutual",
+        "phonetic": "/ˈmjuːtʃuəl/",
+        "chinese": "相互的",
+        "example": "Mutual respect.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "mysterious",
+        "phonetic": "/mɪˈstɪəriəs/",
+        "chinese": "神秘的",
+        "example": "A mysterious event.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "mystery",
+        "phonetic": "/ˈmɪstri/",
+        "chinese": "谜",
+        "example": "A murder mystery.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "myth",
+        "phonetic": "/mɪθ/",
+        "chinese": "神话",
+        "example": "Greek myth.",
+        "tags": "文化"
+      },
+      {
+        "level": "初中",
+        "word": "naked",
+        "phonetic": "/ˈneɪkɪd/",
+        "chinese": "赤裸的",
+        "example": "Naked truth.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "narrative",
+        "phonetic": "/ˈnærətɪv/",
+        "chinese": "叙述",
+        "example": "A personal narrative.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "narrow",
+        "phonetic": "/ˈnærəʊ/",
+        "chinese": "狭窄的",
+        "example": "A narrow road.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "nasty",
+        "phonetic": "/ˈnɑːsti/",
+        "chinese": "肮脏的",
+        "example": "A nasty smell.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "national",
+        "phonetic": "/ˈnæʃnəl/",
+        "chinese": "国家的",
+        "example": "National park.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "native",
+        "phonetic": "/ˈneɪtɪv/",
+        "chinese": "本地的",
+        "example": "Native speaker.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "natural",
+        "phonetic": "/ˈnætʃərəl/",
+        "chinese": "自然的",
+        "example": "Natural beauty.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "nature",
+        "phonetic": "/ˈneɪtʃə/",
+        "chinese": "自然",
+        "example": "Love nature.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "navigate",
+        "phonetic": "/ˈnævɪɡeɪt/",
+        "chinese": "导航",
+        "example": "Navigate carefully.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "nearby",
+        "phonetic": "/ˈnɪəbaɪ/",
+        "chinese": "附近的",
+        "example": "A nearby store.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "nearly",
+        "phonetic": "/ˈnɪəli/",
+        "chinese": "几乎",
+        "example": "Nearly finished.",
+        "tags": "副词"
+      },
+      {
+        "level": "初中",
+        "word": "necessary",
+        "phonetic": "/ˈnesəsəri/",
+        "chinese": "必要的",
+        "example": "A necessary action.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "negative",
+        "phonetic": "/ˈneɡətɪv/",
+        "chinese": "消极的",
+        "example": "A negative answer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "negotiate",
+        "phonetic": "/nɪˈɡəʊʃieɪt/",
+        "chinese": "谈判",
+        "example": "Negotiate a deal.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "neighbor",
+        "phonetic": "/ˈneɪbə/",
+        "chinese": "邻居",
+        "example": "My next door neighbor.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "neither",
+        "phonetic": "/ˈnaɪðə/",
+        "chinese": "也不",
+        "example": "Neither do I.",
+        "tags": "代词"
+      },
+      {
+        "level": "初中",
+        "word": "nervous",
+        "phonetic": "/ˈnɜːvəs/",
+        "chinese": "紧张的",
+        "example": "Feel nervous.",
+        "tags": "情感"
+      },
+      {
+        "level": "初中",
+        "word": "network",
+        "phonetic": "/ˈnetwɜːk/",
+        "chinese": "网络",
+        "example": "Computer network.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "never",
+        "phonetic": "/ˈnevə/",
+        "chinese": "从不",
+        "example": "Never give up.",
+        "tags": "副词"
+      },
+      {
+        "level": "初中",
+        "word": "nevertheless",
+        "phonetic": "/ˌnevəðəˈles/",
+        "chinese": "然而",
+        "example": "Nevertheless, try.",
+        "tags": "副词"
+      },
+      {
+        "level": "初中",
+        "word": "new",
+        "phonetic": "/njuː/",
+        "chinese": "新的",
+        "example": "A new idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "newspaper",
+        "phonetic": "/ˈnjuːzpeɪpə/",
+        "chinese": "报纸",
+        "example": "Daily newspaper.",
+        "tags": "日常"
+      },
+      {
+        "level": "初中",
+        "word": "next",
+        "phonetic": "/nekst/",
+        "chinese": "下一个",
+        "example": "Next week.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "nice",
+        "phonetic": "/naɪs/",
+        "chinese": "好的",
+        "example": "A nice day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "noble",
+        "phonetic": "/ˈnəʊbl/",
+        "chinese": "高贵的",
+        "example": "A noble act.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "nobody",
+        "phonetic": "/ˈnəʊbədi/",
+        "chinese": "没有人",
+        "example": "Nobody knows.",
+        "tags": "代词"
+      },
+      {
+        "level": "初中",
+        "word": "noise",
+        "phonetic": "/nɔɪz/",
+        "chinese": "噪音",
+        "example": "Loud noise.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "none",
+        "phonetic": "/nʌn/",
+        "chinese": "没有",
+        "example": "None of us.",
+        "tags": "代词"
+      },
+      {
+        "level": "初中",
+        "word": "normal",
+        "phonetic": "/ˈnɔːml/",
+        "chinese": "正常的",
+        "example": "A normal day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "notice",
+        "phonetic": "/ˈnəʊtɪs/",
+        "chinese": "注意",
+        "example": "I didn't notice.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "now",
+        "phonetic": "/naʊ/",
+        "chinese": "现在",
+        "example": "Do it now.",
+        "tags": "副词"
+      },
+      {
+        "level": "初中",
+        "word": "nowhere",
+        "phonetic": "/ˈnəʊweə/",
+        "chinese": "无处",
+        "example": "Nowhere to go.",
+        "tags": "副词"
+      },
+      {
+        "level": "初中",
+        "word": "nuclear",
+        "phonetic": "/ˈnjuːkliə/",
+        "chinese": "核的",
+        "example": "Nuclear energy.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "number",
+        "phonetic": "/ˈnʌmbə/",
+        "chinese": "数字",
+        "example": "Phone number.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "numerous",
+        "phonetic": "/ˈnjuːmərəs/",
+        "chinese": "许多的",
+        "example": "Numerous stars.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "obey",
+        "phonetic": "/əˈbeɪ/",
+        "chinese": "服从",
+        "example": "Obey the rules.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "object",
+        "phonetic": "/ˈɒbdʒɪkt/",
+        "chinese": "物体",
+        "example": "A strange object.",
+        "tags": "名词"
+      },
+      {
+        "level": "初中",
+        "word": "objective",
+        "phonetic": "/əbˈdʒektɪv/",
+        "chinese": "目标",
+        "example": "Career objective.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "obligation",
+        "phonetic": "/ˌɒblɪˈɡeɪʃn/",
+        "chinese": "义务",
+        "example": "Legal obligation.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "observation",
+        "phonetic": "/ˌɒbzəˈveɪʃn/",
+        "chinese": "观察",
+        "example": "Careful observation.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "observe",
+        "phonetic": "/əbˈzɜːv/",
+        "chinese": "观察",
+        "example": "Observe carefully.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "obstacle",
+        "phonetic": "/ˈɒbstəkl/",
+        "chinese": "障碍",
+        "example": "A big obstacle.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "obtain",
+        "phonetic": "/əbˈteɪn/",
+        "chinese": "获得",
+        "example": "Obtain a degree.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "occasion",
+        "phonetic": "/əˈkeɪʒn/",
+        "chinese": "场合",
+        "example": "A special occasion.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "occupy",
+        "phonetic": "/ˈɒkjʊpaɪ/",
+        "chinese": "占据",
+        "example": "Occupy the seat.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "occur",
+        "phonetic": "/əˈkɜː/",
+        "chinese": "发生",
+        "example": "Accidents occur.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "offer",
+        "phonetic": "/ˈɒfə/",
+        "chinese": "提供",
+        "example": "Offer help.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "office",
+        "phonetic": "/ˈɒfɪs/",
+        "chinese": "办公室",
+        "example": "At the office.",
+        "tags": "场所"
+      },
+      {
+        "level": "初中",
+        "word": "officer",
+        "phonetic": "/ˈɒfɪsə/",
+        "chinese": "官员",
+        "example": "A police officer.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "official",
+        "phonetic": "/əˈfɪʃl/",
+        "chinese": "官方的",
+        "example": "An official document.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "operation",
+        "phonetic": "/ˌɒpəˈreɪʃn/",
+        "chinese": "操作",
+        "example": "A medical operation.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "opinion",
+        "phonetic": "/əˈpɪnjən/",
+        "chinese": "意见",
+        "example": "My opinion.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "opportunity",
+        "phonetic": "/ˌɒpəˈtjuːnəti/",
+        "chinese": "机会",
+        "example": "A good opportunity.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "oppose",
+        "phonetic": "/əˈpəʊz/",
+        "chinese": "反对",
+        "example": "Oppose the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "opposite",
+        "phonetic": "/ˈɒpəzɪt/",
+        "chinese": "相反的",
+        "example": "The opposite side.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "option",
+        "phonetic": "/ˈɒpʃn/",
+        "chinese": "选择",
+        "example": "No other option.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "oral",
+        "phonetic": "/ˈɔːrəl/",
+        "chinese": "口头的",
+        "example": "An oral exam.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "ordinary",
+        "phonetic": "/ˈɔːdnri/",
+        "chinese": "普通的",
+        "example": "An ordinary day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "organize",
+        "phonetic": "/ˈɔːɡənaɪz/",
+        "chinese": "组织",
+        "example": "Organize a party.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "origin",
+        "phonetic": "/ˈɒrɪdʒɪn/",
+        "chinese": "起源",
+        "example": "Country of origin.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "otherwise",
+        "phonetic": "/ˈʌðəwaɪz/",
+        "chinese": "否则",
+        "example": "Work hard, otherwise...",
+        "tags": "副词"
+      },
+      {
+        "level": "初中",
+        "word": "outcome",
+        "phonetic": "/ˈaʊtkʌm/",
+        "chinese": "结果",
+        "example": "Final outcome.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "outline",
+        "phonetic": "/ˈaʊtlaɪn/",
+        "chinese": "概述",
+        "example": "Outline the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "output",
+        "phonetic": "/ˈaʊtpʊt/",
+        "chinese": "产出",
+        "example": "Production output.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "overcome",
+        "phonetic": "/ˌəʊvəˈkʌm/",
+        "chinese": "克服",
+        "example": "Overcome fear.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "overlook",
+        "phonetic": "/ˌəʊvəˈlʊk/",
+        "chinese": "忽视",
+        "example": "Don't overlook.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "owe",
+        "phonetic": "/əʊ/",
+        "chinese": "欠",
+        "example": "I owe you.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "own",
+        "phonetic": "/əʊn/",
+        "chinese": "拥有",
+        "example": "My own house.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pack",
+        "phonetic": "/pæk/",
+        "chinese": "打包",
+        "example": "Pack the bag.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "package",
+        "phonetic": "/ˈpækɪdʒ/",
+        "chinese": "包裹",
+        "example": "A big package.",
+        "tags": "物品"
+      },
+      {
+        "level": "初中",
+        "word": "pain",
+        "phonetic": "/peɪn/",
+        "chinese": "疼痛",
+        "example": "Feel pain.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "paint",
+        "phonetic": "/peɪnt/",
+        "chinese": "油漆",
+        "example": "Paint the wall.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pair",
+        "phonetic": "/peə/",
+        "chinese": "一对",
+        "example": "A pair of shoes.",
+        "tags": "数量"
+      },
+      {
+        "level": "初中",
+        "word": "palace",
+        "phonetic": "/ˈpælɪs/",
+        "chinese": "宫殿",
+        "example": "The royal palace.",
+        "tags": "场所"
+      },
+      {
+        "level": "初中",
+        "word": "pale",
+        "phonetic": "/peɪl/",
+        "chinese": "苍白的",
+        "example": "A pale face.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "panel",
+        "phonetic": "/ˈpænl/",
+        "chinese": "面板",
+        "example": "A solar panel.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "panic",
+        "phonetic": "/ˈpænɪk/",
+        "chinese": "恐慌",
+        "example": "Panic attack.",
+        "tags": "情感"
+      },
+      {
+        "level": "初中",
+        "word": "paper",
+        "phonetic": "/ˈpeɪpə/",
+        "chinese": "纸张",
+        "example": "A piece of paper.",
+        "tags": "日常"
+      },
+      {
+        "level": "初中",
+        "word": "paragraph",
+        "phonetic": "/ˈpærəɡrɑːf/",
+        "chinese": "段落",
+        "example": "A long paragraph.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "parallel",
+        "phonetic": "/ˈpærəlel/",
+        "chinese": "平行",
+        "example": "Parallel lines.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "parent",
+        "phonetic": "/ˈpeərənt/",
+        "chinese": "父母",
+        "example": "My parents.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "park",
+        "phonetic": "/pɑːk/",
+        "chinese": "公园",
+        "example": "In the park.",
+        "tags": "场所"
+      },
+      {
+        "level": "初中",
+        "word": "part",
+        "phonetic": "/pɑːt/",
+        "chinese": "部分",
+        "example": "A part of.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "participate",
+        "phonetic": "/pɑːˈtɪsɪpeɪt/",
+        "chinese": "参与",
+        "example": "Participate in.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "particular",
+        "phonetic": "/pəˈtɪkjʊlə/",
+        "chinese": "特别的",
+        "example": "A particular case.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "partner",
+        "phonetic": "/ˈpɑːtnə/",
+        "chinese": "伙伴",
+        "example": "My dance partner.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "party",
+        "phonetic": "/ˈpɑːti/",
+        "chinese": "派对",
+        "example": "Birthday party.",
+        "tags": "日常"
+      },
+      {
+        "level": "初中",
+        "word": "pass",
+        "phonetic": "/pɑːs/",
+        "chinese": "通过",
+        "example": "Pass the exam.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "passage",
+        "phonetic": "/ˈpæsɪdʒ/",
+        "chinese": "段落",
+        "example": "Read the passage.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "passenger",
+        "phonetic": "/ˈpæsɪndʒə/",
+        "chinese": "乘客",
+        "example": "Train passenger.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "passion",
+        "phonetic": "/ˈpæʃn/",
+        "chinese": "热情",
+        "example": "Follow your passion.",
+        "tags": "情感"
+      },
+      {
+        "level": "初中",
+        "word": "passive",
+        "phonetic": "/ˈpæsɪv/",
+        "chinese": "被动的",
+        "example": "A passive voice.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "password",
+        "phonetic": "/ˈpɑːswɜːd/",
+        "chinese": "密码",
+        "example": "Enter password.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "patient",
+        "phonetic": "/ˈpeɪʃnt/",
+        "chinese": "耐心的",
+        "example": "Be patient.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "pattern",
+        "phonetic": "/ˈpætn/",
+        "chinese": "模式",
+        "example": "A pattern.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "pause",
+        "phonetic": "/pɔːz/",
+        "chinese": "暂停",
+        "example": "Pause the game.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pay",
+        "phonetic": "/peɪ/",
+        "chinese": "支付",
+        "example": "Pay the bill.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "peace",
+        "phonetic": "/piːs/",
+        "chinese": "和平",
+        "example": "World peace.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "peaceful",
+        "phonetic": "/ˈpiːsfl/",
+        "chinese": "和平的",
+        "example": "A peaceful village.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "peak",
+        "phonetic": "/piːk/",
+        "chinese": "山峰",
+        "example": "Mountain peak.",
+        "tags": "名词"
+      },
+      {
+        "level": "初中",
+        "word": "peer",
+        "phonetic": "/pɪə/",
+        "chinese": "同龄人",
+        "example": "My peers.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "penalty",
+        "phonetic": "/ˈpenəlti/",
+        "chinese": "处罚",
+        "example": "Death penalty.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "penetrate",
+        "phonetic": "/ˈpenɪtreɪt/",
+        "chinese": "渗透",
+        "example": "Light penetrates.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pension",
+        "phonetic": "/ˈpenʃn/",
+        "chinese": "养老金",
+        "example": "A pension plan.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "people",
+        "phonetic": "/ˈpiːpl/",
+        "chinese": "人们",
+        "example": "Many people.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "perceive",
+        "phonetic": "/pəˈsiːv/",
+        "chinese": "感知",
+        "example": "Perceive the world.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "percent",
+        "phonetic": "/pəˈsent/",
+        "chinese": "百分比",
+        "example": "Fifty percent.",
+        "tags": "数量"
+      },
+      {
+        "level": "初中",
+        "word": "percentage",
+        "phonetic": "/pəˈsentɪdʒ/",
+        "chinese": "百分比",
+        "example": "A high percentage.",
+        "tags": "数量"
+      },
+      {
+        "level": "初中",
+        "word": "perfect",
+        "phonetic": "/ˈpɜːfɪkt/",
+        "chinese": "完美的",
+        "example": "A perfect day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "perform",
+        "phonetic": "/pəˈfɔːm/",
+        "chinese": "表演",
+        "example": "Perform on stage.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "performance",
+        "phonetic": "/pəˈfɔːməns/",
+        "chinese": "表现",
+        "example": "A great performance.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "period",
+        "phonetic": "/ˈpɪəriəd/",
+        "chinese": "时期",
+        "example": "A long period.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "permanent",
+        "phonetic": "/ˈpɜːmənənt/",
+        "chinese": "永久的",
+        "example": "A permanent job.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "permission",
+        "phonetic": "/pəˈmɪʃn/",
+        "chinese": "许可",
+        "example": "Ask for permission.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "permit",
+        "phonetic": "/pəˈmɪt/",
+        "chinese": "允许",
+        "example": "Permit access.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "person",
+        "phonetic": "/ˈpɜːsn/",
+        "chinese": "人",
+        "example": "A nice person.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "personal",
+        "phonetic": "/ˈpɜːsənl/",
+        "chinese": "个人的",
+        "example": "Personal life.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "personality",
+        "phonetic": "/ˌpɜːsəˈnæləti/",
+        "chinese": "个性",
+        "example": "Strong personality.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "perspective",
+        "phonetic": "/pəˈspektɪv/",
+        "chinese": "观点",
+        "example": "A new perspective.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "persuade",
+        "phonetic": "/pəˈsweɪd/",
+        "chinese": "说服",
+        "example": "Persuade him.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pet",
+        "phonetic": "/pet/",
+        "chinese": "宠物",
+        "example": "A cute pet.",
+        "tags": "动物"
+      },
+      {
+        "level": "初中",
+        "word": "phase",
+        "phonetic": "/feɪz/",
+        "chinese": "阶段",
+        "example": "A new phase.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "phenomenon",
+        "phonetic": "/fəˈnɒmɪnən/",
+        "chinese": "现象",
+        "example": "A strange phenomenon.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "philosophy",
+        "phonetic": "/fəˈlɒsəfi/",
+        "chinese": "哲学",
+        "example": "Eastern philosophy.",
+        "tags": "学科"
+      },
+      {
+        "level": "初中",
+        "word": "phone",
+        "phonetic": "/fəʊn/",
+        "chinese": "电话",
+        "example": "On the phone.",
+        "tags": "物品"
+      },
+      {
+        "level": "初中",
+        "word": "photo",
+        "phonetic": "/ˈfəʊtəʊ/",
+        "chinese": "照片",
+        "example": "Take a photo.",
+        "tags": "日常"
+      },
+      {
+        "level": "初中",
+        "word": "phrase",
+        "phonetic": "/freɪz/",
+        "chinese": "短语",
+        "example": "A common phrase.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "physical",
+        "phonetic": "/ˈfɪzɪkl/",
+        "chinese": "身体的",
+        "example": "Physical exercise.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "physician",
+        "phonetic": "/fɪˈzɪʃn/",
+        "chinese": "医生",
+        "example": "See a physician.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "physics",
+        "phonetic": "/ˈfɪzɪks/",
+        "chinese": "物理",
+        "example": "Physics is hard.",
+        "tags": "学科"
+      },
+      {
+        "level": "初中",
+        "word": "pick",
+        "phonetic": "/pɪk/",
+        "chinese": "挑选",
+        "example": "Pick a card.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "picture",
+        "phonetic": "/ˈpɪktʃə/",
+        "chinese": "图片",
+        "example": "Draw a picture.",
+        "tags": "物品"
+      },
+      {
+        "level": "初中",
+        "word": "piece",
+        "phonetic": "/piːs/",
+        "chinese": "片",
+        "example": "A piece of cake.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "pile",
+        "phonetic": "/paɪl/",
+        "chinese": "堆",
+        "example": "A pile of books.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "pilot",
+        "phonetic": "/ˈpaɪlət/",
+        "chinese": "飞行员",
+        "example": "The pilot.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "place",
+        "phonetic": "/pleɪs/",
+        "chinese": "地方",
+        "example": "My favorite place.",
+        "tags": "场所"
+      },
+      {
+        "level": "初中",
+        "word": "plain",
+        "phonetic": "/pleɪn/",
+        "chinese": "平原",
+        "example": "A vast plain.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "plan",
+        "phonetic": "/plæn/",
+        "chinese": "计划",
+        "example": "Make a plan.",
+        "tags": "名词"
+      },
+      {
+        "level": "初中",
+        "word": "planet",
+        "phonetic": "/ˈplænɪt/",
+        "chinese": "行星",
+        "example": "Planet Earth.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "plant",
+        "phonetic": "/plɑːnt/",
+        "chinese": "植物",
+        "example": "Water the plant.",
+        "tags": "植物"
+      },
+      {
+        "level": "初中",
+        "word": "play",
+        "phonetic": "/pleɪ/",
+        "chinese": "玩",
+        "example": "Play games.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "player",
+        "phonetic": "/ˈpleɪə/",
+        "chinese": "球员",
+        "example": "A tennis player.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "please",
+        "phonetic": "/pliːz/",
+        "chinese": "请",
+        "example": "Please help.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pleasure",
+        "phonetic": "/ˈpleʒə/",
+        "chinese": "快乐",
+        "example": "My pleasure.",
+        "tags": "情感"
+      },
+      {
+        "level": "初中",
+        "word": "plenty",
+        "phonetic": "/ˈplenti/",
+        "chinese": "充足",
+        "example": "Plenty of time.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "plot",
+        "phonetic": "/plɒt/",
+        "chinese": "情节",
+        "example": "A story plot.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "plus",
+        "phonetic": "/plʌs/",
+        "chinese": "加",
+        "example": "Two plus two.",
+        "tags": "介词"
+      },
+      {
+        "level": "初中",
+        "word": "point",
+        "phonetic": "/pɔɪnt/",
+        "chinese": "点",
+        "example": "A good point.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "poison",
+        "phonetic": "/ˈpɔɪzn/",
+        "chinese": "毒药",
+        "example": "Poison is dangerous.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "policy",
+        "phonetic": "/ˈpɒləsi/",
+        "chinese": "政策",
+        "example": "Government policy.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "political",
+        "phonetic": "/pəˈlɪtɪkl/",
+        "chinese": "政治的",
+        "example": "Political issue.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "pollution",
+        "phonetic": "/pəˈluːʃn/",
+        "chinese": "污染",
+        "example": "Air pollution.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "pool",
+        "phonetic": "/puːl/",
+        "chinese": "水池",
+        "example": "Swimming pool.",
+        "tags": "场所"
+      },
+      {
+        "level": "初中",
+        "word": "poor",
+        "phonetic": "/pɔː/",
+        "chinese": "贫穷的",
+        "example": "A poor village.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "popular",
+        "phonetic": "/ˈpɒpjʊlə/",
+        "chinese": "流行的",
+        "example": "A popular singer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "population",
+        "phonetic": "/ˌpɒpjʊˈleɪʃn/",
+        "chinese": "人口",
+        "example": "World population.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "position",
+        "phonetic": "/pəˈzɪʃn/",
+        "chinese": "位置",
+        "example": "My position.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "positive",
+        "phonetic": "/ˈpɒzətɪv/",
+        "chinese": "积极的",
+        "example": "Stay positive.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "possess",
+        "phonetic": "/pəˈzes/",
+        "chinese": "拥有",
+        "example": "Possess a car.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "possibility",
+        "phonetic": "/ˌpɒsəˈbɪləti/",
+        "chinese": "可能性",
+        "example": "A real possibility.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "possible",
+        "phonetic": "/ˈpɒsəbl/",
+        "chinese": "可能的",
+        "example": "Anything is possible.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "post",
+        "phonetic": "/pəʊst/",
+        "chinese": "邮寄",
+        "example": "Post a letter.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "potential",
+        "phonetic": "/pəˈtenʃl/",
+        "chinese": "潜力",
+        "example": "Great potential.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "power",
+        "phonetic": "/ˈpaʊə/",
+        "chinese": "权力",
+        "example": "Powerful.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "powerful",
+        "phonetic": "/ˈpaʊəfl/",
+        "chinese": "强大的",
+        "example": "A powerful engine.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "practical",
+        "phonetic": "/ˈpræktɪkl/",
+        "chinese": "实用的",
+        "example": "A practical idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "practice",
+        "phonetic": "/ˈpræktɪs/",
+        "chinese": "练习",
+        "example": "Practice makes perfect.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "praise",
+        "phonetic": "/preɪz/",
+        "chinese": "赞扬",
+        "example": "Praise the winner.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pray",
+        "phonetic": "/preɪ/",
+        "chinese": "祈祷",
+        "example": "Pray for peace.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "predict",
+        "phonetic": "/prɪˈdɪkt/",
+        "chinese": "预测",
+        "example": "Predict the future.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "preference",
+        "phonetic": "/ˈprefrəns/",
+        "chinese": "偏好",
+        "example": "Personal preference.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "prepare",
+        "phonetic": "/prɪˈpeə/",
+        "chinese": "准备",
+        "example": "Prepare for exam.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "present",
+        "phonetic": "/ˈpreznt/",
+        "chinese": "目前的",
+        "example": "The present.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "preserve",
+        "phonetic": "/prɪˈzɜːv/",
+        "chinese": "保护",
+        "example": "Preserve nature.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pressure",
+        "phonetic": "/ˈpreʃə/",
+        "chinese": "压力",
+        "example": "Under pressure.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "pretend",
+        "phonetic": "/prɪˈtend/",
+        "chinese": "假装",
+        "example": "Don't pretend.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pretty",
+        "phonetic": "/ˈprɪti/",
+        "chinese": "漂亮的",
+        "example": "A pretty girl.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "prevent",
+        "phonetic": "/prɪˈvent/",
+        "chinese": "阻止",
+        "example": "Prevent accidents.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "price",
+        "phonetic": "/praɪs/",
+        "chinese": "价格",
+        "example": "A high price.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "pride",
+        "phonetic": "/praɪd/",
+        "chinese": "骄傲",
+        "example": "Take pride in.",
+        "tags": "情感"
+      },
+      {
+        "level": "初中",
+        "word": "primary",
+        "phonetic": "/ˈpraɪməri/",
+        "chinese": "主要的",
+        "example": "Primary school.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "prince",
+        "phonetic": "/prɪns/",
+        "chinese": "王子",
+        "example": "A prince.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "princess",
+        "phonetic": "/ˈprɪnsəs/",
+        "chinese": "公主",
+        "example": "A princess.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "principal",
+        "phonetic": "/ˈprɪnsəpl/",
+        "chinese": "校长",
+        "example": "The school principal.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "principle",
+        "phonetic": "/ˈprɪnsəpl/",
+        "chinese": "原则",
+        "example": "Basic principles.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "print",
+        "phonetic": "/prɪnt/",
+        "chinese": "打印",
+        "example": "Print a photo.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "prior",
+        "phonetic": "/ˈpraɪə/",
+        "chinese": "先前的",
+        "example": "Prior experience.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "private",
+        "phonetic": "/ˈpraɪvət/",
+        "chinese": "私人的",
+        "example": "A private room.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "prize",
+        "phonetic": "/praɪz/",
+        "chinese": "奖品",
+        "example": "Win a prize.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "probable",
+        "phonetic": "/ˈprɒbəbl/",
+        "chinese": "可能的",
+        "example": "A probable cause.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "problem",
+        "phonetic": "/ˈprɒbləm/",
+        "chinese": "问题",
+        "example": "A big problem.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "procedure",
+        "phonetic": "/prəˈsiːdʒə/",
+        "chinese": "程序",
+        "example": "Standard procedure.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "proceed",
+        "phonetic": "/prəˈsiːd/",
+        "chinese": "继续",
+        "example": "Proceed to the next.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "process",
+        "phonetic": "/ˈprəʊses/",
+        "chinese": "过程",
+        "example": "In the process.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "produce",
+        "phonetic": "/prəˈdjuːs/",
+        "chinese": "生产",
+        "example": "Produce cars.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "product",
+        "phonetic": "/ˈprɒdʌkt/",
+        "chinese": "产品",
+        "example": "A new product.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "profession",
+        "phonetic": "/prəˈfeʃn/",
+        "chinese": "职业",
+        "example": "My profession.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "professional",
+        "phonetic": "/prəˈfeʃənl/",
+        "chinese": "专业的",
+        "example": "A professional.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "professor",
+        "phonetic": "/prəˈfesə/",
+        "chinese": "教授",
+        "example": "A university professor.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "profile",
+        "phonetic": "/ˈprəʊfaɪl/",
+        "chinese": "简介",
+        "example": "My profile.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "profit",
+        "phonetic": "/ˈprɒfɪt/",
+        "chinese": "利润",
+        "example": "Big profit.",
+        "tags": "商业"
+      },
+      {
+        "level": "初中",
+        "word": "program",
+        "phonetic": "/ˈprəʊɡræm/",
+        "chinese": "程序",
+        "example": "A computer program.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "progress",
+        "phonetic": "/ˈprəʊɡres/",
+        "chinese": "进步",
+        "example": "Make progress.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "project",
+        "phonetic": "/ˈprɒdʒekt/",
+        "chinese": "项目",
+        "example": "A school project.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "promise",
+        "phonetic": "/ˈprɒmɪs/",
+        "chinese": "承诺",
+        "example": "I promise.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "promote",
+        "phonetic": "/prəˈməʊt/",
+        "chinese": "促进",
+        "example": "Promote sales.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "prompt",
+        "phonetic": "/prɒmpt/",
+        "chinese": "迅速的",
+        "example": "A prompt reply.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "proof",
+        "phonetic": "/pruːf/",
+        "chinese": "证据",
+        "example": "Proof of identity.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "proper",
+        "phonetic": "/ˈprɒpə/",
+        "chinese": "合适的",
+        "example": "A proper way.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "property",
+        "phonetic": "/ˈprɒpəti/",
+        "chinese": "财产",
+        "example": "Private property.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "proportion",
+        "phonetic": "/prəˈpɔːʃn/",
+        "chinese": "比例",
+        "example": "In proportion.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "proposal",
+        "phonetic": "/prəˈpəʊzl/",
+        "chinese": "提议",
+        "example": "A marriage proposal.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "propose",
+        "phonetic": "/prəˈpəʊz/",
+        "chinese": "提议",
+        "example": "I propose.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "protect",
+        "phonetic": "/prəˈtekt/",
+        "chinese": "保护",
+        "example": "Protect children.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "proud",
+        "phonetic": "/praʊd/",
+        "chinese": "骄傲的",
+        "example": "I'm proud.",
+        "tags": "情感"
+      },
+      {
+        "level": "初中",
+        "word": "prove",
+        "phonetic": "/pruːv/",
+        "chinese": "证明",
+        "example": "Prove it.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "provide",
+        "phonetic": "/prəˈvaɪd/",
+        "chinese": "提供",
+        "example": "Provide help.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "public",
+        "phonetic": "/ˈpʌblɪk/",
+        "chinese": "公共的",
+        "example": "Public place.",
+        "tags": "形容词"
+      },
+      {
+        "level": "初中",
+        "word": "publish",
+        "phonetic": "/ˈpʌblɪʃ/",
+        "chinese": "出版",
+        "example": "Publish a book.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "pull",
+        "phonetic": "/pʊl/",
+        "chinese": "拉",
+        "example": "Pull the door.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "purpose",
+        "phonetic": "/ˈpɜːpəs/",
+        "chinese": "目的",
+        "example": "Life purpose.",
+        "tags": "抽象"
+      },
+      {
+        "level": "初中",
+        "word": "pursue",
+        "phonetic": "/pəˈsjuː/",
+        "chinese": "追求",
+        "example": "Pursue dreams.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "push",
+        "phonetic": "/pʊʃ/",
+        "chinese": "推",
+        "example": "Push the button.",
+        "tags": "动词"
+      },
+      {
+        "level": "初中",
+        "word": "put",
+        "phonetic": "/pʊt/",
+        "chinese": "放",
+        "example": "Put it here.",
+        "tags": "动词"
+      }
+    ]
+  }
+}

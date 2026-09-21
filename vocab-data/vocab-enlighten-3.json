@@ -1,0 +1,510 @@
+{
+  "customVocab": {
+    "enlighten": [
+      {
+        "level": "启蒙",
+        "word": "run",
+        "phonetic": "/rʌn/",
+        "chinese": "跑",
+        "example": "I can run fast.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "walk",
+        "phonetic": "/wɔːk/",
+        "chinese": "走",
+        "example": "Let's walk together.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "jump",
+        "phonetic": "/dʒʌmp/",
+        "chinese": "跳",
+        "example": "Rabbits jump high.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "sit",
+        "phonetic": "/sɪt/",
+        "chinese": "坐",
+        "example": "Sit down, please.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "stand",
+        "phonetic": "/stænd/",
+        "chinese": "站",
+        "example": "Stand up, please.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "sleep",
+        "phonetic": "/sliːp/",
+        "chinese": "睡觉",
+        "example": "I sleep at 9.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "eat",
+        "phonetic": "/iːt/",
+        "chinese": "吃",
+        "example": "I eat breakfast.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "drink",
+        "phonetic": "/drɪŋk/",
+        "chinese": "喝",
+        "example": "Drink some water.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "read",
+        "phonetic": "/riːd/",
+        "chinese": "读",
+        "example": "I read books.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "write",
+        "phonetic": "/raɪt/",
+        "chinese": "写",
+        "example": "I write a letter.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "draw",
+        "phonetic": "/drɔː/",
+        "chinese": "画画",
+        "example": "I draw a cat.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "sing",
+        "phonetic": "/sɪŋ/",
+        "chinese": "唱歌",
+        "example": "I like to sing.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "dance",
+        "phonetic": "/dɑːns/",
+        "chinese": "跳舞",
+        "example": "She can dance.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "swim",
+        "phonetic": "/swɪm/",
+        "chinese": "游泳",
+        "example": "I can swim.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "fly",
+        "phonetic": "/flaɪ/",
+        "chinese": "飞",
+        "example": "Birds can fly.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "climb",
+        "phonetic": "/klaɪm/",
+        "chinese": "爬",
+        "example": "Cats like to climb.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "kick",
+        "phonetic": "/kɪk/",
+        "chinese": "踢",
+        "example": "Kick the ball.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "throw",
+        "phonetic": "/θrəʊ/",
+        "chinese": "扔",
+        "example": "Throw the ball.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "catch",
+        "phonetic": "/kætʃ/",
+        "chinese": "接",
+        "example": "Catch the ball.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "look",
+        "phonetic": "/lʊk/",
+        "chinese": "看",
+        "example": "Look at me.",
+        "tags": "动作"
+      },
+      {
+        "level": "启蒙",
+        "word": "big",
+        "phonetic": "/bɪɡ/",
+        "chinese": "大的",
+        "example": "The elephant is big.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "small",
+        "phonetic": "/smɔːl/",
+        "chinese": "小的",
+        "example": "The mouse is small.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "tall",
+        "phonetic": "/tɔːl/",
+        "chinese": "高的",
+        "example": "The giraffe is tall.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "short",
+        "phonetic": "/ʃɔːt/",
+        "chinese": "短的；矮的",
+        "example": "The pencil is short.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "long",
+        "phonetic": "/lɒŋ/",
+        "chinese": "长的",
+        "example": "A snake is long.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "new",
+        "phonetic": "/njuː/",
+        "chinese": "新的",
+        "example": "I have a new book.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "old",
+        "phonetic": "/əʊld/",
+        "chinese": "旧的；老的",
+        "example": "My grandpa is old.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "young",
+        "phonetic": "/jʌŋ/",
+        "chinese": "年轻的",
+        "example": "She is young.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "hot",
+        "phonetic": "/hɒt/",
+        "chinese": "热的",
+        "example": "It is hot today.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "cold",
+        "phonetic": "/kəʊld/",
+        "chinese": "冷的",
+        "example": "The ice is cold.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "happy",
+        "phonetic": "/ˈhæpi/",
+        "chinese": "开心的",
+        "example": "I am happy.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "sad",
+        "phonetic": "/sæd/",
+        "chinese": "难过的",
+        "example": "Don't be sad.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "good",
+        "phonetic": "/ɡʊd/",
+        "chinese": "好的",
+        "example": "You are good.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "bad",
+        "phonetic": "/bæd/",
+        "chinese": "坏的",
+        "example": "That's bad.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "beautiful",
+        "phonetic": "/ˈbjuːtɪfl/",
+        "chinese": "美丽的",
+        "example": "The flower is beautiful.",
+        "tags": "形容词"
+      },
+      {
+        "level": "启蒙",
+        "word": "hello",
+        "phonetic": "/həˈləʊ/",
+        "chinese": "你好",
+        "example": "Hello! How are you?",
+        "tags": "问候"
+      },
+      {
+        "level": "启蒙",
+        "word": "hi",
+        "phonetic": "/haɪ/",
+        "chinese": "嗨",
+        "example": "Hi, my friend!",
+        "tags": "问候"
+      },
+      {
+        "level": "启蒙",
+        "word": "bye",
+        "phonetic": "/baɪ/",
+        "chinese": "再见",
+        "example": "Bye, see you!",
+        "tags": "问候"
+      },
+      {
+        "level": "启蒙",
+        "word": "thanks",
+        "phonetic": "/θæŋks/",
+        "chinese": "谢谢",
+        "example": "Thanks for helping.",
+        "tags": "问候"
+      },
+      {
+        "level": "启蒙",
+        "word": "please",
+        "phonetic": "/pliːz/",
+        "chinese": "请",
+        "example": "Please help me.",
+        "tags": "问候"
+      },
+      {
+        "level": "启蒙",
+        "word": "sorry",
+        "phonetic": "/ˈsɒri/",
+        "chinese": "对不起",
+        "example": "I am sorry.",
+        "tags": "问候"
+      },
+      {
+        "level": "启蒙",
+        "word": "yes",
+        "phonetic": "/jes/",
+        "chinese": "是",
+        "example": "Yes, I can.",
+        "tags": "常用"
+      },
+      {
+        "level": "启蒙",
+        "word": "no",
+        "phonetic": "/nəʊ/",
+        "chinese": "不",
+        "example": "No, thank you.",
+        "tags": "常用"
+      },
+      {
+        "level": "启蒙",
+        "word": "OK",
+        "phonetic": "/əʊˈkeɪ/",
+        "chinese": "好",
+        "example": "OK, let's go.",
+        "tags": "常用"
+      },
+      {
+        "level": "启蒙",
+        "word": "great",
+        "phonetic": "/ɡreɪt/",
+        "chinese": "太好了",
+        "example": "That's great!",
+        "tags": "常用"
+      },
+      {
+        "level": "启蒙",
+        "word": "car",
+        "phonetic": "/kɑː/",
+        "chinese": "汽车",
+        "example": "Dad drives a car.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "bus",
+        "phonetic": "/bʌs/",
+        "chinese": "公共汽车",
+        "example": "I go to school by bus.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "bike",
+        "phonetic": "/baɪk/",
+        "chinese": "自行车",
+        "example": "I ride a bike.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "train",
+        "phonetic": "/treɪn/",
+        "chinese": "火车",
+        "example": "The train is fast.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "plane",
+        "phonetic": "/pleɪn/",
+        "chinese": "飞机",
+        "example": "The plane flies high.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "boat",
+        "phonetic": "/bəʊt/",
+        "chinese": "船",
+        "example": "We go by boat.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "ship",
+        "phonetic": "/ʃɪp/",
+        "chinese": "轮船",
+        "example": "The ship is big.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "taxi",
+        "phonetic": "/ˈtæksi/",
+        "chinese": "出租车",
+        "example": "Take a taxi.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "subway",
+        "phonetic": "/ˈsʌbweɪ/",
+        "chinese": "地铁",
+        "example": "I take the subway.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "truck",
+        "phonetic": "/trʌk/",
+        "chinese": "卡车",
+        "example": "The truck is heavy.",
+        "tags": "交通"
+      },
+      {
+        "level": "启蒙",
+        "word": "home",
+        "phonetic": "/həʊm/",
+        "chinese": "家",
+        "example": "I go home.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "park",
+        "phonetic": "/pɑːk/",
+        "chinese": "公园",
+        "example": "I play in the park.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "shop",
+        "phonetic": "/ʃɒp/",
+        "chinese": "商店",
+        "example": "Mom goes to the shop.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "hospital",
+        "phonetic": "/ˈhɒspɪtl/",
+        "chinese": "医院",
+        "example": "The hospital is big.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "zoo",
+        "phonetic": "/zuː/",
+        "chinese": "动物园",
+        "example": "I love the zoo.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "garden",
+        "phonetic": "/ˈɡɑːdn/",
+        "chinese": "花园",
+        "example": "Flowers grow in the garden.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "beach",
+        "phonetic": "/biːtʃ/",
+        "chinese": "海滩",
+        "example": "I play on the beach.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "church",
+        "phonetic": "/tʃɜːtʃ/",
+        "chinese": "教堂",
+        "example": "The church is tall.",
+        "tags": "场所"
+      }
+    ]
+  }
+}

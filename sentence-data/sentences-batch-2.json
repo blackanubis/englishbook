@@ -1,0 +1,1306 @@
+{
+  "sentenceBank": [
+    {
+      "level": "小学",
+      "en": "May I have some water, please?",
+      "cn": "请给我一些水好吗？",
+      "grammar": "礼貌请求",
+      "tags": "礼貌"
+    },
+    {
+      "level": "小学",
+      "en": "It's time for breakfast.",
+      "cn": "该吃早餐了。",
+      "grammar": "It's time for",
+      "tags": "时间"
+    },
+    {
+      "level": "小学",
+      "en": "Don't forget your homework.",
+      "cn": "别忘了你的作业。",
+      "grammar": "否定祈使句",
+      "tags": "学习"
+    },
+    {
+      "level": "小学",
+      "en": "Let's go shopping together.",
+      "cn": "我们一起去购物吧。",
+      "grammar": "let's句型",
+      "tags": "日常"
+    },
+    {
+      "level": "小学",
+      "en": "I am going to bed now.",
+      "cn": "我现在要去睡觉了。",
+      "grammar": "be going to",
+      "tags": "日常"
+    },
+    {
+      "level": "小学",
+      "en": "She is the tallest in our class.",
+      "cn": "她是班里最高的。",
+      "grammar": "最高级",
+      "tags": "描述"
+    },
+    {
+      "level": "小学",
+      "en": "I have been living here for ten years.",
+      "cn": "我已经在这一直住了十年了。",
+      "grammar": "现在完成进行",
+      "tags": "日常"
+    },
+    {
+      "level": "小学",
+      "en": "We had a great time yesterday.",
+      "cn": "我们昨天玩得很开心。",
+      "grammar": "一般过去",
+      "tags": "时间"
+    },
+    {
+      "level": "小学",
+      "en": "This is my favorite color.",
+      "cn": "这是我最喜欢的颜色。",
+      "grammar": "主系表+最高级",
+      "tags": "颜色"
+    },
+    {
+      "level": "小学",
+      "en": "I always brush my teeth twice a day.",
+      "cn": "我每天刷两次牙。",
+      "grammar": "频率副词",
+      "tags": "健康"
+    },
+    {
+      "level": "小学",
+      "en": "Would you like something to drink?",
+      "cn": "你想喝点什么吗？",
+      "grammar": "would like",
+      "tags": "礼貌"
+    },
+    {
+      "level": "小学",
+      "en": "I am looking forward to seeing you.",
+      "cn": "我期待见到你。",
+      "grammar": "look forward to",
+      "tags": "情感"
+    },
+    {
+      "level": "小学",
+      "en": "Let me show you around.",
+      "cn": "让我带你四处看看。",
+      "grammar": "let me",
+      "tags": "日常"
+    },
+    {
+      "level": "小学",
+      "en": "Could you please speak more slowly?",
+      "cn": "你能不能说慢一点？",
+      "grammar": "礼貌请求",
+      "tags": "礼貌"
+    },
+    {
+      "level": "小学",
+      "en": "He has been working here for five years.",
+      "cn": "他已在这里工作五年了。",
+      "grammar": "现在完成进行",
+      "tags": "职业"
+    },
+    {
+      "level": "小学",
+      "en": "I'll be back in five minutes.",
+      "cn": "我五分钟后回来。",
+      "grammar": "一般将来",
+      "tags": "时间"
+    },
+    {
+      "level": "小学",
+      "en": "This is the best movie I have ever seen.",
+      "cn": "这是我看过的最好的电影。",
+      "grammar": "最高级+完成",
+      "tags": "电影"
+    },
+    {
+      "level": "小学",
+      "en": "I'm thinking about changing my job.",
+      "cn": "我在考虑换工作。",
+      "grammar": "现在进行",
+      "tags": "职业"
+    },
+    {
+      "level": "小学",
+      "en": "It's impossible to finish it in one day.",
+      "cn": "一天内完成它是不可能的。",
+      "grammar": "主系表",
+      "tags": "评价"
+    },
+    {
+      "level": "小学",
+      "en": "I'm sure we'll win the game.",
+      "cn": "我确信我们会赢得比赛。",
+      "grammar": "主系表+宾语从句",
+      "tags": "比赛"
+    },
+    {
+      "level": "小学",
+      "en": "She used to live in Beijing.",
+      "cn": "她过去住在北京。",
+      "grammar": "used to",
+      "tags": "过去"
+    },
+    {
+      "level": "小学",
+      "en": "We will never forget this experience.",
+      "cn": "我们永远不会忘记这次经历。",
+      "grammar": "一般将来",
+      "tags": "经历"
+    },
+    {
+      "level": "小学",
+      "en": "Put on your coat, it's cold outside.",
+      "cn": "穿上你的外套，外面很冷。",
+      "grammar": "祈使句",
+      "tags": "天气"
+    },
+    {
+      "level": "小学",
+      "en": "I have been waiting for an hour.",
+      "cn": "我已经等了 1 小时。",
+      "grammar": "现在完成进行",
+      "tags": "时间"
+    },
+    {
+      "level": "小学",
+      "en": "He is the smartest boy in the class.",
+      "cn": "他是班里最聪明的男孩。",
+      "grammar": "最高级",
+      "tags": "描述"
+    },
+    {
+      "level": "小学",
+      "en": "If I were you, I would go now.",
+      "cn": "如果我是你，我现在就走。",
+      "grammar": "虚拟语气",
+      "tags": "假设"
+    },
+    {
+      "level": "小学",
+      "en": "Would you mind opening the window?",
+      "cn": "你介意开一下窗户吗？",
+      "grammar": "would mind",
+      "tags": "礼貌"
+    },
+    {
+      "level": "小学",
+      "en": "I don't have any money on me.",
+      "cn": "我身上没带钱。",
+      "grammar": "主谓宾",
+      "tags": "日常"
+    },
+    {
+      "level": "小学",
+      "en": "I'm looking for a part-time job.",
+      "cn": "我正在找一份兼职工作。",
+      "grammar": "现在进行",
+      "tags": "求职"
+    },
+    {
+      "level": "小学",
+      "en": "She has never been to Paris before.",
+      "cn": "她以前从未去过巴黎。",
+      "grammar": "现在完成",
+      "tags": "旅行"
+    },
+    {
+      "level": "初中",
+      "en": "He is said to have left the country.",
+      "cn": "据说他已经离开了那个国家。",
+      "grammar": "被动+不定式",
+      "tags": "传闻"
+    },
+    {
+      "level": "初中",
+      "en": "I'm looking forward to hearing from you.",
+      "cn": "我期待你的回信。",
+      "grammar": "look forward to",
+      "tags": "通信"
+    },
+    {
+      "level": "初中",
+      "en": "Tom suggested that we should leave early.",
+      "cn": "汤姆建议我们早点离开。",
+      "grammar": "虚拟语气",
+      "tags": "建议"
+    },
+    {
+      "level": "初中",
+      "en": "It was not until midnight that he came back.",
+      "cn": "他直到午夜才回来。",
+      "grammar": "强调句",
+      "tags": "时间"
+    },
+    {
+      "level": "初中",
+      "en": "Would you be so kind as to help me?",
+      "cn": "能请您帮帮我吗？",
+      "grammar": "would+动词",
+      "tags": "礼貌"
+    },
+    {
+      "level": "初中",
+      "en": "He is well known for his generosity.",
+      "cn": "他以慷慨而出名。",
+      "grammar": "被动+for",
+      "tags": "性格"
+    },
+    {
+      "level": "初中",
+      "en": "The harder you try, the better you'll do.",
+      "cn": "你越努力，成绩越好。",
+      "grammar": "the more...the more",
+      "tags": "成功"
+    },
+    {
+      "level": "初中",
+      "en": "It is no good talking without doing.",
+      "cn": "光说不做是不行的。",
+      "grammar": "It's no good doing",
+      "tags": "哲理"
+    },
+    {
+      "level": "初中",
+      "en": "She seems to have known the truth.",
+      "cn": "她似乎已经知道了真相。",
+      "grammar": "seem+完成",
+      "tags": "观察"
+    },
+    {
+      "level": "初中",
+      "en": "I'd appreciate it if you could reply soon.",
+      "cn": "如果您能尽快回复，我将不胜感激。",
+      "grammar": "would appreciate",
+      "tags": "礼貌"
+    },
+    {
+      "level": "初中",
+      "en": "He had no choice but to admit his mistake.",
+      "cn": "他别无选择只能承认错误。",
+      "grammar": "have no choice but",
+      "tags": "选择"
+    },
+    {
+      "level": "初中",
+      "en": "How long have you been studying English?",
+      "cn": "你学英语多久了？",
+      "grammar": "现在完成",
+      "tags": "学习"
+    },
+    {
+      "level": "初中",
+      "en": "I wonder if you could give me a hand.",
+      "cn": "我想知道你能否帮我一个忙。",
+      "grammar": "wonder+从句",
+      "tags": "请求"
+    },
+    {
+      "level": "初中",
+      "en": "Never have I seen such a beautiful sunset.",
+      "cn": "我从未见过这么美的日落。",
+      "grammar": "倒装句",
+      "tags": "自然"
+    },
+    {
+      "level": "初中",
+      "en": "He is not likely to come today.",
+      "cn": "他今天不一定会来。",
+      "grammar": "be likely to",
+      "tags": "推测"
+    },
+    {
+      "level": "初中",
+      "en": "What matters most is your effort.",
+      "cn": "最重要的是你的努力。",
+      "grammar": "what从句",
+      "tags": "哲理"
+    },
+    {
+      "level": "初中",
+      "en": "It is no exaggeration to say that...",
+      "cn": "毫不夸张地说...",
+      "grammar": "it is no exaggeration",
+      "tags": "修辞"
+    },
+    {
+      "level": "初中",
+      "en": "I couldn't help but smile at his story.",
+      "cn": "我忍不住对他的故事微笑。",
+      "grammar": "can't help but",
+      "tags": "情感"
+    },
+    {
+      "level": "初中",
+      "en": "Only when you grow up will you understand.",
+      "cn": "只有当你长大后你才会明白。",
+      "grammar": "only倒装",
+      "tags": "成长"
+    },
+    {
+      "level": "初中",
+      "en": "The new policy will be implemented next month.",
+      "cn": "新政策将于下个月实施。",
+      "grammar": "被动+将来",
+      "tags": "政策"
+    },
+    {
+      "level": "初中",
+      "en": "My suggestion is that he (should) go at once.",
+      "cn": "我的建议是他应该马上去。",
+      "grammar": "虚拟语气",
+      "tags": "建议"
+    },
+    {
+      "level": "初中",
+      "en": "He works as if he were a professional.",
+      "cn": "他工作起来仿佛是个专业人士。",
+      "grammar": "as if虚拟",
+      "tags": "工作"
+    },
+    {
+      "level": "初中",
+      "en": "I can't figure out why he left.",
+      "cn": "我搞不清楚他为什么离开。",
+      "grammar": "figure out",
+      "tags": "疑问"
+    },
+    {
+      "level": "初中",
+      "en": "The fact that he succeeded surprised everyone.",
+      "cn": "他成功的事实让每个人惊讶。",
+      "grammar": "同位语从句",
+      "tags": "事实"
+    },
+    {
+      "level": "初中",
+      "en": "I am thinking of quitting my job.",
+      "cn": "我在考虑辞职。",
+      "grammar": "现在进行",
+      "tags": "工作"
+    },
+    {
+      "level": "初中",
+      "en": "It cost me a fortune to buy this house.",
+      "cn": "买这个房子花了我一大笔钱。",
+      "grammar": "it cost...to",
+      "tags": "花费"
+    },
+    {
+      "level": "初中",
+      "en": "She is very good at solving puzzles.",
+      "cn": "她很擅长解谜题。",
+      "grammar": "be good at",
+      "tags": "能力"
+    },
+    {
+      "level": "初中",
+      "en": "We are looking forward to seeing you soon.",
+      "cn": "我们期待很快见到你。",
+      "grammar": "look forward to",
+      "tags": "情感"
+    },
+    {
+      "level": "初中",
+      "en": "I'm afraid I have to say no to your request.",
+      "cn": "恐怕我得拒绝你的请求。",
+      "grammar": "I'm afraid",
+      "tags": "拒绝"
+    },
+    {
+      "level": "初中",
+      "en": "Under no circumstances should we give up hope.",
+      "cn": "在任何情况下我们都不应该放弃希望。",
+      "grammar": "倒装",
+      "tags": "希望"
+    },
+    {
+      "level": "初中",
+      "en": "He spent all his money on books.",
+      "cn": "他把所有的钱都花在书上了。",
+      "grammar": "spend...on",
+      "tags": "爱好"
+    },
+    {
+      "level": "初中",
+      "en": "Make sure that all the windows are closed.",
+      "cn": "确保所有窗户都关好了。",
+      "grammar": "make sure+从句",
+      "tags": "检查"
+    },
+    {
+      "level": "初中",
+      "en": "I find it hard to learn English well.",
+      "cn": "我发现学好英语很难。",
+      "grammar": "find it+adj+to",
+      "tags": "评价"
+    },
+    {
+      "level": "初中",
+      "en": "He is the man whom I spoke to yesterday.",
+      "cn": "他就是我昨天跟他说话的那个人。",
+      "grammar": "定语从句+介词",
+      "tags": "人物"
+    },
+    {
+      "level": "初中",
+      "en": "We were made to clean the classroom.",
+      "cn": "我们被打扫教室。",
+      "grammar": "被动+make",
+      "tags": "学校"
+    },
+    {
+      "level": "初中",
+      "en": "I'd rather walk than take a bus.",
+      "cn": "我宁愿走路也不坐公交。",
+      "grammar": "would rather...than",
+      "tags": "交通"
+    },
+    {
+      "level": "初中",
+      "en": "It was careless of him to make such a mistake.",
+      "cn": "他犯这样的错误真是太粗心了。",
+      "grammar": "it was...of",
+      "tags": "评价"
+    },
+    {
+      "level": "初中",
+      "en": "Not having studied hard, he failed the exam.",
+      "cn": "由于没有努力学习，他考试不及格。",
+      "grammar": "现在分词完成",
+      "tags": "原因"
+    },
+    {
+      "level": "初中",
+      "en": "Take it easy, everything will be fine.",
+      "cn": "放轻松，一切都会好的。",
+      "grammar": "祈使句",
+      "tags": "安慰"
+    },
+    {
+      "level": "初中",
+      "en": "He took it for granted that she would come.",
+      "cn": "他理所当然地认为她会来。",
+      "grammar": "take...for granted",
+      "tags": "心理"
+    },
+    {
+      "level": "初中",
+      "en": "She burst into tears at the news.",
+      "cn": "她听到这个消息后突然大哭起来。",
+      "grammar": "burst into+名词",
+      "tags": "情感"
+    },
+    {
+      "level": "高中",
+      "en": "Were one to analyze the situation closely, one would see the complexity.",
+      "cn": "如果有人仔细分析形势，就会看到其复杂性。",
+      "grammar": "虚拟语气",
+      "tags": "分析"
+    },
+    {
+      "level": "高中",
+      "en": "So comprehensive is the report that it covers every detail.",
+      "cn": "这份报告非常全面，涵盖了每一个细节。",
+      "grammar": "so...that倒装",
+      "tags": "报告"
+    },
+    {
+      "level": "高中",
+      "en": "The more scholars have studied the phenomenon, the more puzzling it has become.",
+      "cn": "学者们对这个现象研究得越多，它就越显得令人费解。",
+      "grammar": "the more...the more",
+      "tags": "学术"
+    },
+    {
+      "level": "高中",
+      "en": "Should the project fail, the consequences would be catastrophic.",
+      "cn": "万一项目失败，后果将是灾难性的。",
+      "grammar": "倒装虚拟",
+      "tags": "假设"
+    },
+    {
+      "level": "高中",
+      "en": "Not until I read the report did I realize the gravity of the situation.",
+      "cn": "直到我读了报告，我才意识到形势的严峻。",
+      "grammar": "倒装句",
+      "tags": "形势"
+    },
+    {
+      "level": "高中",
+      "en": "The proposal, while controversial, deserves serious consideration.",
+      "cn": "这项提议虽有争议，但值得认真考虑。",
+      "grammar": "while让步",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "It is imperative that every citizen abide by the law.",
+      "cn": "每位公民都必须遵守法律，这是当务之急。",
+      "grammar": "it is imperative+虚拟",
+      "tags": "法律"
+    },
+    {
+      "level": "高中",
+      "en": "It is high time the government took action on climate change.",
+      "cn": "现在该是政府对气候变化采取行动的时候了。",
+      "grammar": "虚拟语气",
+      "tags": "环境"
+    },
+    {
+      "level": "高中",
+      "en": "Were the treaty signed, peace would be guaranteed in the region.",
+      "cn": "如果条约签署，该地区的和平将得到保障。",
+      "grammar": "虚拟条件",
+      "tags": "政治"
+    },
+    {
+      "level": "高中",
+      "en": "Had the police not arrived on time, the situation would have escalated.",
+      "cn": "要是警察没有及时赶到，局势就会升级。",
+      "grammar": "倒装虚拟",
+      "tags": "过去假设"
+    },
+    {
+      "level": "高中",
+      "en": "The students were required to submit their essays by Friday.",
+      "cn": "学生们必须在星期五之前提交论文。",
+      "grammar": "被动语态+by",
+      "tags": "学术"
+    },
+    {
+      "level": "高中",
+      "en": "It is widely accepted that exercise benefits mental health.",
+      "cn": "广为接受的观点是锻炼有益心理健康。",
+      "grammar": "it被动+that",
+      "tags": "健康"
+    },
+    {
+      "level": "高中",
+      "en": "No sooner had he finished his speech than the audience applauded.",
+      "cn": "他刚结束演讲，观众就鼓掌了。",
+      "grammar": "no sooner...than",
+      "tags": "演讲"
+    },
+    {
+      "level": "高中",
+      "en": "Scarcely had I sat down when the phone rang.",
+      "cn": "我刚坐下电话就响了。",
+      "grammar": "scarcely...when",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "It is a well-known fact that language is essential to culture.",
+      "cn": "语言对文化至关重要，这是公认的事实。",
+      "grammar": "it is a fact that",
+      "tags": "文化"
+    },
+    {
+      "level": "高中",
+      "en": "Exposed to the harsh weather, the crops withered.",
+      "cn": "暴露在恶劣天气下，庄稼枯萎了。",
+      "grammar": "过去分词短语",
+      "tags": "自然"
+    },
+    {
+      "level": "高中",
+      "en": "Looking ahead, I see great opportunities.",
+      "cn": "展望未来，我看到了巨大的机会。",
+      "grammar": "现在分词短语",
+      "tags": "展望"
+    },
+    {
+      "level": "高中",
+      "en": "We will have a meeting tomorrow, weather permitting.",
+      "cn": "如果天气允许，我们明天开会。",
+      "grammar": "独立主格",
+      "tags": "条件"
+    },
+    {
+      "level": "高中",
+      "en": "Generally speaking, Chinese students are hardworking.",
+      "cn": "一般来说，中国学生很勤奋。",
+      "grammar": "一般现在时",
+      "tags": "教育"
+    },
+    {
+      "level": "高中",
+      "en": "Taken as a whole, the plan is feasible.",
+      "cn": "总体来看，这个计划是可行的。",
+      "grammar": "过去分词短语",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "The old man sat there, lost in thought.",
+      "cn": "那位老人坐在那里陷入了沉思。",
+      "grammar": "lost in thought",
+      "tags": "状态"
+    },
+    {
+      "level": "高中",
+      "en": "You can never be too careful in the exam.",
+      "cn": "考试时再小心也不为过。",
+      "grammar": "too...to",
+      "tags": "建议"
+    },
+    {
+      "level": "高中",
+      "en": "It's worth pointing out that...",
+      "cn": "值得指出的是...",
+      "grammar": "it's worth doing",
+      "tags": "论证"
+    },
+    {
+      "level": "高中",
+      "en": "Only after he explained it did I understand.",
+      "cn": "只有在他解释之后，我才明白。",
+      "grammar": "only倒装",
+      "tags": "理解"
+    },
+    {
+      "level": "高中",
+      "en": "The book sells well on the market.",
+      "cn": "这本书在市场上卖得很好。",
+      "grammar": "主动表被动",
+      "tags": "图书"
+    },
+    {
+      "level": "高中",
+      "en": "It's no wonder that she passed the exam.",
+      "cn": "难怪她通过了考试。",
+      "grammar": "it's no wonder",
+      "tags": "原因"
+    },
+    {
+      "level": "高中",
+      "en": "She got the job thanks to her experience.",
+      "cn": "由于经验她得到了这份工作。",
+      "grammar": "thanks to",
+      "tags": "求职"
+    },
+    {
+      "level": "高中",
+      "en": "Be careful not to lose your way.",
+      "cn": "小心别迷路。",
+      "grammar": "否定祈使句",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "He took the initiative to solve the problem.",
+      "cn": "他主动解决问题。",
+      "grammar": "take the initiative",
+      "tags": "行动"
+    },
+    {
+      "level": "高中",
+      "en": "The plan won't work no matter how hard we try.",
+      "cn": "不管我们多努力，这个计划都不会成功。",
+      "grammar": "no matter+从句",
+      "tags": "条件"
+    },
+    {
+      "level": "高中",
+      "en": "Provided that you finish the task on time, you can leave early.",
+      "cn": "只要你按时完成任务，你就可以早走。",
+      "grammar": "provided that",
+      "tags": "条件"
+    },
+    {
+      "level": "高中",
+      "en": "As far as I'm concerned, the book is excellent.",
+      "cn": "就我而言，这本书很出色。",
+      "grammar": "as far as",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "It took me three hours to solve this math problem.",
+      "cn": "我花了三小时解这道数学题。",
+      "grammar": "it takes...to",
+      "tags": "学习"
+    },
+    {
+      "level": "高中",
+      "en": "I would rather not go to the party.",
+      "cn": "我宁愿不去聚会。",
+      "grammar": "would rather",
+      "tags": "选择"
+    },
+    {
+      "level": "高中",
+      "en": "The moment I saw him, I knew something was wrong.",
+      "cn": "我一看到他就知道出事了。",
+      "grammar": "the moment",
+      "tags": "时间"
+    },
+    {
+      "level": "高中",
+      "en": "The reason for his success is that he never gives up.",
+      "cn": "他成功的原因是他从不放弃。",
+      "grammar": "同位语从句",
+      "tags": "成功"
+    },
+    {
+      "level": "高中",
+      "en": "It was the most exciting experience I've ever had.",
+      "cn": "这是我经历过的最激动人心的经历。",
+      "grammar": "最高级+完成",
+      "tags": "经历"
+    },
+    {
+      "level": "高中",
+      "en": "Looking from a different angle, the issue becomes simpler.",
+      "cn": "换个角度看，问题变简单了。",
+      "grammar": "现在分词短语",
+      "tags": "视角"
+    },
+    {
+      "level": "高中",
+      "en": "He is said to be the best player in the team.",
+      "cn": "据说他队里最好的球员。",
+      "grammar": "被动+不定式",
+      "tags": "传闻"
+    },
+    {
+      "level": "高中",
+      "en": "So far, no one has proved his theory.",
+      "cn": "到目前为止，没有人证明他的理论。",
+      "grammar": "现在完成",
+      "tags": "学术"
+    },
+    {
+      "level": "高中",
+      "en": "We must take immediate action to solve the problem.",
+      "cn": "我们必须立即采取行动解决问题。",
+      "grammar": "固定搭配",
+      "tags": "行动"
+    },
+    {
+      "level": "高中",
+      "en": "It is high time that something should be done about pollution.",
+      "cn": "早该治理污染了。",
+      "grammar": "虚拟语气",
+      "tags": "环境"
+    },
+    {
+      "level": "高中",
+      "en": "What impressed me most was her persistence.",
+      "cn": "给我印象最深的是她的坚持。",
+      "grammar": "what从句",
+      "tags": "人物"
+    },
+    {
+      "level": "高中",
+      "en": "She made every effort to finish the work on time.",
+      "cn": "她尽了一切努力按时完成工作。",
+      "grammar": "make every effort",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "The problem lies in the lack of communication.",
+      "cn": "问题在于缺乏沟通。",
+      "grammar": "lie in",
+      "tags": "原因"
+    },
+    {
+      "level": "高中",
+      "en": "You should make full use of your time.",
+      "cn": "你应该充分利用时间。",
+      "grammar": "make use of",
+      "tags": "建议"
+    },
+    {
+      "level": "高中",
+      "en": "The book is well worth reading.",
+      "cn": "这本书很值得一读。",
+      "grammar": "be worth doing",
+      "tags": "阅读"
+    },
+    {
+      "level": "高中",
+      "en": "All the books have been sold out.",
+      "cn": "所有书都已售完。",
+      "grammar": "现在完成被动",
+      "tags": "图书"
+    },
+    {
+      "level": "高中",
+      "en": "We cannot ignore the fact that resources are limited.",
+      "cn": "我们不能忽视资源有限的事实。",
+      "grammar": "同位语从句",
+      "tags": "资源"
+    },
+    {
+      "level": "高中",
+      "en": "It's a waste of time arguing about it.",
+      "cn": "为这件事争论是浪费时间。",
+      "grammar": "It's a waste",
+      "tags": "评价"
+    },
+    {
+      "level": "高中",
+      "en": "She was on the point of leaving when I arrived.",
+      "cn": "她正要离开时我到了。",
+      "grammar": "on the point of",
+      "tags": "时间"
+    },
+    {
+      "level": "高中",
+      "en": "He is determined to pursue his dream no matter what.",
+      "cn": "他决心无论怎样都要追求梦想。",
+      "grammar": "be determined to",
+      "tags": "决心"
+    },
+    {
+      "level": "高中",
+      "en": "The students were exposed to a wide variety of cultures.",
+      "cn": "学生们接触到了各种各样的文化。",
+      "grammar": "被动+to",
+      "tags": "文化"
+    },
+    {
+      "level": "高中",
+      "en": "This is exactly what I have been looking for.",
+      "cn": "这正是我一直在找的。",
+      "grammar": "what从句",
+      "tags": "日常"
+    },
+    {
+      "level": "高中",
+      "en": "Not a single student failed the exam.",
+      "cn": "没有一个学生考试不及格。",
+      "grammar": "否定倒装",
+      "tags": "考试"
+    },
+    {
+      "level": "高中",
+      "en": "Let's touch base on the project status tomorrow.",
+      "cn": "我们明天再确认一下项目进展。",
+      "grammar": "let+祈使",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We need to brainstorm some new ideas.",
+      "cn": "我们需要头脑风暴一些新点子。",
+      "grammar": "need to",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll loop you in once the report is ready.",
+      "cn": "报告准备好后我会拉你进来。",
+      "grammar": "loop in",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We need to align our goals before moving forward.",
+      "cn": "我们需要在前进之前对齐目标。",
+      "grammar": "align",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Could you circle back to me on this?",
+      "cn": "你能就这件事再回我一下吗？",
+      "grammar": "circle back",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll ping you once the draft is ready.",
+      "cn": "草案准备好后我会联系你。",
+      "grammar": "ping",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let's take this offline.",
+      "cn": "我们线下再谈。",
+      "grammar": "take offline",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'd like to push back on this decision.",
+      "cn": "我想反对这个决定。",
+      "grammar": "push back",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let's level-set expectations before kickoff.",
+      "cn": "开始前我们先校准预期。",
+      "grammar": "level-set",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We're in crunch mode for the next two weeks.",
+      "cn": "接下来两周我们进入冲刺模式。",
+      "grammar": "crunch mode",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Please don't hesitate to reach out.",
+      "cn": "请随时联系。",
+      "grammar": "reach out",
+      "tags": "礼貌"
+    },
+    {
+      "level": "高中",
+      "en": "I'll follow up with you via email.",
+      "cn": "我会通过邮件跟进。",
+      "grammar": "follow up",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "This is a top priority for the team.",
+      "cn": "这是团队的首要任务。",
+      "grammar": "top priority",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let's reconvene tomorrow morning.",
+      "cn": "明天上午我们再聚一次。",
+      "grammar": "reconvene",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We're operating under tight deadlines.",
+      "cn": "我们在紧迫的截止日期下运作。",
+      "grammar": "operate under",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Let me run this by my manager first.",
+      "cn": "我先让我经理过一下。",
+      "grammar": "run by",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "Can we table this discussion for now?",
+      "cn": "我们暂时搁置这个讨论好吗？",
+      "grammar": "table",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "I'll sync with you tomorrow.",
+      "cn": "我明天跟你同步一下。",
+      "grammar": "sync with",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "He's a real self-starter.",
+      "cn": "他是个真正的主动型员工。",
+      "grammar": "复合名词",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "We need to move the needle on this project.",
+      "cn": "我们需要在这个项目上取得进展。",
+      "grammar": "move the needle",
+      "tags": "工作"
+    },
+    {
+      "level": "高中",
+      "en": "The flight got delayed because of bad weather.",
+      "cn": "航班因恶劣天气延误了。",
+      "grammar": "被动+because of",
+      "tags": "旅行"
+    },
+    {
+      "level": "高中",
+      "en": "I'd like to check in for my flight.",
+      "cn": "我想办理登机手续。",
+      "grammar": "check in",
+      "tags": "旅行"
+    },
+    {
+      "level": "高中",
+      "en": "We have a layover in Singapore for three hours.",
+      "cn": "我们在新加坡经停三小时。",
+      "grammar": "there be+介词",
+      "tags": "旅行"
+    },
+    {
+      "level": "高中",
+      "en": "Could I have the check, please?",
+      "cn": "请把账单给我好吗？",
+      "grammar": "礼貌请求",
+      "tags": "餐厅"
+    },
+    {
+      "level": "高中",
+      "en": "I'd like to make a reservation for two.",
+      "cn": "我想预订两个人的位置。",
+      "grammar": "make a reservation",
+      "tags": "餐厅"
+    },
+    {
+      "level": "高中",
+      "en": "Is service included in the bill?",
+      "cn": "服务费包含在账单里了吗？",
+      "grammar": "被动",
+      "tags": "餐厅"
+    },
+    {
+      "level": "高中",
+      "en": "What do you recommend?",
+      "cn": "你推荐什么？",
+      "grammar": "特殊疑问",
+      "tags": "餐厅"
+    },
+    {
+      "level": "高中",
+      "en": "The museum is closed on Mondays.",
+      "cn": "博物馆周一闭馆。",
+      "grammar": "被动+on",
+      "tags": "旅游"
+    },
+    {
+      "level": "高中",
+      "en": "Can I have a city map, please?",
+      "cn": "可以给我一张城市地图吗？",
+      "grammar": "礼貌请求",
+      "tags": "旅游"
+    },
+    {
+      "level": "高中",
+      "en": "How often does the bus run?",
+      "cn": "公共汽车多久一班？",
+      "grammar": "特殊疑问",
+      "tags": "交通"
+    },
+    {
+      "level": "高中",
+      "en": "Where is the nearest subway station?",
+      "cn": "最近的地铁站在哪里？",
+      "grammar": "特殊疑问",
+      "tags": "交通"
+    },
+    {
+      "level": "高中",
+      "en": "Could you take a photo for me?",
+      "cn": "你能帮我拍张照片吗？",
+      "grammar": "礼貌请求",
+      "tags": "旅行"
+    },
+    {
+      "level": "高中",
+      "en": "I'm calling to inquire about...",
+      "cn": "我打电话是想咨询...",
+      "grammar": "calling+动词",
+      "tags": "商务"
+    },
+    {
+      "level": "高中",
+      "en": "Could I have your name, please?",
+      "cn": "请问您贵姓？",
+      "grammar": "礼貌",
+      "tags": "电话"
+    },
+    {
+      "level": "高中",
+      "en": "Would you hold for a moment, please?",
+      "cn": "请您稍等片刻好吗？",
+      "grammar": "hold",
+      "tags": "电话"
+    },
+    {
+      "level": "高中",
+      "en": "I'll get back to you as soon as possible.",
+      "cn": "我会尽快回复您。",
+      "grammar": "get back to",
+      "tags": "电话"
+    },
+    {
+      "level": "高中",
+      "en": "Thank you for calling.",
+      "cn": "感谢您来电。",
+      "grammar": "感谢",
+      "tags": "电话"
+    },
+    {
+      "level": "高中",
+      "en": "I'm calling on behalf of Mr. Smith.",
+      "cn": "我代表史密斯先生来电。",
+      "grammar": "on behalf of",
+      "tags": "商务"
+    },
+    {
+      "level": "高中",
+      "en": "Could you repeat that, please?",
+      "cn": "请重复一遍好吗？",
+      "grammar": "礼貌请求",
+      "tags": "电话"
+    },
+    {
+      "level": "高中",
+      "en": "I'm sorry, but you have the wrong number.",
+      "cn": "不好意思，您打错电话了。",
+      "grammar": "电话",
+      "tags": "电话"
+    },
+    {
+      "level": "江苏",
+      "en": "Purple Mountain can be seen from most parts of Nanjing.",
+      "cn": "从南京大部分地方都能看到紫金山。",
+      "grammar": "被动",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "The annual Nanjing International Marathon is held in autumn.",
+      "cn": "南京国际马拉松每年秋季举办。",
+      "grammar": "被动+过去分词",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Yun Brocade from Nanjing is known for its exquisite patterns.",
+      "cn": "南京云锦以其精致的图案而闻名。",
+      "grammar": "被动+for",
+      "tags": "文化"
+    },
+    {
+      "level": "江苏",
+      "en": "Suzhou Industrial Park is one of the largest in China.",
+      "cn": "苏州工业园区是中国最大的园区之一。",
+      "grammar": "最高级",
+      "tags": "苏州"
+    },
+    {
+      "level": "江苏",
+      "en": "Liyuan Garden is one of the famous gardens in Nanjing.",
+      "cn": "李园是南京著名园林之一。",
+      "grammar": "主系表",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing has a humid subtropical climate.",
+      "cn": "南京属亚热带湿润气候。",
+      "grammar": "主系表",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "The Nanjing Yangtze River Bridge is an iconic structure.",
+      "cn": "南京长江大桥是一座标志性建筑。",
+      "grammar": "主系表",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Huaiyang cuisine focuses on knife skills.",
+      "cn": "淮扬菜讲究刀工。",
+      "grammar": "主谓",
+      "tags": "美食"
+    },
+    {
+      "level": "江苏",
+      "en": "Wuxi's fresh water fish are famous nationwide.",
+      "cn": "无锡的淡水鱼全国闻名。",
+      "grammar": "主系表",
+      "tags": "无锡"
+    },
+    {
+      "level": "江苏",
+      "en": "Jiangsu's economy ranks among the top in China.",
+      "cn": "江苏经济在中国排名前列。",
+      "grammar": "主系表+rank",
+      "tags": "经济"
+    },
+    {
+      "level": "江苏",
+      "en": "Suzhou's Tiger Hill is a UNESCO World Heritage Site.",
+      "cn": "苏州虎丘是联合国教科文组织世界遗产。",
+      "grammar": "主系表",
+      "tags": "苏州"
+    },
+    {
+      "level": "江苏",
+      "en": "The Qinhuai River has nurtured Nanjing for centuries.",
+      "cn": "秦淮河养育了南京数百年。",
+      "grammar": "现在完成",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Nanjing salt duck is a famous traditional dish.",
+      "cn": "南京盐水鸭是著名的传统菜。",
+      "grammar": "主系表",
+      "tags": "美食"
+    },
+    {
+      "level": "江苏",
+      "en": "The main campus of Nanjing University is in Gulou.",
+      "cn": "南京大学主校区在鼓楼。",
+      "grammar": "主系表+in",
+      "tags": "教育"
+    },
+    {
+      "level": "江苏",
+      "en": "Every spring the lotus blooms in Xuanwu Lake.",
+      "cn": "每年春天玄武湖的莲花盛开。",
+      "grammar": "一般现在时",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Danyang is a beautiful city in southern Jiangsu.",
+      "cn": "丹阳是江苏南部一座美丽的城市。",
+      "grammar": "主系表",
+      "tags": "镇江"
+    },
+    {
+      "level": "江苏",
+      "en": "Yixing is famous for its pottery.",
+      "cn": "宜兴以陶器闻名。",
+      "grammar": "被动+for",
+      "tags": "无锡"
+    },
+    {
+      "level": "江苏",
+      "en": "Gaocheng Old Street in Nanjing is famous for snacks.",
+      "cn": "南京高淳老街以小吃闻名。",
+      "grammar": "被动+for",
+      "tags": "南京"
+    },
+    {
+      "level": "江苏",
+      "en": "Suzhou's Pingjiang Road dates back to the Song Dynasty.",
+      "cn": "苏州平江路历史可追溯至宋代。",
+      "grammar": "一般现在时",
+      "tags": "苏州"
+    },
+    {
+      "level": "江苏",
+      "en": "Yancheng's Milu Deer Nature Reserve has thousands of deer.",
+      "cn": "盐城麋鹿自然保护区有数千头麋鹿。",
+      "grammar": "主谓宾",
+      "tags": "盐城"
+    }
+  ]
+}

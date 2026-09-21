@@ -1,0 +1,1950 @@
+{
+  "customVocab": {
+    "senior": [
+      {
+        "level": "高中",
+        "word": "aboard",
+        "phonetic": "/əˈbɔːd/",
+        "chinese": "在...上",
+        "example": "All aboard!",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "about",
+        "phonetic": "/əˈbaʊt/",
+        "chinese": "关于",
+        "example": "About the book.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "above",
+        "phonetic": "/əˈbʌv/",
+        "chinese": "在...之上",
+        "example": "Above the table.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "across",
+        "phonetic": "/əˈkrɒs/",
+        "chinese": "穿过",
+        "example": "Across the river.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "after",
+        "phonetic": "/ˈɑːftə/",
+        "chinese": "在...之后",
+        "example": "After lunch.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "against",
+        "phonetic": "/əˈɡenst/",
+        "chinese": "反对",
+        "example": "Against the wall.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "along",
+        "phonetic": "/əˈlɒŋ/",
+        "chinese": "沿着",
+        "example": "Along the road.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "alongside",
+        "phonetic": "/əˌlɒŋˈsaɪd/",
+        "chinese": "在...旁边",
+        "example": "Alongside me.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "among",
+        "phonetic": "/əˈmʌŋ/",
+        "chinese": "在...之中",
+        "example": "Among friends.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "around",
+        "phonetic": "/əˈraʊnd/",
+        "chinese": "在...周围",
+        "example": "Around the corner.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "before",
+        "phonetic": "/bɪˈfɔː/",
+        "chinese": "在...之前",
+        "example": "Before dawn.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "behind",
+        "phonetic": "/bɪˈhaɪnd/",
+        "chinese": "在...后面",
+        "example": "Behind the door.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "below",
+        "phonetic": "/bɪˈləʊ/",
+        "chinese": "在...之下",
+        "example": "Below zero.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "beneath",
+        "phonetic": "/bɪˈniːθ/",
+        "chinese": "在...下方",
+        "example": "Beneath the surface.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "beside",
+        "phonetic": "/bɪˈsaɪd/",
+        "chinese": "在...旁边",
+        "example": "Beside me.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "besides",
+        "phonetic": "/bɪˈsaɪdz/",
+        "chinese": "此外",
+        "example": "Besides, ...",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "beyond",
+        "phonetic": "/bɪˈjɒnd/",
+        "chinese": "在...之外",
+        "example": "Beyond the horizon.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "but",
+        "phonetic": "/bʌt/",
+        "chinese": "但是",
+        "example": "Tall but strong.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "concerning",
+        "phonetic": "/kənˈsɜːnɪŋ/",
+        "chinese": "关于",
+        "example": "Concerning your letter.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "despite",
+        "phonetic": "/dɪˈspaɪt/",
+        "chinese": "尽管",
+        "example": "Despite the rain.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "down",
+        "phonetic": "/daʊn/",
+        "chinese": "向下",
+        "example": "Sit down.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "during",
+        "phonetic": "/ˈdjʊərɪŋ/",
+        "chinese": "在...期间",
+        "example": "During the class.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "except",
+        "phonetic": "/ɪkˈsept/",
+        "chinese": "除了",
+        "example": "Everyone except me.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "for",
+        "phonetic": "/fɔː/",
+        "chinese": "为了",
+        "example": "For you.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "from",
+        "phonetic": "/frɒm/",
+        "chinese": "从",
+        "example": "From the heart.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "inside",
+        "phonetic": "/ˌɪnˈsaɪd/",
+        "chinese": "在...里面",
+        "example": "Inside the box.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "into",
+        "phonetic": "/ˈɪntuː/",
+        "chinese": "进入",
+        "example": "Into the water.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "like",
+        "phonetic": "/laɪk/",
+        "chinese": "像",
+        "example": "Like a bird.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "near",
+        "phonetic": "/nɪə/",
+        "chinese": "靠近",
+        "example": "Near the river.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "of",
+        "phonetic": "/ɒv/",
+        "chinese": "的",
+        "example": "Color of sky.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "off",
+        "phonetic": "/ɒf/",
+        "chinese": "离开",
+        "example": "Off the table.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "onto",
+        "phonetic": "/ˈɒntuː/",
+        "chinese": "到...上",
+        "example": "Onto the floor.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "out",
+        "phonetic": "/aʊt/",
+        "chinese": "出去",
+        "example": "Go out.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "outside",
+        "phonetic": "/ˌaʊtˈsaɪd/",
+        "chinese": "在...外面",
+        "example": "Outside the house.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "over",
+        "phonetic": "/ˈəʊvə/",
+        "chinese": "在...上方",
+        "example": "Over the bridge.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "past",
+        "phonetic": "/pɑːst/",
+        "chinese": "经过",
+        "example": "Walk past.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "regarding",
+        "phonetic": "/rɪˈɡɑːdɪŋ/",
+        "chinese": "关于",
+        "example": "Regarding your question.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "round",
+        "phonetic": "/raʊnd/",
+        "chinese": "环绕",
+        "example": "Round the corner.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "since",
+        "phonetic": "/sɪns/",
+        "chinese": "自从",
+        "example": "Since 2010.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "through",
+        "phonetic": "/θruː/",
+        "chinese": "穿过",
+        "example": "Through the tunnel.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "throughout",
+        "phonetic": "/θruːˈaʊt/",
+        "chinese": "贯穿",
+        "example": "Throughout the year.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "till",
+        "phonetic": "/tɪl/",
+        "chinese": "直到",
+        "example": "Till tomorrow.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "toward",
+        "phonetic": "/təˈwɔːd/",
+        "chinese": "向",
+        "example": "Toward the door.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "under",
+        "phonetic": "/ˈʌndə/",
+        "chinese": "在...下面",
+        "example": "Under the desk.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "underneath",
+        "phonetic": "/ˌʌndəˈniːθ/",
+        "chinese": "在...下方",
+        "example": "Underneath the bed.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "unlike",
+        "phonetic": "/ʌnˈlaɪk/",
+        "chinese": "不像",
+        "example": "Unlike him.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "until",
+        "phonetic": "/ənˈtɪl/",
+        "chinese": "直到",
+        "example": "Until tomorrow.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "upon",
+        "phonetic": "/əˈpɒn/",
+        "chinese": "在...上",
+        "example": "Upon the table.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "versus",
+        "phonetic": "/ˈvɜːsəs/",
+        "chinese": "对",
+        "example": "Versus the original.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "via",
+        "phonetic": "/ˈvaɪə/",
+        "chinese": "经由",
+        "example": "Via email.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "with",
+        "phonetic": "/wɪð/",
+        "chinese": "和",
+        "example": "With me.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "within",
+        "phonetic": "/wɪˈðɪn/",
+        "chinese": "在...之内",
+        "example": "Within an hour.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "without",
+        "phonetic": "/wɪˈðaʊt/",
+        "chinese": "没有",
+        "example": "Without doubt.",
+        "tags": "介词"
+      },
+      {
+        "level": "高中",
+        "word": "at least",
+        "phonetic": "/æt liːst/",
+        "chinese": "至少",
+        "example": "At least one.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "at most",
+        "phonetic": "/æt məʊst/",
+        "chinese": "最多",
+        "example": "At most ten.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "at once",
+        "phonetic": "/æt wʌns/",
+        "chinese": "立刻",
+        "example": "Come at once.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "at present",
+        "phonetic": "/æt ˈpreznt/",
+        "chinese": "目前",
+        "example": "At present.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "by accident",
+        "phonetic": "/baɪ ˈæksɪdənt/",
+        "chinese": "偶然",
+        "example": "By accident.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "by chance",
+        "phonetic": "/baɪ tʃɑːns/",
+        "chinese": "碰巧",
+        "example": "By chance.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "by far",
+        "phonetic": "/baɪ fɑː/",
+        "chinese": "远远",
+        "example": "By far the best.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "by heart",
+        "phonetic": "/baɪ hɑːt/",
+        "chinese": "熟记",
+        "example": "Learn by heart.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "by mistake",
+        "phonetic": "/baɪ mɪˈsteɪk/",
+        "chinese": "失误",
+        "example": "By mistake.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "by no means",
+        "phonetic": "/baɪ nəʊ miːnz/",
+        "chinese": "绝不",
+        "example": "By no means.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "by the way",
+        "phonetic": "/baɪ ðə weɪ/",
+        "chinese": "顺便说",
+        "example": "By the way.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "for ever",
+        "phonetic": "/fɔːr ˈevə/",
+        "chinese": "永远",
+        "example": "Forever young.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "for free",
+        "phonetic": "/fɔː friː/",
+        "chinese": "免费",
+        "example": "For free.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "for fun",
+        "phonetic": "/fɔː fʌn/",
+        "chinese": "开玩笑",
+        "example": "Just for fun.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "for good",
+        "phonetic": "/fɔː ɡʊd/",
+        "chinese": "永远地",
+        "example": "For good.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "for instance",
+        "phonetic": "/fɔː ˈɪnstəns/",
+        "chinese": "例如",
+        "example": "For instance.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "for the sake of",
+        "phonetic": "/fɔː ðə seɪk ɒv/",
+        "chinese": "为了",
+        "example": "For the sake of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "for sure",
+        "phonetic": "/fɔː ʃʊə/",
+        "chinese": "肯定",
+        "example": "For sure.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "from time to time",
+        "phonetic": "/frɒm taɪm tə taɪm/",
+        "chinese": "偶尔",
+        "example": "From time to time.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in advance",
+        "phonetic": "/ɪn ədˈvɑːns/",
+        "chinese": "提前",
+        "example": "In advance.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in addition",
+        "phonetic": "/ɪn əˈdɪʃn/",
+        "chinese": "此外",
+        "example": "In addition.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in case",
+        "phonetic": "/ɪn keɪs/",
+        "chinese": "以防",
+        "example": "In case.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in charge of",
+        "phonetic": "/ɪn tʃɑːdʒ ɒv/",
+        "chinese": "负责",
+        "example": "In charge of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in common",
+        "phonetic": "/ɪn ˈkɒmən/",
+        "chinese": "共同的",
+        "example": "In common.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in fact",
+        "phonetic": "/ɪn fækt/",
+        "chinese": "事实上",
+        "example": "In fact.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in favor of",
+        "phonetic": "/ɪn ˈfeɪvər ɒv/",
+        "chinese": "支持",
+        "example": "In favor of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in general",
+        "phonetic": "/ɪn ˈdʒenrəl/",
+        "chinese": "一般来说",
+        "example": "In general.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in particular",
+        "phonetic": "/ɪn pəˈtɪkjʊlə/",
+        "chinese": "尤其",
+        "example": "In particular.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in short",
+        "phonetic": "/ɪn ʃɔːt/",
+        "chinese": "简言之",
+        "example": "In short.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in spite of",
+        "phonetic": "/ɪn spaɪt ɒv/",
+        "chinese": "尽管",
+        "example": "In spite of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in terms of",
+        "phonetic": "/ɪn tɜːmz ɒv/",
+        "chinese": "就...而言",
+        "example": "In terms of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in vain",
+        "phonetic": "/ɪn veɪn/",
+        "chinese": "徒劳",
+        "example": "In vain.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "on behalf of",
+        "phonetic": "/ɒn bɪˈhɑːf ɒv/",
+        "chinese": "代表",
+        "example": "On behalf of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "on purpose",
+        "phonetic": "/ɒn ˈpɜːpəs/",
+        "chinese": "故意",
+        "example": "On purpose.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "on the contrary",
+        "phonetic": "/ɒn ðə ˈkɒntrəri/",
+        "chinese": "相反",
+        "example": "On the contrary.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "on the whole",
+        "phonetic": "/ɒn ðə həʊl/",
+        "chinese": "总的来说",
+        "example": "On the whole.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "out of date",
+        "phonetic": "/aʊt ɒv deɪt/",
+        "chinese": "过时的",
+        "example": "Out of date.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "out of order",
+        "phonetic": "/aʊt ɒv ˈɔːdə/",
+        "chinese": "出故障",
+        "example": "The machine is out of order.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "out of question",
+        "phonetic": "/aʊt ɒv ˈkwestʃən/",
+        "chinese": "毫无疑问",
+        "example": "Out of question.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "out of sight",
+        "phonetic": "/aʊt ɒv saɪt/",
+        "chinese": "看不见",
+        "example": "Out of sight.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "owing to",
+        "phonetic": "/ˈəʊɪŋ tuː/",
+        "chinese": "由于",
+        "example": "Owing to rain.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "thanks to",
+        "phonetic": "/θæŋks tuː/",
+        "chinese": "多亏",
+        "example": "Thanks to you.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "with respect to",
+        "phonetic": "/wɪð rɪˈspekt tuː/",
+        "chinese": "关于",
+        "example": "With respect to.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "with the exception of",
+        "phonetic": "/wɪð ði ɪkˈsepʃn ɒv/",
+        "chinese": "除了",
+        "example": "With the exception of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "with regard to",
+        "phonetic": "/wɪð rɪˈɡɑːd tuː/",
+        "chinese": "关于",
+        "example": "With regard to.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "according to",
+        "phonetic": "/əˈkɔːdɪŋ tuː/",
+        "chinese": "根据",
+        "example": "According to.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "ahead of",
+        "phonetic": "/əˈhed ɒv/",
+        "chinese": "在...之前",
+        "example": "Ahead of time.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "along with",
+        "phonetic": "/əˈlɒŋ wɪð/",
+        "chinese": "连同",
+        "example": "Along with.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "apart from",
+        "phonetic": "/əˈpɑːt frəm/",
+        "chinese": "除了",
+        "example": "Apart from.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "as for",
+        "phonetic": "/æz fɔː/",
+        "chinese": "至于",
+        "example": "As for me.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "as long as",
+        "phonetic": "/æz lɒŋ æz/",
+        "chinese": "只要",
+        "example": "As long as.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "as soon as",
+        "phonetic": "/æz suːn æz/",
+        "chinese": "一...就",
+        "example": "As soon as.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "as well as",
+        "phonetic": "/æz wel æz/",
+        "chinese": "和...一样",
+        "example": "As well as.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "as though",
+        "phonetic": "/æz ðəʊ/",
+        "chinese": "仿佛",
+        "example": "As though.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "back and forth",
+        "phonetic": "/bæk ənd fɔːθ/",
+        "chinese": "来回",
+        "example": "Back and forth.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "because of",
+        "phonetic": "/bɪˈkɒz ɒv/",
+        "chinese": "因为",
+        "example": "Because of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "but for",
+        "phonetic": "/bʌt fɔː/",
+        "chinese": "若非",
+        "example": "But for.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "due to",
+        "phonetic": "/djuː tuː/",
+        "chinese": "由于",
+        "example": "Due to.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "ever since",
+        "phonetic": "/ˈevə sɪns/",
+        "chinese": "自从",
+        "example": "Ever since.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "every now and then",
+        "phonetic": "/ˈevri naʊ ənd ðen/",
+        "chinese": "不时",
+        "example": "Every now and then.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "far from",
+        "phonetic": "/fɑː frəm/",
+        "chinese": "远非",
+        "example": "Far from.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in favor of",
+        "phonetic": "/ɪn ˈfeɪvər ɒv/",
+        "chinese": "支持",
+        "example": "In favor of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "in spite of",
+        "phonetic": "/ɪn spaɪt ɒv/",
+        "chinese": "不管",
+        "example": "In spite of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "instead of",
+        "phonetic": "/ɪnˈsted ɒv/",
+        "chinese": "代替",
+        "example": "Instead of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "on account of",
+        "phonetic": "/ɒn əˈkaʊnt ɒv/",
+        "chinese": "因为",
+        "example": "On account of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "on behalf of",
+        "phonetic": "/ɒn bɪˈhɑːf ɒv/",
+        "chinese": "代表",
+        "example": "On behalf of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "on top of",
+        "phonetic": "/ɒn tɒp ɒv/",
+        "chinese": "在...上",
+        "example": "On top of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "regardless of",
+        "phonetic": "/rɪˈɡɑːdləs ɒv/",
+        "chinese": "不管",
+        "example": "Regardless of.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "so as to",
+        "phonetic": "/səʊ æz tuː/",
+        "chinese": "为了",
+        "example": "So as to.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "such as",
+        "phonetic": "/sʌtʃ æz/",
+        "chinese": "比如",
+        "example": "Such as.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "thanks to",
+        "phonetic": "/θæŋks tuː/",
+        "chinese": "多亏",
+        "example": "Thanks to.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "up to",
+        "phonetic": "/ʌp tuː/",
+        "chinese": "高达",
+        "example": "Up to ten.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "with regard to",
+        "phonetic": "/wɪð rɪˈɡɑːd tuː/",
+        "chinese": "关于",
+        "example": "With regard to.",
+        "tags": "短语"
+      },
+      {
+        "level": "高中",
+        "word": "Asia",
+        "phonetic": "/ˈeɪʒə/",
+        "chinese": "亚洲",
+        "example": "In Asia.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Africa",
+        "phonetic": "/ˈæfrɪkə/",
+        "chinese": "非洲",
+        "example": "In Africa.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Europe",
+        "phonetic": "/ˈjʊərəp/",
+        "chinese": "欧洲",
+        "example": "In Europe.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "America",
+        "phonetic": "/əˈmerɪkə/",
+        "chinese": "美洲",
+        "example": "In America.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "China",
+        "phonetic": "/ˈtʃaɪnə/",
+        "chinese": "中国",
+        "example": "From China.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Japan",
+        "phonetic": "/dʒəˈpæn/",
+        "chinese": "日本",
+        "example": "Visit Japan.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Korea",
+        "phonetic": "/kəˈrɪə/",
+        "chinese": "韩国",
+        "example": "South Korea.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "India",
+        "phonetic": "/ˈɪndiə/",
+        "chinese": "印度",
+        "example": "In India.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Russia",
+        "phonetic": "/ˈrʌʃə/",
+        "chinese": "俄罗斯",
+        "example": "From Russia.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Germany",
+        "phonetic": "/ˈdʒɜːməni/",
+        "chinese": "德国",
+        "example": "Made in Germany.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "France",
+        "phonetic": "/frɑːns/",
+        "chinese": "法国",
+        "example": "From France.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Britain",
+        "phonetic": "/ˈbrɪtn/",
+        "chinese": "英国",
+        "example": "In Britain.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Canada",
+        "phonetic": "/ˈkænədə/",
+        "chinese": "加拿大",
+        "example": "Maple from Canada.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Australia",
+        "phonetic": "/ɒˈstreɪliə/",
+        "chinese": "澳大利亚",
+        "example": "From Australia.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Italy",
+        "phonetic": "/ˈɪtəli/",
+        "chinese": "意大利",
+        "example": "Made in Italy.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Spain",
+        "phonetic": "/speɪn/",
+        "chinese": "西班牙",
+        "example": "In Spain.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Portugal",
+        "phonetic": "/ˈpɔːtʃʊɡl/",
+        "chinese": "葡萄牙",
+        "example": "From Portugal.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Greece",
+        "phonetic": "/ɡriːs/",
+        "chinese": "希腊",
+        "example": "Ancient Greece.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Egypt",
+        "phonetic": "/ˈiːdʒɪpt/",
+        "chinese": "埃及",
+        "example": "Visit Egypt.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Thailand",
+        "phonetic": "/ˈtaɪlænd/",
+        "chinese": "泰国",
+        "example": "Visit Thailand.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Vietnam",
+        "phonetic": "/ˌvjetˈnæm/",
+        "chinese": "越南",
+        "example": "From Vietnam.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Singapore",
+        "phonetic": "/ˈsɪŋəpɔː/",
+        "chinese": "新加坡",
+        "example": "In Singapore.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Indonesia",
+        "phonetic": "/ˌɪndəˈniːʒə/",
+        "chinese": "印度尼西亚",
+        "example": "In Indonesia.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Pakistan",
+        "phonetic": "/ˈpɑːkɪstæn/",
+        "chinese": "巴基斯坦",
+        "example": "From Pakistan.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Brazil",
+        "phonetic": "/brəˈzɪl/",
+        "chinese": "巴西",
+        "example": "From Brazil.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Argentina",
+        "phonetic": "/ˌɑːdʒənˈtiːnə/",
+        "chinese": "阿根廷",
+        "example": "From Argentina.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Mexico",
+        "phonetic": "/ˈmeksɪkəʊ/",
+        "chinese": "墨西哥",
+        "example": "Visit Mexico.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Egypt",
+        "phonetic": "/ˈiːdʒɪpt/",
+        "chinese": "埃及",
+        "example": "Ancient Egypt.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Turkey",
+        "phonetic": "/ˈtɜːki/",
+        "chinese": "土耳其",
+        "example": "Visit Turkey.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Sweden",
+        "phonetic": "/ˈswiːdn/",
+        "chinese": "瑞典",
+        "example": "From Sweden.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Norway",
+        "phonetic": "/ˈnɔːweɪ/",
+        "chinese": "挪威",
+        "example": "In Norway.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Denmark",
+        "phonetic": "/ˈdenmɑːk/",
+        "chinese": "丹麦",
+        "example": "From Denmark.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Finland",
+        "phonetic": "/ˈfɪnlənd/",
+        "chinese": "芬兰",
+        "example": "From Finland.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Poland",
+        "phonetic": "/ˈpəʊlənd/",
+        "chinese": "波兰",
+        "example": "From Poland.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Switzerland",
+        "phonetic": "/ˈswɪtsələnd/",
+        "chinese": "瑞士",
+        "example": "Made in Switzerland.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Austria",
+        "phonetic": "/ˈɒstriə/",
+        "chinese": "奥地利",
+        "example": "Visit Austria.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Netherlands",
+        "phonetic": "/ˈneðələndz/",
+        "chinese": "荷兰",
+        "example": "From Netherlands.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Belgium",
+        "phonetic": "/ˈbeldʒəm/",
+        "chinese": "比利时",
+        "example": "From Belgium.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Greece",
+        "phonetic": "/ɡriːs/",
+        "chinese": "希腊",
+        "example": "Ancient Greece.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Turkey",
+        "phonetic": "/ˈtɜːki/",
+        "chinese": "土耳其",
+        "example": "Turkish coffee.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Israel",
+        "phonetic": "/ˈɪzreɪəl/",
+        "chinese": "以色列",
+        "example": "From Israel.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Iran",
+        "phonetic": "/ɪˈrɑːn/",
+        "chinese": "伊朗",
+        "example": "From Iran.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Iraq",
+        "phonetic": "/ɪˈrɑːk/",
+        "chinese": "伊拉克",
+        "example": "From Iraq.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Saudi Arabia",
+        "phonetic": "/ˈsaʊdi əˈreɪbiə/",
+        "chinese": "沙特阿拉伯",
+        "example": "Saudi Arabia.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Africa",
+        "phonetic": "/ˈæfrɪkə/",
+        "chinese": "非洲",
+        "example": "African safari.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "Brazil",
+        "phonetic": "/brəˈzɪl/",
+        "chinese": "巴西",
+        "example": "Brazilian coffee.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "continent",
+        "phonetic": "/ˈkɒntɪnənt/",
+        "chinese": "大陆",
+        "example": "A continent.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "capital",
+        "phonetic": "/ˈkæpɪtl/",
+        "chinese": "首都",
+        "example": "Capital city.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "province",
+        "phonetic": "/ˈprɒvɪns/",
+        "chinese": "省",
+        "example": "Chinese province.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "state",
+        "phonetic": "/steɪt/",
+        "chinese": "州",
+        "example": "Federal state.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "region",
+        "phonetic": "/ˈriːdʒən/",
+        "chinese": "地区",
+        "example": "Mountain region.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "zone",
+        "phonetic": "/zəʊn/",
+        "chinese": "区域",
+        "example": "Time zone.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "area",
+        "phonetic": "/ˈeəriə/",
+        "chinese": "地区",
+        "example": "Local area.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "district",
+        "phonetic": "/ˈdɪstrɪkt/",
+        "chinese": "区域",
+        "example": "Business district.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "neighborhood",
+        "phonetic": "/ˈneɪbəhʊd/",
+        "chinese": "邻近",
+        "example": "Quiet neighborhood.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "community",
+        "phonetic": "/kəˈmjuːnəti/",
+        "chinese": "社区",
+        "example": "Local community.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "village",
+        "phonetic": "/ˈvɪlɪdʒ/",
+        "chinese": "村庄",
+        "example": "Small village.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "city",
+        "phonetic": "/ˈsɪti/",
+        "chinese": "城市",
+        "example": "Big city.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "town",
+        "phonetic": "/taʊn/",
+        "chinese": "小镇",
+        "example": "Small town.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "suburb",
+        "phonetic": "/ˈsʌbɜːb/",
+        "chinese": "郊区",
+        "example": "Quiet suburb.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "downtown",
+        "phonetic": "/ˌdaʊnˈtaʊn/",
+        "chinese": "市中心",
+        "example": "Downtown area.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "metropolis",
+        "phonetic": "/məˈtrɒpəlɪs/",
+        "chinese": "大都市",
+        "example": "A major metropolis.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "metropolitan",
+        "phonetic": "/ˌmetrəˈpɒlɪtən/",
+        "chinese": "大都会的",
+        "example": "Metropolitan area.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "rural",
+        "phonetic": "/ˈrʊərəl/",
+        "chinese": "乡村的",
+        "example": "Rural area.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "urban",
+        "phonetic": "/ˈɜːbən/",
+        "chinese": "城市的",
+        "example": "Urban life.",
+        "tags": "地理"
+      },
+      {
+        "level": "高中",
+        "word": "red",
+        "phonetic": "/red/",
+        "chinese": "红色",
+        "example": "Red dress.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "blue",
+        "phonetic": "/bluː/",
+        "chinese": "蓝色",
+        "example": "Blue sky.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "green",
+        "phonetic": "/ɡriːn/",
+        "chinese": "绿色",
+        "example": "Green grass.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "yellow",
+        "phonetic": "/ˈjeləʊ/",
+        "chinese": "黄色",
+        "example": "Yellow flower.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "black",
+        "phonetic": "/blæk/",
+        "chinese": "黑色",
+        "example": "Black car.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "white",
+        "phonetic": "/waɪt/",
+        "chinese": "白色",
+        "example": "White snow.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "gray",
+        "phonetic": "/ɡreɪ/",
+        "chinese": "灰色",
+        "example": "Gray sky.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "brown",
+        "phonetic": "/braʊn/",
+        "chinese": "棕色",
+        "example": "Brown eyes.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "orange",
+        "phonetic": "/ˈɒrɪndʒ/",
+        "chinese": "橙色",
+        "example": "Orange juice.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "pink",
+        "phonetic": "/pɪŋk/",
+        "chinese": "粉色",
+        "example": "Pink flower.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "purple",
+        "phonetic": "/ˈpɜːpl/",
+        "chinese": "紫色",
+        "example": "Purple grape.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "gold",
+        "phonetic": "/ɡəʊld/",
+        "chinese": "金色",
+        "example": "Gold ring.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "silver",
+        "phonetic": "/ˈsɪlvə/",
+        "chinese": "银色",
+        "example": "Silver coin.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "ivory",
+        "phonetic": "/ˈaɪvəri/",
+        "chinese": "象牙色",
+        "example": "Ivory color.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "scarlet",
+        "phonetic": "/ˈskɑːlət/",
+        "chinese": "猩红色",
+        "example": "Scarlet dress.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "beige",
+        "phonetic": "/beɪʒ/",
+        "chinese": "米色",
+        "example": "Beige wall.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "tan",
+        "phonetic": "/tæn/",
+        "chinese": "棕褐色",
+        "example": "Tan shoes.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "navy",
+        "phonetic": "/ˈneɪvi/",
+        "chinese": "海军蓝",
+        "example": "Navy blue.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "crimson",
+        "phonetic": "/ˈkrɪmzn/",
+        "chinese": "深红",
+        "example": "Crimson sky.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "olive",
+        "phonetic": "/ˈɒlɪv/",
+        "chinese": "橄榄绿",
+        "example": "Olive oil.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "turquoise",
+        "phonetic": "/ˈtɜːkwɔɪz/",
+        "chinese": "青绿色",
+        "example": "Turquoise sea.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "lavender",
+        "phonetic": "/ˈlævəndə/",
+        "chinese": "薰衣草色",
+        "example": "Lavender field.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "cream",
+        "phonetic": "/kriːm/",
+        "chinese": "奶油色",
+        "example": "Cream cake.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "maroon",
+        "phonetic": "/məˈruːn/",
+        "chinese": "栗色",
+        "example": "Maroon jacket.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "magenta",
+        "phonetic": "/məˈdʒentə/",
+        "chinese": "洋红色",
+        "example": "Magenta flowers.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "violet",
+        "phonetic": "/ˈvaɪələt/",
+        "chinese": "紫色",
+        "example": "Violet eyes.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "indigo",
+        "phonetic": "/ˈɪndɪɡəʊ/",
+        "chinese": "靛蓝",
+        "example": "Indigo dye.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "crimson",
+        "phonetic": "/ˈkrɪmzn/",
+        "chinese": "深红",
+        "example": "Crimson color.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "maroon",
+        "phonetic": "/məˈruːn/",
+        "chinese": "栗色",
+        "example": "Maroon coat.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "burgundy",
+        "phonetic": "/ˈbɜːɡəndi/",
+        "chinese": "酒红",
+        "example": "Burgundy wine.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "bronze",
+        "phonetic": "/brɒnz/",
+        "chinese": "青铜色",
+        "example": "Bronze medal.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "rust",
+        "phonetic": "/rʌst/",
+        "chinese": "铁锈色",
+        "example": "Rust red.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "dark",
+        "phonetic": "/dɑːk/",
+        "chinese": "暗色",
+        "example": "Dark blue.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "light",
+        "phonetic": "/laɪt/",
+        "chinese": "亮色",
+        "example": "Light blue.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "bright",
+        "phonetic": "/braɪt/",
+        "chinese": "明亮",
+        "example": "Bright color.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "pale",
+        "phonetic": "/peɪl/",
+        "chinese": "苍白",
+        "example": "Pale color.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "vivid",
+        "phonetic": "/ˈvɪvɪd/",
+        "chinese": "鲜艳",
+        "example": "Vivid color.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "dull",
+        "phonetic": "/dʌl/",
+        "chinese": "暗哑",
+        "example": "Dull color.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "transparent",
+        "phonetic": "/trænsˈpærənt/",
+        "chinese": "透明",
+        "example": "Transparent glass.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "opaque",
+        "phonetic": "/əˈpeɪk/",
+        "chinese": "不透明",
+        "example": "Opaque material.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "shiny",
+        "phonetic": "/ˈʃaɪni/",
+        "chinese": "闪亮",
+        "example": "Shiny surface.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "dull",
+        "phonetic": "/dʌl/",
+        "chinese": "钝",
+        "example": "Dull knife.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "smooth",
+        "phonetic": "/smuːð/",
+        "chinese": "光滑",
+        "example": "Smooth skin.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "rough",
+        "phonetic": "/rʌf/",
+        "chinese": "粗糙",
+        "example": "Rough surface.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "wet",
+        "phonetic": "/wet/",
+        "chinese": "湿的",
+        "example": "Wet clothes.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "dry",
+        "phonetic": "/draɪ/",
+        "chinese": "干的",
+        "example": "Dry weather.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "thick",
+        "phonetic": "/θɪk/",
+        "chinese": "厚的",
+        "example": "Thick book.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "thin",
+        "phonetic": "/θɪn/",
+        "chinese": "薄的",
+        "example": "Thin paper.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "warm",
+        "phonetic": "/wɔːm/",
+        "chinese": "暖的",
+        "example": "Warm day.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "cool",
+        "phonetic": "/kuːl/",
+        "chinese": "凉爽",
+        "example": "Cool breeze.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "hot",
+        "phonetic": "/hɒt/",
+        "chinese": "热的",
+        "example": "Hot summer.",
+        "tags": "颜色"
+      },
+      {
+        "level": "高中",
+        "word": "cold",
+        "phonetic": "/kəʊld/",
+        "chinese": "冷的",
+        "example": "Cold winter.",
+        "tags": "颜色"
+      }
+    ]
+  }
+}

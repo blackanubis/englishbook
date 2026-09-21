@@ -1,0 +1,382 @@
+{
+  "customVocab": {
+    "enlighten": [
+      {
+        "level": "启蒙",
+        "word": "bat",
+        "phonetic": "/bæt/",
+        "chinese": "蝙蝠",
+        "example": "Bats come out at night.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "swan",
+        "phonetic": "/swɒn/",
+        "chinese": "天鹅",
+        "example": "The swan is white.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "spider",
+        "phonetic": "/ˈspaɪdə/",
+        "chinese": "蜘蛛",
+        "example": "Spiders have eight legs.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "frog",
+        "phonetic": "/frɒɡ/",
+        "chinese": "青蛙",
+        "example": "Frogs can jump.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "worm",
+        "phonetic": "/wɜːm/",
+        "chinese": "蚯蚓",
+        "example": "Worms live in soil.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "bee",
+        "phonetic": "/biː/",
+        "chinese": "蜜蜂",
+        "example": "Bees make honey.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "butterfly",
+        "phonetic": "/ˈbʌtəflaɪ/",
+        "chinese": "蝴蝶",
+        "example": "Butterflies have wings.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "frog",
+        "phonetic": "/frɒɡ/",
+        "chinese": "青蛙",
+        "example": "Frogs like water.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "crab",
+        "phonetic": "/kræb/",
+        "chinese": "螃蟹",
+        "example": "Crabs walk sideways.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "dolphin",
+        "phonetic": "/ˈdɒlfɪn/",
+        "chinese": "海豚",
+        "example": "Dolphins are smart.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "seal",
+        "phonetic": "/siːl/",
+        "chinese": "海豹",
+        "example": "Seals can swim.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "turtle",
+        "phonetic": "/ˈtɜːtl/",
+        "chinese": "乌龟",
+        "example": "Turtles are slow.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "lizard",
+        "phonetic": "/ˈlɪzəd/",
+        "chinese": "蜥蜴",
+        "example": "Lizards have four legs.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "frog",
+        "phonetic": "/frɒɡ/",
+        "chinese": "青蛙",
+        "example": "I see a frog.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "rabbit",
+        "phonetic": "/ˈræbɪt/",
+        "chinese": "兔子",
+        "example": "Rabbits love carrots.",
+        "tags": "动物"
+      },
+      {
+        "level": "启蒙",
+        "word": "school",
+        "phonetic": "/skuːl/",
+        "chinese": "学校",
+        "example": "I go to school.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "teacher",
+        "phonetic": "/ˈtiːtʃə/",
+        "chinese": "老师",
+        "example": "My teacher is kind.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "student",
+        "phonetic": "/ˈstjuːdnt/",
+        "chinese": "学生",
+        "example": "I am a student.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "class",
+        "phonetic": "/klɑːs/",
+        "chinese": "班级",
+        "example": "I love my class.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "lesson",
+        "phonetic": "/ˈlesn/",
+        "chinese": "课程",
+        "example": "Today's lesson is fun.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "classroom",
+        "phonetic": "/ˈklɑːsruːm/",
+        "chinese": "教室",
+        "example": "The classroom is big.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "library",
+        "phonetic": "/ˈlaɪbrəri/",
+        "chinese": "图书馆",
+        "example": "I read in the library.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "blackboard",
+        "phonetic": "/ˈblækbɔːd/",
+        "chinese": "黑板",
+        "example": "Write on the blackboard.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "chalk",
+        "phonetic": "/tʃɔːk/",
+        "chinese": "粉笔",
+        "example": "Chalk is for writing.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "ruler",
+        "phonetic": "/ˈruːlə/",
+        "chinese": "尺子",
+        "example": "I draw with a ruler.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "eraser",
+        "phonetic": "/ɪˈreɪsə/",
+        "chinese": "橡皮",
+        "example": "Use the eraser.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "crayon",
+        "phonetic": "/ˈkreɪən/",
+        "chinese": "蜡笔",
+        "example": "I draw with crayons.",
+        "tags": "学校"
+      },
+      {
+        "level": "启蒙",
+        "word": "sun",
+        "phonetic": "/sʌn/",
+        "chinese": "太阳",
+        "example": "The sun is bright.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "moon",
+        "phonetic": "/muːn/",
+        "chinese": "月亮",
+        "example": "The moon is round.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "star",
+        "phonetic": "/stɑː/",
+        "chinese": "星星",
+        "example": "Stars shine at night.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "sky",
+        "phonetic": "/skaɪ/",
+        "chinese": "天空",
+        "example": "The sky is blue.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "cloud",
+        "phonetic": "/klaʊd/",
+        "chinese": "云",
+        "example": "The cloud is white.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "rain",
+        "phonetic": "/reɪn/",
+        "chinese": "雨",
+        "example": "It will rain tomorrow.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "snow",
+        "phonetic": "/snəʊ/",
+        "chinese": "雪",
+        "example": "Snow is white.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "wind",
+        "phonetic": "/wɪnd/",
+        "chinese": "风",
+        "example": "The wind blows.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "tree",
+        "phonetic": "/triː/",
+        "chinese": "树",
+        "example": "The tree is tall.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "flower",
+        "phonetic": "/ˈflaʊə/",
+        "chinese": "花",
+        "example": "The flower is pretty.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "day",
+        "phonetic": "/deɪ/",
+        "chinese": "白天",
+        "example": "It is a sunny day.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "night",
+        "phonetic": "/naɪt/",
+        "chinese": "夜晚",
+        "example": "It is dark at night.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "morning",
+        "phonetic": "/ˈmɔːnɪŋ/",
+        "chinese": "早晨",
+        "example": "Good morning!",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "afternoon",
+        "phonetic": "/ˌɑːftəˈnuːn/",
+        "chinese": "下午",
+        "example": "Good afternoon.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "evening",
+        "phonetic": "/ˈiːvnɪŋ/",
+        "chinese": "傍晚",
+        "example": "Good evening.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "today",
+        "phonetic": "/təˈdeɪ/",
+        "chinese": "今天",
+        "example": "Today is Monday.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "tomorrow",
+        "phonetic": "/təˈmɒrəʊ/",
+        "chinese": "明天",
+        "example": "See you tomorrow.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "yesterday",
+        "phonetic": "/ˈjestədeɪ/",
+        "chinese": "昨天",
+        "example": "Yesterday was fun.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "week",
+        "phonetic": "/wiːk/",
+        "chinese": "周",
+        "example": "There are 7 days in a week.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "year",
+        "phonetic": "/jɪə/",
+        "chinese": "年",
+        "example": "Happy New Year!",
+        "tags": "时间"
+      }
+    ]
+  }
+}

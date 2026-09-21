@@ -1,0 +1,806 @@
+{
+  "customVocab": {
+    "primary": [
+      {
+        "level": "小学",
+        "word": "blizzard",
+        "phonetic": "/ˈblɪzəd/",
+        "chinese": "暴风雪",
+        "example": "A bad blizzard.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "breeze",
+        "phonetic": "/briːz/",
+        "chinese": "微风",
+        "example": "A cool breeze.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "climate",
+        "phonetic": "/ˈklaɪmət/",
+        "chinese": "气候",
+        "example": "A warm climate.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "cloud",
+        "phonetic": "/klaʊd/",
+        "chinese": "云",
+        "example": "White clouds.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "dew",
+        "phonetic": "/djuː/",
+        "chinese": "露水",
+        "example": "Morning dew.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "earthquake",
+        "phonetic": "/ˈɜːθkweɪk/",
+        "chinese": "地震",
+        "example": "A big earthquake.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "flood",
+        "phonetic": "/flʌd/",
+        "chinese": "洪水",
+        "example": "A bad flood.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "fog",
+        "phonetic": "/fɒɡ/",
+        "chinese": "雾",
+        "example": "Thick fog.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "frost",
+        "phonetic": "/frɒst/",
+        "chinese": "霜",
+        "example": "Morning frost.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "hail",
+        "phonetic": "/heɪl/",
+        "chinese": "冰雹",
+        "example": "Heavy hail.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "hurricane",
+        "phonetic": "/ˈhʌrɪkən/",
+        "chinese": "飓风",
+        "example": "A strong hurricane.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "lightning",
+        "phonetic": "/ˈlaɪtnɪŋ/",
+        "chinese": "闪电",
+        "example": "Bright lightning.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "meadow",
+        "phonetic": "/ˈmedəʊ/",
+        "chinese": "草地",
+        "example": "A green meadow.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "mist",
+        "phonetic": "/mɪst/",
+        "chinese": "薄雾",
+        "example": "Morning mist.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "rainbow",
+        "phonetic": "/ˈreɪnbəʊ/",
+        "chinese": "彩虹",
+        "example": "A bright rainbow.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "storm",
+        "phonetic": "/stɔːm/",
+        "chinese": "风暴",
+        "example": "A bad storm.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "thunder",
+        "phonetic": "/ˈθʌndə/",
+        "chinese": "雷",
+        "example": "Loud thunder.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "tornado",
+        "phonetic": "/tɔːˈneɪdəʊ/",
+        "chinese": "龙卷风",
+        "example": "A strong tornado.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "tsunami",
+        "phonetic": "/tsuːˈnɑːmi/",
+        "chinese": "海啸",
+        "example": "A big tsunami.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "volcano",
+        "phonetic": "/vɒlˈkeɪnəʊ/",
+        "chinese": "火山",
+        "example": "An active volcano.",
+        "tags": "自然"
+      },
+      {
+        "level": "小学",
+        "word": "ankle",
+        "phonetic": "/ˈæŋkl/",
+        "chinese": "脚踝",
+        "example": "I hurt my ankle.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "back",
+        "phonetic": "/bæk/",
+        "chinese": "背",
+        "example": "My back hurts.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "beard",
+        "phonetic": "/bɪəd/",
+        "chinese": "胡须",
+        "example": "He has a beard.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "brain",
+        "phonetic": "/breɪn/",
+        "chinese": "大脑",
+        "example": "Use your brain.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "cheek",
+        "phonetic": "/tʃiːk/",
+        "chinese": "脸颊",
+        "example": "Rosy cheeks.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "chest",
+        "phonetic": "/tʃest/",
+        "chinese": "胸部",
+        "example": "A broad chest.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "chin",
+        "phonetic": "/tʃɪn/",
+        "chinese": "下巴",
+        "example": "Touch your chin.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "elbow",
+        "phonetic": "/ˈelbəʊ/",
+        "chinese": "肘",
+        "example": "Bend your elbow.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "eyebrow",
+        "phonetic": "/ˈaɪbraʊ/",
+        "chinese": "眉毛",
+        "example": "Thick eyebrows.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "eyelash",
+        "phonetic": "/ˈaɪlæʃ/",
+        "chinese": "睫毛",
+        "example": "Long eyelashes.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "fingernail",
+        "phonetic": "/ˈfɪŋɡəneɪl/",
+        "chinese": "指甲",
+        "example": "Cut fingernails.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "forehead",
+        "phonetic": "/ˈfɒrɪd/",
+        "chinese": "前额",
+        "example": "Touch your forehead.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "hip",
+        "phonetic": "/hɪp/",
+        "chinese": "臀部",
+        "example": "Move your hip.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "knee",
+        "phonetic": "/niː/",
+        "chinese": "膝盖",
+        "example": "I hurt my knee.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "lip",
+        "phonetic": "/lɪp/",
+        "chinese": "嘴唇",
+        "example": "Big lips.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "moustache",
+        "phonetic": "/məˈstɑːʃ/",
+        "chinese": "小胡子",
+        "example": "He has a moustache.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "nail",
+        "phonetic": "/neɪl/",
+        "chinese": "指甲",
+        "example": "Trim nails.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "palm",
+        "phonetic": "/pɑːm/",
+        "chinese": "手掌",
+        "example": "Wash your palms.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "shoulder",
+        "phonetic": "/ˈʃəʊldə/",
+        "chinese": "肩膀",
+        "example": "Pat on shoulder.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "stomach",
+        "phonetic": "/ˈstʌmək/",
+        "chinese": "胃；肚子",
+        "example": "My stomach hurts.",
+        "tags": "身体"
+      },
+      {
+        "level": "小学",
+        "word": "ambulance",
+        "phonetic": "/ˈæmbjʊləns/",
+        "chinese": "救护车",
+        "example": "Call an ambulance.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "bicycle",
+        "phonetic": "/ˈbaɪsɪkl/",
+        "chinese": "自行车",
+        "example": "Ride a bicycle.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "bulldozer",
+        "phonetic": "/ˈbʊldəʊzə/",
+        "chinese": "推土机",
+        "example": "A big bulldozer.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "crane",
+        "phonetic": "/kreɪn/",
+        "chinese": "起重机",
+        "example": "Use a crane.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "cruise",
+        "phonetic": "/kruːz/",
+        "chinese": "巡游",
+        "example": "A cruise ship.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "engine",
+        "phonetic": "/ˈendʒɪn/",
+        "chinese": "发动机",
+        "example": "Car engine.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "ferry",
+        "phonetic": "/ˈferi/",
+        "chinese": "渡船",
+        "example": "Take the ferry.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "helicopter",
+        "phonetic": "/ˈhelɪkɒptə/",
+        "chinese": "直升机",
+        "example": "A flying helicopter.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "motorcycle",
+        "phonetic": "/ˈməʊtəsaɪkl/",
+        "chinese": "摩托车",
+        "example": "Ride a motorcycle.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "rocket",
+        "phonetic": "/ˈrɒkɪt/",
+        "chinese": "火箭",
+        "example": "A space rocket.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "scooter",
+        "phonetic": "/ˈskuːtə/",
+        "chinese": "滑板车",
+        "example": "Ride a scooter.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "sleigh",
+        "phonetic": "/sleɪ/",
+        "chinese": "雪橇",
+        "example": "Ride a sleigh.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "submarine",
+        "phonetic": "/ˈsʌbməriːn/",
+        "chinese": "潜艇",
+        "example": "A deep submarine.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "traffic",
+        "phonetic": "/ˈtræfɪk/",
+        "chinese": "交通",
+        "example": "Heavy traffic.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "van",
+        "phonetic": "/væn/",
+        "chinese": "货车",
+        "example": "A big van.",
+        "tags": "交通"
+      },
+      {
+        "level": "小学",
+        "word": "backpack",
+        "phonetic": "/ˈbækpæk/",
+        "chinese": "背包",
+        "example": "Carry my backpack.",
+        "tags": "学校"
+      },
+      {
+        "level": "小学",
+        "word": "calculator",
+        "phonetic": "/ˈkælkjʊleɪtə/",
+        "chinese": "计算器",
+        "example": "Use a calculator.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "calendar",
+        "phonetic": "/ˈkælɪndə/",
+        "chinese": "日历",
+        "example": "Look at calendar.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "certificate",
+        "phonetic": "/səˈtɪfɪkət/",
+        "chinese": "证书",
+        "example": "Get a certificate.",
+        "tags": "学校"
+      },
+      {
+        "level": "小学",
+        "word": "dictionary",
+        "phonetic": "/ˈdɪkʃənri/",
+        "chinese": "词典",
+        "example": "Use the dictionary.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "drum",
+        "phonetic": "/drʌm/",
+        "chinese": "鼓",
+        "example": "Play the drum.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "eraser",
+        "phonetic": "/ɪˈreɪsə/",
+        "chinese": "橡皮",
+        "example": "Use an eraser.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "exam",
+        "phonetic": "/ɪɡˈzæm/",
+        "chinese": "考试",
+        "example": "Pass the exam.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "flag",
+        "phonetic": "/flæɡ/",
+        "chinese": "旗帜",
+        "example": "Raise the flag.",
+        "tags": "学校"
+      },
+      {
+        "level": "小学",
+        "word": "glue",
+        "phonetic": "/ɡluː/",
+        "chinese": "胶水",
+        "example": "Apply the glue.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "map",
+        "phonetic": "/mæp/",
+        "chinese": "地图",
+        "example": "Draw a map.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "marker",
+        "phonetic": "/ˈmɑːkə/",
+        "chinese": "记号笔",
+        "example": "Use a marker.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "notebook",
+        "phonetic": "/ˈnəʊtbʊk/",
+        "chinese": "笔记本",
+        "example": "Write in notebook.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "paint",
+        "phonetic": "/peɪnt/",
+        "chinese": "颜料",
+        "example": "Use paint.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "scissors",
+        "phonetic": "/ˈsɪzəz/",
+        "chinese": "剪刀",
+        "example": "Cut with scissors.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "accordion",
+        "phonetic": "/əˈkɔːdiən/",
+        "chinese": "手风琴",
+        "example": "Play accordion.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "cello",
+        "phonetic": "/ˈtʃeləʊ/",
+        "chinese": "大提琴",
+        "example": "Play the cello.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "clarinet",
+        "phonetic": "/ˌklærəˈnet/",
+        "chinese": "单簧管",
+        "example": "Play clarinet.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "cymbal",
+        "phonetic": "/ˈsɪmbl/",
+        "chinese": "钹",
+        "example": "Hit the cymbal.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "flute",
+        "phonetic": "/fluːt/",
+        "chinese": "长笛",
+        "example": "Play flute.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "guitar",
+        "phonetic": "/ɡɪˈtɑː/",
+        "chinese": "吉他",
+        "example": "Play guitar.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "harmonica",
+        "phonetic": "/hɑːˈmɒnɪkə/",
+        "chinese": "口琴",
+        "example": "Play harmonica.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "harp",
+        "phonetic": "/hɑːp/",
+        "chinese": "竖琴",
+        "example": "Play the harp.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "keyboard",
+        "phonetic": "/ˈkiːbɔːd/",
+        "chinese": "键盘",
+        "example": "Play keyboard.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "piano",
+        "phonetic": "/piˈænəʊ/",
+        "chinese": "钢琴",
+        "example": "Play piano.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "recorder",
+        "phonetic": "/rɪˈkɔːdə/",
+        "chinese": "录音机",
+        "example": "Use a recorder.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "saxophone",
+        "phonetic": "/ˈsæksəfəʊn/",
+        "chinese": "萨克斯",
+        "example": "Play saxophone.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "trumpet",
+        "phonetic": "/ˈtrʌmpɪt/",
+        "chinese": "小号",
+        "example": "Play trumpet.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "violin",
+        "phonetic": "/ˌvaɪəˈlɪn/",
+        "chinese": "小提琴",
+        "example": "Play violin.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "xylophone",
+        "phonetic": "/ˈzaɪləfəʊn/",
+        "chinese": "木琴",
+        "example": "Play xylophone.",
+        "tags": "音乐"
+      },
+      {
+        "level": "小学",
+        "word": "baker",
+        "phonetic": "/ˈbeɪkə/",
+        "chinese": "面包师",
+        "example": "The baker makes bread.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "butcher",
+        "phonetic": "/ˈbʊtʃə/",
+        "chinese": "屠夫",
+        "example": "The butcher sells meat.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "carpenter",
+        "phonetic": "/ˈkɑːpɪntə/",
+        "chinese": "木匠",
+        "example": "The carpenter builds.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "dentist",
+        "phonetic": "/ˈdentɪst/",
+        "chinese": "牙医",
+        "example": "Visit the dentist.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "electrician",
+        "phonetic": "/ɪˌlekˈtrɪʃn/",
+        "chinese": "电工",
+        "example": "Call an electrician.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "engineer",
+        "phonetic": "/ˌendʒɪˈnɪə/",
+        "chinese": "工程师",
+        "example": "An engineer.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "farmer",
+        "phonetic": "/ˈfɑːmə/",
+        "chinese": "农民",
+        "example": "The farmer.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "fisherman",
+        "phonetic": "/ˈfɪʃəmən/",
+        "chinese": "渔民",
+        "example": "The fisherman.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "florist",
+        "phonetic": "/ˈflɒrɪst/",
+        "chinese": "花商",
+        "example": "Visit the florist.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "hairdresser",
+        "phonetic": "/ˈheədresə/",
+        "chinese": "发型师",
+        "example": "Visit hairdresser.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "judge",
+        "phonetic": "/dʒʌdʒ/",
+        "chinese": "法官",
+        "example": "A fair judge.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "magician",
+        "phonetic": "/məˈdʒɪʃn/",
+        "chinese": "魔术师",
+        "example": "The magician.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "mechanic",
+        "phonetic": "/məˈkænɪk/",
+        "chinese": "机械师",
+        "example": "A car mechanic.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "plumber",
+        "phonetic": "/ˈplʌmə/",
+        "chinese": "水管工",
+        "example": "Call a plumber.",
+        "tags": "职业"
+      },
+      {
+        "level": "小学",
+        "word": "vet",
+        "phonetic": "/vet/",
+        "chinese": "兽医",
+        "example": "Visit the vet.",
+        "tags": "职业"
+      }
+    ]
+  }
+}

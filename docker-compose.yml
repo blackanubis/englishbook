@@ -1,0 +1,34 @@
+# ============ 英语学习网页 · 一键部署 ============
+# 用法：docker-compose up -d
+# 访问：http://<your-ip>:13001
+
+version: "3.8"
+
+services:
+  englishbook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: englishbook
+    restart: unless-stopped
+    ports:
+      # 端口映射：宿主 13001 → 容器 13001
+      - "13001:13001"
+    volumes:
+      # 可选：挂载 JSON 数据目录以便热更新词库（替换文件后需重启容器）
+      # - ./vocab-data:/usr/share/nginx/html/vocab-data:ro
+      # - ./sentence-data:/usr/share/nginx/html/sentence-data:ro
+      # - ./vocab-data-js:/usr/share/nginx/html/vocab-data-js:ro
+      # - ./sentence-data-js:/usr/share/nginx/html/sentence-data-js:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    restart: unless-stopped

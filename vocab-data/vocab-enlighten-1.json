@@ -1,0 +1,598 @@
+{
+  "customVocab": {
+    "enlighten": [
+      {
+        "level": "启蒙",
+        "word": "orange",
+        "phonetic": "/ˈɒrɪndʒ/",
+        "chinese": "橙子",
+        "example": "The orange is sweet.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "pear",
+        "phonetic": "/peə/",
+        "chinese": "梨",
+        "example": "I eat a pear.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "peach",
+        "phonetic": "/piːtʃ/",
+        "chinese": "桃子",
+        "example": "The peach is juicy.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "grape",
+        "phonetic": "/ɡreɪp/",
+        "chinese": "葡萄",
+        "example": "Grapes grow on vines.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "strawberry",
+        "phonetic": "/ˈstrɔːbəri/",
+        "chinese": "草莓",
+        "example": "Strawberries are red.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "watermelon",
+        "phonetic": "/ˈwɔːtəmelən/",
+        "chinese": "西瓜",
+        "example": "The watermelon is big.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "lemon",
+        "phonetic": "/ˈlemən/",
+        "chinese": "柠檬",
+        "example": "Lemons are sour.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "mango",
+        "phonetic": "/ˈmæŋɡəʊ/",
+        "chinese": "芒果",
+        "example": "Mango is sweet.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "pineapple",
+        "phonetic": "/ˈpaɪnæpl/",
+        "chinese": "菠萝",
+        "example": "Pineapples are spiky.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "cherry",
+        "phonetic": "/ˈtʃeri/",
+        "chinese": "樱桃",
+        "example": "Cherries are small.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "kiwi",
+        "phonetic": "/ˈkiːwiː/",
+        "chinese": "猕猴桃",
+        "example": "Kiwis are green inside.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "coconut",
+        "phonetic": "/ˈkəʊkənʌt/",
+        "chinese": "椰子",
+        "example": "Coconuts grow on palms.",
+        "tags": "水果"
+      },
+      {
+        "level": "启蒙",
+        "word": "purple",
+        "phonetic": "/ˈpɜːpl/",
+        "chinese": "紫色",
+        "example": "The grape is purple.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "pink",
+        "phonetic": "/pɪŋk/",
+        "chinese": "粉色",
+        "example": "Pink flowers are pretty.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "brown",
+        "phonetic": "/braʊn/",
+        "chinese": "棕色",
+        "example": "The bear is brown.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "gray",
+        "phonetic": "/ɡreɪ/",
+        "chinese": "灰色",
+        "example": "The elephant is gray.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "gold",
+        "phonetic": "/ɡəʊld/",
+        "chinese": "金色",
+        "example": "The sun looks gold.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "silver",
+        "phonetic": "/ˈsɪlvə/",
+        "chinese": "银色",
+        "example": "Cars can be silver.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "orange color",
+        "phonetic": "/ˈɒrɪndʒ ˈkʌlə/",
+        "chinese": "橙色",
+        "example": "The carrot is orange.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "bright",
+        "phonetic": "/braɪt/",
+        "chinese": "明亮的",
+        "example": "The sun is bright.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "dark",
+        "phonetic": "/dɑːk/",
+        "chinese": "黑暗的",
+        "example": "It is dark at night.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "light",
+        "phonetic": "/laɪt/",
+        "chinese": "浅色的；光",
+        "example": "I love light blue.",
+        "tags": "颜色"
+      },
+      {
+        "level": "启蒙",
+        "word": "six",
+        "phonetic": "/sɪks/",
+        "chinese": "六",
+        "example": "There are six apples.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "seven",
+        "phonetic": "/ˈsevn/",
+        "chinese": "七",
+        "example": "Seven days a week.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "eight",
+        "phonetic": "/eɪt/",
+        "chinese": "八",
+        "example": "I have eight crayons.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "nine",
+        "phonetic": "/naɪn/",
+        "chinese": "九",
+        "example": "Nine cats meow.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "ten",
+        "phonetic": "/ten/",
+        "chinese": "十",
+        "example": "I have ten fingers.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "zero",
+        "phonetic": "/ˈzɪərəʊ/",
+        "chinese": "零",
+        "example": "Zero is nothing.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "first",
+        "phonetic": "/fɜːst/",
+        "chinese": "第一",
+        "example": "I am first.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "second",
+        "phonetic": "/ˈsekənd/",
+        "chinese": "第二",
+        "example": "You are second.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "many",
+        "phonetic": "/ˈmeni/",
+        "chinese": "许多",
+        "example": "There are many stars.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "few",
+        "phonetic": "/fjuː/",
+        "chinese": "少数",
+        "example": "I have a few books.",
+        "tags": "数字"
+      },
+      {
+        "level": "启蒙",
+        "word": "grandma",
+        "phonetic": "/ˈɡrænmɑː/",
+        "chinese": "奶奶",
+        "example": "I love my grandma.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "grandpa",
+        "phonetic": "/ˈɡrænpɑː/",
+        "chinese": "爷爷",
+        "example": "Grandpa tells stories.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "aunt",
+        "phonetic": "/ɑːnt/",
+        "chinese": "阿姨",
+        "example": "Aunt Lily is kind.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "uncle",
+        "phonetic": "/ˈʌŋkl/",
+        "chinese": "叔叔",
+        "example": "Uncle Tom is funny.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "cousin",
+        "phonetic": "/ˈkʌzn/",
+        "chinese": "表亲",
+        "example": "My cousin is my age.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "sister",
+        "phonetic": "/ˈsɪstə/",
+        "chinese": "姐姐/妹妹",
+        "example": "My sister is young.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "brother",
+        "phonetic": "/ˈbrʌðə/",
+        "chinese": "哥哥/弟弟",
+        "example": "My brother plays football.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "family",
+        "phonetic": "/ˈfæməli/",
+        "chinese": "家庭",
+        "example": "I love my family.",
+        "tags": "家庭"
+      },
+      {
+        "level": "启蒙",
+        "word": "body",
+        "phonetic": "/ˈbɒdi/",
+        "chinese": "身体",
+        "example": "My body is healthy.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "head",
+        "phonetic": "/hed/",
+        "chinese": "头",
+        "example": "Use your head.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "face",
+        "phonetic": "/feɪs/",
+        "chinese": "脸",
+        "example": "Wash your face.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "eye",
+        "phonetic": "/aɪ/",
+        "chinese": "眼睛",
+        "example": "I have two eyes.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "ear",
+        "phonetic": "/ɪə/",
+        "chinese": "耳朵",
+        "example": "Rabbits have long ears.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "nose",
+        "phonetic": "/nəʊz/",
+        "chinese": "鼻子",
+        "example": "I smell with my nose.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "mouth",
+        "phonetic": "/maʊθ/",
+        "chinese": "嘴",
+        "example": "Open your mouth.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "hand",
+        "phonetic": "/hænd/",
+        "chinese": "手",
+        "example": "Wash your hands.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "foot",
+        "phonetic": "/fʊt/",
+        "chinese": "脚",
+        "example": "My foot hurts.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "leg",
+        "phonetic": "/leɡ/",
+        "chinese": "腿",
+        "example": "A dog has four legs.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "arm",
+        "phonetic": "/ɑːm/",
+        "chinese": "胳膊",
+        "example": "Raise your arm.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "finger",
+        "phonetic": "/ˈfɪŋɡə/",
+        "chinese": "手指",
+        "example": "I have ten fingers.",
+        "tags": "身体"
+      },
+      {
+        "level": "启蒙",
+        "word": "shirt",
+        "phonetic": "/ʃɜːt/",
+        "chinese": "衬衫",
+        "example": "He wears a white shirt.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "pants",
+        "phonetic": "/pænts/",
+        "chinese": "裤子",
+        "example": "My pants are blue.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "shoes",
+        "phonetic": "/ʃuːz/",
+        "chinese": "鞋",
+        "example": "I wear new shoes.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "hat",
+        "phonetic": "/hæt/",
+        "chinese": "帽子",
+        "example": "Wear your hat.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "coat",
+        "phonetic": "/kəʊt/",
+        "chinese": "外套",
+        "example": "Put on your coat.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "dress",
+        "phonetic": "/dres/",
+        "chinese": "连衣裙",
+        "example": "The dress is pretty.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "sock",
+        "phonetic": "/sɒk/",
+        "chinese": "袜子",
+        "example": "I have two socks.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "cap",
+        "phonetic": "/kæp/",
+        "chinese": "鸭舌帽",
+        "example": "He wears a cap.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "scarf",
+        "phonetic": "/skɑːf/",
+        "chinese": "围巾",
+        "example": "Mom wears a scarf.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "glove",
+        "phonetic": "/ɡlʌv/",
+        "chinese": "手套",
+        "example": "Wear gloves in winter.",
+        "tags": "衣物"
+      },
+      {
+        "level": "启蒙",
+        "word": "book",
+        "phonetic": "/bʊk/",
+        "chinese": "书",
+        "example": "I read a book.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "pen",
+        "phonetic": "/pen/",
+        "chinese": "钢笔",
+        "example": "I write with a pen.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "pencil",
+        "phonetic": "/ˈpensl/",
+        "chinese": "铅笔",
+        "example": "Draw with a pencil.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "bag",
+        "phonetic": "/bæɡ/",
+        "chinese": "包",
+        "example": "I carry a bag.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "desk",
+        "phonetic": "/desk/",
+        "chinese": "书桌",
+        "example": "The book is on the desk.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "chair",
+        "phonetic": "/tʃeə/",
+        "chinese": "椅子",
+        "example": "Sit on the chair.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "table",
+        "phonetic": "/ˈteɪbl/",
+        "chinese": "桌子",
+        "example": "Food is on the table.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "bed",
+        "phonetic": "/bed/",
+        "chinese": "床",
+        "example": "I sleep on the bed.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "door",
+        "phonetic": "/dɔː/",
+        "chinese": "门",
+        "example": "Close the door.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "window",
+        "phonetic": "/ˈwɪndəʊ/",
+        "chinese": "窗户",
+        "example": "Open the window.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "lamp",
+        "phonetic": "/læmp/",
+        "chinese": "灯",
+        "example": "Turn on the lamp.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "clock",
+        "phonetic": "/klɒk/",
+        "chinese": "时钟",
+        "example": "The clock ticks.",
+        "tags": "物品"
+      }
+    ]
+  }
+}

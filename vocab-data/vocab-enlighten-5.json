@@ -1,0 +1,166 @@
+{
+  "customVocab": {
+    "enlighten": [
+      {
+        "level": "启蒙",
+        "word": "glasses",
+        "phonetic": "/ˈɡlɑːsɪz/",
+        "chinese": "眼镜",
+        "example": "Dad wears glasses.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "comb",
+        "phonetic": "/kəʊm/",
+        "chinese": "梳子",
+        "example": "Comb your hair.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "soap",
+        "phonetic": "/səʊp/",
+        "chinese": "肥皂",
+        "example": "Wash with soap.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "towel",
+        "phonetic": "/ˈtaʊəl/",
+        "chinese": "毛巾",
+        "example": "Use the towel.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "mirror",
+        "phonetic": "/ˈmɪrə/",
+        "chinese": "镜子",
+        "example": "Look in the mirror.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "purse",
+        "phonetic": "/pɜːs/",
+        "chinese": "钱包",
+        "example": "My purse is small.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "key",
+        "phonetic": "/kiː/",
+        "chinese": "钥匙",
+        "example": "Open with a key.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "lock",
+        "phonetic": "/lɒk/",
+        "chinese": "锁",
+        "example": "Lock the door.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "rope",
+        "phonetic": "/rəʊp/",
+        "chinese": "绳子",
+        "example": "Tie the rope.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "stick",
+        "phonetic": "/stɪk/",
+        "chinese": "棍子",
+        "example": "A wooden stick.",
+        "tags": "物品"
+      },
+      {
+        "level": "启蒙",
+        "word": "stone",
+        "phonetic": "/stəʊn/",
+        "chinese": "石头",
+        "example": "A small stone.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "sand",
+        "phonetic": "/sænd/",
+        "chinese": "沙子",
+        "example": "Sand is at the beach.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "waterfall",
+        "phonetic": "/ˈwɔːtəfɔːl/",
+        "chinese": "瀑布",
+        "example": "A tall waterfall.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "rainbow",
+        "phonetic": "/ˈreɪnbəʊ/",
+        "chinese": "彩虹",
+        "example": "A colorful rainbow.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "field",
+        "phonetic": "/fiːld/",
+        "chinese": "田地",
+        "example": "A green field.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "hill",
+        "phonetic": "/hɪl/",
+        "chinese": "小山",
+        "example": "Climb the hill.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "cave",
+        "phonetic": "/keɪv/",
+        "chinese": "洞穴",
+        "example": "A dark cave.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "pond",
+        "phonetic": "/pɒnd/",
+        "chinese": "池塘",
+        "example": "Fish live in the pond.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "island",
+        "phonetic": "/ˈaɪlənd/",
+        "chinese": "岛屿",
+        "example": "A small island.",
+        "tags": "自然"
+      },
+      {
+        "level": "启蒙",
+        "word": "bridge",
+        "phonetic": "/brɪdʒ/",
+        "chinese": "桥",
+        "example": "Cross the bridge.",
+        "tags": "自然"
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+# 英语分级词汇练习网页 · 江苏版
+
+> 一个零依赖、纯静态、可 Docker 一键部署的英语学习网页
+
+## ✨ 特性
+
+- 📚 **覆盖完整学段**：启蒙 → 小学 → 初中 → 高中 + 江苏特色词汇
+- 📊 **内置 + 扩展词库**：5300+ 词条，含音标、释义、例句
+- 📖 **配套句子库**：800+ 句型，覆盖高考作文模板、阅读理解、商务口语
+- 🎯 **5 大功能模块**：单词卡片、句子练习、练习中心、错题本、学习统计
+- 💾 **本地存储**：所有学习数据保存在浏览器 localStorage
+- 🚀 **零依赖**：单文件 HTML，无后端，纯静态部署
+- 🐳 **Docker 一键部署**：内含完整 Docker 化方案
+
+## 📁 项目结构
+
+```
+english-vocab-practice/
+├── index.html               # 主程序（所有逻辑都在内）
+├── vocab-data/              # 词汇库原始 JSON
+│   ├── vocab-enlighten-1.json ~ vocab-enlighten-5.json
+│   ├── vocab-primary.json + vocab-primary-1~6.json
+│   ├── vocab-junior.json + vocab-junior-1~5.json
+│   ├── vocab-senior.json + vocab-senior-1~9.json
+│   └── README.md            # 词汇说明
+├── sentence-data/           # 句子库原始 JSON
+│   └── sentences-batch-1/2/3.json
+├── vocab-data-js/           # 词汇库自动加载模块（构建时生成）
+├── sentence-data-js/        # 句子库自动加载模块（构建时生成）
+├── Dockerfile               # Docker 镜像构建文件
+├── docker-compose.yml       # 一键部署配置
+├── nginx.conf               # Nginx 配置（端口 13001、gzip、缓存）
+└── .gitignore
+```
+
+## 🐳 Docker 部署（推荐）
+
+### 前置要求
+
+- Docker Engine >= 20.10
+- Docker Compose v2
+
+### 一键部署
+
+```bash
+# 克隆仓库
+git clone https://github.com/blackanubis/englishbook.git
+cd englishbook
+
+# 一键启动（后台模式）
+docker-compose up -d
+
+# 查看日志
+docker-compose logs -f
+
+# 停止
+docker-compose down
+
+# 重新构建（修改文件后）
+docker-compose up -d --build
+```
+
+部署后访问：**http://localhost:13001**
+
+如需修改端口，编辑 `docker-compose.yml` 中的 `"13001:13001"`。
+
+### 手动 Docker 命令
+
+```bash
+# 构建镜像
+docker build -t englishbook:latest .
+
+# 运行
+docker run -d --name englishbook -p 13001:13001 --restart unless-stopped englishbook:latest
+
+# 停止
+docker stop englishbook
+
+# 查看日志
+docker logs englishbook
+```
+
+### 镜像信息
+
+- **基础镜像**：`nginx:1.27-alpine`（约 8MB）
+- **大小**：约 30MB（含词库 + 句子库）
+- **健康检查**：每 30 秒访问首页
+
+## 🔧 不使用 Docker 的部署
+
+### 方式 1：Nginx 手动部署
+
+```nginx
+server {
+    listen 8080;
+    server_name _;
+    root /path/to/english-vocab-practice;
+    index index.html;
+}
+```
+
+### 方式 2：Python 简易 HTTP 服务器
+
+```bash
+cd english-vocab-practice
+python -m http.server 8080
+```
+
+### 方式 3：直接打开
+
+```bash
+# 直接双击 index.html（注意：部分浏览器对 file:// 的同源策略可能限制）
+open index.html  # macOS
+xdg-open index.html  # Linux
+start index.html  # Windows
+```
+
+## 🔄 更新词库
+
+如需添加新词或新句子：
+
+1. 修改 `vocab-data/*.json` 或 `sentence-data/*.json`
+2. 重新构建镜像：`docker-compose up -d --build`
+3. 浏览器强制刷新：Ctrl + F5
+
+## ⚙️ Nginx 配置特性
+
+- ✅ 端口 13001
+- ✅ Gzip 压缩（节省 60-70% 带宽）
+- ✅ 静态资源长缓存（JS/CSS 7 天，图片 30 天）
+- ✅ HTML 不缓存（更新立即可见）
+- ✅ MIME 类型兜底
+- ✅ 健康检查（自动监控容器状态）
+
+## 📊 词汇库统计
+
+| 学段 | 词数 |
+|------|------|
+| 启蒙 | 300 |
+| 小学 | 800 |
+| 初中 | 1675 |
+| 高中 | 3536 |
+| 江苏特色 | 400+ |
+| **总计** | **5300+** |
+
+## 📝 许可证
+
+MIT

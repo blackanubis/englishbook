@@ -1,0 +1,14 @@
+{
+  "customVocab": {
+    "primary": [
+      {
+        "level": "小学",
+        "word": "Thursday",
+        "phonetic": "/ˈθɜːzdeɪ/",
+        "chinese": "星期四",
+        "example": "Today is Thursday.",
+        "tags": "时间"
+      }
+    ]
+  }
+}

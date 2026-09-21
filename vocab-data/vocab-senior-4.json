@@ -1,0 +1,4646 @@
+{
+  "customVocab": {
+    "senior": [
+      {
+        "level": "高中",
+        "word": "fade",
+        "phonetic": "/feɪd/",
+        "chinese": "褪色",
+        "example": "The color fades.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fail",
+        "phonetic": "/feɪl/",
+        "chinese": "失败",
+        "example": "Don't fail.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fall",
+        "phonetic": "/fɔːl/",
+        "chinese": "落下",
+        "example": "Fall down.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "familiarize",
+        "phonetic": "/fəˈmɪliəraɪz/",
+        "chinese": "使熟悉",
+        "example": "Familiarize yourself.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fancy",
+        "phonetic": "/ˈfænsi/",
+        "chinese": "喜爱",
+        "example": "I fancy that.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "farm",
+        "phonetic": "/fɑːm/",
+        "chinese": "耕种",
+        "example": "Farm the land.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fasten",
+        "phonetic": "/ˈfɑːsn/",
+        "chinese": "系紧",
+        "example": "Fasten the belt.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "favor",
+        "phonetic": "/ˈfeɪvə/",
+        "chinese": "支持",
+        "example": "Favor this plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fear",
+        "phonetic": "/fɪə/",
+        "chinese": "害怕",
+        "example": "Fear nothing.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "feature",
+        "phonetic": "/ˈfiːtʃə/",
+        "chinese": "以...为特色",
+        "example": "Feature art.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "feed",
+        "phonetic": "/fiːd/",
+        "chinese": "喂",
+        "example": "Feed the cat.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "feel",
+        "phonetic": "/fiːl/",
+        "chinese": "感觉",
+        "example": "Feel happy.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fight",
+        "phonetic": "/faɪt/",
+        "chinese": "战斗",
+        "example": "Fight for peace.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "figure",
+        "phonetic": "/ˈfɪɡə/",
+        "chinese": "计算",
+        "example": "Figure out.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "file",
+        "phonetic": "/faɪl/",
+        "chinese": "提交",
+        "example": "File a report.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fill",
+        "phonetic": "/fɪl/",
+        "chinese": "填满",
+        "example": "Fill the cup.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "filter",
+        "phonetic": "/ˈfɪltə/",
+        "chinese": "过滤",
+        "example": "Filter water.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "finance",
+        "phonetic": "/ˈfaɪnæns/",
+        "chinese": "资助",
+        "example": "Finance the project.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "finish",
+        "phonetic": "/ˈfɪnɪʃ/",
+        "chinese": "完成",
+        "example": "Finish the work.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fire",
+        "phonetic": "/ˈfaɪə/",
+        "chinese": "解雇",
+        "example": "Fire the worker.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fish",
+        "phonetic": "/fɪʃ/",
+        "chinese": "钓鱼",
+        "example": "Fish in the river.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fit",
+        "phonetic": "/fɪt/",
+        "chinese": "适合",
+        "example": "Fit together.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fix",
+        "phonetic": "/fɪks/",
+        "chinese": "修理",
+        "example": "Fix the car.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "flash",
+        "phonetic": "/flæʃ/",
+        "chinese": "闪光",
+        "example": "The light flashes.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "float",
+        "phonetic": "/fləʊt/",
+        "chinese": "漂浮",
+        "example": "Float on water.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "flood",
+        "phonetic": "/flʌd/",
+        "chinese": "淹没",
+        "example": "The river floods.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "flow",
+        "phonetic": "/fləʊ/",
+        "chinese": "流动",
+        "example": "Water flows.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "flower",
+        "phonetic": "/ˈflaʊə/",
+        "chinese": "开花",
+        "example": "Trees flower.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fly",
+        "phonetic": "/flaɪ/",
+        "chinese": "飞",
+        "example": "Birds fly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "focus",
+        "phonetic": "/ˈfəʊkəs/",
+        "chinese": "聚焦",
+        "example": "Focus on work.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fold",
+        "phonetic": "/fəʊld/",
+        "chinese": "折叠",
+        "example": "Fold the paper.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "follow",
+        "phonetic": "/ˈfɒləʊ/",
+        "chinese": "跟随",
+        "example": "Follow me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "forbid",
+        "phonetic": "/fəˈbɪd/",
+        "chinese": "禁止",
+        "example": "Forbid smoking.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "force",
+        "phonetic": "/fɔːs/",
+        "chinese": "强迫",
+        "example": "Force someone.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "forecast",
+        "phonetic": "/ˈfɔːkɑːst/",
+        "chinese": "预测",
+        "example": "Forecast weather.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "forget",
+        "phonetic": "/fəˈɡet/",
+        "chinese": "忘记",
+        "example": "Don't forget.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "forgive",
+        "phonetic": "/fəˈɡɪv/",
+        "chinese": "原谅",
+        "example": "Forgive me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "form",
+        "phonetic": "/fɔːm/",
+        "chinese": "形成",
+        "example": "Form a circle.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "found",
+        "phonetic": "/faʊnd/",
+        "chinese": "建立",
+        "example": "Found a school.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "freeze",
+        "phonetic": "/friːz/",
+        "chinese": "冻结",
+        "example": "Water freezes.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "frighten",
+        "phonetic": "/ˈfraɪtn/",
+        "chinese": "惊吓",
+        "example": "Don't frighten me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fry",
+        "phonetic": "/fraɪ/",
+        "chinese": "油炸",
+        "example": "Fry the eggs.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fulfill",
+        "phonetic": "/fʊlˈfɪl/",
+        "chinese": "履行",
+        "example": "Fulfill a promise.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "function",
+        "phonetic": "/ˈfʌŋkʃn/",
+        "chinese": "运作",
+        "example": "Function well.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "fund",
+        "phonetic": "/fʌnd/",
+        "chinese": "资助",
+        "example": "Fund the project.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "gain",
+        "phonetic": "/ɡeɪn/",
+        "chinese": "获得",
+        "example": "Gain weight.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "gather",
+        "phonetic": "/ˈɡæðə/",
+        "chinese": "聚集",
+        "example": "Gather information.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "gaze",
+        "phonetic": "/ɡeɪz/",
+        "chinese": "凝视",
+        "example": "Gaze at stars.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "generate",
+        "phonetic": "/ˈdʒenəreɪt/",
+        "chinese": "产生",
+        "example": "Generate power.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "get",
+        "phonetic": "/ɡet/",
+        "chinese": "得到",
+        "example": "Get a book.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "give",
+        "phonetic": "/ɡɪv/",
+        "chinese": "给",
+        "example": "Give me a hand.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "glance",
+        "phonetic": "/ɡlɑːns/",
+        "chinese": "扫视",
+        "example": "Glance at.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "glow",
+        "phonetic": "/ɡləʊ/",
+        "chinese": "发光",
+        "example": "Stars glow.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "go",
+        "phonetic": "/ɡəʊ/",
+        "chinese": "去",
+        "example": "Let's go.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "govern",
+        "phonetic": "/ˈɡʌvən/",
+        "chinese": "治理",
+        "example": "Govern the country.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "grab",
+        "phonetic": "/ɡræb/",
+        "chinese": "抓住",
+        "example": "Grab the chance.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "grade",
+        "phonetic": "/ɡreɪd/",
+        "chinese": "评分",
+        "example": "Grade the papers.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "graduate",
+        "phonetic": "/ˈɡrædʒueɪt/",
+        "chinese": "毕业",
+        "example": "Graduate from school.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "grant",
+        "phonetic": "/ɡrɑːnt/",
+        "chinese": "授予",
+        "example": "Grant a wish.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "greet",
+        "phonetic": "/ɡriːt/",
+        "chinese": "问候",
+        "example": "Greet the guests.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "grin",
+        "phonetic": "/ɡrɪn/",
+        "chinese": "咧嘴笑",
+        "example": "Grin widely.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "grind",
+        "phonetic": "/ɡraɪnd/",
+        "chinese": "磨",
+        "example": "Grind coffee.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "grip",
+        "phonetic": "/ɡrɪp/",
+        "chinese": "紧握",
+        "example": "Grip the handle.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "grow",
+        "phonetic": "/ɡrəʊ/",
+        "chinese": "生长",
+        "example": "Plants grow.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "guarantee",
+        "phonetic": "/ˌɡærənˈtiː/",
+        "chinese": "保证",
+        "example": "Guarantee success.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "guard",
+        "phonetic": "/ɡɑːd/",
+        "chinese": "保卫",
+        "example": "Guard the door.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "guess",
+        "phonetic": "/ɡes/",
+        "chinese": "猜",
+        "example": "Guess the answer.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "guide",
+        "phonetic": "/ɡaɪd/",
+        "chinese": "引导",
+        "example": "Guide the way.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "handle",
+        "phonetic": "/ˈhændl/",
+        "chinese": "处理",
+        "example": "Handle the situation.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hang",
+        "phonetic": "/hæŋ/",
+        "chinese": "挂",
+        "example": "Hang the picture.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "happen",
+        "phonetic": "/ˈhæpən/",
+        "chinese": "发生",
+        "example": "What happened?",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "harm",
+        "phonetic": "/hɑːm/",
+        "chinese": "伤害",
+        "example": "Don't harm.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "harvest",
+        "phonetic": "/ˈhɑːvɪst/",
+        "chinese": "收获",
+        "example": "Harvest crops.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hate",
+        "phonetic": "/heɪt/",
+        "chinese": "讨厌",
+        "example": "I hate it.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "have",
+        "phonetic": "/hæv/",
+        "chinese": "有",
+        "example": "Have a dream.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "head",
+        "phonetic": "/hed/",
+        "chinese": "率领",
+        "example": "Head the team.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "heal",
+        "phonetic": "/hiːl/",
+        "chinese": "治愈",
+        "example": "Heal the wound.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hear",
+        "phonetic": "/hɪə/",
+        "chinese": "听见",
+        "example": "I hear you.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "heat",
+        "phonetic": "/hiːt/",
+        "chinese": "加热",
+        "example": "Heat the water.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "help",
+        "phonetic": "/help/",
+        "chinese": "帮助",
+        "example": "Help me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hesitate",
+        "phonetic": "/ˈhezɪteɪt/",
+        "chinese": "犹豫",
+        "example": "Don't hesitate.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hide",
+        "phonetic": "/haɪd/",
+        "chinese": "隐藏",
+        "example": "Hide the gift.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "highlight",
+        "phonetic": "/ˈhaɪlaɪt/",
+        "chinese": "突出",
+        "example": "Highlight the key.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hire",
+        "phonetic": "/ˈhaɪə/",
+        "chinese": "雇用",
+        "example": "Hire a worker.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hit",
+        "phonetic": "/hɪt/",
+        "chinese": "击中",
+        "example": "Hit the ball.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hold",
+        "phonetic": "/həʊld/",
+        "chinese": "握住",
+        "example": "Hold my hand.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "honor",
+        "phonetic": "/ˈɒnə/",
+        "chinese": "尊敬",
+        "example": "Honor your parents.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hope",
+        "phonetic": "/həʊp/",
+        "chinese": "希望",
+        "example": "I hope so.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hunt",
+        "phonetic": "/hʌnt/",
+        "chinese": "打猎",
+        "example": "Hunt for food.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hurry",
+        "phonetic": "/ˈhʌri/",
+        "chinese": "匆忙",
+        "example": "Hurry up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "hurt",
+        "phonetic": "/hɜːt/",
+        "chinese": "伤害",
+        "example": "Don't hurt me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "identify",
+        "phonetic": "/aɪˈdentɪfaɪ/",
+        "chinese": "识别",
+        "example": "Identify the issue.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "ignore",
+        "phonetic": "/ɪɡˈnɔː/",
+        "chinese": "忽视",
+        "example": "Ignore the noise.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "imagine",
+        "phonetic": "/ɪˈmædʒɪn/",
+        "chinese": "想象",
+        "example": "Imagine a world.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "imply",
+        "phonetic": "/ɪmˈplaɪ/",
+        "chinese": "暗示",
+        "example": "What does it imply?",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "impose",
+        "phonetic": "/ɪmˈpəʊz/",
+        "chinese": "强加",
+        "example": "Impose a rule.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "impress",
+        "phonetic": "/ɪmˈpres/",
+        "chinese": "给深刻印象",
+        "example": "Impress me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "chinese": "改善",
+        "example": "Improve quality.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "include",
+        "phonetic": "/ɪnˈkluːd/",
+        "chinese": "包括",
+        "example": "Include everyone.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "increase",
+        "phonetic": "/ɪnˈkriːs/",
+        "chinese": "增加",
+        "example": "Increase sales.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "indicate",
+        "phonetic": "/ˈɪndɪkeɪt/",
+        "chinese": "表明",
+        "example": "Indicate the way.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "influence",
+        "phonetic": "/ˈɪnfluəns/",
+        "chinese": "影响",
+        "example": "Influence others.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "inform",
+        "phonetic": "/ɪnˈfɔːm/",
+        "chinese": "通知",
+        "example": "Inform me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "inherit",
+        "phonetic": "/ɪnˈherɪt/",
+        "chinese": "继承",
+        "example": "Inherit money.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "insist",
+        "phonetic": "/ɪnˈsɪst/",
+        "chinese": "坚持",
+        "example": "Insist on.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "inspect",
+        "phonetic": "/ɪnˈspekt/",
+        "chinese": "检查",
+        "example": "Inspect the goods.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "inspire",
+        "phonetic": "/ɪnˈspaɪə/",
+        "chinese": "激发",
+        "example": "Inspire students.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "install",
+        "phonetic": "/ɪnˈstɔːl/",
+        "chinese": "安装",
+        "example": "Install software.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "instruct",
+        "phonetic": "/ɪnˈstrʌkt/",
+        "chinese": "指导",
+        "example": "Instruct workers.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "intend",
+        "phonetic": "/ɪnˈtend/",
+        "chinese": "打算",
+        "example": "I intend to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "interest",
+        "phonetic": "/ˈɪntrəst/",
+        "chinese": "使感兴趣",
+        "example": "Interest me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "interpret",
+        "phonetic": "/ɪnˈtɜːprɪt/",
+        "chinese": "解释",
+        "example": "Interpret data.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "interrupt",
+        "phonetic": "/ˌɪntəˈrʌpt/",
+        "chinese": "打断",
+        "example": "Don't interrupt.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "introduce",
+        "phonetic": "/ˌɪntrəˈdjuːs/",
+        "chinese": "介绍",
+        "example": "Introduce me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "invent",
+        "phonetic": "/ɪnˈvent/",
+        "chinese": "发明",
+        "example": "Invent a tool.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "investigate",
+        "phonetic": "/ɪnˈvestɪɡeɪt/",
+        "chinese": "调查",
+        "example": "Investigate the case.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "invite",
+        "phonetic": "/ɪnˈvaɪt/",
+        "chinese": "邀请",
+        "example": "Invite guests.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "involve",
+        "phonetic": "/ɪnˈvɒlv/",
+        "chinese": "涉及",
+        "example": "Involve everyone.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "iron",
+        "phonetic": "/ˈaɪən/",
+        "chinese": "熨",
+        "example": "Iron the shirt.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "isolate",
+        "phonetic": "/ˈaɪsəleɪt/",
+        "chinese": "隔离",
+        "example": "Isolate the case.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "issue",
+        "phonetic": "/ˈɪʃuː/",
+        "chinese": "发行",
+        "example": "Issue a passport.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "itch",
+        "phonetic": "/ɪtʃ/",
+        "chinese": "发痒",
+        "example": "The wound itches.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "jail",
+        "phonetic": "/dʒeɪl/",
+        "chinese": "监禁",
+        "example": "Jail the criminal.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "jam",
+        "phonetic": "/dʒæm/",
+        "chinese": "塞满",
+        "example": "The road is jammed.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "jog",
+        "phonetic": "/dʒɒɡ/",
+        "chinese": "慢跑",
+        "example": "Jog in the park.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "join",
+        "phonetic": "/dʒɔɪn/",
+        "chinese": "加入",
+        "example": "Join the club.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "joke",
+        "phonetic": "/dʒəʊk/",
+        "chinese": "开玩笑",
+        "example": "Don't joke.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "judge",
+        "phonetic": "/dʒʌdʒ/",
+        "chinese": "判断",
+        "example": "Don't judge me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "jump",
+        "phonetic": "/dʒʌmp/",
+        "chinese": "跳",
+        "example": "Jump high.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "justify",
+        "phonetic": "/ˈdʒʌstɪfaɪ/",
+        "chinese": "证明合理",
+        "example": "Justify your choice.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "keep",
+        "phonetic": "/kiːp/",
+        "chinese": "保持",
+        "example": "Keep quiet.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "kick",
+        "phonetic": "/kɪk/",
+        "chinese": "踢",
+        "example": "Kick the ball.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "kill",
+        "phonetic": "/kɪl/",
+        "chinese": "杀",
+        "example": "Don't kill.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "kiss",
+        "phonetic": "/kɪs/",
+        "chinese": "吻",
+        "example": "Kiss the baby.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "knit",
+        "phonetic": "/nɪt/",
+        "chinese": "编织",
+        "example": "Knit a sweater.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "knock",
+        "phonetic": "/nɒk/",
+        "chinese": "敲",
+        "example": "Knock on the door.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "know",
+        "phonetic": "/nəʊ/",
+        "chinese": "知道",
+        "example": "I know.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "label",
+        "phonetic": "/ˈleɪbl/",
+        "chinese": "贴标签",
+        "example": "Label the box.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lack",
+        "phonetic": "/læk/",
+        "chinese": "缺乏",
+        "example": "Lack confidence.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "land",
+        "phonetic": "/lænd/",
+        "chinese": "登陆",
+        "example": "Land the plane.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "last",
+        "phonetic": "/lɑːst/",
+        "chinese": "持续",
+        "example": "Last long.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "laugh",
+        "phonetic": "/lɑːf/",
+        "chinese": "笑",
+        "example": "Laugh out loud.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "launch",
+        "phonetic": "/lɔːntʃ/",
+        "chinese": "发射",
+        "example": "Launch a rocket.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lay",
+        "phonetic": "/leɪ/",
+        "chinese": "放",
+        "example": "Lay the book.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lead",
+        "phonetic": "/liːd/",
+        "chinese": "领导",
+        "example": "Lead the way.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lean",
+        "phonetic": "/liːn/",
+        "chinese": "倾斜",
+        "example": "Lean back.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "leap",
+        "phonetic": "/liːp/",
+        "chinese": "跳跃",
+        "example": "Leap over.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "learn",
+        "phonetic": "/lɜːn/",
+        "chinese": "学习",
+        "example": "Learn English.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "leave",
+        "phonetic": "/liːv/",
+        "chinese": "离开",
+        "example": "Leave home.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lend",
+        "phonetic": "/lend/",
+        "chinese": "借出",
+        "example": "Lend me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "let",
+        "phonetic": "/let/",
+        "chinese": "让",
+        "example": "Let me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "level",
+        "phonetic": "/ˈlevl/",
+        "chinese": "使平等",
+        "example": "Level the ground.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lie",
+        "phonetic": "/laɪ/",
+        "chinese": "躺",
+        "example": "Lie down.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lift",
+        "phonetic": "/lɪft/",
+        "chinese": "抬起",
+        "example": "Lift the box.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "light",
+        "phonetic": "/laɪt/",
+        "chinese": "点燃",
+        "example": "Light the fire.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "limit",
+        "phonetic": "/ˈlɪmɪt/",
+        "chinese": "限制",
+        "example": "Limit speed.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "link",
+        "phonetic": "/lɪŋk/",
+        "chinese": "连接",
+        "example": "Link the pages.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "list",
+        "phonetic": "/lɪst/",
+        "chinese": "列出",
+        "example": "List the names.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "listen",
+        "phonetic": "/ˈlɪsn/",
+        "chinese": "听",
+        "example": "Listen to me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "live",
+        "phonetic": "/lɪv/",
+        "chinese": "住",
+        "example": "Live in peace.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "load",
+        "phonetic": "/ləʊd/",
+        "chinese": "装载",
+        "example": "Load the truck.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lock",
+        "phonetic": "/lɒk/",
+        "chinese": "锁",
+        "example": "Lock the door.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "log",
+        "phonetic": "/lɒɡ/",
+        "chinese": "记录",
+        "example": "Log the data.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "look",
+        "phonetic": "/lʊk/",
+        "chinese": "看",
+        "example": "Look at me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lose",
+        "phonetic": "/luːz/",
+        "chinese": "失去",
+        "example": "Don't lose hope.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "love",
+        "phonetic": "/lʌv/",
+        "chinese": "爱",
+        "example": "I love you.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "lower",
+        "phonetic": "/ˈləʊə/",
+        "chinese": "降低",
+        "example": "Lower the price.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "maintain",
+        "phonetic": "/meɪnˈteɪn/",
+        "chinese": "维持",
+        "example": "Maintain order.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "make",
+        "phonetic": "/meɪk/",
+        "chinese": "做",
+        "example": "Make a cake.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "manage",
+        "phonetic": "/ˈmænɪdʒ/",
+        "chinese": "管理",
+        "example": "Manage time.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "march",
+        "phonetic": "/mɑːtʃ/",
+        "chinese": "行军",
+        "example": "March forward.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "mark",
+        "phonetic": "/mɑːk/",
+        "chinese": "标记",
+        "example": "Mark the date.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "marry",
+        "phonetic": "/ˈmæri/",
+        "chinese": "结婚",
+        "example": "Marry young.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "match",
+        "phonetic": "/mætʃ/",
+        "chinese": "匹配",
+        "example": "Match the colors.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "matter",
+        "phonetic": "/ˈmætə/",
+        "chinese": "要紧",
+        "example": "It matters.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "mean",
+        "phonetic": "/miːn/",
+        "chinese": "意味着",
+        "example": "What does it mean?",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "measure",
+        "phonetic": "/ˈmeʒə/",
+        "chinese": "测量",
+        "example": "Measure the length.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "meet",
+        "phonetic": "/miːt/",
+        "chinese": "遇见",
+        "example": "Meet me tomorrow.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "melt",
+        "phonetic": "/melt/",
+        "chinese": "融化",
+        "example": "Ice melts.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "memorize",
+        "phonetic": "/ˈmeməraɪz/",
+        "chinese": "记住",
+        "example": "Memorize the words.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "mention",
+        "phonetic": "/ˈmenʃn/",
+        "chinese": "提到",
+        "example": "Don't mention it.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "merge",
+        "phonetic": "/mɜːdʒ/",
+        "chinese": "合并",
+        "example": "Merge companies.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "migrate",
+        "phonetic": "/maɪˈɡreɪt/",
+        "chinese": "迁徙",
+        "example": "Birds migrate.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "mind",
+        "phonetic": "/maɪnd/",
+        "chinese": "介意",
+        "example": "I don't mind.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "miss",
+        "phonetic": "/mɪs/",
+        "chinese": "错过",
+        "example": "Don't miss the bus.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "mix",
+        "phonetic": "/mɪks/",
+        "chinese": "混合",
+        "example": "Mix the flour.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "modify",
+        "phonetic": "/ˈmɒdɪfaɪ/",
+        "chinese": "修改",
+        "example": "Modify the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "monitor",
+        "phonetic": "/ˈmɒnɪtə/",
+        "chinese": "监控",
+        "example": "Monitor progress.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "motivate",
+        "phonetic": "/ˈməʊtɪveɪt/",
+        "chinese": "激励",
+        "example": "Motivate the team.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "mount",
+        "phonetic": "/maʊnt/",
+        "chinese": "登上",
+        "example": "Mount the horse.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "move",
+        "phonetic": "/muːv/",
+        "chinese": "移动",
+        "example": "Move forward.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "multiply",
+        "phonetic": "/ˈmʌltɪplaɪ/",
+        "chinese": "乘",
+        "example": "Multiply numbers.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "murder",
+        "phonetic": "/ˈmɜːdə/",
+        "chinese": "谋杀",
+        "example": "Murder is a crime.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "nail",
+        "phonetic": "/neɪl/",
+        "chinese": "钉",
+        "example": "Nail the wood.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "name",
+        "phonetic": "/neɪm/",
+        "chinese": "命名",
+        "example": "Name the baby.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "narrate",
+        "phonetic": "/nəˈreɪt/",
+        "chinese": "叙述",
+        "example": "Narrate a story.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "navigate",
+        "phonetic": "/ˈnævɪɡeɪt/",
+        "chinese": "导航",
+        "example": "Navigate the ship.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "negotiate",
+        "phonetic": "/nɪˈɡəʊʃieɪt/",
+        "chinese": "谈判",
+        "example": "Negotiate terms.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "nod",
+        "phonetic": "/nɒd/",
+        "chinese": "点头",
+        "example": "Nod yes.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "note",
+        "phonetic": "/nəʊt/",
+        "chinese": "注意",
+        "example": "Note the date.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "notice",
+        "phonetic": "/ˈnəʊtɪs/",
+        "chinese": "注意",
+        "example": "Notice the sign.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "notify",
+        "phonetic": "/ˈnəʊtɪfaɪ/",
+        "chinese": "通知",
+        "example": "Notify me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "nurture",
+        "phonetic": "/ˈnɜːtʃə/",
+        "chinese": "养育",
+        "example": "Nurture children.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "obey",
+        "phonetic": "/əˈbeɪ/",
+        "chinese": "服从",
+        "example": "Obey the law.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "object",
+        "phonetic": "/əbˈdʒekt/",
+        "chinese": "反对",
+        "example": "I object.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "observe",
+        "phonetic": "/əbˈzɜːv/",
+        "chinese": "观察",
+        "example": "Observe carefully.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "obtain",
+        "phonetic": "/əbˈteɪn/",
+        "chinese": "获得",
+        "example": "Obtain a degree.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "occupy",
+        "phonetic": "/ˈɒkjʊpaɪ/",
+        "chinese": "占据",
+        "example": "Occupy the room.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "occur",
+        "phonetic": "/əˈkɜː/",
+        "chinese": "发生",
+        "example": "It occurred.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "offer",
+        "phonetic": "/ˈɒfə/",
+        "chinese": "提供",
+        "example": "Offer help.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "operate",
+        "phonetic": "/ˈɒpəreɪt/",
+        "chinese": "操作",
+        "example": "Operate the machine.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "oppose",
+        "phonetic": "/əˈpəʊz/",
+        "chinese": "反对",
+        "example": "Oppose the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "order",
+        "phonetic": "/ˈɔːdə/",
+        "chinese": "订购",
+        "example": "Order food.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "organize",
+        "phonetic": "/ˈɔːɡənaɪz/",
+        "chinese": "组织",
+        "example": "Organize a party.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "originate",
+        "phonetic": "/əˈrɪdʒɪneɪt/",
+        "chinese": "起源",
+        "example": "Originate from.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "overcome",
+        "phonetic": "/ˌəʊvəˈkʌm/",
+        "chinese": "克服",
+        "example": "Overcome fear.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "overlook",
+        "phonetic": "/ˌəʊvəˈlʊk/",
+        "chinese": "俯瞰",
+        "example": "Overlook the city.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "oversee",
+        "phonetic": "/ˌəʊvəˈsiː/",
+        "chinese": "监督",
+        "example": "Oversee the work.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "overwhelm",
+        "phonetic": "/ˌəʊvəˈwelm/",
+        "chinese": "压倒",
+        "example": "Overwhelm the enemy.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "owe",
+        "phonetic": "/əʊ/",
+        "chinese": "欠",
+        "example": "I owe you.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "own",
+        "phonetic": "/əʊn/",
+        "chinese": "拥有",
+        "example": "Own a house.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pack",
+        "phonetic": "/pæk/",
+        "chinese": "打包",
+        "example": "Pack the bag.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "paint",
+        "phonetic": "/peɪnt/",
+        "chinese": "画",
+        "example": "Paint a picture.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "park",
+        "phonetic": "/pɑːk/",
+        "chinese": "停放",
+        "example": "Park the car.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "participate",
+        "phonetic": "/pɑːˈtɪsɪpeɪt/",
+        "chinese": "参与",
+        "example": "Participate in.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pass",
+        "phonetic": "/pɑːs/",
+        "chinese": "通过",
+        "example": "Pass the exam.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "paste",
+        "phonetic": "/peɪst/",
+        "chinese": "粘贴",
+        "example": "Paste it here.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pat",
+        "phonetic": "/pæt/",
+        "chinese": "轻拍",
+        "example": "Pat the dog.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pause",
+        "phonetic": "/pɔːz/",
+        "chinese": "暂停",
+        "example": "Pause the music.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pay",
+        "phonetic": "/peɪ/",
+        "chinese": "付",
+        "example": "Pay the bill.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "peel",
+        "phonetic": "/piːl/",
+        "chinese": "剥皮",
+        "example": "Peel the apple.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "perform",
+        "phonetic": "/pəˈfɔːm/",
+        "chinese": "表演",
+        "example": "Perform on stage.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "permit",
+        "phonetic": "/pəˈmɪt/",
+        "chinese": "允许",
+        "example": "Permit me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "persuade",
+        "phonetic": "/pəˈsweɪd/",
+        "chinese": "说服",
+        "example": "Persuade him.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "phone",
+        "phonetic": "/fəʊn/",
+        "chinese": "打电话",
+        "example": "Phone me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "photograph",
+        "phonetic": "/ˈfəʊtəɡrɑːf/",
+        "chinese": "拍照",
+        "example": "Photograph the view.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pick",
+        "phonetic": "/pɪk/",
+        "chinese": "捡",
+        "example": "Pick it up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pin",
+        "phonetic": "/pɪn/",
+        "chinese": "别住",
+        "example": "Pin the badge.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "place",
+        "phonetic": "/pleɪs/",
+        "chinese": "放置",
+        "example": "Place here.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "plan",
+        "phonetic": "/plæn/",
+        "chinese": "计划",
+        "example": "Plan ahead.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "plant",
+        "phonetic": "/plɑːnt/",
+        "chinese": "种植",
+        "example": "Plant a tree.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "play",
+        "phonetic": "/pleɪ/",
+        "chinese": "玩",
+        "example": "Play music.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "please",
+        "phonetic": "/pliːz/",
+        "chinese": "使满意",
+        "example": "Please the customer.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "plug",
+        "phonetic": "/plʌɡ/",
+        "chinese": "插上",
+        "example": "Plug in.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "point",
+        "phonetic": "/pɔɪnt/",
+        "chinese": "指向",
+        "example": "Point at.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "polish",
+        "phonetic": "/ˈpɒlɪʃ/",
+        "chinese": "擦亮",
+        "example": "Polish the shoes.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pollute",
+        "phonetic": "/pəˈluːt/",
+        "chinese": "污染",
+        "example": "Pollute the air.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pour",
+        "phonetic": "/pɔː/",
+        "chinese": "倒",
+        "example": "Pour the water.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "practice",
+        "phonetic": "/ˈpræktɪs/",
+        "chinese": "练习",
+        "example": "Practice daily.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "praise",
+        "phonetic": "/preɪz/",
+        "chinese": "赞扬",
+        "example": "Praise the winner.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pray",
+        "phonetic": "/preɪ/",
+        "chinese": "祈祷",
+        "example": "Pray for peace.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "predict",
+        "phonetic": "/prɪˈdɪkt/",
+        "chinese": "预测",
+        "example": "Predict the future.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "prefer",
+        "phonetic": "/prɪˈfɜː/",
+        "chinese": "更喜欢",
+        "example": "I prefer tea.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "prepare",
+        "phonetic": "/prɪˈpeə/",
+        "chinese": "准备",
+        "example": "Prepare dinner.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "prescribe",
+        "phonetic": "/prɪˈskraɪb/",
+        "chinese": "开处方",
+        "example": "Prescribe medicine.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "present",
+        "phonetic": "/prɪˈzent/",
+        "chinese": "呈现",
+        "example": "Present the idea.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "preserve",
+        "phonetic": "/prɪˈzɜːv/",
+        "chinese": "保护",
+        "example": "Preserve nature.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "press",
+        "phonetic": "/pres/",
+        "chinese": "压",
+        "example": "Press the button.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pretend",
+        "phonetic": "/prɪˈtend/",
+        "chinese": "假装",
+        "example": "Don't pretend.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "prevent",
+        "phonetic": "/prɪˈvent/",
+        "chinese": "阻止",
+        "example": "Prevent disease.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "print",
+        "phonetic": "/prɪnt/",
+        "chinese": "打印",
+        "example": "Print a document.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "produce",
+        "phonetic": "/prəˈdjuːs/",
+        "chinese": "生产",
+        "example": "Produce cars.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "program",
+        "phonetic": "/ˈprəʊɡræm/",
+        "chinese": "编程",
+        "example": "Program a computer.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "prohibit",
+        "phonetic": "/prəˈhɪbɪt/",
+        "chinese": "禁止",
+        "example": "Prohibit smoking.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "promise",
+        "phonetic": "/ˈprɒmɪs/",
+        "chinese": "承诺",
+        "example": "I promise.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "promote",
+        "phonetic": "/prəˈməʊt/",
+        "chinese": "促进",
+        "example": "Promote sales.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pronounce",
+        "phonetic": "/prəˈnaʊns/",
+        "chinese": "发音",
+        "example": "Pronounce correctly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "propose",
+        "phonetic": "/prəˈpəʊz/",
+        "chinese": "建议",
+        "example": "Propose a plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "protect",
+        "phonetic": "/prəˈtekt/",
+        "chinese": "保护",
+        "example": "Protect children.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "protest",
+        "phonetic": "/prəˈtest/",
+        "chinese": "抗议",
+        "example": "Protest loudly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "prove",
+        "phonetic": "/pruːv/",
+        "chinese": "证明",
+        "example": "Prove it.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "provide",
+        "phonetic": "/prəˈvaɪd/",
+        "chinese": "提供",
+        "example": "Provide help.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "pull",
+        "phonetic": "/pʊl/",
+        "chinese": "拉",
+        "example": "Pull the door.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "punish",
+        "phonetic": "/ˈpʌnɪʃ/",
+        "chinese": "惩罚",
+        "example": "Punish the criminal.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "push",
+        "phonetic": "/pʊʃ/",
+        "chinese": "推",
+        "example": "Push the cart.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "put",
+        "phonetic": "/pʊt/",
+        "chinese": "放",
+        "example": "Put it down.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "qualify",
+        "phonetic": "/ˈkwɒlɪfaɪ/",
+        "chinese": "合格",
+        "example": "Qualify for.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "question",
+        "phonetic": "/ˈkwestʃən/",
+        "chinese": "质疑",
+        "example": "Question the answer.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "queue",
+        "phonetic": "/kjuː/",
+        "chinese": "排队",
+        "example": "Queue up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "quit",
+        "phonetic": "/kwɪt/",
+        "chinese": "停止",
+        "example": "Quit smoking.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "quote",
+        "phonetic": "/kwəʊt/",
+        "chinese": "引用",
+        "example": "Quote a poem.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "race",
+        "phonetic": "/reɪs/",
+        "chinese": "赛跑",
+        "example": "Race with me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rain",
+        "phonetic": "/reɪn/",
+        "chinese": "下雨",
+        "example": "It rains.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "raise",
+        "phonetic": "/reɪz/",
+        "chinese": "举起",
+        "example": "Raise your hand.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reach",
+        "phonetic": "/riːtʃ/",
+        "chinese": "到达",
+        "example": "Reach the top.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "read",
+        "phonetic": "/riːd/",
+        "chinese": "阅读",
+        "example": "Read a book.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "realize",
+        "phonetic": "/ˈrɪəlaɪz/",
+        "chinese": "意识到",
+        "example": "I realize now.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rebuild",
+        "phonetic": "/ˌriːˈbɪld/",
+        "chinese": "重建",
+        "example": "Rebuild the city.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "recall",
+        "phonetic": "/rɪˈkɔːl/",
+        "chinese": "回忆",
+        "example": "Recall the past.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "receive",
+        "phonetic": "/rɪˈsiːv/",
+        "chinese": "收到",
+        "example": "Receive a gift.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "recognize",
+        "phonetic": "/ˈrekəɡnaɪz/",
+        "chinese": "认出",
+        "example": "I recognize you.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "recommend",
+        "phonetic": "/ˌrekəˈmend/",
+        "chinese": "推荐",
+        "example": "Recommend a book.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "record",
+        "phonetic": "/rɪˈkɔːd/",
+        "chinese": "记录",
+        "example": "Record the song.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "recover",
+        "phonetic": "/rɪˈkʌvə/",
+        "chinese": "恢复",
+        "example": "Recover quickly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "recycle",
+        "phonetic": "/ˌriːˈsaɪkl/",
+        "chinese": "回收",
+        "example": "Recycle paper.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reduce",
+        "phonetic": "/rɪˈdjuːs/",
+        "chinese": "减少",
+        "example": "Reduce waste.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "refer",
+        "phonetic": "/rɪˈfɜː/",
+        "chinese": "参考",
+        "example": "Refer to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reflect",
+        "phonetic": "/rɪˈflekt/",
+        "chinese": "反映",
+        "example": "Mirror reflects.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reform",
+        "phonetic": "/rɪˈfɔːm/",
+        "chinese": "改革",
+        "example": "Reform the system.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "refresh",
+        "phonetic": "/rɪˈfreʃ/",
+        "chinese": "刷新",
+        "example": "Refresh the page.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "refuse",
+        "phonetic": "/rɪˈfjuːz/",
+        "chinese": "拒绝",
+        "example": "Refuse the offer.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "regard",
+        "phonetic": "/rɪˈɡɑːd/",
+        "chinese": "视为",
+        "example": "Regard as.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "regret",
+        "phonetic": "/rɪˈɡret/",
+        "chinese": "后悔",
+        "example": "Don't regret.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "regulate",
+        "phonetic": "/ˈreɡjʊleɪt/",
+        "chinese": "调节",
+        "example": "Regulate temperature.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reject",
+        "phonetic": "/rɪˈdʒekt/",
+        "chinese": "拒绝",
+        "example": "Reject the offer.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "relate",
+        "phonetic": "/rɪˈleɪt/",
+        "chinese": "关联",
+        "example": "Relate to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "relax",
+        "phonetic": "/rɪˈlæks/",
+        "chinese": "放松",
+        "example": "Relax and rest.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "release",
+        "phonetic": "/rɪˈliːs/",
+        "chinese": "释放",
+        "example": "Release the prisoner.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rely",
+        "phonetic": "/rɪˈlaɪ/",
+        "chinese": "依赖",
+        "example": "Rely on me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "remain",
+        "phonetic": "/rɪˈmeɪn/",
+        "chinese": "保持",
+        "example": "Remain calm.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "remember",
+        "phonetic": "/rɪˈmembə/",
+        "chinese": "记得",
+        "example": "Remember me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "remind",
+        "phonetic": "/rɪˈmaɪnd/",
+        "chinese": "提醒",
+        "example": "Remind me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "remove",
+        "phonetic": "/rɪˈmuːv/",
+        "chinese": "移除",
+        "example": "Remove the cover.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "renew",
+        "phonetic": "/rɪˈnjuː/",
+        "chinese": "更新",
+        "example": "Renew the contract.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "repair",
+        "phonetic": "/rɪˈpeə/",
+        "chinese": "修理",
+        "example": "Repair the car.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "repeat",
+        "phonetic": "/rɪˈpiːt/",
+        "chinese": "重复",
+        "example": "Repeat after me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reply",
+        "phonetic": "/rɪˈplaɪ/",
+        "chinese": "回复",
+        "example": "Reply to me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "report",
+        "phonetic": "/rɪˈpɔːt/",
+        "chinese": "报告",
+        "example": "Report the news.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "represent",
+        "phonetic": "/ˌreprɪˈzent/",
+        "chinese": "代表",
+        "example": "Represent the team.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "require",
+        "phonetic": "/rɪˈkwaɪə/",
+        "chinese": "要求",
+        "example": "Require attention.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rescue",
+        "phonetic": "/ˈreskjuː/",
+        "chinese": "救援",
+        "example": "Rescue the cat.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "research",
+        "phonetic": "/rɪˈsɜːtʃ/",
+        "chinese": "研究",
+        "example": "Research the topic.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reserve",
+        "phonetic": "/rɪˈzɜːv/",
+        "chinese": "预订",
+        "example": "Reserve a seat.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "resign",
+        "phonetic": "/rɪˈzaɪn/",
+        "chinese": "辞职",
+        "example": "Resign from.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "resist",
+        "phonetic": "/rɪˈzɪst/",
+        "chinese": "抵抗",
+        "example": "Resist change.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "resolve",
+        "phonetic": "/rɪˈzɒlv/",
+        "chinese": "解决",
+        "example": "Resolve the issue.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "respect",
+        "phonetic": "/rɪˈspekt/",
+        "chinese": "尊敬",
+        "example": "Respect elders.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "respond",
+        "phonetic": "/rɪˈspɒnd/",
+        "chinese": "回应",
+        "example": "Respond quickly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rest",
+        "phonetic": "/rest/",
+        "chinese": "休息",
+        "example": "Rest at home.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "restore",
+        "phonetic": "/rɪˈstɔː/",
+        "chinese": "恢复",
+        "example": "Restore order.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "restrict",
+        "phonetic": "/rɪˈstrɪkt/",
+        "chinese": "限制",
+        "example": "Restrict access.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "retire",
+        "phonetic": "/rɪˈtaɪə/",
+        "chinese": "退休",
+        "example": "Retire at 60.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "return",
+        "phonetic": "/rɪˈtɜːn/",
+        "chinese": "返回",
+        "example": "Return home.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "reveal",
+        "phonetic": "/rɪˈviːl/",
+        "chinese": "揭示",
+        "example": "Reveal the truth.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "review",
+        "phonetic": "/rɪˈvjuː/",
+        "chinese": "审查",
+        "example": "Review the report.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "revise",
+        "phonetic": "/rɪˈvaɪz/",
+        "chinese": "修订",
+        "example": "Revise the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "ride",
+        "phonetic": "/raɪd/",
+        "chinese": "骑",
+        "example": "Ride a bike.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "ring",
+        "phonetic": "/rɪŋ/",
+        "chinese": "响",
+        "example": "The bell rings.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rise",
+        "phonetic": "/raɪz/",
+        "chinese": "上升",
+        "example": "The sun rises.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "risk",
+        "phonetic": "/rɪsk/",
+        "chinese": "冒险",
+        "example": "Don't risk.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rob",
+        "phonetic": "/rɒb/",
+        "chinese": "抢劫",
+        "example": "Rob a bank.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "roll",
+        "phonetic": "/rəʊl/",
+        "chinese": "滚动",
+        "example": "Roll the ball.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rotate",
+        "phonetic": "/rəʊˈteɪt/",
+        "chinese": "旋转",
+        "example": "Rotate the wheel.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "round",
+        "phonetic": "/raʊnd/",
+        "chinese": "绕行",
+        "example": "Round the corner.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rub",
+        "phonetic": "/rʌb/",
+        "chinese": "擦",
+        "example": "Rub the surface.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "ruin",
+        "phonetic": "/ˈruːɪn/",
+        "chinese": "毁坏",
+        "example": "Ruin the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rule",
+        "phonetic": "/ruːl/",
+        "chinese": "统治",
+        "example": "Rule the country.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "run",
+        "phonetic": "/rʌn/",
+        "chinese": "跑",
+        "example": "Run fast.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "rush",
+        "phonetic": "/rʌʃ/",
+        "chinese": "冲",
+        "example": "Don't rush.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sack",
+        "phonetic": "/sæk/",
+        "chinese": "解雇",
+        "example": "Sack the worker.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sail",
+        "phonetic": "/seɪl/",
+        "chinese": "航行",
+        "example": "Sail the boat.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sample",
+        "phonetic": "/ˈsɑːmpl/",
+        "chinese": "抽样",
+        "example": "Sample the food.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "satisfy",
+        "phonetic": "/ˈsætɪsfaɪ/",
+        "chinese": "满足",
+        "example": "Satisfy the need.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "save",
+        "phonetic": "/seɪv/",
+        "chinese": "保存",
+        "example": "Save the file.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "say",
+        "phonetic": "/seɪ/",
+        "chinese": "说",
+        "example": "Say hello.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "scan",
+        "phonetic": "/skæn/",
+        "chinese": "扫描",
+        "example": "Scan the code.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "scare",
+        "phonetic": "/skeə/",
+        "chinese": "惊吓",
+        "example": "Don't scare me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "scatter",
+        "phonetic": "/ˈskætə/",
+        "chinese": "散开",
+        "example": "Scatter the seeds.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "schedule",
+        "phonetic": "/ˈʃedjuːl/",
+        "chinese": "安排",
+        "example": "Schedule a meeting.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "search",
+        "phonetic": "/sɜːtʃ/",
+        "chinese": "搜索",
+        "example": "Search online.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "seat",
+        "phonetic": "/siːt/",
+        "chinese": "就座",
+        "example": "Seat everyone.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "seem",
+        "phonetic": "/siːm/",
+        "chinese": "似乎",
+        "example": "It seems.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sell",
+        "phonetic": "/sel/",
+        "chinese": "卖",
+        "example": "Sell cars.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "send",
+        "phonetic": "/send/",
+        "chinese": "发送",
+        "example": "Send a letter.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "separate",
+        "phonetic": "/ˈsepəreɪt/",
+        "chinese": "分开",
+        "example": "Separate the two.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "serve",
+        "phonetic": "/sɜːv/",
+        "chinese": "服务",
+        "example": "Serve the customer.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "set",
+        "phonetic": "/set/",
+        "chinese": "设置",
+        "example": "Set the alarm.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "settle",
+        "phonetic": "/ˈsetl/",
+        "chinese": "解决",
+        "example": "Settle the dispute.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shake",
+        "phonetic": "/ʃeɪk/",
+        "chinese": "摇动",
+        "example": "Shake hands.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shape",
+        "phonetic": "/ʃeɪp/",
+        "chinese": "塑造",
+        "example": "Shape the future.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "share",
+        "phonetic": "/ʃeə/",
+        "chinese": "分享",
+        "example": "Share with friends.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shelter",
+        "phonetic": "/ˈʃeltə/",
+        "chinese": "避难",
+        "example": "Shelter from.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shine",
+        "phonetic": "/ʃaɪn/",
+        "chinese": "发光",
+        "example": "Stars shine.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "ship",
+        "phonetic": "/ʃɪp/",
+        "chinese": "运送",
+        "example": "Ship the goods.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shock",
+        "phonetic": "/ʃɒk/",
+        "chinese": "震惊",
+        "example": "The news shocked me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shoot",
+        "phonetic": "/ʃuːt/",
+        "chinese": "射击",
+        "example": "Shoot a gun.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shop",
+        "phonetic": "/ʃɒp/",
+        "chinese": "购物",
+        "example": "Shop online.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "show",
+        "phonetic": "/ʃəʊ/",
+        "chinese": "展示",
+        "example": "Show me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shrink",
+        "phonetic": "/ʃrɪŋk/",
+        "chinese": "收缩",
+        "example": "The shirt shrinks.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "shut",
+        "phonetic": "/ʃʌt/",
+        "chinese": "关闭",
+        "example": "Shut the door.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sigh",
+        "phonetic": "/saɪ/",
+        "chinese": "叹气",
+        "example": "Sigh deeply.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sign",
+        "phonetic": "/saɪn/",
+        "chinese": "签名",
+        "example": "Sign here.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sink",
+        "phonetic": "/sɪŋk/",
+        "chinese": "下沉",
+        "example": "The ship sinks.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sip",
+        "phonetic": "/sɪp/",
+        "chinese": "啜饮",
+        "example": "Sip the tea.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sit",
+        "phonetic": "/sɪt/",
+        "chinese": "坐",
+        "example": "Sit down.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "skate",
+        "phonetic": "/skeɪt/",
+        "chinese": "滑冰",
+        "example": "Skate on ice.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "ski",
+        "phonetic": "/skiː/",
+        "chinese": "滑雪",
+        "example": "Ski down.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "skip",
+        "phonetic": "/skɪp/",
+        "chinese": "跳过",
+        "example": "Skip the rope.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "slap",
+        "phonetic": "/slæp/",
+        "chinese": "掌掴",
+        "example": "Slap the table.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sleep",
+        "phonetic": "/sliːp/",
+        "chinese": "睡",
+        "example": "Sleep well.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "slide",
+        "phonetic": "/slaɪd/",
+        "chinese": "滑",
+        "example": "Slide down.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "slim",
+        "phonetic": "/slɪm/",
+        "chinese": "减肥",
+        "example": "Slim down.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "smile",
+        "phonetic": "/smaɪl/",
+        "chinese": "微笑",
+        "example": "Smile often.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "smoke",
+        "phonetic": "/sməʊk/",
+        "chinese": "抽烟",
+        "example": "Don't smoke.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "snore",
+        "phonetic": "/snɔː/",
+        "chinese": "打鼾",
+        "example": "He snores.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "snow",
+        "phonetic": "/snəʊ/",
+        "chinese": "下雪",
+        "example": "It snows.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "soak",
+        "phonetic": "/səʊk/",
+        "chinese": "浸泡",
+        "example": "Soak in water.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "solve",
+        "phonetic": "/sɒlv/",
+        "chinese": "解决",
+        "example": "Solve the problem.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sort",
+        "phonetic": "/sɔːt/",
+        "chinese": "分类",
+        "example": "Sort the mail.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sound",
+        "phonetic": "/saʊnd/",
+        "chinese": "听起来",
+        "example": "It sounds good.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sow",
+        "phonetic": "/səʊ/",
+        "chinese": "播种",
+        "example": "Sow seeds.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spark",
+        "phonetic": "/spɑːk/",
+        "chinese": "激发",
+        "example": "Spark interest.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "speak",
+        "phonetic": "/spiːk/",
+        "chinese": "说",
+        "example": "Speak slowly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spell",
+        "phonetic": "/spel/",
+        "chinese": "拼写",
+        "example": "Spell the word.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spend",
+        "phonetic": "/spend/",
+        "chinese": "花费",
+        "example": "Spend time.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spill",
+        "phonetic": "/spɪl/",
+        "chinese": "溢出",
+        "example": "Spill the milk.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spin",
+        "phonetic": "/spɪn/",
+        "chinese": "旋转",
+        "example": "Spin around.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spit",
+        "phonetic": "/spɪt/",
+        "chinese": "吐",
+        "example": "Spit out.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "split",
+        "phonetic": "/splɪt/",
+        "chinese": "分裂",
+        "example": "Split in two.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spoil",
+        "phonetic": "/spɔɪl/",
+        "chinese": "宠坏",
+        "example": "Don't spoil.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spread",
+        "phonetic": "/spred/",
+        "chinese": "传播",
+        "example": "Spread the news.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spring",
+        "phonetic": "/sprɪŋ/",
+        "chinese": "跳跃",
+        "example": "Spring up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "spy",
+        "phonetic": "/spaɪ/",
+        "chinese": "侦察",
+        "example": "Spy on.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "squeeze",
+        "phonetic": "/skwiːz/",
+        "chinese": "挤压",
+        "example": "Squeeze the lemon.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stab",
+        "phonetic": "/stæb/",
+        "chinese": "刺",
+        "example": "Stab with knife.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stack",
+        "phonetic": "/stæk/",
+        "chinese": "堆叠",
+        "example": "Stack the books.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stagger",
+        "phonetic": "/ˈstæɡə/",
+        "chinese": "蹒跚",
+        "example": "Stagger along.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stain",
+        "phonetic": "/steɪn/",
+        "chinese": "弄脏",
+        "example": "Stain the cloth.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stamp",
+        "phonetic": "/stæmp/",
+        "chinese": "盖章",
+        "example": "Stamp the letter.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stand",
+        "phonetic": "/stænd/",
+        "chinese": "站立",
+        "example": "Stand up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stare",
+        "phonetic": "/steə/",
+        "chinese": "盯",
+        "example": "Stare at.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "start",
+        "phonetic": "/stɑːt/",
+        "chinese": "开始",
+        "example": "Start the car.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stay",
+        "phonetic": "/steɪ/",
+        "chinese": "停留",
+        "example": "Stay here.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "steal",
+        "phonetic": "/stiːl/",
+        "chinese": "偷",
+        "example": "Steal money.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "steer",
+        "phonetic": "/stɪə/",
+        "chinese": "驾驶",
+        "example": "Steer the ship.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "step",
+        "phonetic": "/step/",
+        "chinese": "踏",
+        "example": "Step forward.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stick",
+        "phonetic": "/stɪk/",
+        "chinese": "粘贴",
+        "example": "Stick the paper.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stimulate",
+        "phonetic": "/ˈstɪmjʊleɪt/",
+        "chinese": "刺激",
+        "example": "Stimulate growth.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stir",
+        "phonetic": "/stɜː/",
+        "chinese": "搅拌",
+        "example": "Stir the soup.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stop",
+        "phonetic": "/stɒp/",
+        "chinese": "停止",
+        "example": "Stop here.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "store",
+        "phonetic": "/stɔː/",
+        "chinese": "储存",
+        "example": "Store food.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "strengthen",
+        "phonetic": "/ˈstreŋθn/",
+        "chinese": "加强",
+        "example": "Strengthen ties.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stress",
+        "phonetic": "/stres/",
+        "chinese": "强调",
+        "example": "Stress the point.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stretch",
+        "phonetic": "/stretʃ/",
+        "chinese": "伸展",
+        "example": "Stretch the arm.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "strike",
+        "phonetic": "/straɪk/",
+        "chinese": "打击",
+        "example": "Strike the ball.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "struggle",
+        "phonetic": "/ˈstrʌɡl/",
+        "chinese": "挣扎",
+        "example": "Struggle to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "study",
+        "phonetic": "/ˈstʌdi/",
+        "chinese": "学习",
+        "example": "Study hard.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "stuff",
+        "phonetic": "/stʌf/",
+        "chinese": "填塞",
+        "example": "Stuff the box.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "subject",
+        "phonetic": "/səbˈdʒekt/",
+        "chinese": "使服从",
+        "example": "Subject to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "submit",
+        "phonetic": "/səbˈmɪt/",
+        "chinese": "提交",
+        "example": "Submit the form.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "substitute",
+        "phonetic": "/ˈsʌbstɪtjuːt/",
+        "chinese": "替代",
+        "example": "Substitute A.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "succeed",
+        "phonetic": "/səkˈsiːd/",
+        "chinese": "成功",
+        "example": "Succeed in.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "suck",
+        "phonetic": "/sʌk/",
+        "chinese": "吸",
+        "example": "Suck the milk.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "suffer",
+        "phonetic": "/ˈsʌfə/",
+        "chinese": "遭受",
+        "example": "Suffer pain.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "suggest",
+        "phonetic": "/səˈdʒest/",
+        "chinese": "建议",
+        "example": "I suggest.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sum",
+        "phonetic": "/sʌm/",
+        "chinese": "总结",
+        "example": "Sum up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "summarize",
+        "phonetic": "/ˈsʌməraɪz/",
+        "chinese": "总结",
+        "example": "Summarize the article.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "supply",
+        "phonetic": "/səˈplaɪ/",
+        "chinese": "供应",
+        "example": "Supply goods.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "support",
+        "phonetic": "/səˈpɔːt/",
+        "chinese": "支持",
+        "example": "Support the team.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "suppose",
+        "phonetic": "/səˈpəʊz/",
+        "chinese": "假设",
+        "example": "I suppose.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "surprise",
+        "phonetic": "/səˈpraɪz/",
+        "chinese": "使惊讶",
+        "example": "Surprise me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "surrender",
+        "phonetic": "/səˈrendə/",
+        "chinese": "投降",
+        "example": "Surrender to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "surround",
+        "phonetic": "/səˈraʊnd/",
+        "chinese": "围绕",
+        "example": "Surround the city.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "survey",
+        "phonetic": "/ˈsɜːveɪ/",
+        "chinese": "调查",
+        "example": "Survey the area.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "survive",
+        "phonetic": "/səˈvaɪv/",
+        "chinese": "幸存",
+        "example": "Survive the winter.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "suspect",
+        "phonetic": "/səˈspekt/",
+        "chinese": "怀疑",
+        "example": "I suspect.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "suspend",
+        "phonetic": "/səˈspend/",
+        "chinese": "暂停",
+        "example": "Suspend the meeting.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "swallow",
+        "phonetic": "/ˈswɒləʊ/",
+        "chinese": "吞",
+        "example": "Swallow food.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "swap",
+        "phonetic": "/swɒp/",
+        "chinese": "交换",
+        "example": "Swap seats.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "swear",
+        "phonetic": "/sweə/",
+        "chinese": "发誓",
+        "example": "Swear to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sweat",
+        "phonetic": "/swet/",
+        "chinese": "出汗",
+        "example": "Sweat a lot.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "sweep",
+        "phonetic": "/swiːp/",
+        "chinese": "扫",
+        "example": "Sweep the floor.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "swell",
+        "phonetic": "/swel/",
+        "chinese": "膨胀",
+        "example": "Swell up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "swim",
+        "phonetic": "/swɪm/",
+        "chinese": "游泳",
+        "example": "Swim in pool.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "swing",
+        "phonetic": "/swɪŋ/",
+        "chinese": "摇摆",
+        "example": "Swing the bat.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "switch",
+        "phonetic": "/swɪtʃ/",
+        "chinese": "切换",
+        "example": "Switch on.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tackle",
+        "phonetic": "/ˈtækl/",
+        "chinese": "处理",
+        "example": "Tackle the issue.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tag",
+        "phonetic": "/tæɡ/",
+        "chinese": "加标签",
+        "example": "Tag the photo.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "take",
+        "phonetic": "/teɪk/",
+        "chinese": "拿",
+        "example": "Take it.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "talk",
+        "phonetic": "/tɔːk/",
+        "chinese": "谈话",
+        "example": "Talk to me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "taste",
+        "phonetic": "/teɪst/",
+        "chinese": "尝",
+        "example": "Taste the soup.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "teach",
+        "phonetic": "/tiːtʃ/",
+        "chinese": "教",
+        "example": "Teach English.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tear",
+        "phonetic": "/teə/",
+        "chinese": "撕裂",
+        "example": "Tear the paper.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tease",
+        "phonetic": "/tiːz/",
+        "chinese": "取笑",
+        "example": "Don't tease.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "telephone",
+        "phonetic": "/ˈtelɪfəʊn/",
+        "chinese": "打电话",
+        "example": "Telephone me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tell",
+        "phonetic": "/tel/",
+        "chinese": "告诉",
+        "example": "Tell me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tempt",
+        "phonetic": "/tempt/",
+        "chinese": "诱惑",
+        "example": "Don't tempt.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tend",
+        "phonetic": "/tend/",
+        "chinese": "倾向于",
+        "example": "I tend to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "test",
+        "phonetic": "/test/",
+        "chinese": "测试",
+        "example": "Test the device.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "thank",
+        "phonetic": "/θæŋk/",
+        "chinese": "感谢",
+        "example": "Thank you.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "think",
+        "phonetic": "/θɪŋk/",
+        "chinese": "想",
+        "example": "Think about.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "threaten",
+        "phonetic": "/ˈθretn/",
+        "chinese": "威胁",
+        "example": "Don't threaten me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "throw",
+        "phonetic": "/θrəʊ/",
+        "chinese": "扔",
+        "example": "Throw the ball.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tie",
+        "phonetic": "/taɪ/",
+        "chinese": "系",
+        "example": "Tie the knot.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tighten",
+        "phonetic": "/ˈtaɪtn/",
+        "chinese": "收紧",
+        "example": "Tighten the belt.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tip",
+        "phonetic": "/tɪp/",
+        "chinese": "倾斜",
+        "example": "Tip the glass.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tire",
+        "phonetic": "/ˈtaɪə/",
+        "chinese": "使疲倦",
+        "example": "The work tires me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tolerate",
+        "phonetic": "/ˈtɒləreɪt/",
+        "chinese": "容忍",
+        "example": "Tolerate differences.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "top",
+        "phonetic": "/tɒp/",
+        "chinese": "超过",
+        "example": "Top the list.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "total",
+        "phonetic": "/ˈtəʊtl/",
+        "chinese": "合计",
+        "example": "Total the costs.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "touch",
+        "phonetic": "/tʌtʃ/",
+        "chinese": "触摸",
+        "example": "Don't touch.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tour",
+        "phonetic": "/tʊə/",
+        "chinese": "游览",
+        "example": "Tour the city.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trace",
+        "phonetic": "/treɪs/",
+        "chinese": "追踪",
+        "example": "Trace the call.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "track",
+        "phonetic": "/træk/",
+        "chinese": "跟踪",
+        "example": "Track the progress.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trade",
+        "phonetic": "/treɪd/",
+        "chinese": "交易",
+        "example": "Trade stocks.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "train",
+        "phonetic": "/treɪn/",
+        "chinese": "训练",
+        "example": "Train the dog.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "transfer",
+        "phonetic": "/trænsˈfɜː/",
+        "chinese": "转移",
+        "example": "Transfer the file.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "transform",
+        "phonetic": "/trænsˈfɔːm/",
+        "chinese": "转变",
+        "example": "Transform the world.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "translate",
+        "phonetic": "/trænsˈleɪt/",
+        "chinese": "翻译",
+        "example": "Translate the text.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "transport",
+        "phonetic": "/trænˈspɔːt/",
+        "chinese": "运输",
+        "example": "Transport goods.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trap",
+        "phonetic": "/træp/",
+        "chinese": "诱捕",
+        "example": "Trap the mouse.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "travel",
+        "phonetic": "/ˈtrævl/",
+        "chinese": "旅行",
+        "example": "Travel abroad.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "treat",
+        "phonetic": "/triːt/",
+        "chinese": "对待",
+        "example": "Treat me kindly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "tremble",
+        "phonetic": "/ˈtrembl/",
+        "chinese": "颤抖",
+        "example": "Tremble with fear.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trick",
+        "phonetic": "/trɪk/",
+        "chinese": "欺骗",
+        "example": "Trick the eye.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trigger",
+        "phonetic": "/ˈtrɪɡə/",
+        "chinese": "触发",
+        "example": "Trigger the alarm.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trim",
+        "phonetic": "/trɪm/",
+        "chinese": "修剪",
+        "example": "Trim the hedge.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trip",
+        "phonetic": "/trɪp/",
+        "chinese": "绊倒",
+        "example": "Trip on the wire.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trot",
+        "phonetic": "/trɒt/",
+        "chinese": "小跑",
+        "example": "Trot along.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trouble",
+        "phonetic": "/ˈtrʌbl/",
+        "chinese": "麻烦",
+        "example": "Don't trouble me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "trust",
+        "phonetic": "/trʌst/",
+        "chinese": "信任",
+        "example": "Trust me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "try",
+        "phonetic": "/traɪ/",
+        "chinese": "尝试",
+        "example": "Try again.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "turn",
+        "phonetic": "/tɜːn/",
+        "chinese": "转动",
+        "example": "Turn left.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "twist",
+        "phonetic": "/twɪst/",
+        "chinese": "扭曲",
+        "example": "Twist the wire.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "type",
+        "phonetic": "/taɪp/",
+        "chinese": "打字",
+        "example": "Type a letter.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "understand",
+        "phonetic": "/ˌʌndəˈstænd/",
+        "chinese": "理解",
+        "example": "I understand.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "undertake",
+        "phonetic": "/ˌʌndəˈteɪk/",
+        "chinese": "承担",
+        "example": "Undertake a task.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "undo",
+        "phonetic": "/ʌnˈduː/",
+        "chinese": "撤销",
+        "example": "Undo the change.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "unite",
+        "phonetic": "/juˈnaɪt/",
+        "chinese": "联合",
+        "example": "Unite the people.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "unlock",
+        "phonetic": "/ʌnˈlɒk/",
+        "chinese": "解锁",
+        "example": "Unlock the door.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "unpack",
+        "phonetic": "/ʌnˈpæk/",
+        "chinese": "打开",
+        "example": "Unpack the box.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "update",
+        "phonetic": "/ʌpˈdeɪt/",
+        "chinese": "更新",
+        "example": "Update the file.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "upgrade",
+        "phonetic": "/ʌpˈɡreɪd/",
+        "chinese": "升级",
+        "example": "Upgrade the system.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "uphold",
+        "phonetic": "/ʌpˈhəʊld/",
+        "chinese": "维护",
+        "example": "Uphold the law.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "upset",
+        "phonetic": "/ʌpˈset/",
+        "chinese": "使难过",
+        "example": "Don't upset.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "urge",
+        "phonetic": "/ɜːdʒ/",
+        "chinese": "催促",
+        "example": "I urge you.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "use",
+        "phonetic": "/juːz/",
+        "chinese": "使用",
+        "example": "Use the tool.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "utilize",
+        "phonetic": "/ˈjuːtɪlaɪz/",
+        "chinese": "利用",
+        "example": "Utilize resources.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "vanish",
+        "phonetic": "/ˈvænɪʃ/",
+        "chinese": "消失",
+        "example": "The sun vanished.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "vary",
+        "phonetic": "/ˈveəri/",
+        "chinese": "变化",
+        "example": "Prices vary.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "venture",
+        "phonetic": "/ˈventʃə/",
+        "chinese": "冒险",
+        "example": "Venture out.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "verify",
+        "phonetic": "/ˈverɪfaɪ/",
+        "chinese": "核实",
+        "example": "Verify the data.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "view",
+        "phonetic": "/vjuː/",
+        "chinese": "查看",
+        "example": "View the page.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "violate",
+        "phonetic": "/ˈvaɪəleɪt/",
+        "chinese": "违反",
+        "example": "Violate the law.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "vote",
+        "phonetic": "/vəʊt/",
+        "chinese": "投票",
+        "example": "Vote for me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "vow",
+        "phonetic": "/vaʊ/",
+        "chinese": "发誓",
+        "example": "I vow to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wage",
+        "phonetic": "/weɪdʒ/",
+        "chinese": "发动",
+        "example": "Wage war.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wait",
+        "phonetic": "/weɪt/",
+        "chinese": "等待",
+        "example": "Wait for me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wake",
+        "phonetic": "/weɪk/",
+        "chinese": "醒来",
+        "example": "Wake up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "walk",
+        "phonetic": "/wɔːk/",
+        "chinese": "走路",
+        "example": "Walk to school.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wander",
+        "phonetic": "/ˈwɒndə/",
+        "chinese": "漫步",
+        "example": "Wander around.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "want",
+        "phonetic": "/wɒnt/",
+        "chinese": "想要",
+        "example": "I want this.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "warm",
+        "phonetic": "/wɔːm/",
+        "chinese": "使暖",
+        "example": "Warm the milk.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "warn",
+        "phonetic": "/wɔːn/",
+        "chinese": "警告",
+        "example": "Warn me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wash",
+        "phonetic": "/wɒʃ/",
+        "chinese": "洗",
+        "example": "Wash hands.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "waste",
+        "phonetic": "/weɪst/",
+        "chinese": "浪费",
+        "example": "Don't waste.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "watch",
+        "phonetic": "/wɒtʃ/",
+        "chinese": "观看",
+        "example": "Watch TV.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "water",
+        "phonetic": "/ˈwɔːtə/",
+        "chinese": "浇水",
+        "example": "Water the plant.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wave",
+        "phonetic": "/weɪv/",
+        "chinese": "挥手",
+        "example": "Wave goodbye.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wear",
+        "phonetic": "/weə/",
+        "chinese": "穿",
+        "example": "Wear a coat.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "weave",
+        "phonetic": "/wiːv/",
+        "chinese": "编织",
+        "example": "Weave a basket.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "weigh",
+        "phonetic": "/weɪ/",
+        "chinese": "称重",
+        "example": "Weigh the fruit.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "welcome",
+        "phonetic": "/ˈwelkəm/",
+        "chinese": "欢迎",
+        "example": "Welcome home.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "whisper",
+        "phonetic": "/ˈwɪspə/",
+        "chinese": "低语",
+        "example": "Whisper softly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "whistle",
+        "phonetic": "/ˈwɪsl/",
+        "chinese": "吹口哨",
+        "example": "Whistle a tune.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "win",
+        "phonetic": "/wɪn/",
+        "chinese": "赢",
+        "example": "Win the game.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wind",
+        "phonetic": "/waɪnd/",
+        "chinese": "蜿蜒",
+        "example": "The river winds.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wink",
+        "phonetic": "/wɪŋk/",
+        "chinese": "眨眼",
+        "example": "Wink at me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wipe",
+        "phonetic": "/waɪp/",
+        "chinese": "擦",
+        "example": "Wipe the table.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wish",
+        "phonetic": "/wɪʃ/",
+        "chinese": "希望",
+        "example": "I wish.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "withdraw",
+        "phonetic": "/wɪðˈdrɔː/",
+        "chinese": "撤回",
+        "example": "Withdraw money.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wither",
+        "phonetic": "/ˈwɪðə/",
+        "chinese": "枯萎",
+        "example": "Plants wither.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "withhold",
+        "phonetic": "/wɪðˈhəʊld/",
+        "chinese": "保留",
+        "example": "Withhold info.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "withstand",
+        "phonetic": "/wɪðˈstænd/",
+        "chinese": "抵挡",
+        "example": "Withstand pressure.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "witness",
+        "phonetic": "/ˈwɪtnəs/",
+        "chinese": "目击",
+        "example": "Witness the event.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wonder",
+        "phonetic": "/ˈwʌndə/",
+        "chinese": "想知道",
+        "example": "I wonder.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "work",
+        "phonetic": "/wɜːk/",
+        "chinese": "工作",
+        "example": "Work hard.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "worry",
+        "phonetic": "/ˈwʌri/",
+        "chinese": "担心",
+        "example": "Don't worry.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "worship",
+        "phonetic": "/ˈwɜːʃɪp/",
+        "chinese": "崇拜",
+        "example": "Worship God.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wrap",
+        "phonetic": "/ræp/",
+        "chinese": "包裹",
+        "example": "Wrap the gift.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wreck",
+        "phonetic": "/rek/",
+        "chinese": "破坏",
+        "example": "Wreck the car.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wrestle",
+        "phonetic": "/ˈresl/",
+        "chinese": "摔跤",
+        "example": "Wrestle with.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wriggle",
+        "phonetic": "/ˈrɪɡl/",
+        "chinese": "扭动",
+        "example": "Wriggle free.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "wrinkle",
+        "phonetic": "/ˈrɪŋkl/",
+        "chinese": "起皱纹",
+        "example": "Skin wrinkles.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "write",
+        "phonetic": "/raɪt/",
+        "chinese": "写",
+        "example": "Write a letter.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "yawn",
+        "phonetic": "/jɔːn/",
+        "chinese": "打哈欠",
+        "example": "Yawn loudly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "yell",
+        "phonetic": "/jel/",
+        "chinese": "叫喊",
+        "example": "Don't yell.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "yield",
+        "phonetic": "/jiːld/",
+        "chinese": "屈服",
+        "example": "Yield to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "zip",
+        "phonetic": "/zɪp/",
+        "chinese": "拉链",
+        "example": "Zip up.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "zoom",
+        "phonetic": "/zuːm/",
+        "chinese": "快速移动",
+        "example": "Zoom in.",
+        "tags": "动词"
+      }
+    ]
+  }
+}

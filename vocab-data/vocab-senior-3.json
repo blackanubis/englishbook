@@ -1,0 +1,3134 @@
+{
+  "customVocab": {
+    "senior": [
+      {
+        "level": "高中",
+        "word": "absurd",
+        "phonetic": "/əbˈsɜːd/",
+        "chinese": "荒谬的",
+        "example": "An absurd idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "abundant",
+        "phonetic": "/əˈbʌndənt/",
+        "chinese": "丰富的",
+        "example": "Abundant resources.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "accurate",
+        "phonetic": "/ˈækjərət/",
+        "chinese": "准确的",
+        "example": "Accurate information.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "acute",
+        "phonetic": "/əˈkjuːt/",
+        "chinese": "急性的",
+        "example": "Acute pain.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "adequate",
+        "phonetic": "/ˈædɪkwət/",
+        "chinese": "足够的",
+        "example": "Adequate food.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "alike",
+        "phonetic": "/əˈlaɪk/",
+        "chinese": "相似的",
+        "example": "Look alike.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "amazing",
+        "phonetic": "/əˈmeɪzɪŋ/",
+        "chinese": "令人惊奇的",
+        "example": "An amazing view.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ambiguous",
+        "phonetic": "/æmˈbɪɡjuəs/",
+        "chinese": "模糊的",
+        "example": "An ambiguous answer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ample",
+        "phonetic": "/ˈæmpl/",
+        "chinese": "充足的",
+        "example": "Ample time.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ancient",
+        "phonetic": "/ˈeɪnʃənt/",
+        "chinese": "古代的",
+        "example": "Ancient ruins.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "anonymous",
+        "phonetic": "/əˈnɒnɪməs/",
+        "chinese": "匿名的",
+        "example": "An anonymous letter.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "anxious",
+        "phonetic": "/ˈæŋkʃəs/",
+        "chinese": "焦虑的",
+        "example": "Feel anxious.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "apparent",
+        "phonetic": "/əˈpærənt/",
+        "chinese": "明显的",
+        "example": "An apparent mistake.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "appealing",
+        "phonetic": "/əˈpiːlɪŋ/",
+        "chinese": "吸引人的",
+        "example": "An appealing offer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "artificial",
+        "phonetic": "/ˌɑːtɪˈfɪʃl/",
+        "chinese": "人造的",
+        "example": "Artificial intelligence.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ashamed",
+        "phonetic": "/əˈʃeɪmd/",
+        "chinese": "羞愧的",
+        "example": "Feel ashamed.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "attentive",
+        "phonetic": "/əˈtentɪv/",
+        "chinese": "专注的",
+        "example": "An attentive student.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "authentic",
+        "phonetic": "/ɔːˈθentɪk/",
+        "chinese": "真正的",
+        "example": "Authentic food.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "automatic",
+        "phonetic": "/ˌɔːtəˈmætɪk/",
+        "chinese": "自动的",
+        "example": "An automatic door.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "available",
+        "phonetic": "/əˈveɪləbl/",
+        "chinese": "可用的",
+        "example": "Tickets are available.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "average",
+        "phonetic": "/ˈævərɪdʒ/",
+        "chinese": "平均的",
+        "example": "An average person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "awake",
+        "phonetic": "/əˈweɪk/",
+        "chinese": "醒着的",
+        "example": "Stay awake.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "aware",
+        "phonetic": "/əˈweə/",
+        "chinese": "意识到的",
+        "example": "Be aware.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "awful",
+        "phonetic": "/ˈɔːfl/",
+        "chinese": "糟糕的",
+        "example": "An awful smell.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "basic",
+        "phonetic": "/ˈbeɪsɪk/",
+        "chinese": "基本的",
+        "example": "Basic knowledge.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "bitter",
+        "phonetic": "/ˈbɪtə/",
+        "chinese": "苦的",
+        "example": "A bitter taste.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "blunt",
+        "phonetic": "/blʌnt/",
+        "chinese": "钝的",
+        "example": "A blunt knife.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "bold",
+        "phonetic": "/bəʊld/",
+        "chinese": "大胆的",
+        "example": "A bold idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "brilliant",
+        "phonetic": "/ˈbrɪliənt/",
+        "chinese": "杰出的",
+        "example": "A brilliant mind.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "broad",
+        "phonetic": "/brɔːd/",
+        "chinese": "宽的",
+        "example": "A broad street.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "calm",
+        "phonetic": "/kɑːm/",
+        "chinese": "平静的",
+        "example": "A calm sea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "capable",
+        "phonetic": "/ˈkeɪpəbl/",
+        "chinese": "有能力的",
+        "example": "A capable worker.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "careful",
+        "phonetic": "/ˈkeəfl/",
+        "chinese": "小心的",
+        "example": "Be careful.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cautious",
+        "phonetic": "/ˈkɔːʃəs/",
+        "chinese": "谨慎的",
+        "example": "Be cautious.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "central",
+        "phonetic": "/ˈsentrəl/",
+        "chinese": "中央的",
+        "example": "Central station.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "certain",
+        "phonetic": "/ˈsɜːtn/",
+        "chinese": "确定的",
+        "example": "I'm certain.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cheerful",
+        "phonetic": "/ˈtʃɪəfl/",
+        "chinese": "快乐的",
+        "example": "A cheerful face.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "civil",
+        "phonetic": "/ˈsɪvl/",
+        "chinese": "公民的",
+        "example": "Civil rights.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "classic",
+        "phonetic": "/ˈklæsɪk/",
+        "chinese": "经典的",
+        "example": "A classic novel.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "clean",
+        "phonetic": "/kliːn/",
+        "chinese": "干净的",
+        "example": "Clean water.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "clear",
+        "phonetic": "/klɪə/",
+        "chinese": "清楚的",
+        "example": "A clear answer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "clever",
+        "phonetic": "/ˈklevə/",
+        "chinese": "聪明的",
+        "example": "A clever idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "close",
+        "phonetic": "/kləʊs/",
+        "chinese": "近的",
+        "example": "A close friend.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "common",
+        "phonetic": "/ˈkɒmən/",
+        "chinese": "普通的",
+        "example": "A common name.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "complete",
+        "phonetic": "/kəmˈpliːt/",
+        "chinese": "完整的",
+        "example": "Complete silence.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "complex",
+        "phonetic": "/ˈkɒmpleks/",
+        "chinese": "复杂的",
+        "example": "A complex problem.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "complicated",
+        "phonetic": "/ˈkɒmplɪkeɪtɪd/",
+        "chinese": "复杂的",
+        "example": "A complicated issue.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "comprehensive",
+        "phonetic": "/ˌkɒmprɪˈhensɪv/",
+        "chinese": "全面的",
+        "example": "A comprehensive review.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "confident",
+        "phonetic": "/ˈkɒnfɪdənt/",
+        "chinese": "自信的",
+        "example": "Feel confident.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "conscious",
+        "phonetic": "/ˈkɒnʃəs/",
+        "chinese": "有意识的",
+        "example": "A conscious effort.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "considerable",
+        "phonetic": "/kənˈsɪdərəbl/",
+        "chinese": "相当多的",
+        "example": "A considerable amount.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "consistent",
+        "phonetic": "/kənˈsɪstənt/",
+        "chinese": "一致的",
+        "example": "Consistent quality.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "constant",
+        "phonetic": "/ˈkɒnstənt/",
+        "chinese": "不断的",
+        "example": "Constant noise.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "contemporary",
+        "phonetic": "/kənˈtemprəri/",
+        "chinese": "当代的",
+        "example": "Contemporary art.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "content",
+        "phonetic": "/kənˈtent/",
+        "chinese": "满足的",
+        "example": "Feel content.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "continuous",
+        "phonetic": "/kənˈtɪnjuəs/",
+        "chinese": "连续的",
+        "example": "Continuous rain.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "contrary",
+        "phonetic": "/ˈkɒntrəri/",
+        "chinese": "相反的",
+        "example": "Contrary opinions.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "controversial",
+        "phonetic": "/ˌkɒntrəˈvɜːʃl/",
+        "chinese": "有争议的",
+        "example": "A controversial topic.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "convenient",
+        "phonetic": "/kənˈviːniənt/",
+        "chinese": "方便的",
+        "example": "A convenient store.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "conventional",
+        "phonetic": "/kənˈvenʃənl/",
+        "chinese": "传统的",
+        "example": "Conventional wisdom.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "convincing",
+        "phonetic": "/kənˈvɪnsɪŋ/",
+        "chinese": "有说服力的",
+        "example": "A convincing argument.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cool",
+        "phonetic": "/kuːl/",
+        "chinese": "凉爽的",
+        "example": "Cool weather.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "crazy",
+        "phonetic": "/ˈkreɪzi/",
+        "chinese": "疯狂的",
+        "example": "A crazy idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "creative",
+        "phonetic": "/kriˈeɪtɪv/",
+        "chinese": "创造性的",
+        "example": "Creative work.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "criminal",
+        "phonetic": "/ˈkrɪmɪnl/",
+        "chinese": "犯罪的",
+        "example": "Criminal behavior.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "critical",
+        "phonetic": "/ˈkrɪtɪkl/",
+        "chinese": "关键的",
+        "example": "A critical moment.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "chinese": "至关重要的",
+        "example": "Crucial evidence.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cruel",
+        "phonetic": "/ˈkruːəl/",
+        "chinese": "残忍的",
+        "example": "A cruel world.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cultural",
+        "phonetic": "/ˈkʌltʃərəl/",
+        "chinese": "文化的",
+        "example": "Cultural exchange.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "curious",
+        "phonetic": "/ˈkjʊəriəs/",
+        "chinese": "好奇的",
+        "example": "A curious mind.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "current",
+        "phonetic": "/ˈkʌrənt/",
+        "chinese": "当前的",
+        "example": "Current affairs.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cute",
+        "phonetic": "/kjuːt/",
+        "chinese": "可爱的",
+        "example": "A cute baby.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "daily",
+        "phonetic": "/ˈdeɪli/",
+        "chinese": "每日的",
+        "example": "Daily life.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "damp",
+        "phonetic": "/dæmp/",
+        "chinese": "潮湿的",
+        "example": "Damp air.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "daring",
+        "phonetic": "/ˈdeərɪŋ/",
+        "chinese": "大胆的",
+        "example": "A daring act.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dark",
+        "phonetic": "/dɑːk/",
+        "chinese": "黑暗的",
+        "example": "A dark night.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dead",
+        "phonetic": "/ded/",
+        "chinese": "死的",
+        "example": "A dead tree.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "deadly",
+        "phonetic": "/ˈdedli/",
+        "chinese": "致命的",
+        "example": "A deadly weapon.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "deep",
+        "phonetic": "/diːp/",
+        "chinese": "深的",
+        "example": "A deep river.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "definite",
+        "phonetic": "/ˈdefɪnət/",
+        "chinese": "确定的",
+        "example": "A definite answer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "deliberate",
+        "phonetic": "/dɪˈlɪbərət/",
+        "chinese": "故意的",
+        "example": "A deliberate lie.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "delicious",
+        "phonetic": "/dɪˈlɪʃəs/",
+        "chinese": "美味的",
+        "example": "Delicious food.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "delighted",
+        "phonetic": "/dɪˈlaɪtɪd/",
+        "chinese": "高兴的",
+        "example": "I'm delighted.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "democratic",
+        "phonetic": "/ˌdeməˈkrætɪk/",
+        "chinese": "民主的",
+        "example": "Democratic rights.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dense",
+        "phonetic": "/dens/",
+        "chinese": "密集的",
+        "example": "A dense forest.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dependable",
+        "phonetic": "/dɪˈpendəbl/",
+        "chinese": "可靠的",
+        "example": "A dependable friend.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dependent",
+        "phonetic": "/dɪˈpendənt/",
+        "chinese": "依赖的",
+        "example": "Dependent on.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "desperate",
+        "phonetic": "/ˈdespərət/",
+        "chinese": "绝望的",
+        "example": "A desperate cry.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "detailed",
+        "phonetic": "/ˈdiːteɪld/",
+        "chinese": "详细的",
+        "example": "A detailed report.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "determined",
+        "phonetic": "/dɪˈtɜːmɪnd/",
+        "chinese": "坚定的",
+        "example": "A determined look.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "different",
+        "phonetic": "/ˈdɪfrənt/",
+        "chinese": "不同的",
+        "example": "Different ideas.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "difficult",
+        "phonetic": "/ˈdɪfɪkəlt/",
+        "chinese": "困难的",
+        "example": "A difficult test.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "digital",
+        "phonetic": "/ˈdɪdʒɪtl/",
+        "chinese": "数字的",
+        "example": "Digital age.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dirty",
+        "phonetic": "/ˈdɜːti/",
+        "chinese": "脏的",
+        "example": "Dirty hands.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "distant",
+        "phonetic": "/ˈdɪstənt/",
+        "chinese": "遥远的",
+        "example": "A distant sound.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "distinct",
+        "phonetic": "/dɪˈstɪŋkt/",
+        "chinese": "明显的",
+        "example": "Distinct flavors.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "distinguished",
+        "phonetic": "/dɪˈstɪŋɡwɪʃt/",
+        "chinese": "杰出的",
+        "example": "A distinguished scholar.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "diverse",
+        "phonetic": "/daɪˈvɜːs/",
+        "chinese": "多种多样的",
+        "example": "Diverse cultures.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "domestic",
+        "phonetic": "/dəˈmestɪk/",
+        "chinese": "国内的",
+        "example": "Domestic flights.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dominant",
+        "phonetic": "/ˈdɒmɪnənt/",
+        "chinese": "占主导的",
+        "example": "Dominant trait.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dramatic",
+        "phonetic": "/drəˈmætɪk/",
+        "chinese": "戏剧性的",
+        "example": "A dramatic change.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dreadful",
+        "phonetic": "/ˈdredfl/",
+        "chinese": "可怕的",
+        "example": "A dreadful noise.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dull",
+        "phonetic": "/dʌl/",
+        "chinese": "乏味的",
+        "example": "A dull day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dynamic",
+        "phonetic": "/daɪˈnæmɪk/",
+        "chinese": "动态的",
+        "example": "A dynamic person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "eager",
+        "phonetic": "/ˈiːɡə/",
+        "chinese": "渴望的",
+        "example": "Eager to learn.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "earnest",
+        "phonetic": "/ˈɜːnɪst/",
+        "chinese": "认真的",
+        "example": "Earnest effort.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "eastern",
+        "phonetic": "/ˈiːstən/",
+        "chinese": "东方的",
+        "example": "Eastern culture.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "easy",
+        "phonetic": "/ˈiːzi/",
+        "chinese": "容易的",
+        "example": "An easy task.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "economic",
+        "phonetic": "/ˌiːkəˈnɒmɪk/",
+        "chinese": "经济的",
+        "example": "Economic growth.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "efficient",
+        "phonetic": "/ɪˈfɪʃnt/",
+        "chinese": "高效的",
+        "example": "An efficient method.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "elderly",
+        "phonetic": "/ˈeldəli/",
+        "chinese": "年长的",
+        "example": "An elderly man.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "elegant",
+        "phonetic": "/ˈelɪɡənt/",
+        "chinese": "优雅的",
+        "example": "An elegant dress.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "elementary",
+        "phonetic": "/ˌelɪˈmentri/",
+        "chinese": "基本的",
+        "example": "Elementary school.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "emotional",
+        "phonetic": "/ɪˈməʊʃənl/",
+        "chinese": "情感的",
+        "example": "Emotional support.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "endless",
+        "phonetic": "/ˈendləs/",
+        "chinese": "无尽的",
+        "example": "Endless possibilities.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "energetic",
+        "phonetic": "/ˌenəˈdʒetɪk/",
+        "chinese": "精力充沛的",
+        "example": "An energetic person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "enormous",
+        "phonetic": "/ɪˈnɔːməs/",
+        "chinese": "巨大的",
+        "example": "An enormous task.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "enthusiastic",
+        "phonetic": "/ɪnˌθjuːziˈæstɪk/",
+        "chinese": "热情的",
+        "example": "Enthusiastic fans.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "environmental",
+        "phonetic": "/ɪnˌvaɪrənˈmentl/",
+        "chinese": "环境的",
+        "example": "Environmental protection.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "equal",
+        "phonetic": "/ˈiːkwəl/",
+        "chinese": "平等的",
+        "example": "Equal rights.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "essential",
+        "phonetic": "/ɪˈsenʃl/",
+        "chinese": "必要的",
+        "example": "Essential skills.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ethical",
+        "phonetic": "/ˈeθɪkl/",
+        "chinese": "伦理的",
+        "example": "Ethical behavior.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "eventual",
+        "phonetic": "/ɪˈventʃuəl/",
+        "chinese": "最终的",
+        "example": "Eventual success.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "everyday",
+        "phonetic": "/ˈevrɪdeɪ/",
+        "chinese": "每日的",
+        "example": "Everyday life.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "exact",
+        "phonetic": "/ɪɡˈzækt/",
+        "chinese": "精确的",
+        "example": "The exact time.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "excellent",
+        "phonetic": "/ˈeksələnt/",
+        "chinese": "优秀的",
+        "example": "Excellent work.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "exciting",
+        "phonetic": "/ɪkˈsaɪtɪŋ/",
+        "chinese": "激动人心的",
+        "example": "An exciting story.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "exclusive",
+        "phonetic": "/ɪkˈskluːsɪv/",
+        "chinese": "独占的",
+        "example": "Exclusive rights.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "expensive",
+        "phonetic": "/ɪkˈspensɪv/",
+        "chinese": "昂贵的",
+        "example": "An expensive car.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "experienced",
+        "phonetic": "/ɪkˈspɪəriənst/",
+        "chinese": "有经验的",
+        "example": "An experienced teacher.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "expert",
+        "phonetic": "/ˈekspɜːt/",
+        "chinese": "熟练的",
+        "example": "An expert doctor.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "external",
+        "phonetic": "/ɪkˈstɜːnl/",
+        "chinese": "外部的",
+        "example": "External factors.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "extraordinary",
+        "phonetic": "/ɪkˈstrɔːdnri/",
+        "chinese": "非凡的",
+        "example": "An extraordinary event.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "extreme",
+        "phonetic": "/ɪkˈstriːm/",
+        "chinese": "极端的",
+        "example": "Extreme heat.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "faint",
+        "phonetic": "/feɪnt/",
+        "chinese": "微弱的",
+        "example": "A faint sound.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "faithful",
+        "phonetic": "/ˈfeɪθfl/",
+        "chinese": "忠诚的",
+        "example": "A faithful friend.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "familiar",
+        "phonetic": "/fəˈmɪliə/",
+        "chinese": "熟悉的",
+        "example": "A familiar face.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "famous",
+        "phonetic": "/ˈfeɪməs/",
+        "chinese": "著名的",
+        "example": "A famous actor.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fancy",
+        "phonetic": "/ˈfænsi/",
+        "chinese": "花哨的",
+        "example": "A fancy dress.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fantastic",
+        "phonetic": "/fænˈtæstɪk/",
+        "chinese": "极好的",
+        "example": "A fantastic view.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "far",
+        "phonetic": "/fɑː/",
+        "chinese": "远的",
+        "example": "A far place.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fascinating",
+        "phonetic": "/ˈfæsɪneɪtɪŋ/",
+        "chinese": "迷人的",
+        "example": "A fascinating story.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fashionable",
+        "phonetic": "/ˈfæʃənəbl/",
+        "chinese": "时尚的",
+        "example": "Fashionable clothes.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fast",
+        "phonetic": "/fɑːst/",
+        "chinese": "快的",
+        "example": "A fast car.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fat",
+        "phonetic": "/fæt/",
+        "chinese": "胖的",
+        "example": "A fat cat.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fatal",
+        "phonetic": "/ˈfeɪtl/",
+        "chinese": "致命的",
+        "example": "A fatal accident.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "faulty",
+        "phonetic": "/ˈfɔːlti/",
+        "chinese": "有缺陷的",
+        "example": "A faulty product.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "favorable",
+        "phonetic": "/ˈfeɪvərəbl/",
+        "chinese": "有利的",
+        "example": "A favorable review.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "favorite",
+        "phonetic": "/ˈfeɪvərɪt/",
+        "chinese": "最喜欢的",
+        "example": "My favorite song.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "federal",
+        "phonetic": "/ˈfedərəl/",
+        "chinese": "联邦的",
+        "example": "Federal government.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "female",
+        "phonetic": "/ˈfiːmeɪl/",
+        "chinese": "女性的",
+        "example": "A female teacher.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fierce",
+        "phonetic": "/fɪəs/",
+        "chinese": "凶猛的",
+        "example": "A fierce dog.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "final",
+        "phonetic": "/ˈfaɪnl/",
+        "chinese": "最终的",
+        "example": "The final answer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "financial",
+        "phonetic": "/faɪˈnænʃl/",
+        "chinese": "财务的",
+        "example": "Financial support.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "firm",
+        "phonetic": "/fɜːm/",
+        "chinese": "坚固的",
+        "example": "A firm handshake.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fit",
+        "phonetic": "/fɪt/",
+        "chinese": "健康的",
+        "example": "Stay fit.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fixed",
+        "phonetic": "/fɪkst/",
+        "chinese": "固定的",
+        "example": "A fixed price.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "flat",
+        "phonetic": "/flæt/",
+        "chinese": "平的",
+        "example": "A flat surface.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "flexible",
+        "phonetic": "/ˈfleksəbl/",
+        "chinese": "灵活的",
+        "example": "Flexible hours.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fluent",
+        "phonetic": "/ˈfluːənt/",
+        "chinese": "流利的",
+        "example": "Fluent English.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fluid",
+        "phonetic": "/ˈfluːɪd/",
+        "chinese": "流动的",
+        "example": "Fluid motion.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "focused",
+        "phonetic": "/ˈfəʊkəst/",
+        "chinese": "专注的",
+        "example": "Stay focused.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "following",
+        "phonetic": "/ˈfɒləʊɪŋ/",
+        "chinese": "以下的",
+        "example": "The following day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "foolish",
+        "phonetic": "/ˈfuːlɪʃ/",
+        "chinese": "愚蠢的",
+        "example": "A foolish mistake.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "foreign",
+        "phonetic": "/ˈfɒrən/",
+        "chinese": "外国的",
+        "example": "Foreign language.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "formal",
+        "phonetic": "/ˈfɔːml/",
+        "chinese": "正式的",
+        "example": "A formal meeting.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "former",
+        "phonetic": "/ˈfɔːmə/",
+        "chinese": "以前的",
+        "example": "The former president.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fortunate",
+        "phonetic": "/ˈfɔːtʃənət/",
+        "chinese": "幸运的",
+        "example": "A fortunate person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "forward",
+        "phonetic": "/ˈfɔːwəd/",
+        "chinese": "向前的",
+        "example": "Move forward.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fragile",
+        "phonetic": "/ˈfrædʒaɪl/",
+        "chinese": "脆弱的",
+        "example": "Fragile glass.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "frank",
+        "phonetic": "/fræŋk/",
+        "chinese": "坦率的",
+        "example": "A frank opinion.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "free",
+        "phonetic": "/friː/",
+        "chinese": "自由的",
+        "example": "Free time.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "frequent",
+        "phonetic": "/ˈfriːkwənt/",
+        "chinese": "频繁的",
+        "example": "A frequent visitor.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fresh",
+        "phonetic": "/freʃ/",
+        "chinese": "新鲜的",
+        "example": "Fresh fruit.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "friendly",
+        "phonetic": "/ˈfrendli/",
+        "chinese": "友好的",
+        "example": "Friendly people.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "frightened",
+        "phonetic": "/ˈfraɪtnd/",
+        "chinese": "害怕的",
+        "example": "A frightened child.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "front",
+        "phonetic": "/frʌnt/",
+        "chinese": "前面的",
+        "example": "Front door.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "frozen",
+        "phonetic": "/ˈfrəʊzn/",
+        "chinese": "冻结的",
+        "example": "Frozen food.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "full",
+        "phonetic": "/fʊl/",
+        "chinese": "满的",
+        "example": "A full day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fun",
+        "phonetic": "/fʌn/",
+        "chinese": "有趣的",
+        "example": "A fun party.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fundamental",
+        "phonetic": "/ˌfʌndəˈmentl/",
+        "chinese": "基本的",
+        "example": "Fundamental right.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "funny",
+        "phonetic": "/ˈfʌni/",
+        "chinese": "有趣的",
+        "example": "A funny movie.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "furious",
+        "phonetic": "/ˈfjʊəriəs/",
+        "chinese": "狂怒的",
+        "example": "A furious look.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "future",
+        "phonetic": "/ˈfjuːtʃə/",
+        "chinese": "未来的",
+        "example": "Future plans.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "general",
+        "phonetic": "/ˈdʒenrəl/",
+        "chinese": "一般的",
+        "example": "A general idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "generous",
+        "phonetic": "/ˈdʒenərəs/",
+        "chinese": "慷慨的",
+        "example": "A generous gift.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "genetic",
+        "phonetic": "/dʒəˈnetɪk/",
+        "chinese": "基因的",
+        "example": "Genetic research.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "gentle",
+        "phonetic": "/ˈdʒentl/",
+        "chinese": "温柔的",
+        "example": "A gentle voice.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "genuine",
+        "phonetic": "/ˈdʒenjuɪn/",
+        "chinese": "真正的",
+        "example": "Genuine leather.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "giant",
+        "phonetic": "/ˈdʒaɪənt/",
+        "chinese": "巨大的",
+        "example": "A giant tree.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "global",
+        "phonetic": "/ˈɡləʊbl/",
+        "chinese": "全球的",
+        "example": "Global warming.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "gloomy",
+        "phonetic": "/ˈɡluːmi/",
+        "chinese": "忧郁的",
+        "example": "A gloomy day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "glorious",
+        "phonetic": "/ˈɡlɔːriəs/",
+        "chinese": "光荣的",
+        "example": "A glorious victory.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "golden",
+        "phonetic": "/ˈɡəʊldən/",
+        "chinese": "金色的",
+        "example": "A golden ring.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "good",
+        "phonetic": "/ɡʊd/",
+        "chinese": "好的",
+        "example": "A good idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "gorgeous",
+        "phonetic": "/ˈɡɔːdʒəs/",
+        "chinese": "华丽的",
+        "example": "A gorgeous view.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "graceful",
+        "phonetic": "/ˈɡreɪsfl/",
+        "chinese": "优雅的",
+        "example": "A graceful dancer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "grand",
+        "phonetic": "/ɡrænd/",
+        "chinese": "宏伟的",
+        "example": "A grand palace.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "grateful",
+        "phonetic": "/ˈɡreɪtfl/",
+        "chinese": "感激的",
+        "example": "I'm grateful.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "great",
+        "phonetic": "/ɡreɪt/",
+        "chinese": "伟大的",
+        "example": "A great success.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "greatest",
+        "phonetic": "/ˈɡreɪtɪst/",
+        "chinese": "最伟大的",
+        "example": "The greatest.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "greedy",
+        "phonetic": "/ˈɡriːdi/",
+        "chinese": "贪婪的",
+        "example": "A greedy person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "green",
+        "phonetic": "/ɡriːn/",
+        "chinese": "绿色的",
+        "example": "A green leaf.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "gross",
+        "phonetic": "/ɡrəʊs/",
+        "chinese": "总的",
+        "example": "Gross income.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "guilty",
+        "phonetic": "/ˈɡɪlti/",
+        "chinese": "有罪的",
+        "example": "Guilty of.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "habitual",
+        "phonetic": "/həˈbɪtʃuəl/",
+        "chinese": "习惯的",
+        "example": "A habitual smoker.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "happy",
+        "phonetic": "/ˈhæpi/",
+        "chinese": "高兴的",
+        "example": "A happy day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "hard",
+        "phonetic": "/hɑːd/",
+        "chinese": "困难的",
+        "example": "A hard task.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "harmful",
+        "phonetic": "/ˈhɑːmfl/",
+        "chinese": "有害的",
+        "example": "Harmful smoke.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "harsh",
+        "phonetic": "/hɑːʃ/",
+        "chinese": "严厉的",
+        "example": "A harsh winter.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "healthy",
+        "phonetic": "/ˈhelθi/",
+        "chinese": "健康的",
+        "example": "A healthy diet.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "heavy",
+        "phonetic": "/ˈhevi/",
+        "chinese": "重的",
+        "example": "A heavy box.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "helpful",
+        "phonetic": "/ˈhelpfl/",
+        "chinese": "有帮助的",
+        "example": "A helpful guide.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "helpless",
+        "phonetic": "/ˈhelpləs/",
+        "chinese": "无助的",
+        "example": "Feel helpless.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "hidden",
+        "phonetic": "/ˈhɪdn/",
+        "chinese": "隐藏的",
+        "example": "Hidden treasure.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "high",
+        "phonetic": "/haɪ/",
+        "chinese": "高的",
+        "example": "A high mountain.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "historic",
+        "phonetic": "/hɪˈstɒrɪk/",
+        "chinese": "历史性的",
+        "example": "A historic event.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "historical",
+        "phonetic": "/hɪˈstɒrɪkl/",
+        "chinese": "历史的",
+        "example": "Historical events.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "holy",
+        "phonetic": "/ˈhəʊli/",
+        "chinese": "神圣的",
+        "example": "A holy place.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "honest",
+        "phonetic": "/ˈɒnɪst/",
+        "chinese": "诚实的",
+        "example": "An honest person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "honorable",
+        "phonetic": "/ˈɒnərəbl/",
+        "chinese": "光荣的",
+        "example": "An honorable man.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "horizontal",
+        "phonetic": "/ˌhɒrɪˈzɒntl/",
+        "chinese": "水平的",
+        "example": "A horizontal line.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "horrible",
+        "phonetic": "/ˈhɒrəbl/",
+        "chinese": "可怕的",
+        "example": "A horrible smell.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "hostile",
+        "phonetic": "/ˈhɒstaɪl/",
+        "chinese": "敌对的",
+        "example": "A hostile look.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "hot",
+        "phonetic": "/hɒt/",
+        "chinese": "热的",
+        "example": "Hot weather.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "huge",
+        "phonetic": "/hjuːdʒ/",
+        "chinese": "巨大的",
+        "example": "A huge success.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "human",
+        "phonetic": "/ˈhjuːmən/",
+        "chinese": "人类的",
+        "example": "Human rights.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "humble",
+        "phonetic": "/ˈhʌmbl/",
+        "chinese": "谦虚的",
+        "example": "A humble person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "humorous",
+        "phonetic": "/ˈhjuːmərəs/",
+        "chinese": "幽默的",
+        "example": "A humorous story.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "hungry",
+        "phonetic": "/ˈhʌŋɡri/",
+        "chinese": "饥饿的",
+        "example": "I'm hungry.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ideal",
+        "phonetic": "/aɪˈdɪəl/",
+        "chinese": "理想的",
+        "example": "An ideal job.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "identical",
+        "phonetic": "/aɪˈdentɪkl/",
+        "chinese": "完全相同的",
+        "example": "Identical twins.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "idle",
+        "phonetic": "/ˈaɪdl/",
+        "chinese": "空闲的",
+        "example": "An idle hour.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ignorant",
+        "phonetic": "/ˈɪɡnərənt/",
+        "chinese": "无知的",
+        "example": "An ignorant person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "illegal",
+        "phonetic": "/ɪˈliːɡl/",
+        "chinese": "非法的",
+        "example": "Illegal action.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "immediate",
+        "phonetic": "/ɪˈmiːdiət/",
+        "chinese": "立即的",
+        "example": "Immediate response.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "immense",
+        "phonetic": "/ɪˈmens/",
+        "chinese": "巨大的",
+        "example": "Immense power.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "imperial",
+        "phonetic": "/ɪmˈpɪəriəl/",
+        "chinese": "帝国的",
+        "example": "Imperial palace.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "impolite",
+        "phonetic": "/ˌɪmpəˈlaɪt/",
+        "chinese": "不礼貌的",
+        "example": "Imolite behavior.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "important",
+        "phonetic": "/ɪmˈpɔːtnt/",
+        "chinese": "重要的",
+        "example": "An important day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "impossible",
+        "phonetic": "/ɪmˈpɒsəbl/",
+        "chinese": "不可能的",
+        "example": "An impossible task.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "impressive",
+        "phonetic": "/ɪmˈpresɪv/",
+        "chinese": "印象深刻的",
+        "example": "An impressive view.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "improved",
+        "phonetic": "/ɪmˈpruːvd/",
+        "chinese": "改进的",
+        "example": "An improved version.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "independent",
+        "phonetic": "/ˌɪndɪˈpendənt/",
+        "chinese": "独立的",
+        "example": "An independent country.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "indirect",
+        "phonetic": "/ˌɪndɪˈrekt/",
+        "chinese": "间接的",
+        "example": "An indirect answer.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "indoor",
+        "phonetic": "/ˈɪndɔː/",
+        "chinese": "室内的",
+        "example": "An indoor pool.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "industrial",
+        "phonetic": "/ɪnˈdʌstriəl/",
+        "chinese": "工业的",
+        "example": "Industrial area.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "inevitable",
+        "phonetic": "/ɪnˈevɪtəbl/",
+        "chinese": "不可避免的",
+        "example": "Inevitable change.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "influential",
+        "phonetic": "/ˌɪnfluˈenʃl/",
+        "chinese": "有影响力的",
+        "example": "An influential person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "informal",
+        "phonetic": "/ɪnˈfɔːml/",
+        "chinese": "非正式的",
+        "example": "An informal meeting.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "innocent",
+        "phonetic": "/ˈɪnəsnt/",
+        "chinese": "无辜的",
+        "example": "An innocent person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "innovative",
+        "phonetic": "/ˈɪnəveɪtɪv/",
+        "chinese": "创新的",
+        "example": "An innovative idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "inside",
+        "phonetic": "/ˌɪnˈsaɪd/",
+        "chinese": "里面的",
+        "example": "The inside room.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "insistent",
+        "phonetic": "/ɪnˈsɪstənt/",
+        "chinese": "坚持的",
+        "example": "Insistent demands.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "instant",
+        "phonetic": "/ˈɪnstənt/",
+        "chinese": "立即的",
+        "example": "Instant coffee.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intellectual",
+        "phonetic": "/ˌɪntəˈlektʃuəl/",
+        "chinese": "智力的",
+        "example": "Intellectual work.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intelligent",
+        "phonetic": "/ɪnˈtelɪdʒənt/",
+        "chinese": "聪明的",
+        "example": "An intelligent student.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intense",
+        "phonetic": "/ɪnˈtens/",
+        "chinese": "强烈的",
+        "example": "Intense heat.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intensive",
+        "phonetic": "/ɪnˈtensɪv/",
+        "chinese": "密集的",
+        "example": "Intensive training.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intent",
+        "phonetic": "/ɪnˈtent/",
+        "chinese": "专注的",
+        "example": "An intent look.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intermediate",
+        "phonetic": "/ˌɪntəˈmiːdiət/",
+        "chinese": "中级的",
+        "example": "Intermediate level.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "internal",
+        "phonetic": "/ɪnˈtɜːnl/",
+        "chinese": "内部的",
+        "example": "Internal affairs.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "international",
+        "phonetic": "/ˌɪntəˈnæʃənl/",
+        "chinese": "国际的",
+        "example": "International trade.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intimate",
+        "phonetic": "/ˈɪntɪmət/",
+        "chinese": "亲密的",
+        "example": "An intimate friend.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "intriguing",
+        "phonetic": "/ɪnˈtriːɡɪŋ/",
+        "chinese": "有趣的",
+        "example": "An intriguing story.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "invisible",
+        "phonetic": "/ɪnˈvɪzəbl/",
+        "chinese": "无形的",
+        "example": "An invisible force.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "involuntary",
+        "phonetic": "/ɪnˈvɒləntri/",
+        "chinese": "无意识的",
+        "example": "An involuntary act.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "involved",
+        "phonetic": "/ɪnˈvɒlvd/",
+        "chinese": "参与的",
+        "example": "Get involved.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "irregular",
+        "phonetic": "/ɪˈreɡjʊlə/",
+        "chinese": "不规则的",
+        "example": "Irregular shape.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "irrelevant",
+        "phonetic": "/ɪˈreləvənt/",
+        "chinese": "不相关的",
+        "example": "Irrelevant info.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "irresponsible",
+        "phonetic": "/ˌɪrɪˈspɒnsəbl/",
+        "chinese": "不负责任的",
+        "example": "Irresponsible act.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "isolated",
+        "phonetic": "/ˈaɪsəleɪtɪd/",
+        "chinese": "孤立的",
+        "example": "An isolated case.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "absolutely",
+        "phonetic": "/ˈæbsəluːtli/",
+        "chinese": "绝对地",
+        "example": "Absolutely right.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "accidentally",
+        "phonetic": "/ˌæksɪˈdentli/",
+        "chinese": "偶然地",
+        "example": "Accidentally broke.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "actually",
+        "phonetic": "/ˈæktʃuəli/",
+        "chinese": "实际上",
+        "example": "Actually, no.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "almost",
+        "phonetic": "/ˈɔːlməʊst/",
+        "chinese": "几乎",
+        "example": "Almost done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "already",
+        "phonetic": "/ɔːlˈredi/",
+        "chinese": "已经",
+        "example": "Already finished.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "also",
+        "phonetic": "/ˈɔːlsəʊ/",
+        "chinese": "也",
+        "example": "Me also.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "always",
+        "phonetic": "/ˈɔːlweɪz/",
+        "chinese": "总是",
+        "example": "Always smile.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "anywhere",
+        "phonetic": "/ˈeniweə/",
+        "chinese": "任何地方",
+        "example": "Go anywhere.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "approximately",
+        "phonetic": "/əˈprɒksɪmətli/",
+        "chinese": "大约",
+        "example": "Approximately 100.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "aside",
+        "phonetic": "/əˈsaɪd/",
+        "chinese": "旁边",
+        "example": "Stand aside.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "automatically",
+        "phonetic": "/ˌɔːtəˈmætɪkli/",
+        "chinese": "自动地",
+        "example": "Automatically start.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "barely",
+        "phonetic": "/ˈbeəli/",
+        "chinese": "几乎不",
+        "example": "Barely visible.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "basically",
+        "phonetic": "/ˈbeɪsɪkli/",
+        "chinese": "基本上",
+        "example": "Basically correct.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "certainly",
+        "phonetic": "/ˈsɜːtnli/",
+        "chinese": "当然",
+        "example": "Certainly!",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "closely",
+        "phonetic": "/ˈkləʊsli/",
+        "chinese": "紧密地",
+        "example": "Watch closely.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "commonly",
+        "phonetic": "/ˈkɒmənli/",
+        "chinese": "通常",
+        "example": "Commonly used.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "completely",
+        "phonetic": "/kəmˈpliːtli/",
+        "chinese": "完全地",
+        "example": "Completely wrong.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "constantly",
+        "phonetic": "/ˈkɒnstəntli/",
+        "chinese": "不断地",
+        "example": "Constantly changing.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "directly",
+        "phonetic": "/dəˈrektli/",
+        "chinese": "直接地",
+        "example": "Directly to.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "easily",
+        "phonetic": "/ˈiːzəli/",
+        "chinese": "容易地",
+        "example": "Easily done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "effectively",
+        "phonetic": "/ɪˈfektɪvli/",
+        "chinese": "有效地",
+        "example": "Work effectively.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "entirely",
+        "phonetic": "/ɪnˈtaɪəli/",
+        "chinese": "完全地",
+        "example": "Entirely new.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "especially",
+        "phonetic": "/ɪˈspeʃəli/",
+        "chinese": "尤其",
+        "example": "Especially for you.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "eventually",
+        "phonetic": "/ɪˈventʃʊəli/",
+        "chinese": "最终",
+        "example": "Eventually succeed.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "exactly",
+        "phonetic": "/ɪɡˈzæktli/",
+        "chinese": "精确地",
+        "example": "Exactly right.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "extremely",
+        "phonetic": "/ɪkˈstriːmli/",
+        "chinese": "极其",
+        "example": "Extremely cold.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "fairly",
+        "phonetic": "/ˈfeəli/",
+        "chinese": "相当",
+        "example": "Fairly good.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "frequently",
+        "phonetic": "/ˈfriːkwəntli/",
+        "chinese": "经常",
+        "example": "Frequently travel.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "generally",
+        "phonetic": "/ˈdʒenrəli/",
+        "chinese": "一般",
+        "example": "Generally true.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "gently",
+        "phonetic": "/ˈdʒentli/",
+        "chinese": "轻轻地",
+        "example": "Speak gently.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "happily",
+        "phonetic": "/ˈhæpɪli/",
+        "chinese": "开心地",
+        "example": "Live happily.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "hardly",
+        "phonetic": "/ˈhɑːdli/",
+        "chinese": "几乎不",
+        "example": "Hardly any.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "heavily",
+        "phonetic": "/ˈhevɪli/",
+        "chinese": "严重地",
+        "example": "Rain heavily.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "highly",
+        "phonetic": "/ˈhaɪli/",
+        "chinese": "高度地",
+        "example": "Highly likely.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "however",
+        "phonetic": "/haʊˈevə/",
+        "chinese": "然而",
+        "example": "However, no.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "immediately",
+        "phonetic": "/ɪˈmiːdiətli/",
+        "chinese": "立即",
+        "example": "Come immediately.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "indeed",
+        "phonetic": "/ɪnˈdiːd/",
+        "chinese": "确实",
+        "example": "Indeed true.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "instead",
+        "phonetic": "/ɪnˈsted/",
+        "chinese": "代替",
+        "example": "Use this instead.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "lately",
+        "phonetic": "/ˈleɪtli/",
+        "chinese": "最近",
+        "example": "Lately busy.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "loudly",
+        "phonetic": "/ˈlaʊdli/",
+        "chinese": "大声地",
+        "example": "Speak loudly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "mostly",
+        "phonetic": "/ˈməʊstli/",
+        "chinese": "大部分",
+        "example": "Mostly true.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "naturally",
+        "phonetic": "/ˈnætʃərəli/",
+        "chinese": "自然地",
+        "example": "Naturally talented.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "nearly",
+        "phonetic": "/ˈnɪəli/",
+        "chinese": "几乎",
+        "example": "Nearly done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "normally",
+        "phonetic": "/ˈnɔːməli/",
+        "chinese": "通常",
+        "example": "Normally go.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "obviously",
+        "phonetic": "/ˈɒbviəsli/",
+        "chinese": "明显地",
+        "example": "Obviously right.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "occasionally",
+        "phonetic": "/əˈkeɪʒənəli/",
+        "chinese": "偶尔",
+        "example": "Occasionally visit.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "often",
+        "phonetic": "/ˈɒfn/",
+        "chinese": "经常",
+        "example": "Often read.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "once",
+        "phonetic": "/wʌns/",
+        "chinese": "一次",
+        "example": "Once a day.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "only",
+        "phonetic": "/ˈəʊnli/",
+        "chinese": "只有",
+        "example": "Only one.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "otherwise",
+        "phonetic": "/ˈʌðəwaɪz/",
+        "chinese": "否则",
+        "example": "Work hard, otherwise fail.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "particularly",
+        "phonetic": "/pəˈtɪkjʊləli/",
+        "chinese": "特别",
+        "example": "Particularly good.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "perfectly",
+        "phonetic": "/ˈpɜːfɪktli/",
+        "chinese": "完美地",
+        "example": "Perfectly done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "perhaps",
+        "phonetic": "/pəˈhæps/",
+        "chinese": "也许",
+        "example": "Perhaps tomorrow.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "personally",
+        "phonetic": "/ˈpɜːsənəli/",
+        "chinese": "个人地",
+        "example": "Personally speaking.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "plainly",
+        "phonetic": "/ˈpleɪnli/",
+        "chinese": "清楚地",
+        "example": "Plainly visible.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "politely",
+        "phonetic": "/pəˈlaɪtli/",
+        "chinese": "礼貌地",
+        "example": "Ask politely.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "poorly",
+        "phonetic": "/ˈpʊəli/",
+        "chinese": "差劲地",
+        "example": "Poorly done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "possibly",
+        "phonetic": "/ˈpɒsəbli/",
+        "chinese": "可能",
+        "example": "Possibly true.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "practically",
+        "phonetic": "/ˈpræktɪkli/",
+        "chinese": "实际地",
+        "example": "Practically speaking.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "precisely",
+        "phonetic": "/prɪˈsaɪsli/",
+        "chinese": "精确地",
+        "example": "Precisely at 5.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "preferably",
+        "phonetic": "/ˈprefrəbli/",
+        "chinese": "更可取地",
+        "example": "Preferably today.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "presently",
+        "phonetic": "/ˈprezntli/",
+        "chinese": "目前",
+        "example": "Presently busy.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "presumably",
+        "phonetic": "/prɪˈzuːməbli/",
+        "chinese": "大概",
+        "example": "Presumably true.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "previously",
+        "phonetic": "/ˈpriːviəsli/",
+        "chinese": "先前",
+        "example": "Previously known.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "primarily",
+        "phonetic": "/praɪˈmerəli/",
+        "chinese": "主要",
+        "example": "Primarily used.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "probably",
+        "phonetic": "/ˈprɒbəbli/",
+        "chinese": "大概",
+        "example": "Probably right.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "promptly",
+        "phonetic": "/ˈprɒmptli/",
+        "chinese": "迅速地",
+        "example": "Reply promptly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "properly",
+        "phonetic": "/ˈprɒpəli/",
+        "chinese": "正确地",
+        "example": "Work properly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "quickly",
+        "phonetic": "/ˈkwɪkli/",
+        "chinese": "快速地",
+        "example": "Run quickly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "quietly",
+        "phonetic": "/ˈkwaɪətli/",
+        "chinese": "安静地",
+        "example": "Speak quietly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "rarely",
+        "phonetic": "/ˈreəli/",
+        "chinese": "很少",
+        "example": "Rarely seen.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "recently",
+        "phonetic": "/ˈriːsntli/",
+        "chinese": "最近",
+        "example": "Recently updated.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "regularly",
+        "phonetic": "/ˈreɡjʊləli/",
+        "chinese": "规律地",
+        "example": "Exercise regularly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "repeatedly",
+        "phonetic": "/rɪˈpiːtɪdli/",
+        "chinese": "反复地",
+        "example": "Said repeatedly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "roughly",
+        "phonetic": "/ˈrʌfli/",
+        "chinese": "大约",
+        "example": "Roughly 100.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "sadly",
+        "phonetic": "/ˈsædli/",
+        "chinese": "悲哀地",
+        "example": "Sadly lost.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "scarcely",
+        "phonetic": "/ˈskeəsli/",
+        "chinese": "几乎不",
+        "example": "Scarcely any.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "secretly",
+        "phonetic": "/ˈsiːkrətli/",
+        "chinese": "秘密地",
+        "example": "Secretly watch.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "seemingly",
+        "phonetic": "/ˈsiːmɪŋli/",
+        "chinese": "表面上",
+        "example": "Seemingly calm.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "seldom",
+        "phonetic": "/ˈseldəm/",
+        "chinese": "很少",
+        "example": "Seldom visit.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "separately",
+        "phonetic": "/ˈsepərətli/",
+        "chinese": "分别地",
+        "example": "Sent separately.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "seriously",
+        "phonetic": "/ˈsɪəriəsli/",
+        "chinese": "认真地",
+        "example": "Listen seriously.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "shortly",
+        "phonetic": "/ˈʃɔːtli/",
+        "chinese": "不久",
+        "example": "Shortly after.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "significantly",
+        "phonetic": "/sɪɡˈnɪfɪkəntli/",
+        "chinese": "显著地",
+        "example": "Significantly improved.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "similarly",
+        "phonetic": "/ˈsɪməli/",
+        "chinese": "类似地",
+        "example": "Similarly structured.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "simply",
+        "phonetic": "/ˈsɪmpli/",
+        "chinese": "简单地",
+        "example": "Simply done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "simultaneously",
+        "phonetic": "/ˌsɪmlˈteɪniəsli/",
+        "chinese": "同时",
+        "example": "Happen simultaneously.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "slowly",
+        "phonetic": "/ˈsləʊli/",
+        "chinese": "慢慢地",
+        "example": "Walk slowly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "smoothly",
+        "phonetic": "/ˈsmuːðli/",
+        "chinese": "顺利地",
+        "example": "Run smoothly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "softly",
+        "phonetic": "/ˈsɒftli/",
+        "chinese": "柔软地",
+        "example": "Speak softly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "solely",
+        "phonetic": "/ˈsəʊlli/",
+        "chinese": "单独地",
+        "example": "Solely responsible.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "specifically",
+        "phonetic": "/spəˈsɪfɪkli/",
+        "chinese": "具体地",
+        "example": "Specifically designed.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "steadily",
+        "phonetic": "/ˈstedɪli/",
+        "chinese": "稳定地",
+        "example": "Grow steadily.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "strongly",
+        "phonetic": "/ˈstrɒŋli/",
+        "chinese": "强烈地",
+        "example": "Strongly recommend.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "subsequently",
+        "phonetic": "/ˈsʌbsɪkwəntli/",
+        "chinese": "随后",
+        "example": "Subsequently lost.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "successfully",
+        "phonetic": "/səkˈsesfʊli/",
+        "chinese": "成功地",
+        "example": "Done successfully.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "suddenly",
+        "phonetic": "/ˈsʌdənli/",
+        "chinese": "突然",
+        "example": "Suddenly rain.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "sufficiently",
+        "phonetic": "/səˈfɪʃntli/",
+        "chinese": "足够地",
+        "example": "Sufficiently large.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "surprisingly",
+        "phonetic": "/səˈpraɪzɪŋli/",
+        "chinese": "令人惊讶地",
+        "example": "Surprisingly good.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "technically",
+        "phonetic": "/ˈteknɪkli/",
+        "chinese": "技术上",
+        "example": "Technically correct.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "therefore",
+        "phonetic": "/ˈðeəfɔː/",
+        "chinese": "因此",
+        "example": "Therefore, go.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "thoroughly",
+        "phonetic": "/ˈθʌrəli/",
+        "chinese": "彻底地",
+        "example": "Thoroughly clean.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "tightly",
+        "phonetic": "/ˈtaɪtli/",
+        "chinese": "紧紧地",
+        "example": "Hold tightly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "together",
+        "phonetic": "/təˈɡeðə/",
+        "chinese": "一起",
+        "example": "Work together.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "tomorrow",
+        "phonetic": "/təˈmɒrəʊ/",
+        "chinese": "明天",
+        "example": "See tomorrow.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "tonight",
+        "phonetic": "/təˈnaɪt/",
+        "chinese": "今晚",
+        "example": "Tonight only.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "totally",
+        "phonetic": "/ˈtəʊtəli/",
+        "chinese": "完全",
+        "example": "Totally agree.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "truly",
+        "phonetic": "/ˈtruːli/",
+        "chinese": "真正地",
+        "example": "Truly sorry.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "twice",
+        "phonetic": "/twaɪs/",
+        "chinese": "两次",
+        "example": "Twice a week.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "ultimately",
+        "phonetic": "/ˈʌltɪmətli/",
+        "chinese": "最终",
+        "example": "Ultimately succeed.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "unfortunately",
+        "phonetic": "/ʌnˈfɔːtʃənətli/",
+        "chinese": "不幸地",
+        "example": "Unfortunately no.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "usually",
+        "phonetic": "/ˈjuːʒʊəli/",
+        "chinese": "通常",
+        "example": "Usually go.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "virtually",
+        "phonetic": "/ˈvɜːtʃʊəli/",
+        "chinese": "实际上",
+        "example": "Virtually done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "weekly",
+        "phonetic": "/ˈwiːkli/",
+        "chinese": "每周",
+        "example": "A weekly report.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "well",
+        "phonetic": "/wel/",
+        "chinese": "好",
+        "example": "Well done.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "widely",
+        "phonetic": "/ˈwaɪdli/",
+        "chinese": "广泛地",
+        "example": "Widely used.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "worldwide",
+        "phonetic": "/ˌwɜːldˈwaɪd/",
+        "chinese": "全世界",
+        "example": "Worldwide fame.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "yesterday",
+        "phonetic": "/ˈjestədeɪ/",
+        "chinese": "昨天",
+        "example": "Yesterday was fun.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "yet",
+        "phonetic": "/jet/",
+        "chinese": "还",
+        "example": "Not yet.",
+        "tags": "副词"
+      }
+    ]
+  }
+}

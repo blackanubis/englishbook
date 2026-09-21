@@ -1,0 +1,3470 @@
+{
+  "customVocab": {
+    "senior": [
+      {
+        "level": "高中",
+        "word": "abstract",
+        "phonetic": "/ˈæbstrækt/",
+        "chinese": "抽象的",
+        "example": "Abstract ideas.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "academic",
+        "phonetic": "/ˌækəˈdemɪk/",
+        "chinese": "学术的",
+        "example": "Academic research.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "aesthetic",
+        "phonetic": "/iːsˈθetɪk/",
+        "chinese": "美学的",
+        "example": "Aesthetic value.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "alien",
+        "phonetic": "/ˈeɪliən/",
+        "chinese": "外星的",
+        "example": "Alien life.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "allegory",
+        "phonetic": "/ˈælɪɡəri/",
+        "chinese": "寓言",
+        "example": "A religious allegory.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "ambivalent",
+        "phonetic": "/æmˈbɪvələnt/",
+        "chinese": "矛盾的",
+        "example": "Feel ambivalent.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "analogy",
+        "phonetic": "/əˈnælədʒi/",
+        "chinese": "类比",
+        "example": "Draw an analogy.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "anonymous",
+        "phonetic": "/əˈnɒnɪməs/",
+        "chinese": "匿名的",
+        "example": "Anonymous donor.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "antibody",
+        "phonetic": "/ˈæntɪbɒdi/",
+        "chinese": "抗体",
+        "example": "Produce antibodies.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "archaic",
+        "phonetic": "/ɑːˈkeɪɪk/",
+        "chinese": "古老的",
+        "example": "Archaic language.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "assumption",
+        "phonetic": "/əˈsʌmpʃn/",
+        "chinese": "假设",
+        "example": "Based on assumption.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "attribute",
+        "phonetic": "/əˈtrɪbjuːt/",
+        "chinese": "归因",
+        "example": "Attribute to.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "autonomous",
+        "phonetic": "/ɔːˈtɒnəməs/",
+        "chinese": "自治的",
+        "example": "Autonomous region.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "bias",
+        "phonetic": "/ˈbaɪəs/",
+        "chinese": "偏见",
+        "example": "Without bias.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "boundary",
+        "phonetic": "/ˈbaʊndri/",
+        "chinese": "边界",
+        "example": "Set boundaries.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "cause",
+        "phonetic": "/kɔːz/",
+        "chinese": "原因",
+        "example": "Root cause.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "chronology",
+        "phonetic": "/krəˈnɒlədʒi/",
+        "chinese": "年代学",
+        "example": "Event chronology.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "cognitive",
+        "phonetic": "/ˈkɒɡnətɪv/",
+        "chinese": "认知的",
+        "example": "Cognitive skills.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "coherent",
+        "phonetic": "/kəʊˈhɪərənt/",
+        "chinese": "连贯的",
+        "example": "Coherent argument.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "comply",
+        "phonetic": "/kəmˈplaɪ/",
+        "chinese": "服从",
+        "example": "Comply with rules.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "comprehensive",
+        "phonetic": "/ˌkɒmprɪˈhensɪv/",
+        "chinese": "综合的",
+        "example": "Comprehensive guide.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "compromise",
+        "phonetic": "/ˈkɒmprəmaɪz/",
+        "chinese": "妥协",
+        "example": "Reach a compromise.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "conceive",
+        "phonetic": "/kənˈsiːv/",
+        "chinese": "构想",
+        "example": "Conceive an idea.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "consensus",
+        "phonetic": "/kənˈsensəs/",
+        "chinese": "共识",
+        "example": "Reach consensus.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "consent",
+        "phonetic": "/kənˈsent/",
+        "chinese": "同意",
+        "example": "Give consent.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "constraint",
+        "phonetic": "/kənˈstreɪnt/",
+        "chinese": "约束",
+        "example": "Time constraint.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "context",
+        "phonetic": "/ˈkɒntekst/",
+        "chinese": "语境",
+        "example": "In context.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "conviction",
+        "phonetic": "/kənˈvɪkʃn/",
+        "chinese": "信念",
+        "example": "Strong conviction.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "correlation",
+        "phonetic": "/ˌkɒrəˈleɪʃn/",
+        "chinese": "相关",
+        "example": "Strong correlation.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "credibility",
+        "phonetic": "/ˌkredəˈbɪləti/",
+        "chinese": "可信度",
+        "example": "Lose credibility.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "criterion",
+        "phonetic": "/kraɪˈtɪəriən/",
+        "chinese": "标准",
+        "example": "Meet the criterion.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "chinese": "关键的",
+        "example": "Crucial moment.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "data",
+        "phonetic": "/ˈdeɪtə/",
+        "chinese": "数据",
+        "example": "Analyze data.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "deduce",
+        "phonetic": "/dɪˈdjuːs/",
+        "chinese": "推断",
+        "example": "Deduce from.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "define",
+        "phonetic": "/dɪˈfaɪn/",
+        "chinese": "定义",
+        "example": "Define the term.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "demonstrate",
+        "phonetic": "/ˈdemənstreɪt/",
+        "chinese": "证明",
+        "example": "Demonstrate skill.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "depict",
+        "phonetic": "/dɪˈpɪkt/",
+        "chinese": "描绘",
+        "example": "Depict a scene.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "derive",
+        "phonetic": "/dɪˈraɪv/",
+        "chinese": "得自",
+        "example": "Derive from.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "differentiate",
+        "phonetic": "/ˌdɪfəˈrenʃieɪt/",
+        "chinese": "区分",
+        "example": "Differentiate A from B.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "dimension",
+        "phonetic": "/daɪˈmenʃn/",
+        "chinese": "维度",
+        "example": "New dimension.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "abundant",
+        "phonetic": "/əˈbʌndənt/",
+        "chinese": "丰富的",
+        "example": "Abundant rainfall.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "accessible",
+        "phonetic": "/əkˈsesəbl/",
+        "chinese": "可访问的",
+        "example": "Accessible to all.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "accurate",
+        "phonetic": "/ˈækjərət/",
+        "chinese": "准确的",
+        "example": "Accurate data.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "acute",
+        "phonetic": "/əˈkjuːt/",
+        "chinese": "敏锐的",
+        "example": "Acute awareness.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "adequate",
+        "phonetic": "/ˈædɪkwət/",
+        "chinese": "充分的",
+        "example": "Adequate resources.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "adjacent",
+        "phonetic": "/əˈdʒeɪsnt/",
+        "chinese": "邻近的",
+        "example": "Adjacent room.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "adverse",
+        "phonetic": "/ˈædvɜːs/",
+        "chinese": "不利的",
+        "example": "Adverse effects.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ambiguous",
+        "phonetic": "/æmˈbɪɡjuəs/",
+        "chinese": "模糊的",
+        "example": "Ambiguous meaning.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ample",
+        "phonetic": "/ˈæmpl/",
+        "chinese": "充足的",
+        "example": "Ample supply.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "anonymous",
+        "phonetic": "/əˈnɒnɪməs/",
+        "chinese": "匿名的",
+        "example": "Anonymous letter.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "arbitrary",
+        "phonetic": "/ˈɑːbɪtrəri/",
+        "chinese": "任意的",
+        "example": "Arbitrary decision.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "authentic",
+        "phonetic": "/ɔːˈθentɪk/",
+        "chinese": "真实的",
+        "example": "Authentic document.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "barren",
+        "phonetic": "/ˈbærən/",
+        "chinese": "贫瘠的",
+        "example": "Barren land.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "bizarre",
+        "phonetic": "/bɪˈzɑː/",
+        "chinese": "古怪的",
+        "example": "Bizarre behavior.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "blunt",
+        "phonetic": "/blʌnt/",
+        "chinese": "直率的",
+        "example": "Blunt response.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "bold",
+        "phonetic": "/bəʊld/",
+        "chinese": "大胆的",
+        "example": "Bold move.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "brisk",
+        "phonetic": "/brɪsk/",
+        "chinese": "敏捷的",
+        "example": "Brisk walk.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "casual",
+        "phonetic": "/ˈkæʒuəl/",
+        "chinese": "随意的",
+        "example": "Casual clothes.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cautious",
+        "phonetic": "/ˈkɔːʃəs/",
+        "chinese": "谨慎的",
+        "example": "Cautious approach.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "chronic",
+        "phonetic": "/ˈkrɒnɪk/",
+        "chinese": "长期的",
+        "example": "Chronic illness.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "civic",
+        "phonetic": "/ˈsɪvɪk/",
+        "chinese": "公民的",
+        "example": "Civic duty.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "coherent",
+        "phonetic": "/kəʊˈhɪərənt/",
+        "chinese": "连贯的",
+        "example": "Coherent speech.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "compact",
+        "phonetic": "/kəmˈpækt/",
+        "chinese": "紧凑的",
+        "example": "Compact car.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "comparable",
+        "phonetic": "/ˈkɒmpərəbl/",
+        "chinese": "可比的",
+        "example": "Comparable size.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "compelling",
+        "phonetic": "/kəmˈpelɪŋ/",
+        "chinese": "引人注目的",
+        "example": "Compelling story.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "competent",
+        "phonetic": "/ˈkɒmpɪtənt/",
+        "chinese": "有能力的",
+        "example": "Competent staff.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "compliant",
+        "phonetic": "/kəmˈplaɪənt/",
+        "chinese": "顺从的",
+        "example": "Compliant with rules.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "comprehensive",
+        "phonetic": "/ˌkɒmprɪˈhensɪv/",
+        "chinese": "综合的",
+        "example": "Comprehensive plan.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "compulsory",
+        "phonetic": "/kəmˈpʌlsəri/",
+        "chinese": "强制的",
+        "example": "Compulsory education.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "consecutive",
+        "phonetic": "/kənˈsekjʊtɪv/",
+        "chinese": "连续的",
+        "example": "Consecutive days.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "contemporary",
+        "phonetic": "/kənˈtemprəri/",
+        "chinese": "当代的",
+        "example": "Contemporary art.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "controversial",
+        "phonetic": "/ˌkɒntrəˈvɜːʃl/",
+        "chinese": "有争议的",
+        "example": "Controversial issue.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "chinese": "关键的",
+        "example": "Crucial decision.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "deliberate",
+        "phonetic": "/dɪˈlɪbərət/",
+        "chinese": "蓄意的",
+        "example": "Deliberate act.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dense",
+        "phonetic": "/dens/",
+        "chinese": "密集的",
+        "example": "Dense fog.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "desperate",
+        "phonetic": "/ˈdespərət/",
+        "chinese": "绝望的",
+        "example": "Desperate attempt.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "detrimental",
+        "phonetic": "/ˌdetrɪˈmentl/",
+        "chinese": "有害的",
+        "example": "Detrimental effect.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "discrete",
+        "phonetic": "/dɪˈskriːt/",
+        "chinese": "离散的",
+        "example": "Discrete units.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "diverse",
+        "phonetic": "/daɪˈvɜːs/",
+        "chinese": "多种多样的",
+        "example": "Diverse cultures.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dominant",
+        "phonetic": "/ˈdɒmɪnənt/",
+        "chinese": "占主导的",
+        "example": "Dominant trait.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dramatic",
+        "phonetic": "/drəˈmætɪk/",
+        "chinese": "剧烈的",
+        "example": "Dramatic change.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "elderly",
+        "phonetic": "/ˈeldəli/",
+        "chinese": "上了年纪的",
+        "example": "The elderly.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "empirical",
+        "phonetic": "/ɪmˈpɪrɪkl/",
+        "chinese": "经验主义的",
+        "example": "Empirical evidence.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "endless",
+        "phonetic": "/ˈendləs/",
+        "chinese": "无尽的",
+        "example": "Endless possibilities.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "enormous",
+        "phonetic": "/ɪˈnɔːməs/",
+        "chinese": "巨大的",
+        "example": "Enormous success.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "explicit",
+        "phonetic": "/ɪkˈsplɪsɪt/",
+        "chinese": "明确的",
+        "example": "Explicit instructions.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "faithful",
+        "phonetic": "/ˈfeɪθfl/",
+        "chinese": "忠诚的",
+        "example": "Faithful friend.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "feasible",
+        "phonetic": "/ˈfiːzəbl/",
+        "chinese": "可行的",
+        "example": "Feasible plan.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fluent",
+        "phonetic": "/ˈfluːənt/",
+        "chinese": "流利的",
+        "example": "Fluent speaker.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "futile",
+        "phonetic": "/ˈfjuːtaɪl/",
+        "chinese": "徒劳的",
+        "example": "Futile effort.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "accompany",
+        "phonetic": "/əˈkʌmpəni/",
+        "chinese": "伴随",
+        "example": "Accompany me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "accomplish",
+        "phonetic": "/əˈkʌmplɪʃ/",
+        "chinese": "完成",
+        "example": "Accomplish the goal.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "accord",
+        "phonetic": "/əˈkɔːd/",
+        "chinese": "一致",
+        "example": "In accord with.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "account",
+        "phonetic": "/əˈkaʊnt/",
+        "chinese": "解释",
+        "example": "Account for.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "accumulate",
+        "phonetic": "/əˈkjuːmjʊleɪt/",
+        "chinese": "积累",
+        "example": "Accumulate wealth.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "adapt",
+        "phonetic": "/əˈdæpt/",
+        "chinese": "适应",
+        "example": "Adapt quickly.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "address",
+        "phonetic": "/əˈdres/",
+        "chinese": "处理",
+        "example": "Address the issue.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "admit",
+        "phonetic": "/ədˈmɪt/",
+        "chinese": "承认",
+        "example": "I admit.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "advocate",
+        "phonetic": "/ˈædvəkeɪt/",
+        "chinese": "提倡",
+        "example": "Advocate peace.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "allocate",
+        "phonetic": "/ˈæləkeɪt/",
+        "chinese": "分配",
+        "example": "Allocate resources.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "alter",
+        "phonetic": "/ˈɔːltə/",
+        "chinese": "改变",
+        "example": "Alter the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "amend",
+        "phonetic": "/əˈmend/",
+        "chinese": "修正",
+        "example": "Amend the law.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "anticipate",
+        "phonetic": "/ænˈtɪsɪpeɪt/",
+        "chinese": "预期",
+        "example": "Anticipate demand.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "appeal",
+        "phonetic": "/əˈpiːl/",
+        "chinese": "呼吁",
+        "example": "Appeal for help.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "appreciate",
+        "phonetic": "/əˈpriːʃieɪt/",
+        "chinese": "感激",
+        "example": "I appreciate it.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "approach",
+        "phonetic": "/əˈprəʊtʃ/",
+        "chinese": "处理",
+        "example": "Approach carefully.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "approve",
+        "phonetic": "/əˈpruːv/",
+        "chinese": "批准",
+        "example": "Approve the plan.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "arbitrate",
+        "phonetic": "/ˈɑːbɪtreɪt/",
+        "chinese": "仲裁",
+        "example": "Arbitrate a dispute.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "arise",
+        "phonetic": "/əˈraɪz/",
+        "chinese": "出现",
+        "example": "Problems arise.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "assert",
+        "phonetic": "/əˈsɜːt/",
+        "chinese": "断言",
+        "example": "Assert yourself.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "assess",
+        "phonetic": "/əˈses/",
+        "chinese": "评估",
+        "example": "Assess the damage.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "assign",
+        "phonetic": "/əˈsaɪn/",
+        "chinese": "分配",
+        "example": "Assign tasks.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "assume",
+        "phonetic": "/əˈsjuːm/",
+        "chinese": "假设",
+        "example": "Assume the worst.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "attain",
+        "phonetic": "/əˈteɪn/",
+        "chinese": "达到",
+        "example": "Attain success.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "attribute",
+        "phonetic": "/əˈtrɪbjuːt/",
+        "chinese": "归因",
+        "example": "Attribute to luck.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "boost",
+        "phonetic": "/buːst/",
+        "chinese": "促进",
+        "example": "Boost morale.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "clarify",
+        "phonetic": "/ˈklærəfaɪ/",
+        "chinese": "澄清",
+        "example": "Clarify the rule.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "collaborate",
+        "phonetic": "/kəˈlæbəreɪt/",
+        "chinese": "合作",
+        "example": "Collaborate on.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "compile",
+        "phonetic": "/kəmˈpaɪl/",
+        "chinese": "编辑",
+        "example": "Compile a list.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "comply",
+        "phonetic": "/kəmˈplaɪ/",
+        "chinese": "遵守",
+        "example": "Comply with.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "comprise",
+        "phonetic": "/kəmˈpraɪz/",
+        "chinese": "包括",
+        "example": "Comprise three parts.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "conceal",
+        "phonetic": "/kənˈsiːl/",
+        "chinese": "隐藏",
+        "example": "Conceal the truth.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "conduct",
+        "phonetic": "/kənˈdʌkt/",
+        "chinese": "进行",
+        "example": "Conduct a survey.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "confer",
+        "phonetic": "/kənˈfɜː/",
+        "chinese": "商议",
+        "example": "Confer with.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "conform",
+        "phonetic": "/kənˈfɔːm/",
+        "chinese": "遵守",
+        "example": "Conform to.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "confront",
+        "phonetic": "/kənˈfrʌnt/",
+        "chinese": "面对",
+        "example": "Confront the truth.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "convey",
+        "phonetic": "/kənˈveɪ/",
+        "chinese": "传达",
+        "example": "Convey a message.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "cope",
+        "phonetic": "/kəʊp/",
+        "chinese": "应对",
+        "example": "Cope with stress.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "correspond",
+        "phonetic": "/ˌkɒrəˈspɒnd/",
+        "chinese": "通信",
+        "example": "Correspond with.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "cultivate",
+        "phonetic": "/ˈkʌltɪveɪt/",
+        "chinese": "培养",
+        "example": "Cultivate habits.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "deceive",
+        "phonetic": "/dɪˈsiːv/",
+        "chinese": "欺骗",
+        "example": "Don't deceive me.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "dedicate",
+        "phonetic": "/ˈdedɪkeɪt/",
+        "chinese": "奉献",
+        "example": "Dedicate yourself.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "denounce",
+        "phonetic": "/dɪˈnaʊns/",
+        "chinese": "谴责",
+        "example": "Denounce violence.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "depict",
+        "phonetic": "/dɪˈpɪkt/",
+        "chinese": "描绘",
+        "example": "Depict reality.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "derive",
+        "phonetic": "/dɪˈraɪv/",
+        "chinese": "得自",
+        "example": "Derived from.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "deter",
+        "phonetic": "/dɪˈtɜː/",
+        "chinese": "阻止",
+        "example": "Deter crime.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "diminish",
+        "phonetic": "/dɪˈmɪnɪʃ/",
+        "chinese": "减少",
+        "example": "Diminish pain.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "disable",
+        "phonetic": "/dɪsˈeɪbl/",
+        "chinese": "使残疾",
+        "example": "Disable attack.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "discourage",
+        "phonetic": "/dɪsˈkʌrɪdʒ/",
+        "chinese": "使泄气",
+        "example": "Don't discourage.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "displace",
+        "phonetic": "/dɪsˈpleɪs/",
+        "chinese": "取代",
+        "example": "Displace workers.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "distort",
+        "phonetic": "/dɪˈstɔːt/",
+        "chinese": "扭曲",
+        "example": "Distort the truth.",
+        "tags": "动词"
+      },
+      {
+        "level": "高中",
+        "word": "abundance",
+        "phonetic": "/əˈbʌndəns/",
+        "chinese": "丰富",
+        "example": "In abundance.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "accountability",
+        "phonetic": "/əˌkaʊntəˈbɪləti/",
+        "chinese": "问责",
+        "example": "Demand accountability.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "acquisition",
+        "phonetic": "/ˌækwɪˈzɪʃn/",
+        "chinese": "收购",
+        "example": "A big acquisition.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "adversity",
+        "phonetic": "/ədˈvɜːsəti/",
+        "chinese": "逆境",
+        "example": "Face adversity.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "allegation",
+        "phonetic": "/ˌælɪˈɡeɪʃn/",
+        "chinese": "指控",
+        "example": "Make an allegation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "allegiance",
+        "phonetic": "/əˈliːdʒəns/",
+        "chinese": "忠诚",
+        "example": "Pledge allegiance.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "amendment",
+        "phonetic": "/əˈmendmənt/",
+        "chinese": "修正案",
+        "example": "Constitutional amendment.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "analogy",
+        "phonetic": "/əˈnælədʒi/",
+        "chinese": "类比",
+        "example": "A useful analogy.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "anticipation",
+        "phonetic": "/ænˌtɪsɪˈpeɪʃn/",
+        "chinese": "预期",
+        "example": "In anticipation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "apprehension",
+        "phonetic": "/ˌæprɪˈhenʃn/",
+        "chinese": "理解",
+        "example": "Slow apprehension.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "aptitude",
+        "phonetic": "/ˈæptɪtjuːd/",
+        "chinese": "才能",
+        "example": "A natural aptitude.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "assessment",
+        "phonetic": "/əˈsesmənt/",
+        "chinese": "评估",
+        "example": "Conduct assessment.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "assumption",
+        "phonetic": "/əˈsʌmpʃn/",
+        "chinese": "假设",
+        "example": "False assumption.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "authorization",
+        "phonetic": "/ɔːˌθəraɪˈzeɪʃn/",
+        "chinese": "授权",
+        "example": "Need authorization.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "autonomy",
+        "phonetic": "/ɔːˈtɒnəmi/",
+        "chinese": "自治",
+        "example": "Respect autonomy.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "availability",
+        "phonetic": "/əˌveɪləˈbɪləti/",
+        "chinese": "可用性",
+        "example": "Check availability.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "burden",
+        "phonetic": "/ˈbɜːdn/",
+        "chinese": "负担",
+        "example": "Heavy burden.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "candidacy",
+        "phonetic": "/ˈkændɪdəsi/",
+        "chinese": "候选人资格",
+        "example": "Announce candidacy.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "capability",
+        "phonetic": "/ˌkeɪpəˈbɪləti/",
+        "chinese": "能力",
+        "example": "Test capability.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "celebration",
+        "phonetic": "/ˌselɪˈbreɪʃn/",
+        "chinese": "庆典",
+        "example": "A big celebration.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "chronicle",
+        "phonetic": "/ˈkrɒnɪkl/",
+        "chinese": "编年史",
+        "example": "Historical chronicle.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "circulation",
+        "phonetic": "/ˌsɜːkjʊˈleɪʃn/",
+        "chinese": "流通",
+        "example": "News circulation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "coalition",
+        "phonetic": "/ˌkəʊəˈlɪʃn/",
+        "chinese": "联盟",
+        "example": "Form a coalition.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "compassion",
+        "phonetic": "/kəmˈpæʃn/",
+        "chinese": "同情",
+        "example": "Show compassion.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "compensation",
+        "phonetic": "/ˌkɒmpenˈseɪʃn/",
+        "chinese": "补偿",
+        "example": "Fair compensation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "competence",
+        "phonetic": "/ˈkɒmpɪtəns/",
+        "chinese": "能力",
+        "example": "Professional competence.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "compliance",
+        "phonetic": "/kəmˈplaɪəns/",
+        "chinese": "合规",
+        "example": "Compliance officer.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "conception",
+        "phonetic": "/kənˈsepʃn/",
+        "chinese": "概念",
+        "example": "A clear conception.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "confrontation",
+        "phonetic": "/ˌkɒnfrʌnˈteɪʃn/",
+        "chinese": "对抗",
+        "example": "Avoid confrontation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "conscience",
+        "phonetic": "/ˈkɒnʃəns/",
+        "chinese": "良心",
+        "example": "Clear conscience.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "consensus",
+        "phonetic": "/kənˈsensəs/",
+        "chinese": "共识",
+        "example": "General consensus.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "consequence",
+        "phonetic": "/ˈkɒnsɪkwəns/",
+        "chinese": "后果",
+        "example": "Serious consequence.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "conservation",
+        "phonetic": "/ˌkɒnsəˈveɪʃn/",
+        "chinese": "保护",
+        "example": "Wildlife conservation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "conspiracy",
+        "phonetic": "/kənˈspɪrəsi/",
+        "chinese": "阴谋",
+        "example": "Conspiracy theory.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "constituency",
+        "phonetic": "/kənˈstɪtʃuənsi/",
+        "chinese": "选区",
+        "example": "My constituency.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "constraint",
+        "phonetic": "/kənˈstreɪnt/",
+        "chinese": "约束",
+        "example": "Budget constraint.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "consultation",
+        "phonetic": "/ˌkɒnsəlˈteɪʃn/",
+        "chinese": "咨询",
+        "example": "Free consultation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "contradiction",
+        "phonetic": "/ˌkɒntrəˈdɪkʃn/",
+        "chinese": "矛盾",
+        "example": "In contradiction.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "convention",
+        "phonetic": "/kənˈvenʃn/",
+        "chinese": "惯例",
+        "example": "Social convention.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "correspondence",
+        "phonetic": "/ˌkɒrəˈspɒndəns/",
+        "chinese": "通信",
+        "example": "Email correspondence.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "credibility",
+        "phonetic": "/ˌkredəˈbɪləti/",
+        "chinese": "信誉",
+        "example": "Damage credibility.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "crusade",
+        "phonetic": "/kruːˈseɪd/",
+        "chinese": "运动",
+        "example": "A moral crusade.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "demographic",
+        "phonetic": "/ˌdeməˈɡræfɪk/",
+        "chinese": "人口统计",
+        "example": "Demographic data.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "deployment",
+        "phonetic": "/dɪˈplɔɪmənt/",
+        "chinese": "部署",
+        "example": "Military deployment.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "deprivation",
+        "phonetic": "/ˌdeprɪˈveɪʃn/",
+        "chinese": "剥夺",
+        "example": "Sleep deprivation.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "deterioration",
+        "phonetic": "/dɪˌtɪəriəˈreɪʃn/",
+        "chinese": "恶化",
+        "example": "Environmental deterioration.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "dimension",
+        "phonetic": "/dɪˈmenʃn/",
+        "chinese": "维度",
+        "example": "Third dimension.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "discrepancy",
+        "phonetic": "/dɪˈskrepənsi/",
+        "chinese": "差异",
+        "example": "A discrepancy.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "discrimination",
+        "phonetic": "/dɪˌskrɪmɪˈneɪʃn/",
+        "chinese": "歧视",
+        "example": "Race discrimination.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "disposition",
+        "phonetic": "/ˌdɪspəˈzɪʃn/",
+        "chinese": "性情",
+        "example": "A cheerful disposition.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "dispute",
+        "phonetic": "/dɪˈspjuːt/",
+        "chinese": "争端",
+        "example": "Labor dispute.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "dissent",
+        "phonetic": "/dɪˈsent/",
+        "chinese": "异议",
+        "example": "Political dissent.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "distortion",
+        "phonetic": "/dɪˈstɔːʃn/",
+        "chinese": "扭曲",
+        "example": "Media distortion.",
+        "tags": "名词"
+      },
+      {
+        "level": "高中",
+        "word": "accordingly",
+        "phonetic": "/əˈkɔːdɪŋli/",
+        "chinese": "因此",
+        "example": "Act accordingly.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "adequately",
+        "phonetic": "/ˈædɪkwətli/",
+        "chinese": "充分地",
+        "example": "Adequately prepared.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "approximately",
+        "phonetic": "/əˈprɒksɪmətli/",
+        "chinese": "大约",
+        "example": "Approximately 100.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "automatically",
+        "phonetic": "/ˌɔːtəˈmætɪkli/",
+        "chinese": "自动地",
+        "example": "Update automatically.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "barely",
+        "phonetic": "/ˈbeəli/",
+        "chinese": "几乎不",
+        "example": "Barely visible.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "cautiously",
+        "phonetic": "/ˈkɔːʃəsli/",
+        "chinese": "谨慎地",
+        "example": "Walk cautiously.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "consciously",
+        "phonetic": "/ˈkɒnʃəsli/",
+        "chinese": "有意识地",
+        "example": "Consciously choose.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "consequently",
+        "phonetic": "/ˈkɒnsɪkwəntli/",
+        "chinese": "因此",
+        "example": "Consequently, we left.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "considerably",
+        "phonetic": "/kənˈsɪdərəbli/",
+        "chinese": "相当地",
+        "example": "Considerably better.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "consistently",
+        "phonetic": "/kənˈsɪstəntli/",
+        "chinese": "一贯地",
+        "example": "Consistently good.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "conversely",
+        "phonetic": "/ˈkɒnvɜːsli/",
+        "chinese": "相反地",
+        "example": "Conversely,...",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "deliberately",
+        "phonetic": "/dɪˈlɪbərətli/",
+        "chinese": "故意地",
+        "example": "Deliberately ignored.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "delicately",
+        "phonetic": "/ˈdelɪkətli/",
+        "chinese": "微妙地",
+        "example": "Delicately balanced.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "deliberately",
+        "phonetic": "/dɪˈlɪbərətli/",
+        "chinese": "慎重地",
+        "example": "Deliberately planned.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "drastically",
+        "phonetic": "/ˈdræstɪkli/",
+        "chinese": "剧烈地",
+        "example": "Drastically changed.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "effectively",
+        "phonetic": "/ɪˈfektɪvli/",
+        "chinese": "有效地",
+        "example": "Effectively managed.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "efficiently",
+        "phonetic": "/ɪˈfɪʃntli/",
+        "chinese": "高效地",
+        "example": "Work efficiently.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "emotionally",
+        "phonetic": "/ɪˈməʊʃənəli/",
+        "chinese": "情感上",
+        "example": "Emotionally attached.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "essentially",
+        "phonetic": "/ɪˈsenʃəli/",
+        "chinese": "本质上",
+        "example": "Essentially the same.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "exclusively",
+        "phonetic": "/ɪkˈskluːsɪvli/",
+        "chinese": "专门地",
+        "example": "Exclusively for you.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "explicitly",
+        "phonetic": "/ɪkˈsplɪsɪtli/",
+        "chinese": "明确地",
+        "example": "Explicitly state.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "extremely",
+        "phonetic": "/ɪkˈstriːmli/",
+        "chinese": "极其",
+        "example": "Extremely cold.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "fundamentally",
+        "phonetic": "/ˌfʌndəˈmentli/",
+        "chinese": "根本上",
+        "example": "Fundamentally wrong.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "genuinely",
+        "phonetic": "/ˈdʒenjuɪnli/",
+        "chinese": "真正地",
+        "example": "Genuinely happy.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "gradually",
+        "phonetic": "/ˈɡrædʒʊəli/",
+        "chinese": "逐渐地",
+        "example": "Gradually improve.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "historically",
+        "phonetic": "/hɪˈstɒrɪkli/",
+        "chinese": "历史上",
+        "example": "Historically accurate.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "increasingly",
+        "phonetic": "/ɪnˈkriːsɪŋli/",
+        "chinese": "日益",
+        "example": "Increasingly difficult.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "inevitably",
+        "phonetic": "/ɪnˈevɪtəbli/",
+        "chinese": "不可避免地",
+        "example": "Inevitable result.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "inherently",
+        "phonetic": "/ɪnˈhɪərəntli/",
+        "chinese": "固有地",
+        "example": "Inherently different.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "literally",
+        "phonetic": "/ˈlɪtərəli/",
+        "chinese": "字面上",
+        "example": "Literally millions.",
+        "tags": "副词"
+      },
+      {
+        "level": "高中",
+        "word": "bring about",
+        "phonetic": "/brɪŋ əˈbaʊt/",
+        "chinese": "引起",
+        "example": "Bring about change.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "bring up",
+        "phonetic": "/brɪŋ ʌp/",
+        "chinese": "养育",
+        "example": "Bring up children.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "call off",
+        "phonetic": "/kɔːl ɒf/",
+        "chinese": "取消",
+        "example": "Call off the meeting.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "carry on",
+        "phonetic": "/ˈkæri ɒn/",
+        "chinese": "继续",
+        "example": "Carry on working.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "carry out",
+        "phonetic": "/ˈkæri aʊt/",
+        "chinese": "执行",
+        "example": "Carry out the plan.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "catch up",
+        "phonetic": "/kætʃ ʌp/",
+        "chinese": "赶上",
+        "example": "Catch up with work.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "come across",
+        "phonetic": "/kʌm əˈkrɒs/",
+        "chinese": "遇到",
+        "example": "Come across an idea.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "come up with",
+        "phonetic": "/kʌm ʌp wɪð/",
+        "chinese": "提出",
+        "example": "Come up with a plan.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "cut down",
+        "phonetic": "/kʌt daʊn/",
+        "chinese": "削减",
+        "example": "Cut down expenses.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "cut off",
+        "phonetic": "/kʌt ɒf/",
+        "chinese": "切断",
+        "example": "Cut off supplies.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "deal with",
+        "phonetic": "/diːl wɪð/",
+        "chinese": "处理",
+        "example": "Deal with stress.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "depend on",
+        "phonetic": "/dɪˈpend ɒn/",
+        "chinese": "依靠",
+        "example": "Depend on parents.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "do away with",
+        "phonetic": "/duː əˈweɪ wɪð/",
+        "chinese": "废除",
+        "example": "Do away with rules.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "figure out",
+        "phonetic": "/ˈfɪɡə aʊt/",
+        "chinese": "弄清",
+        "example": "Figure out the answer.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "fill in",
+        "phonetic": "/fɪl ɪn/",
+        "chinese": "填写",
+        "example": "Fill in the form.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "find out",
+        "phonetic": "/faɪnd aʊt/",
+        "chinese": "发现",
+        "example": "Find out the truth.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "get along",
+        "phonetic": "/ɡet əˈlɒŋ/",
+        "chinese": "相处",
+        "example": "Get along with others.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "get over",
+        "phonetic": "/ɡet ˈəʊvə/",
+        "chinese": "克服",
+        "example": "Get over the fear.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "get rid of",
+        "phonetic": "/ɡet rɪd ɒv/",
+        "chinese": "摆脱",
+        "example": "Get rid of waste.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "get together",
+        "phonetic": "/ɡet təˈɡeðə/",
+        "chinese": "聚会",
+        "example": "Get together with friends.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "give up",
+        "phonetic": "/ɡɪv ʌp/",
+        "chinese": "放弃",
+        "example": "Don't give up.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "go ahead",
+        "phonetic": "/ɡəʊ əˈhed/",
+        "chinese": "继续",
+        "example": "Go ahead with plan.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "go over",
+        "phonetic": "/ɡəʊ ˈəʊvə/",
+        "chinese": "复习",
+        "example": "Go over the lesson.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "hand in",
+        "phonetic": "/hænd ɪn/",
+        "chinese": "上交",
+        "example": "Hand in the homework.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "hang up",
+        "phonetic": "/hæŋ ʌp/",
+        "chinese": "挂断",
+        "example": "Hang up the phone.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "hold on",
+        "phonetic": "/həʊld ɒn/",
+        "chinese": "坚持",
+        "example": "Hold on tight.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "keep on",
+        "phonetic": "/kiːp ɒn/",
+        "chinese": "继续",
+        "example": "Keep on going.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "keep up",
+        "phonetic": "/kiːp ʌp/",
+        "chinese": "保持",
+        "example": "Keep up the pace.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "look after",
+        "phonetic": "/lʊk ˈɑːftə/",
+        "chinese": "照顾",
+        "example": "Look after kids.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "look for",
+        "phonetic": "/lʊk fɔː/",
+        "chinese": "寻找",
+        "example": "Look for a job.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "look forward to",
+        "phonetic": "/lʊk ˈfɔːwəd tuː/",
+        "chinese": "期待",
+        "example": "Look forward to it.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "look into",
+        "phonetic": "/lʊk ˈɪntuː/",
+        "chinese": "调查",
+        "example": "Look into the matter.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "look up",
+        "phonetic": "/lʊk ʌp/",
+        "chinese": "查阅",
+        "example": "Look up the word.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "make up",
+        "phonetic": "/meɪk ʌp/",
+        "chinese": "编造；化妆",
+        "example": "Make up a story.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "mix up",
+        "phonetic": "/mɪks ʌp/",
+        "chinese": "混淆",
+        "example": "Don't mix them up.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "pick up",
+        "phonetic": "/pɪk ʌp/",
+        "chinese": "捡起",
+        "example": "Pick up the book.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "point out",
+        "phonetic": "/pɔɪnt aʊt/",
+        "chinese": "指出",
+        "example": "Point out the error.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "put off",
+        "phonetic": "/pʊt ɒf/",
+        "chinese": "推迟",
+        "example": "Don't put off work.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "put on",
+        "phonetic": "/pʊt ɒn/",
+        "chinese": "穿上",
+        "example": "Put on the coat.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "put up",
+        "phonetic": "/pʊt ʌp/",
+        "chinese": "张贴",
+        "example": "Put up a poster.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "put up with",
+        "phonetic": "/pʊt ʌp wɪð/",
+        "chinese": "忍受",
+        "example": "Put up with noise.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "run out of",
+        "phonetic": "/rʌn aʊt ɒv/",
+        "chinese": "用完",
+        "example": "Run out of money.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "set up",
+        "phonetic": "/set ʌp/",
+        "chinese": "建立",
+        "example": "Set up a company.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "show up",
+        "phonetic": "/ʃəʊ ʌp/",
+        "chinese": "出现",
+        "example": "Show up on time.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "take after",
+        "phonetic": "/teɪk ˈɑːftə/",
+        "chinese": "像",
+        "example": "Take after mother.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "take down",
+        "phonetic": "/teɪk daʊn/",
+        "chinese": "记下",
+        "example": "Take down notes.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "take off",
+        "phonetic": "/teɪk ɒf/",
+        "chinese": "起飞",
+        "example": "The plane takes off.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "take over",
+        "phonetic": "/teɪk ˈəʊvə/",
+        "chinese": "接管",
+        "example": "Take over the company.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "take up",
+        "phonetic": "/teɪk ʌp/",
+        "chinese": "开始从事",
+        "example": "Take up a hobby.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "turn down",
+        "phonetic": "/tɜːn daʊn/",
+        "chinese": "拒绝",
+        "example": "Turn down the offer.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "turn off",
+        "phonetic": "/tɜːn ɒf/",
+        "chinese": "关掉",
+        "example": "Turn off the light.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "turn on",
+        "phonetic": "/tɜːn ɒn/",
+        "chinese": "打开",
+        "example": "Turn on the radio.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "turn out",
+        "phonetic": "/tɜːn aʊt/",
+        "chinese": "结果是",
+        "example": "Turned out well.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "work out",
+        "phonetic": "/wɜːk aʊt/",
+        "chinese": "算出",
+        "example": "Work out the answer.",
+        "tags": "短语动词"
+      },
+      {
+        "level": "高中",
+        "word": "abstract",
+        "phonetic": "/ˈæbstrækt/",
+        "chinese": "摘要",
+        "example": "Write an abstract.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "analysis",
+        "phonetic": "/əˈnæləsɪs/",
+        "chinese": "分析",
+        "example": "Data analysis.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "approach",
+        "phonetic": "/əˈprəʊtʃ/",
+        "chinese": "方法",
+        "example": "New approach.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "assessment",
+        "phonetic": "/əˈsesmənt/",
+        "chinese": "评估",
+        "example": "Skill assessment.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "assumption",
+        "phonetic": "/əˈsʌmpʃn/",
+        "chinese": "假设",
+        "example": "Basic assumption.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "category",
+        "phonetic": "/ˈkætəɡəri/",
+        "chinese": "类别",
+        "example": "Different category.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "chapter",
+        "phonetic": "/ˈtʃæptə/",
+        "chinese": "章节",
+        "example": "First chapter.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "citation",
+        "phonetic": "/saɪˈteɪʃn/",
+        "chinese": "引用",
+        "example": "Provide citation.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "conclusion",
+        "phonetic": "/kənˈkluːʒn/",
+        "chinese": "结论",
+        "example": "Final conclusion.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "contribution",
+        "phonetic": "/ˌkɒntrɪˈbjuːʃn/",
+        "chinese": "贡献",
+        "example": "Research contribution.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "criteria",
+        "phonetic": "/kraɪˈtɪəriə/",
+        "chinese": "标准",
+        "example": "Meet the criteria.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "data",
+        "phonetic": "/ˈdeɪtə/",
+        "chinese": "数据",
+        "example": "Analyze data.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "definition",
+        "phonetic": "/ˌdefɪˈnɪʃn/",
+        "chinese": "定义",
+        "example": "Clear definition.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "evidence",
+        "phonetic": "/ˈevɪdəns/",
+        "chinese": "证据",
+        "example": "Strong evidence.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "example",
+        "phonetic": "/ɪɡˈzɑːmpl/",
+        "chinese": "例子",
+        "example": "For example.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "factor",
+        "phonetic": "/ˈfæktə/",
+        "chinese": "因素",
+        "example": "Key factor.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "field",
+        "phonetic": "/fiːld/",
+        "chinese": "领域",
+        "example": "In this field.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "framework",
+        "phonetic": "/ˈfreɪmwɜːk/",
+        "chinese": "框架",
+        "example": "Theoretical framework.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "hypothesis",
+        "phonetic": "/haɪˈpɒθəsɪs/",
+        "chinese": "假设",
+        "example": "Test the hypothesis.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "interpretation",
+        "phonetic": "/ɪnˌtɜːprɪˈteɪʃn/",
+        "chinese": "解释",
+        "example": "Different interpretation.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "literature",
+        "phonetic": "/ˈlɪtərətʃə/",
+        "chinese": "文献",
+        "example": "Review the literature.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "method",
+        "phonetic": "/ˈmeθəd/",
+        "chinese": "方法",
+        "example": "New method.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "methodology",
+        "phonetic": "/ˌmeθəˈdɒlədʒi/",
+        "chinese": "方法论",
+        "example": "Research methodology.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "observation",
+        "phonetic": "/ˌɒbzəˈveɪʃn/",
+        "chinese": "观察",
+        "example": "Careful observation.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "outcome",
+        "phonetic": "/ˈaʊtkʌm/",
+        "chinese": "结果",
+        "example": "Desired outcome.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "perspective",
+        "phonetic": "/pəˈspektɪv/",
+        "chinese": "视角",
+        "example": "A new perspective.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "phenomenon",
+        "phonetic": "/fəˈnɒmɪnən/",
+        "chinese": "现象",
+        "example": "A common phenomenon.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "principle",
+        "phonetic": "/ˈprɪnsəpl/",
+        "chinese": "原则",
+        "example": "Basic principle.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "procedure",
+        "phonetic": "/prəˈsiːdʒə/",
+        "chinese": "程序",
+        "example": "Standard procedure.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "publication",
+        "phonetic": "/ˌpʌblɪˈkeɪʃn/",
+        "chinese": "出版",
+        "example": "Academic publication.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "quantity",
+        "phonetic": "/ˈkwɒntəti/",
+        "chinese": "数量",
+        "example": "Large quantity.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "questionnaire",
+        "phonetic": "/ˌkwestʃəˈneə/",
+        "chinese": "调查问卷",
+        "example": "Design a questionnaire.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "reference",
+        "phonetic": "/ˈrefrəns/",
+        "chinese": "参考",
+        "example": "List reference.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "research",
+        "phonetic": "/rɪˈsɜːtʃ/",
+        "chinese": "研究",
+        "example": "Do research.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "review",
+        "phonetic": "/rɪˈvjuː/",
+        "chinese": "综述",
+        "example": "Literature review.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "sample",
+        "phonetic": "/ˈsɑːmpl/",
+        "chinese": "样本",
+        "example": "Random sample.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "scope",
+        "phonetic": "/skəʊp/",
+        "chinese": "范围",
+        "example": "Scope of the study.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "section",
+        "phonetic": "/ˈsekʃn/",
+        "chinese": "部分",
+        "example": "First section.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "significance",
+        "phonetic": "/sɪɡˈnɪfɪkəns/",
+        "chinese": "意义",
+        "example": "Statistical significance.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "source",
+        "phonetic": "/sɔːs/",
+        "chinese": "来源",
+        "example": "Primary source.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "statistics",
+        "phonetic": "/stəˈtɪstɪks/",
+        "chinese": "统计",
+        "example": "The statistics show.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "study",
+        "phonetic": "/ˈstʌdi/",
+        "chinese": "研究",
+        "example": "Field study.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "survey",
+        "phonetic": "/ˈsɜːveɪ/",
+        "chinese": "调查",
+        "example": "Conduct survey.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "subject",
+        "phonetic": "/ˈsʌbdʒɪkt/",
+        "chinese": "主题",
+        "example": "Research subject.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "summary",
+        "phonetic": "/ˈsʌməri/",
+        "chinese": "摘要",
+        "example": "Brief summary.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "theory",
+        "phonetic": "/ˈθɪəri/",
+        "chinese": "理论",
+        "example": "Scientific theory.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "thesis",
+        "phonetic": "/ˈθiːsɪs/",
+        "chinese": "论文",
+        "example": "Write a thesis.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "topic",
+        "phonetic": "/ˈtɒpɪk/",
+        "chinese": "话题",
+        "example": "Main topic.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "trend",
+        "phonetic": "/trend/",
+        "chinese": "趋势",
+        "example": "Current trend.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "variable",
+        "phonetic": "/ˈveəriəbl/",
+        "chinese": "变量",
+        "example": "Independent variable.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "abstract",
+        "phonetic": "/ˈæbstrækt/",
+        "chinese": "摘要",
+        "example": "Write abstract.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "analysis",
+        "phonetic": "/əˈnæləsɪs/",
+        "chinese": "分析",
+        "example": "Data analysis.",
+        "tags": "学术"
+      },
+      {
+        "level": "高中",
+        "word": "asset",
+        "phonetic": "/ˈæset/",
+        "chinese": "资产",
+        "example": "Total asset.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "balance",
+        "phonetic": "/ˈbæləns/",
+        "chinese": "平衡",
+        "example": "Account balance.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "bankrupt",
+        "phonetic": "/ˈbæŋkrʌpt/",
+        "chinese": "破产的",
+        "example": "Go bankrupt.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "bid",
+        "phonetic": "/bɪd/",
+        "chinese": "出价",
+        "example": "Make a bid.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "bond",
+        "phonetic": "/bɒnd/",
+        "chinese": "债券",
+        "example": "Government bond.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "bonus",
+        "phonetic": "/ˈbəʊnəs/",
+        "chinese": "奖金",
+        "example": "Annual bonus.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "budget",
+        "phonetic": "/ˈbʌdʒɪt/",
+        "chinese": "预算",
+        "example": "Monthly budget.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "capital",
+        "phonetic": "/ˈkæpɪtl/",
+        "chinese": "资本",
+        "example": "Investment capital.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "cash",
+        "phonetic": "/kæʃ/",
+        "chinese": "现金",
+        "example": "Pay in cash.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "commerce",
+        "phonetic": "/ˈkɒmɜːs/",
+        "chinese": "商业",
+        "example": "E-commerce.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "commodity",
+        "phonetic": "/kəˈmɒdəti/",
+        "chinese": "商品",
+        "example": "Trade commodities.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "compensation",
+        "phonetic": "/ˌkɒmpenˈseɪʃn/",
+        "chinese": "补偿",
+        "example": "Receive compensation.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "competitor",
+        "phonetic": "/kəmˈpetɪtə/",
+        "chinese": "竞争对手",
+        "example": "Business competitor.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "contract",
+        "phonetic": "/ˈkɒntrækt/",
+        "chinese": "合同",
+        "example": "Sign contract.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "corporation",
+        "phonetic": "/ˌkɔːpəˈreɪʃn/",
+        "chinese": "公司",
+        "example": "A large corporation.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "credit",
+        "phonetic": "/ˈkredɪt/",
+        "chinese": "信用",
+        "example": "Credit card.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "currency",
+        "phonetic": "/ˈkʌrənsi/",
+        "chinese": "货币",
+        "example": "Foreign currency.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "customer",
+        "phonetic": "/ˈkʌstəmə/",
+        "chinese": "顾客",
+        "example": "Satisfy customer.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "debit",
+        "phonetic": "/ˈdebɪt/",
+        "chinese": "借方",
+        "example": "Debit card.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "debt",
+        "phonetic": "/det/",
+        "chinese": "债务",
+        "example": "Pay off debt.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "deficit",
+        "phonetic": "/ˈdefɪsɪt/",
+        "chinese": "赤字",
+        "example": "Trade deficit.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "demand",
+        "phonetic": "/dɪˈmɑːnd/",
+        "chinese": "需求",
+        "example": "High demand.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "deposit",
+        "phonetic": "/dɪˈpɒzɪt/",
+        "chinese": "存款",
+        "example": "Bank deposit.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "discount",
+        "phonetic": "/ˈdɪskaʊnt/",
+        "chinese": "折扣",
+        "example": "Special discount.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "earnings",
+        "phonetic": "/ˈɜːnɪŋz/",
+        "chinese": "收入",
+        "example": "Annual earnings.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "economy",
+        "phonetic": "/ɪˈkɒnəmi/",
+        "chinese": "经济",
+        "example": "Global economy.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "equity",
+        "phonetic": "/ˈekwəti/",
+        "chinese": "权益",
+        "example": "Brand equity.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "expense",
+        "phonetic": "/ɪkˈspens/",
+        "chinese": "费用",
+        "example": "Travel expense.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "export",
+        "phonetic": "/ɪkˈspɔːt/",
+        "chinese": "出口",
+        "example": "Export goods.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "fee",
+        "phonetic": "/fiː/",
+        "chinese": "费用",
+        "example": "Service fee.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "finance",
+        "phonetic": "/ˈfaɪnæns/",
+        "chinese": "金融",
+        "example": "Personal finance.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "fluctuate",
+        "phonetic": "/ˈflʌktʃueɪt/",
+        "chinese": "波动",
+        "example": "Prices fluctuate.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "fund",
+        "phonetic": "/fʌnd/",
+        "chinese": "基金",
+        "example": "Pension fund.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "gain",
+        "phonetic": "/ɡeɪn/",
+        "chinese": "收益",
+        "example": "Capital gain.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "gross",
+        "phonetic": "/ɡrəʊs/",
+        "chinese": "总的",
+        "example": "Gross income.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "income",
+        "phonetic": "/ˈɪnkʌm/",
+        "chinese": "收入",
+        "example": "Net income.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "inflation",
+        "phonetic": "/ɪnˈfleɪʃn/",
+        "chinese": "通货膨胀",
+        "example": "High inflation.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "insure",
+        "phonetic": "/ɪnˈʃʊə/",
+        "chinese": "给保险",
+        "example": "Insure life.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "interest",
+        "phonetic": "/ˈɪntrəst/",
+        "chinese": "利息",
+        "example": "Interest rate.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "invest",
+        "phonetic": "/ɪnˈvest/",
+        "chinese": "投资",
+        "example": "Invest in stocks.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "invoice",
+        "phonetic": "/ˈɪnvɔɪs/",
+        "chinese": "发票",
+        "example": "Send an invoice.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "liability",
+        "phonetic": "/ˌlaɪəˈbɪləti/",
+        "chinese": "负债",
+        "example": "Total liability.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "loan",
+        "phonetic": "/ləʊn/",
+        "chinese": "贷款",
+        "example": "Take a loan.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "margin",
+        "phonetic": "/ˈmɑːdʒɪn/",
+        "chinese": "利润",
+        "example": "Profit margin.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "market",
+        "phonetic": "/ˈmɑːkɪt/",
+        "chinese": "市场",
+        "example": "Stock market.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "mortgage",
+        "phonetic": "/ˈmɔːɡɪdʒ/",
+        "chinese": "抵押贷款",
+        "example": "Pay mortgage.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "net",
+        "phonetic": "/net/",
+        "chinese": "净的",
+        "example": "Net profit.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "payroll",
+        "phonetic": "/ˈpeɪrəʊl/",
+        "chinese": "工资单",
+        "example": "Monthly payroll.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "premium",
+        "phonetic": "/ˈpriːmiəm/",
+        "chinese": "保险费",
+        "example": "Annual premium.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "price",
+        "phonetic": "/praɪs/",
+        "chinese": "价格",
+        "example": "Retail price.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "profit",
+        "phonetic": "/ˈprɒfɪt/",
+        "chinese": "利润",
+        "example": "Big profit.",
+        "tags": "经济"
+      },
+      {
+        "level": "高中",
+        "word": "administration",
+        "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
+        "chinese": "政府",
+        "example": "Trump administration.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "agenda",
+        "phonetic": "/əˈdʒendə/",
+        "chinese": "议程",
+        "example": "Hidden agenda.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "allegiance",
+        "phonetic": "/əˈliːdʒəns/",
+        "chinese": "忠诚",
+        "example": "Pledge allegiance.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "amendment",
+        "phonetic": "/əˈmendmənt/",
+        "chinese": "修正案",
+        "example": "First amendment.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "authority",
+        "phonetic": "/ɔːˈθɒrəti/",
+        "chinese": "权威",
+        "example": "Local authority.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "autonomy",
+        "phonetic": "/ɔːˈtɒnəmi/",
+        "chinese": "自治",
+        "example": "Regional autonomy.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "ballot",
+        "phonetic": "/ˈbælət/",
+        "chinese": "选票",
+        "example": "Cast a ballot.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "bureaucracy",
+        "phonetic": "/bjʊəˈrɒkrəsi/",
+        "chinese": "官僚机构",
+        "example": "Government bureaucracy.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "campaign",
+        "phonetic": "/kæmˈpeɪn/",
+        "chinese": "运动；战役",
+        "example": "Political campaign.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "candidate",
+        "phonetic": "/ˈkændɪdət/",
+        "chinese": "候选人",
+        "example": "Presidential candidate.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "citizen",
+        "phonetic": "/ˈsɪtɪzn/",
+        "chinese": "公民",
+        "example": "Good citizen.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "coalition",
+        "phonetic": "/ˌkəʊəˈlɪʃn/",
+        "chinese": "联盟",
+        "example": "Form coalition.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "commission",
+        "phonetic": "/kəˈmɪʃn/",
+        "chinese": "委员会",
+        "example": "European Commission.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "congress",
+        "phonetic": "/ˈkɒŋɡres/",
+        "chinese": "国会",
+        "example": "Congress meeting.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "constitution",
+        "phonetic": "/ˌkɒnstɪˈtjuːʃn/",
+        "chinese": "宪法",
+        "example": "The Constitution.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "corruption",
+        "phonetic": "/kəˈrʌpʃn/",
+        "chinese": "腐败",
+        "example": "Political corruption.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "council",
+        "phonetic": "/ˈkaʊnsl/",
+        "chinese": "议会",
+        "example": "City council.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "court",
+        "phonetic": "/kɔːt/",
+        "chinese": "法庭",
+        "example": "Supreme court.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "democracy",
+        "phonetic": "/dɪˈmɒkrəsi/",
+        "chinese": "民主",
+        "example": "Democracy values.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "diplomacy",
+        "phonetic": "/dɪˈpləʊməsi/",
+        "chinese": "外交",
+        "example": "International diplomacy.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "election",
+        "phonetic": "/ɪˈlekʃn/",
+        "chinese": "选举",
+        "example": "General election.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "embassy",
+        "phonetic": "/ˈembəsi/",
+        "chinese": "大使馆",
+        "example": "British embassy.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "government",
+        "phonetic": "/ˈɡʌvənmənt/",
+        "chinese": "政府",
+        "example": "Local government.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "human rights",
+        "phonetic": "/ˈhjuːmən raɪts/",
+        "chinese": "人权",
+        "example": "Fight for human rights.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "ideology",
+        "phonetic": "/ˌaɪdiˈɒlədʒi/",
+        "chinese": "意识形态",
+        "example": "Political ideology.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "immigration",
+        "phonetic": "/ˌɪmɪˈɡreɪʃn/",
+        "chinese": "移民",
+        "example": "Immigration policy.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "imperial",
+        "phonetic": "/ɪmˈpɪəriəl/",
+        "chinese": "帝国的",
+        "example": "Imperial power.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "institution",
+        "phonetic": "/ˌɪnstɪˈtjuːʃn/",
+        "chinese": "机构",
+        "example": "A major institution.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "judge",
+        "phonetic": "/dʒʌdʒ/",
+        "chinese": "法官",
+        "example": "Federal judge.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "jurisdiction",
+        "phonetic": "/ˌdʒʊərɪsˈdɪkʃn/",
+        "chinese": "管辖权",
+        "example": "Under jurisdiction.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "law",
+        "phonetic": "/lɔː/",
+        "chinese": "法律",
+        "example": "Follow the law.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "legislation",
+        "phonetic": "/ˌledʒɪsˈleɪʃn/",
+        "chinese": "立法",
+        "example": "New legislation.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "legislature",
+        "phonetic": "/ˈledʒɪslətʃə/",
+        "chinese": "立法机构",
+        "example": "The legislature.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "lobby",
+        "phonetic": "/ˈlɒbi/",
+        "chinese": "游说",
+        "example": "Lobby the congress.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "mandate",
+        "phonetic": "/ˈmændeɪt/",
+        "chinese": "授权",
+        "example": "Electoral mandate.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "mayor",
+        "phonetic": "/meə/",
+        "chinese": "市长",
+        "example": "The mayor of London.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "minister",
+        "phonetic": "/ˈmɪnɪstə/",
+        "chinese": "部长",
+        "example": "Prime minister.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "ministry",
+        "phonetic": "/ˈmɪnɪstri/",
+        "chinese": "部",
+        "example": "Foreign ministry.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "monarchy",
+        "phonetic": "/ˈmɒnəki/",
+        "chinese": "君主制",
+        "example": "Constitutional monarchy.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "nation",
+        "phonetic": "/ˈneɪʃn/",
+        "chinese": "国家",
+        "example": "Member nation.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "nationality",
+        "phonetic": "/ˌnæʃəˈnæləti/",
+        "chinese": "国籍",
+        "example": "My nationality.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "opposition",
+        "phonetic": "/ˌɒpəˈzɪʃn/",
+        "chinese": "反对派",
+        "example": "Political opposition.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "parliament",
+        "phonetic": "/ˈpɑːləmənt/",
+        "chinese": "议会",
+        "example": "Parliament building.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "policy",
+        "phonetic": "/ˈpɒləsi/",
+        "chinese": "政策",
+        "example": "New policy.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "politics",
+        "phonetic": "/ˈpɒlətɪks/",
+        "chinese": "政治",
+        "example": "Office politics.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "power",
+        "phonetic": "/ˈpaʊə/",
+        "chinese": "权力",
+        "example": "Seize power.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "president",
+        "phonetic": "/ˈprezɪdənt/",
+        "chinese": "总统",
+        "example": "The president.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "reform",
+        "phonetic": "/rɪˈfɔːm/",
+        "chinese": "改革",
+        "example": "Education reform.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "regime",
+        "phonetic": "/reɪˈʒiːm/",
+        "chinese": "政权",
+        "example": "Old regime.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "republic",
+        "phonetic": "/rɪˈpʌblɪk/",
+        "chinese": "共和国",
+        "example": "People's republic.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "rights",
+        "phonetic": "/raɪts/",
+        "chinese": "权利",
+        "example": "Equal rights.",
+        "tags": "政治"
+      },
+      {
+        "level": "高中",
+        "word": "senator",
+        "phonetic": "/ˈsenətə/",
+        "chinese": "参议员",
+        "example": "US senator.",
+        "tags": "政治"
+      }
+    ]
+  }
+}

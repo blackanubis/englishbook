@@ -1,0 +1,1886 @@
+{
+  "customVocab": {
+    "senior": [
+      {
+        "level": "高中",
+        "word": "abroad",
+        "phonetic": "/əˈbrɔːd/",
+        "chinese": "在国外",
+        "example": "Travel abroad.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "accommodation",
+        "phonetic": "/əˌkɒməˈdeɪʃn/",
+        "chinese": "住宿",
+        "example": "Find accommodation.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "arrival",
+        "phonetic": "/əˈraɪvl/",
+        "chinese": "到达",
+        "example": "On arrival.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "backpack",
+        "phonetic": "/ˈbækpæk/",
+        "chinese": "背包",
+        "example": "Travel with backpack.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "border",
+        "phonetic": "/ˈbɔːdə/",
+        "chinese": "边境",
+        "example": "Cross the border.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "check-in",
+        "phonetic": "/ˈtʃek ɪn/",
+        "chinese": "登记入住",
+        "example": "Check-in at hotel.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "customs",
+        "phonetic": "/ˈkʌstəmz/",
+        "chinese": "海关",
+        "example": "Go through customs.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "departure",
+        "phonetic": "/dɪˈpɑːtʃə/",
+        "chinese": "出发",
+        "example": "Departure gate.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "destination",
+        "phonetic": "/ˌdestɪˈneɪʃn/",
+        "chinese": "目的地",
+        "example": "Travel destination.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "excursion",
+        "phonetic": "/ɪkˈskɜːʃn/",
+        "chinese": "远足",
+        "example": "Day excursion.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "flight",
+        "phonetic": "/flaɪt/",
+        "chinese": "航班",
+        "example": "Book a flight.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "guidebook",
+        "phonetic": "/ˈɡaɪdbʊk/",
+        "chinese": "指南",
+        "example": "Use a guidebook.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "hostel",
+        "phonetic": "/ˈhɒstl/",
+        "chinese": "青年旅舍",
+        "example": "Stay in a hostel.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "itinerary",
+        "phonetic": "/aɪˈtɪnərəri/",
+        "chinese": "行程",
+        "example": "Plan your itinerary.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "journey",
+        "phonetic": "/ˈdʒɜːni/",
+        "chinese": "旅程",
+        "example": "Long journey.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "landmark",
+        "phonetic": "/ˈlændmɑːk/",
+        "chinese": "地标",
+        "example": "Visit a landmark.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "luggage",
+        "phonetic": "/ˈlʌɡɪdʒ/",
+        "chinese": "行李",
+        "example": "Check luggage.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "passport",
+        "phonetic": "/ˈpɑːspɔːt/",
+        "chinese": "护照",
+        "example": "Show your passport.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "reservation",
+        "phonetic": "/ˌrezəˈveɪʃn/",
+        "chinese": "预订",
+        "example": "Make a reservation.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "sightseeing",
+        "phonetic": "/ˈsaɪtsiːɪŋ/",
+        "chinese": "观光",
+        "example": "Go sightseeing.",
+        "tags": "旅行"
+      },
+      {
+        "level": "高中",
+        "word": "academic",
+        "phonetic": "/ˌækəˈdemɪk/",
+        "chinese": "学术的",
+        "example": "Academic year.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "assignment",
+        "phonetic": "/əˈsaɪnmənt/",
+        "chinese": "作业",
+        "example": "Finish the assignment.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "attendance",
+        "phonetic": "/əˈtendəns/",
+        "chinese": "出勤",
+        "example": "Perfect attendance.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "bachelor",
+        "phonetic": "/ˈbætʃələ/",
+        "chinese": "学士",
+        "example": "Bachelor degree.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "campus",
+        "phonetic": "/ˈkæmpəs/",
+        "chinese": "校园",
+        "example": "On campus.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "certificate",
+        "phonetic": "/səˈtɪfɪkət/",
+        "chinese": "证书",
+        "example": "Get a certificate.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "curriculum",
+        "phonetic": "/kəˈrɪkjʊləm/",
+        "chinese": "课程",
+        "example": "School curriculum.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "dean",
+        "phonetic": "/diːn/",
+        "chinese": "院长",
+        "example": "The dean.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "diploma",
+        "phonetic": "/dɪˈpləʊmə/",
+        "chinese": "文凭",
+        "example": "Receive a diploma.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "dissertation",
+        "phonetic": "/ˌdɪsəˈteɪʃn/",
+        "chinese": "论文",
+        "example": "Write a dissertation.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "elementary",
+        "phonetic": "/ˌelɪˈmentri/",
+        "chinese": "初级的",
+        "example": "Elementary school.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "examination",
+        "phonetic": "/ɪɡˌzæmɪˈneɪʃn/",
+        "chinese": "考试",
+        "example": "Final examination.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "fellowship",
+        "phonetic": "/ˈfeləʊʃɪp/",
+        "chinese": "奖学金",
+        "example": "Research fellowship.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "grade",
+        "phonetic": "/ɡreɪd/",
+        "chinese": "成绩",
+        "example": "A good grade.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "graduation",
+        "phonetic": "/ˌɡrædʒuˈeɪʃn/",
+        "chinese": "毕业",
+        "example": "Graduation day.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "laboratory",
+        "phonetic": "/ləˈbɒrətri/",
+        "chinese": "实验室",
+        "example": "In the lab.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "lecture",
+        "phonetic": "/ˈlektʃə/",
+        "chinese": "讲座",
+        "example": "Attend a lecture.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "literacy",
+        "phonetic": "/ˈlɪtərəsi/",
+        "chinese": "读写能力",
+        "example": "Computer literacy.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "matriculation",
+        "phonetic": "/məˌtrɪkjʊˈleɪʃn/",
+        "chinese": "入学",
+        "example": "Matriculation exam.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "matriculate",
+        "phonetic": "/məˈtrɪkjʊleɪt/",
+        "chinese": "录取",
+        "example": "Matriculate at university.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "professor",
+        "phonetic": "/prəˈfesə/",
+        "chinese": "教授",
+        "example": "A famous professor.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "qualification",
+        "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
+        "chinese": "资格",
+        "example": "Meet qualifications.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "scholarship",
+        "phonetic": "/ˈskɒləʃɪp/",
+        "chinese": "奖学金",
+        "example": "Win a scholarship.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "seminar",
+        "phonetic": "/ˈsemɪnɑː/",
+        "chinese": "研讨会",
+        "example": "Attend a seminar.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "syllabus",
+        "phonetic": "/ˈsɪləbəs/",
+        "chinese": "教学大纲",
+        "example": "Course syllabus.",
+        "tags": "学习"
+      },
+      {
+        "level": "高中",
+        "word": "algorithm",
+        "phonetic": "/ˈælɡərɪðəm/",
+        "chinese": "算法",
+        "example": "Design an algorithm.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "application",
+        "phonetic": "/ˌæplɪˈkeɪʃn/",
+        "chinese": "应用",
+        "example": "Mobile application.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "artificial",
+        "phonetic": "/ˌɑːtɪˈfɪʃl/",
+        "chinese": "人工的",
+        "example": "Artificial intelligence.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "backup",
+        "phonetic": "/ˈbækʌp/",
+        "chinese": "备份",
+        "example": "Backup the file.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "battery",
+        "phonetic": "/ˈbætri/",
+        "chinese": "电池",
+        "example": "Charge the battery.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "binary",
+        "phonetic": "/ˈbaɪnəri/",
+        "chinese": "二进制的",
+        "example": "Binary code.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "browser",
+        "phonetic": "/ˈbraʊzə/",
+        "chinese": "浏览器",
+        "example": "Web browser.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "cache",
+        "phonetic": "/kæʃ/",
+        "chinese": "缓存",
+        "example": "Clear the cache.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "click",
+        "phonetic": "/klɪk/",
+        "chinese": "点击",
+        "example": "Click the button.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "code",
+        "phonetic": "/kəʊd/",
+        "chinese": "代码",
+        "example": "Write code.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "command",
+        "phonetic": "/kəˈmɑːnd/",
+        "chinese": "命令",
+        "example": "Command line.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "compile",
+        "phonetic": "/kəmˈpaɪl/",
+        "chinese": "编译",
+        "example": "Compile the program.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "computer",
+        "phonetic": "/kəmˈpjuːtə/",
+        "chinese": "计算机",
+        "example": "Use a computer.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "connection",
+        "phonetic": "/kəˈnekʃn/",
+        "chinese": "连接",
+        "example": "Internet connection.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "database",
+        "phonetic": "/ˈdeɪtəbeɪs/",
+        "chinese": "数据库",
+        "example": "Query a database.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "debug",
+        "phonetic": "/diːˈbʌɡ/",
+        "chinese": "调试",
+        "example": "Debug the code.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "device",
+        "phonetic": "/dɪˈvaɪs/",
+        "chinese": "设备",
+        "example": "Mobile device.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "download",
+        "phonetic": "/ˌdaʊnˈləʊd/",
+        "chinese": "下载",
+        "example": "Download the file.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "encryption",
+        "phonetic": "/ɪnˈkrɪpʃn/",
+        "chinese": "加密",
+        "example": "Data encryption.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "firewall",
+        "phonetic": "/ˈfaɪəwɔːl/",
+        "chinese": "防火墙",
+        "example": "Network firewall.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "hardware",
+        "phonetic": "/ˈhɑːdweə/",
+        "chinese": "硬件",
+        "example": "Computer hardware.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "interface",
+        "phonetic": "/ˈɪntəfeɪs/",
+        "chinese": "界面",
+        "example": "User interface.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "laptop",
+        "phonetic": "/ˈlæptɒp/",
+        "chinese": "笔记本电脑",
+        "example": "Use a laptop.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "memory",
+        "phonetic": "/ˈmeməri/",
+        "chinese": "内存",
+        "example": "Computer memory.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "network",
+        "phonetic": "/ˈnetwɜːk/",
+        "chinese": "网络",
+        "example": "Computer network.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "online",
+        "phonetic": "/ˈɒnlaɪn/",
+        "chinese": "在线的",
+        "example": "Online shopping.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "program",
+        "phonetic": "/ˈprəʊɡræm/",
+        "chinese": "程序",
+        "example": "Run the program.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "screen",
+        "phonetic": "/skriːn/",
+        "chinese": "屏幕",
+        "example": "Computer screen.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "software",
+        "phonetic": "/ˈsɒftweə/",
+        "chinese": "软件",
+        "example": "Install software.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "upload",
+        "phonetic": "/ʌpˈləʊd/",
+        "chinese": "上传",
+        "example": "Upload the file.",
+        "tags": "科技"
+      },
+      {
+        "level": "高中",
+        "word": "achievement",
+        "phonetic": "/əˈtʃiːvmənt/",
+        "chinese": "成就",
+        "example": "Career achievement.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "ambition",
+        "phonetic": "/æmˈbɪʃn/",
+        "chinese": "雄心",
+        "example": "Career ambition.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "applicant",
+        "phonetic": "/ˈæplɪkənt/",
+        "chinese": "申请人",
+        "example": "Job applicant.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "application",
+        "phonetic": "/ˌæplɪˈkeɪʃn/",
+        "chinese": "申请",
+        "example": "Submit application.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "appointment",
+        "phonetic": "/əˈpɔɪntmənt/",
+        "chinese": "约会",
+        "example": "Schedule an appointment.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "candidate",
+        "phonetic": "/ˈkændɪdət/",
+        "chinese": "候选人",
+        "example": "Job candidate.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "career",
+        "phonetic": "/kəˈrɪə/",
+        "chinese": "职业",
+        "example": "Career path.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "colleague",
+        "phonetic": "/ˈkɒliːɡ/",
+        "chinese": "同事",
+        "example": "Work colleague.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "company",
+        "phonetic": "/ˈkʌmpəni/",
+        "chinese": "公司",
+        "example": "A big company.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "conference",
+        "phonetic": "/ˈkɒnfərəns/",
+        "chinese": "会议",
+        "example": "Annual conference.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "contract",
+        "phonetic": "/ˈkɒntrækt/",
+        "chinese": "合同",
+        "example": "Sign a contract.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "corporation",
+        "phonetic": "/ˌkɔːpəˈreɪʃn/",
+        "chinese": "公司",
+        "example": "A large corporation.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "deadline",
+        "phonetic": "/ˈdedlaɪn/",
+        "chinese": "截止日期",
+        "example": "Meet the deadline.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "employee",
+        "phonetic": "/ɪmˈplɔɪiː/",
+        "chinese": "雇员",
+        "example": "Loyal employee.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "employer",
+        "phonetic": "/ɪmˈplɔɪə/",
+        "chinese": "雇主",
+        "example": "Good employer.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "employment",
+        "phonetic": "/ɪmˈplɔɪmənt/",
+        "chinese": "就业",
+        "example": "Full employment.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "entrepreneur",
+        "phonetic": "/ˌɒntrəprəˈnɜː/",
+        "chinese": "企业家",
+        "example": "A young entrepreneur.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "executive",
+        "phonetic": "/ɪɡˈzekjʊtɪv/",
+        "chinese": "主管",
+        "example": "An executive.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "interview",
+        "phonetic": "/ˈɪntəvjuː/",
+        "chinese": "面试",
+        "example": "Job interview.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "interviewer",
+        "phonetic": "/ˈɪntəvjuːə/",
+        "chinese": "面试官",
+        "example": "The interviewer.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "manager",
+        "phonetic": "/ˈmænɪdʒə/",
+        "chinese": "经理",
+        "example": "Department manager.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "meeting",
+        "phonetic": "/ˈmiːtɪŋ/",
+        "chinese": "会议",
+        "example": "Attend a meeting.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "occupation",
+        "phonetic": "/ˌɒkjʊˈpeɪʃn/",
+        "chinese": "职业",
+        "example": "Main occupation.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "overtime",
+        "phonetic": "/ˈəʊvətaɪm/",
+        "chinese": "加班",
+        "example": "Work overtime.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "profession",
+        "phonetic": "/prəˈfeʃn/",
+        "chinese": "职业",
+        "example": "My profession.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "recruit",
+        "phonetic": "/rɪˈkruːt/",
+        "chinese": "招聘",
+        "example": "Recruit new staff.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "salary",
+        "phonetic": "/ˈsæləri/",
+        "chinese": "薪水",
+        "example": "Monthly salary.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "supervisor",
+        "phonetic": "/ˈsuːpəvaɪzə/",
+        "chinese": "主管",
+        "example": "My supervisor.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "unemployment",
+        "phonetic": "/ˌʌnɪmˈplɔɪmənt/",
+        "chinese": "失业",
+        "example": "Unemployment rate.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "workforce",
+        "phonetic": "/ˈwɜːkfɔːs/",
+        "chinese": "劳动力",
+        "example": "Skilled workforce.",
+        "tags": "工作"
+      },
+      {
+        "level": "高中",
+        "word": "architecture",
+        "phonetic": "/ˈɑːkɪtektʃə/",
+        "chinese": "建筑学",
+        "example": "Modern architecture.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "artist",
+        "phonetic": "/ˈɑːtɪst/",
+        "chinese": "艺术家",
+        "example": "A famous artist.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "audience",
+        "phonetic": "/ˈɔːdiəns/",
+        "chinese": "观众",
+        "example": "A large audience.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "canvas",
+        "phonetic": "/ˈkænvəs/",
+        "chinese": "画布",
+        "example": "Paint on canvas.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "ceramic",
+        "phonetic": "/səˈræmɪk/",
+        "chinese": "陶瓷",
+        "example": "Ceramic art.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "chord",
+        "phonetic": "/kɔːd/",
+        "chinese": "和弦",
+        "example": "Play a chord.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "classic",
+        "phonetic": "/ˈklæsɪk/",
+        "chinese": "经典",
+        "example": "Classic music.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "composer",
+        "phonetic": "/kəmˈpəʊzə/",
+        "chinese": "作曲家",
+        "example": "A classical composer.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "concert",
+        "phonetic": "/ˈkɒnsət/",
+        "chinese": "音乐会",
+        "example": "Attend a concert.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "craft",
+        "phonetic": "/krɑːft/",
+        "chinese": "工艺",
+        "example": "A craft store.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "design",
+        "phonetic": "/dɪˈzaɪn/",
+        "chinese": "设计",
+        "example": "Graphic design.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "exhibit",
+        "phonetic": "/ɪɡˈzɪbɪt/",
+        "chinese": "展览",
+        "example": "Art exhibit.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "fashion",
+        "phonetic": "/ˈfæʃn/",
+        "chinese": "时尚",
+        "example": "Fashion design.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "gallery",
+        "phonetic": "/ˈɡæləri/",
+        "chinese": "画廊",
+        "example": "Art gallery.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "instrument",
+        "phonetic": "/ˈɪnstrʊmənt/",
+        "chinese": "乐器",
+        "example": "Musical instrument.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "literature",
+        "phonetic": "/ˈlɪtərətʃə/",
+        "chinese": "文学",
+        "example": "English literature.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "museum",
+        "phonetic": "/mjuːˈzɪəm/",
+        "chinese": "博物馆",
+        "example": "Visit a museum.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "musician",
+        "phonetic": "/mjuːˈzɪʃn/",
+        "chinese": "音乐家",
+        "example": "A famous musician.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "novel",
+        "phonetic": "/ˈnɒvl/",
+        "chinese": "小说",
+        "example": "Read a novel.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "orchestra",
+        "phonetic": "/ˈɔːkɪstrə/",
+        "chinese": "管弦乐队",
+        "example": "A symphony orchestra.",
+        "tags": "艺术"
+      },
+      {
+        "level": "高中",
+        "word": "athlete",
+        "phonetic": "/ˈæθliːt/",
+        "chinese": "运动员",
+        "example": "A top athlete.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "baseball",
+        "phonetic": "/ˈbeɪsbɔːl/",
+        "chinese": "棒球",
+        "example": "Play baseball.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "basketball",
+        "phonetic": "/ˈbɑːskɪtbɔːl/",
+        "chinese": "篮球",
+        "example": "Shoot basketball.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "boxing",
+        "phonetic": "/ˈbɒksɪŋ/",
+        "chinese": "拳击",
+        "example": "Boxing match.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "champion",
+        "phonetic": "/ˈtʃæmpiən/",
+        "chinese": "冠军",
+        "example": "World champion.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "championship",
+        "phonetic": "/ˈtʃæmpiənʃɪp/",
+        "chinese": "锦标赛",
+        "example": "Win a championship.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "competition",
+        "phonetic": "/ˌkɒmpəˈtɪʃn/",
+        "chinese": "竞争",
+        "example": "Strong competition.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "court",
+        "phonetic": "/kɔːt/",
+        "chinese": "球场",
+        "example": "Tennis court.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "cricket",
+        "phonetic": "/ˈkrɪkɪt/",
+        "chinese": "板球",
+        "example": "Play cricket.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "defender",
+        "phonetic": "/dɪˈfendə/",
+        "chinese": "后卫",
+        "example": "A strong defender.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "field",
+        "phonetic": "/fiːld/",
+        "chinese": "场地",
+        "example": "Football field.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "goalkeeper",
+        "phonetic": "/ˈɡəʊlkiːpə/",
+        "chinese": "守门员",
+        "example": "The goalkeeper.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "gym",
+        "phonetic": "/dʒɪm/",
+        "chinese": "体育馆",
+        "example": "At the gym.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "hockey",
+        "phonetic": "/ˈhɒki/",
+        "chinese": "曲棍球",
+        "example": "Ice hockey.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "marathon",
+        "phonetic": "/ˈmærəθən/",
+        "chinese": "马拉松",
+        "example": "Run a marathon.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "ranking",
+        "phonetic": "/ˈræŋkɪŋ/",
+        "chinese": "排名",
+        "example": "World ranking.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "referee",
+        "phonetic": "/ˌrefəˈriː/",
+        "chinese": "裁判",
+        "example": "The referee.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "stadium",
+        "phonetic": "/ˈsteɪdiəm/",
+        "chinese": "体育场",
+        "example": "A big stadium.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "tennis",
+        "phonetic": "/ˈtenɪs/",
+        "chinese": "网球",
+        "example": "Play tennis.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "tournament",
+        "phonetic": "/ˈtʊənəmənt/",
+        "chinese": "锦标赛",
+        "example": "Grand tournament.",
+        "tags": "体育"
+      },
+      {
+        "level": "高中",
+        "word": "ambulance",
+        "phonetic": "/ˈæmbjʊləns/",
+        "chinese": "救护车",
+        "example": "Call an ambulance.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "anemia",
+        "phonetic": "/əˈniːmiə/",
+        "chinese": "贫血",
+        "example": "Iron deficiency anemia.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "antibiotic",
+        "phonetic": "/ˌæntibaɪˈɒtɪk/",
+        "chinese": "抗生素",
+        "example": "Take antibiotics.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "appointment",
+        "phonetic": "/əˈpɔɪntmənt/",
+        "chinese": "预约",
+        "example": "Doctor appointment.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "blood",
+        "phonetic": "/blʌd/",
+        "chinese": "血液",
+        "example": "Blood test.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "bone",
+        "phonetic": "/bəʊn/",
+        "chinese": "骨头",
+        "example": "Broken bone.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "brain",
+        "phonetic": "/breɪn/",
+        "chinese": "大脑",
+        "example": "Brain power.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "checkup",
+        "phonetic": "/ˈtʃekʌp/",
+        "chinese": "体检",
+        "example": "Annual checkup.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "cough",
+        "phonetic": "/kɒf/",
+        "chinese": "咳嗽",
+        "example": "Cough syrup.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "dentist",
+        "phonetic": "/ˈdentɪst/",
+        "chinese": "牙医",
+        "example": "See the dentist.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "dietitian",
+        "phonetic": "/ˌdaɪəˈtɪʃn/",
+        "chinese": "营养师",
+        "example": "Consult a dietitian.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "emergency",
+        "phonetic": "/ɪˈmɜːdʒənsi/",
+        "chinese": "紧急情况",
+        "example": "In emergency.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "exercise",
+        "phonetic": "/ˈeksəsaɪz/",
+        "chinese": "锻炼",
+        "example": "Daily exercise.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "fever",
+        "phonetic": "/ˈfiːvə/",
+        "chinese": "发烧",
+        "example": "Have a fever.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "heart",
+        "phonetic": "/hɑːt/",
+        "chinese": "心脏",
+        "example": "Heart attack.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "hospital",
+        "phonetic": "/ˈhɒspɪtl/",
+        "chinese": "医院",
+        "example": "Go to hospital.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "medicine",
+        "phonetic": "/ˈmedsn/",
+        "chinese": "药",
+        "example": "Take medicine.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "nurse",
+        "phonetic": "/nɜːs/",
+        "chinese": "护士",
+        "example": "A kind nurse.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "patient",
+        "phonetic": "/ˈpeɪʃnt/",
+        "chinese": "病人",
+        "example": "The patient.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "surgery",
+        "phonetic": "/ˈsɜːdʒəri/",
+        "chinese": "外科手术",
+        "example": "Heart surgery.",
+        "tags": "健康"
+      },
+      {
+        "level": "高中",
+        "word": "appetizer",
+        "phonetic": "/ˈæpɪtaɪzə/",
+        "chinese": "开胃菜",
+        "example": "Light appetizer.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "bacon",
+        "phonetic": "/ˈbeɪkən/",
+        "chinese": "培根",
+        "example": "Crispy bacon.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "barbecue",
+        "phonetic": "/ˈbɑːbɪkjuː/",
+        "chinese": "烧烤",
+        "example": "Have a barbecue.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "beverage",
+        "phonetic": "/ˈbevərɪdʒ/",
+        "chinese": "饮料",
+        "example": "Cold beverage.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "biscuit",
+        "phonetic": "/ˈbɪskɪt/",
+        "chinese": "饼干",
+        "example": "Sweet biscuit.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "casserole",
+        "phonetic": "/ˈkæsərəʊl/",
+        "chinese": "砂锅菜",
+        "example": "Beef casserole.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "condiment",
+        "phonetic": "/ˈkɒndɪmənt/",
+        "chinese": "调味品",
+        "example": "Add condiment.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "dessert",
+        "phonetic": "/dɪˈzɜːt/",
+        "chinese": "甜点",
+        "example": "Sweet dessert.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "entree",
+        "phonetic": "/ˈɒntreɪ/",
+        "chinese": "主菜",
+        "example": "Choose an entree.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "famine",
+        "phonetic": "/ˈfæmɪn/",
+        "chinese": "饥荒",
+        "example": "End famine.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "feast",
+        "phonetic": "/fiːst/",
+        "chinese": "盛宴",
+        "example": "A wedding feast.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "flour",
+        "phonetic": "/ˈflaʊə/",
+        "chinese": "面粉",
+        "example": "Mix the flour.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "grain",
+        "phonetic": "/ɡreɪn/",
+        "chinese": "谷物",
+        "example": "Wheat grain.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "ingredient",
+        "phonetic": "/ɪnˈɡriːdiənt/",
+        "chinese": "成分",
+        "example": "List ingredients.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "kitchen",
+        "phonetic": "/ˈkɪtʃɪn/",
+        "chinese": "厨房",
+        "example": "In the kitchen.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "leftover",
+        "phonetic": "/ˈleftəʊvə/",
+        "chinese": "剩菜",
+        "example": "Eat leftovers.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "main course",
+        "phonetic": "/meɪn kɔːs/",
+        "chinese": "主菜",
+        "example": "For main course.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "menu",
+        "phonetic": "/ˈmenjuː/",
+        "chinese": "菜单",
+        "example": "Read the menu.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "napkin",
+        "phonetic": "/ˈnæpkɪn/",
+        "chinese": "餐巾",
+        "example": "Use a napkin.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "nutrition",
+        "phonetic": "/njuːˈtrɪʃn/",
+        "chinese": "营养",
+        "example": "Good nutrition.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "portion",
+        "phonetic": "/ˈpɔːʃn/",
+        "chinese": "份",
+        "example": "A large portion.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "recipe",
+        "phonetic": "/ˈresɪpi/",
+        "chinese": "食谱",
+        "example": "Family recipe.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "restaurant",
+        "phonetic": "/ˈrestərɒnt/",
+        "chinese": "餐厅",
+        "example": "A nice restaurant.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "stew",
+        "phonetic": "/stjuː/",
+        "chinese": "炖菜",
+        "example": "Beef stew.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "vitamin",
+        "phonetic": "/ˈvɪtəmɪn/",
+        "chinese": "维生素",
+        "example": "Take vitamin C.",
+        "tags": "食物"
+      },
+      {
+        "level": "高中",
+        "word": "amphibian",
+        "phonetic": "/æmˈfɪbiən/",
+        "chinese": "两栖动物",
+        "example": "Frogs are amphibians.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "antelope",
+        "phonetic": "/ˈæntɪləʊp/",
+        "chinese": "羚羊",
+        "example": "A swift antelope.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "ape",
+        "phonetic": "/eɪp/",
+        "chinese": "猿",
+        "example": "A great ape.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "bison",
+        "phonetic": "/ˈbaɪsn/",
+        "chinese": "野牛",
+        "example": "An American bison.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "canine",
+        "phonetic": "/ˈkeɪnaɪn/",
+        "chinese": "犬科",
+        "example": "Canine teeth.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "carnivore",
+        "phonetic": "/ˈkɑːnɪvɔː/",
+        "chinese": "食肉动物",
+        "example": "Lions are carnivores.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "cattle",
+        "phonetic": "/ˈkætl/",
+        "chinese": "牛",
+        "example": "Cattle farm.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "chimpanzee",
+        "phonetic": "/ˌtʃɪmpænˈziː/",
+        "chinese": "黑猩猩",
+        "example": "Clever chimpanzee.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "creature",
+        "phonetic": "/ˈkriːtʃə/",
+        "chinese": "生物",
+        "example": "Sea creature.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "dinosaur",
+        "phonetic": "/ˈdaɪnəsɔː/",
+        "chinese": "恐龙",
+        "example": "Giant dinosaur.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "dolphin",
+        "phonetic": "/ˈdɒlfɪn/",
+        "chinese": "海豚",
+        "example": "Smart dolphin.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "eagle",
+        "phonetic": "/ˈiːɡl/",
+        "chinese": "鹰",
+        "example": "Majestic eagle.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "fauna",
+        "phonetic": "/ˈfɔːnə/",
+        "chinese": "动物群",
+        "example": "Local fauna.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "flamingo",
+        "phonetic": "/fləˈmɪŋɡəʊ/",
+        "chinese": "火烈鸟",
+        "example": "Pink flamingo.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "flora",
+        "phonetic": "/ˈflɔːrə/",
+        "chinese": "植物群",
+        "example": "Local flora.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "gorilla",
+        "phonetic": "/ɡəˈrɪlə/",
+        "chinese": "大猩猩",
+        "example": "Mountain gorilla.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "herbivore",
+        "phonetic": "/ˈhɜːbɪvɔː/",
+        "chinese": "食草动物",
+        "example": "Cows are herbivores.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "jaguar",
+        "phonetic": "/ˈdʒæɡjuə/",
+        "chinese": "美洲豹",
+        "example": "A jaguar.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "kangaroo",
+        "phonetic": "/ˌkæŋɡəˈruː/",
+        "chinese": "袋鼠",
+        "example": "Australian kangaroo.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "lizard",
+        "phonetic": "/ˈlɪzəd/",
+        "chinese": "蜥蜴",
+        "example": "A small lizard.",
+        "tags": "动物"
+      },
+      {
+        "level": "高中",
+        "word": "abundant",
+        "phonetic": "/əˈbʌndənt/",
+        "chinese": "丰富的",
+        "example": "Abundant resources.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "acute",
+        "phonetic": "/əˈkjuːt/",
+        "chinese": "敏锐的",
+        "example": "Acute observation.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "ample",
+        "phonetic": "/ˈæmpl/",
+        "chinese": "充足的",
+        "example": "Ample evidence.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "authentic",
+        "phonetic": "/ɔːˈθentɪk/",
+        "chinese": "真正的",
+        "example": "Authentic Chinese food.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "bizarre",
+        "phonetic": "/bɪˈzɑː/",
+        "chinese": "古怪的",
+        "example": "A bizarre event.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "brilliant",
+        "phonetic": "/ˈbrɪliənt/",
+        "chinese": "杰出的",
+        "example": "Brilliant idea.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "cautious",
+        "phonetic": "/ˈkɔːʃəs/",
+        "chinese": "谨慎的",
+        "example": "Be cautious.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "chronic",
+        "phonetic": "/ˈkrɒnɪk/",
+        "chinese": "慢性的",
+        "example": "Chronic disease.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "compulsory",
+        "phonetic": "/kəmˈpʌlsəri/",
+        "chinese": "强制的",
+        "example": "Compulsory course.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "deliberate",
+        "phonetic": "/dɪˈlɪbərət/",
+        "chinese": "故意的",
+        "example": "Deliberate mistake.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "distinct",
+        "phonetic": "/dɪˈstɪŋkt/",
+        "chinese": "明显的",
+        "example": "Distinct feature.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "dynamic",
+        "phonetic": "/daɪˈnæmɪk/",
+        "chinese": "动态的",
+        "example": "Dynamic personality.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "eligible",
+        "phonetic": "/ˈelɪdʒəbl/",
+        "chinese": "合格的",
+        "example": "Eligible candidate.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "explicit",
+        "phonetic": "/ɪkˈsplɪsɪt/",
+        "chinese": "明确的",
+        "example": "Explicit instructions.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fierce",
+        "phonetic": "/fɪəs/",
+        "chinese": "凶猛的",
+        "example": "Fierce competition.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "fluent",
+        "phonetic": "/ˈfluːənt/",
+        "chinese": "流利的",
+        "example": "Fluent English.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "genuine",
+        "phonetic": "/ˈdʒenjuɪn/",
+        "chinese": "真诚的",
+        "example": "Genuine concern.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "hollow",
+        "phonetic": "/ˈhɒləʊ/",
+        "chinese": "空的",
+        "example": "Hollow tree.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "immense",
+        "phonetic": "/ɪˈmens/",
+        "chinese": "巨大的",
+        "example": "Immense joy.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "lasting",
+        "phonetic": "/ˈlɑːstɪŋ/",
+        "chinese": "持久的",
+        "example": "Lasting peace.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "luxury",
+        "phonetic": "/ˈlʌkʃəri/",
+        "chinese": "奢侈",
+        "example": "Luxury goods.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "moderate",
+        "phonetic": "/ˈmɒdərət/",
+        "chinese": "适度的",
+        "example": "Moderate price.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "obscure",
+        "phonetic": "/əbˈskjʊə/",
+        "chinese": "模糊的",
+        "example": "Obscure meaning.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "precise",
+        "phonetic": "/prɪˈsaɪs/",
+        "chinese": "精确的",
+        "example": "Precise measurement.",
+        "tags": "形容词"
+      },
+      {
+        "level": "高中",
+        "word": "subtle",
+        "phonetic": "/ˈsʌtl/",
+        "chinese": "微妙的",
+        "example": "Subtle difference.",
+        "tags": "形容词"
+      }
+    ]
+  }
+}

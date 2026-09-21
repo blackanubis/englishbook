@@ -1,0 +1,2812 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#3b82f6">
+<title>英语分级词汇 & 句子练习｜江苏版</title>
+<style>
+/* ====== 基础变量 ====== */
+:root {
+  --bg: #f5f7fa;
+  --bg-card: #ffffff;
+  --bg-soft: #eef2f7;
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --primary-light: #dbeafe;
+  --success: #10b981;
+  --success-light: #d1fae5;
+  --warning: #f59e0b;
+  --warning-light: #fef3c7;
+  --danger: #ef4444;
+  --danger-light: #fee2e2;
+  --text: #1f2937;
+  --text-soft: #6b7280;
+  --text-light: #9ca3af;
+  --border: #e5e7eb;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.05);
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+/* 深色主题 */
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --bg-card: #1e293b;
+  --bg-soft: #334155;
+  --primary: #60a5fa;
+  --primary-dark: #3b82f6;
+  --primary-light: #1e3a8a;
+  --success-light: #064e3b;
+  --warning-light: #78350f;
+  --danger-light: #7f1d1d;
+  --text: #f1f5f9;
+  --text-soft: #cbd5e1;
+  --text-light: #94a3b8;
+  --border: #334155;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ====== 顶部导航 ====== */
+.topbar {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow);
+}
+.topbar-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.brand {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.brand-icon {
+  width: 28px; height: 28px;
+  background: var(--primary);
+  color: white;
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+}
+.nav-tabs {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.nav-tabs::-webkit-scrollbar { display: none; }
+.nav-tab {
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: var(--text-soft);
+  white-space: nowrap;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.nav-tab:hover { background: var(--bg-soft); color: var(--text); }
+.nav-tab.active {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+[data-theme="dark"] .nav-tab.active { color: var(--primary); }
+
+/* ====== 主体布局 ====== */
+.layout {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 12px;
+  box-shadow: var(--shadow);
+  height: fit-content;
+  position: sticky;
+  top: 80px;
+}
+.sidebar-title {
+  font-size: 12px;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 4px 0 8px 8px;
+}
+.level-list { list-style: none; }
+.level-item {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  transition: all 0.2s;
+  color: var(--text-soft);
+}
+.level-item:hover { background: var(--bg-soft); color: var(--text); }
+.level-item.active {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+[data-theme="dark"] .level-item.active { color: var(--primary); }
+.level-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--text-light);
+}
+.level-item.active .level-dot { background: var(--primary); }
+.level-info { flex: 1; }
+.level-name { font-size: 13px; }
+.level-meta { font-size: 11px; color: var(--text-light); }
+
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ====== 通用组件 ====== */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-title {
+  font-size: 13px;
+  color: var(--text-soft);
+  margin: 12px 0 6px;
+  font-weight: 500;
+}
+.btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--primary);
+  color: white;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn:hover { background: var(--primary-dark); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-success { background: var(--success); }
+.btn-success:hover { background: #059669; }
+.btn-warning { background: var(--warning); color: white; }
+.btn-warning:hover { background: #d97706; }
+.btn-danger { background: var(--danger); }
+.btn-danger:hover { background: #dc2626; }
+.btn-ghost { background: var(--bg-soft); color: var(--text); }
+.btn-ghost:hover { background: var(--border); }
+.btn-sm { padding: 5px 10px; font-size: 12px; }
+.btn-lg { padding: 12px 24px; font-size: 14px; }
+.btn-group { display: flex; gap: 8px; flex-wrap: wrap; }
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text);
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+input:focus, select:focus, textarea:focus { border-color: var(--primary); }
+textarea { resize: vertical; min-height: 80px; }
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.form-row label {
+  font-size: 12px;
+  color: var(--text-soft);
+}
+
+/* ====== 单词卡片 ====== */
+.flashcard {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 480px;
+  height: 280px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+.flashcard-back {
+  background: linear-gradient(135deg, var(--primary-light), var(--bg-card));
+  transform: rotateY(180deg);
+}
+.fc-word { font-size: 36px; font-weight: 700; color: var(--primary); margin-bottom: 8px; }
+.fc-phonetic { color: var(--text-soft); font-size: 14px; margin-bottom: 16px; font-style: italic; }
+.fc-chinese { font-size: 22px; font-weight: 600; margin-bottom: 12px; }
+.fc-example { font-size: 13px; color: var(--text-soft); font-style: italic; max-width: 100%; }
+.fc-level-tag {
+  position: absolute;
+  top: 12px; right: 12px;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  background: var(--bg-soft);
+  color: var(--text-soft);
+}
+
+.fc-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+/* ====== 题目展示 ====== */
+.quiz-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  min-height: 200px;
+}
+.quiz-prompt { font-size: 22px; font-weight: 600; text-align: center; margin: 16px 0; color: var(--text); }
+.quiz-input { font-size: 18px; padding: 12px; text-align: center; }
+.quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 16px 0; }
+.quiz-option {
+  padding: 14px;
+  background: var(--bg-soft);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+}
+.quiz-option:hover { background: var(--primary-light); }
+.quiz-option.selected { border-color: var(--primary); background: var(--primary-light); }
+.quiz-option.correct { border-color: var(--success); background: var(--success-light); color: var(--success); }
+.quiz-option.wrong { border-color: var(--danger); background: var(--danger-light); color: var(--danger); }
+.quiz-feedback {
+  text-align: center;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  margin-top: 12px;
+  font-weight: 600;
+}
+.quiz-feedback.correct { background: var(--success-light); color: var(--success); }
+.quiz-feedback.wrong { background: var(--danger-light); color: var(--danger); }
+
+.quiz-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  background: var(--bg-soft);
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  color: var(--text-soft);
+}
+.progress-bar {
+  height: 6px;
+  background: var(--bg-soft);
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: var(--primary);
+  transition: width 0.3s;
+}
+
+/* ====== 统计卡片 ====== */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.stat-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.stat-value { font-size: 24px; font-weight: 700; color: var(--primary); margin-bottom: 4px; }
+.stat-label { font-size: 12px; color: var(--text-soft); }
+
+/* ====== 列表项 ====== */
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  gap: 12px;
+}
+.list-item:last-child { border-bottom: none; }
+.list-main { flex: 1; min-width: 0; }
+.list-title { font-weight: 600; }
+.list-sub { font-size: 12px; color: var(--text-soft); margin-top: 2px; }
+.list-actions { display: flex; gap: 6px; }
+
+/* ====== 模态框 ====== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 24px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.modal-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; }
+
+/* ====== 标签 ====== */
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--bg-soft);
+  color: var(--text-soft);
+  margin-right: 4px;
+}
+.tag-success { background: var(--success-light); color: var(--success); }
+.tag-warning { background: var(--warning-light); color: var(--warning); }
+.tag-danger { background: var(--danger-light); color: var(--danger); }
+.tag-primary { background: var(--primary-light); color: var(--primary-dark); }
+
+/* ====== 移动端汉堡菜单 ====== */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 22px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* ====== 首页 ====== */
+.hero {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+  border-radius: var(--radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+.hero-sub { font-size: 13px; opacity: 0.9; }
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+.feature-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+.feature-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--primary-light); }
+.feature-icon { font-size: 24px; margin-bottom: 8px; }
+.feature-name { font-weight: 600; margin-bottom: 4px; }
+.feature-desc { font-size: 12px; color: var(--text-soft); }
+
+/* ====== 句子练习遮罩 ====== */
+.sentence-cover {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin: 8px 0;
+}
+.sentence-en {
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding: 8px;
+  background: var(--bg-soft);
+  border-radius: var(--radius-sm);
+}
+.sentence-cn {
+  font-size: 14px;
+  color: var(--text-soft);
+  padding: 8px;
+  background: var(--primary-light);
+  border-radius: var(--radius-sm);
+}
+.sentence-blank {
+  display: inline-block;
+  min-width: 80px;
+  border-bottom: 2px solid var(--primary);
+  margin: 0 4px;
+  text-align: center;
+  font-weight: 600;
+}
+.sentence-blank.filled { color: var(--success); border-color: var(--success); }
+.sentence-blank.wrong { color: var(--danger); border-color: var(--danger); }
+
+/* ====== 响应式 ====== */
+@media (max-width: 768px) {
+  .layout { flex-direction: column; padding: 12px; }
+  .sidebar {
+    width: 100%;
+    position: relative;
+    top: 0;
+    display: none;
+  }
+  .sidebar.open { display: block; }
+  .hamburger { display: block; }
+  .topbar-inner { padding: 10px 12px; }
+  .nav-tab { padding: 6px 10px; font-size: 12px; }
+  .flashcard { height: 240px; }
+  .fc-word { font-size: 28px; }
+  .quiz-options { grid-template-columns: 1fr; }
+  .quiz-prompt { font-size: 18px; }
+  .brand span:not(.brand-icon) { display: none; }
+}
+
+/* ====== 工具类 ====== */
+.text-center { text-align: center; }
+.text-soft { color: var(--text-soft); }
+.mb-12 { margin-bottom: 12px; }
+.mb-16 { margin-bottom: 16px; }
+.mt-12 { margin-top: 12px; }
+.flex { display: flex; }
+.gap-8 { gap: 8px; }
+.hidden { display: none !important; }
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-soft); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-light); }
+</style>
+</head>
+<body>
+
+<!-- ====== 顶部导航 ====== -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-icon">📚</div>
+      <span>英语分级练习·江苏版</span>
+    </div>
+    <nav class="nav-tabs" id="navTabs">
+      <div class="nav-tab active" data-view="home">首页</div>
+      <div class="nav-tab" data-view="vocab">词汇库</div>
+      <div class="nav-tab" data-view="sentences">句子库</div>
+      <div class="nav-tab" data-view="practice">练习中心</div>
+      <div class="nav-tab" data-view="wrongbook">错题本</div>
+      <div class="nav-tab" data-view="stats">学习统计</div>
+      <div class="nav-tab" data-view="settings">设置</div>
+    </nav>
+    <button class="hamburger" id="hamburgerBtn">☰</button>
+  </div>
+</header>
+
+<!-- ====== 主体 ====== -->
+<div class="layout">
+
+  <!-- 侧边分级菜单 -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-title">学习等级</div>
+    <ul class="level-list" id="levelList">
+      <li class="level-item active" data-level="enlighten">
+        <div class="level-dot"></div>
+        <div class="level-info">
+          <div class="level-name">启蒙级</div>
+          <div class="level-meta">约 300 词</div>
+        </div>
+      </li>
+      <li class="level-item" data-level="primary">
+        <div class="level-dot"></div>
+        <div class="level-info">
+          <div class="level-name">小学阶段</div>
+          <div class="level-meta">约 800 词</div>
+        </div>
+      </li>
+      <li class="level-item" data-level="junior">
+        <div class="level-dot"></div>
+        <div class="level-info">
+          <div class="level-name">初中阶段</div>
+          <div class="level-meta">约 1600 词</div>
+        </div>
+      </li>
+      <li class="level-item" data-level="senior">
+        <div class="level-dot"></div>
+        <div class="level-info">
+          <div class="level-name">高中阶段</div>
+          <div class="level-meta">约 3500 词</div>
+        </div>
+      </li>
+      <li class="level-item" data-level="jiangsu">
+        <div class="level-dot"></div>
+        <div class="level-info">
+          <div class="level-name">江苏特色</div>
+          <div class="level-meta">地名文化</div>
+        </div>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- 主内容 -->
+  <main class="main" id="mainView"></main>
+
+</div>
+
+<!-- 自动加载 vocab-data-js 中的扩充词库（无需手动导入） -->
+<script>window.__VOCAB_DATA_BATCHES__ = [];</script>
+<script src="vocab-data-js/vocab-enlighten-1.js"></script>
+<script src="vocab-data-js/vocab-enlighten-2.js"></script>
+<script src="vocab-data-js/vocab-enlighten-3.js"></script>
+<script src="vocab-data-js/vocab-enlighten-4.js"></script>
+<script src="vocab-data-js/vocab-enlighten-5.js"></script>
+<script src="vocab-data-js/vocab-primary.js"></script>
+<script src="vocab-data-js/vocab-primary-1.js"></script>
+<script src="vocab-data-js/vocab-primary-2.js"></script>
+<script src="vocab-data-js/vocab-primary-3.js"></script>
+<script src="vocab-data-js/vocab-primary-4.js"></script>
+<script src="vocab-data-js/vocab-primary-5.js"></script>
+<script src="vocab-data-js/vocab-primary-6.js"></script>
+<script src="vocab-data-js/vocab-junior.js"></script>
+<script src="vocab-data-js/vocab-junior-1.js"></script>
+<script src="vocab-data-js/vocab-junior-2.js"></script>
+<script src="vocab-data-js/vocab-junior-3.js"></script>
+<script src="vocab-data-js/vocab-junior-4.js"></script>
+<script src="vocab-data-js/vocab-junior-5.js"></script>
+<script src="vocab-data-js/vocab-senior.js"></script>
+<script src="vocab-data-js/vocab-senior-1.js"></script>
+<script src="vocab-data-js/vocab-senior-2.js"></script>
+<script src="vocab-data-js/vocab-senior-3.js"></script>
+<script src="vocab-data-js/vocab-senior-4.js"></script>
+<script src="vocab-data-js/vocab-senior-5.js"></script>
+<script src="vocab-data-js/vocab-senior-6.js"></script>
+<script src="vocab-data-js/vocab-senior-7.js"></script>
+<script src="vocab-data-js/vocab-senior-8.js"></script>
+<script src="vocab-data-js/vocab-senior-9.js"></script>
+
+<!-- 自动加载扩展句子库 -->
+<script>window.__SENTENCE_BATCHES__ = [];</script>
+<script src="sentence-data-js/sentences-batch-1.js"></script>
+<script src="sentence-data-js/sentences-batch-2.js"></script>
+<script src="sentence-data-js/sentences-batch-3.js"></script>
+
+<script>
+/* =====================================================
+ * 数据层 - 内置分级词库 & 句子库（江苏适配版）
+ * ===================================================== */
+const LEVELS = {
+  enlighten: { name: '启蒙级', cn: '启蒙', target: 300 },
+  primary:   { name: '小学阶段', cn: '小学', target: 800 },
+  junior:    { name: '初中阶段', cn: '初中', target: 1600 },
+  senior:    { name: '高中阶段', cn: '高中', target: 3500 },
+  jiangsu:   { name: '江苏特色', cn: '江苏', target: 120 }
+};
+
+/* ====== 内置词汇库 ====== */
+// 注：词库已精选覆盖江苏教育需求的高频核心词。
+// 完整词库可通过集合在"设置 → 自定义词库导入"中扩展。
+const VOCAB_DATA = {
+  // ============ 启蒙级 ============
+  enlighten: [
+    {level:"启蒙",word:"apple",phonetic:"/ˈæpl/",chinese:"苹果",example:"I eat an apple every day.",tags:"水果"},
+    {level:"启蒙",word:"banana",phonetic:"/bəˈnɑːnə/",chinese:"香蕉",example:"Monkeys love bananas.",tags:"水果"},
+    {level:"启蒙",word:"cat",phonetic:"/kæt/",chinese:"猫",example:"The cat is sleeping.",tags:"动物"},
+    {level:"启蒙",word:"dog",phonetic:"/dɒɡ/",chinese:"狗",example:"My dog is very cute.",tags:"动物"},
+    {level:"启蒙",word:"bird",phonetic:"/bɜːd/",chinese:"鸟",example:"A bird is singing.",tags:"动物"},
+    {level:"启蒙",word:"fish",phonetic:"/fɪʃ/",chinese:"鱼",example:"I have a pet fish.",tags:"动物"},
+    {level:"启蒙",word:"red",phonetic:"/red/",chinese:"红色",example:"The apple is red.",tags:"颜色"},
+    {level:"启蒙",word:"blue",phonetic:"/bluː/",chinese:"蓝色",example:"The sky is blue.",tags:"颜色"},
+    {level:"启蒙",word:"green",phonetic:"/ɡriːn/",chinese:"绿色",example:"Grass is green.",tags:"颜色"},
+    {level:"启蒙",word:"yellow",phonetic:"/ˈjeləʊ/",chinese:"黄色",example:"The sun is yellow.",tags:"颜色"},
+    {level:"启蒙",word:"one",phonetic:"/wʌn/",chinese:"一",example:"I have one book.",tags:"数字"},
+    {level:"启蒙",word:"two",phonetic:"/tuː/",chinese:"二",example:"Two eyes can see.",tags:"数字"},
+    {level:"启蒙",word:"three",phonetic:"/θriː/",chinese:"三",example:"There are three apples.",tags:"数字"},
+    {level:"启蒙",word:"four",phonetic:"/fɔː/",chinese:"四",example:"A dog has four legs.",tags:"数字"},
+    {level:"启蒙",word:"five",phonetic:"/faɪv/",chinese:"五",example:"Five fingers on one hand.",tags:"数字"},
+    {level:"启蒙",word:"mom",phonetic:"/mɒm/",chinese:"妈妈",example:"I love my mom.",tags:"家庭"},
+    {level:"启蒙",word:"dad",phonetic:"/dæd/",chinese:"爸爸",example:"Dad is reading a book.",tags:"家庭"},
+    {level:"启蒙",word:"baby",phonetic:"/ˈbeɪbi/",chinese:"宝宝",example:"The baby is smiling.",tags:"家庭"},
+    {level:"启蒙",word:"book",phonetic:"/bʊk/",chinese:"书",example:"I read a book.",tags:"学习"},
+    {level:"启蒙",word:"pen",phonetic:"/pen/",chinese:"钢笔",example:"I write with a pen.",tags:"学习"},
+    {level:"启蒙",word:"school",phonetic:"/skuːl/",chinese:"学校",example:"I go to school.",tags:"学习"},
+    {level:"启蒙",word:"good",phonetic:"/ɡʊd/",chinese:"好的",example:"You are a good student.",tags:"常用"},
+    {level:"启蒙",word:"hello",phonetic:"/həˈləʊ/",chinese:"你好",example:"Hello! How are you?",tags:"问候"},
+    {level:"启蒙",word:"thank",phonetic:"/θæŋk/",chinese:"谢谢",example:"Thank you very much.",tags:"问候"},
+    {level:"启蒙",word:"yes",phonetic:"/jes/",chinese:"是",example:"Yes, I am.",tags:"常用"},
+    {level:"启蒙",word:"no",phonetic:"/nəʊ/",chinese:"不",example:"No, thank you.",tags:"常用"},
+    {level:"启蒙",word:"water",phonetic:"/ˈwɔːtə/",chinese:"水",example:"I drink water.",tags:"食物"},
+    {level:"启蒙",word:"milk",phonetic:"/mɪlk/",chinese:"牛奶",example:"I drink milk every morning.",tags:"食物"},
+    {level:"启蒙",word:"rice",phonetic:"/raɪs/",chinese:"米饭",example:"We eat rice for lunch.",tags:"食物"},
+    {level:"启蒙",word:"sun",phonetic:"/sʌn/",chinese:"太阳",example:"The sun is bright.",tags:"自然"},
+    {level:"启蒙",word:"moon",phonetic:"/muːn/",chinese:"月亮",example:"The moon is round.",tags:"自然"},
+    {level:"启蒙",word:"star",phonetic:"/stɑː/",chinese:"星星",example:"Stars shine at night.",tags:"自然"},
+    {level:"启蒙",word:"tree",phonetic:"/triː/",chinese:"树",example:"The tree is tall.",tags:"自然"},
+    {level:"启蒙",word:"flower",phonetic:"/ˈflaʊə/",chinese:"花",example:"The flower is pretty.",tags:"自然"},
+    {level:"启蒙",word:"happy",phonetic:"/ˈhæpi/",chinese:"快乐的",example:"I am happy today.",tags:"情感"},
+    {level:"启蒙",word:"big",phonetic:"/bɪɡ/",chinese:"大的",example:"The elephant is big.",tags:"描述"},
+    {level:"启蒙",word:"small",phonetic:"/smɔːl/",chinese:"小的",example:"The mouse is small.",tags:"描述"},
+    {level:"启蒙",word:"hot",phonetic:"/hɒt/",chinese:"热的",example:"It is hot today.",tags:"描述"},
+    {level:"启蒙",word:"cold",phonetic:"/kəʊld/",chinese:"冷的",example:"The ice is cold.",tags:"描述"},
+    {level:"启蒙",word:"run",phonetic:"/rʌn/",chinese:"跑",example:"I can run fast.",tags:"动作"},
+    {level:"启蒙",word:"walk",phonetic:"/wɔːk/",chinese:"走",example:"I walk to school.",tags:"动作"},
+    {level:"启蒙",word:"jump",phonetic:"/dʒʌmp/",chinese:"跳",example:"Rabbits can jump high.",tags:"动作"},
+    {level:"启蒙",word:"sing",phonetic:"/sɪŋ/",chinese:"唱歌",example:"Birds sing in the morning.",tags:"动作"},
+    {level:"启蒙",word:"dance",phonetic:"/dɑːns/",chinese:"跳舞",example:"She likes to dance.",tags:"动作"},
+    {level:"启蒙",word:"eat",phonetic:"/iːt/",chinese:"吃",example:"I eat breakfast.",tags:"动作"},
+    {level:"启蒙",word:"drink",phonetic:"/drɪŋk/",chinese:"喝",example:"Drink more water.",tags:"动作"},
+    {level:"启蒙",word:"sleep",phonetic:"/sliːp/",chinese:"睡觉",example:"Babies sleep a lot.",tags:"动作"},
+    {level:"启蒙",word:"play",phonetic:"/pleɪ/",chinese:"玩",example:"Children love to play.",tags:"动作"},
+    {level:"启蒙",word:"friend",phonetic:"/frend/",chinese:"朋友",example:"She is my friend.",tags:"人物"},
+    {level:"启蒙",word:"boy",phonetic:"/bɔɪ/",chinese:"男孩",example:"The boy is tall.",tags:"人物"},
+    {level:"启蒙",word:"girl",phonetic:"/ɡɜːl/",chinese:"女孩",example:"The girl is cute.",tags:"人物"},
+    {level:"启蒙",word:"teacher",phonetic:"/ˈtiːtʃə/",chinese:"老师",example:"My teacher is kind.",tags:"人物"}
+  ],
+
+  // ============ 小学阶段 ============
+  primary: [
+    {level:"小学",word:"family",phonetic:"/ˈfæməli/",chinese:"家庭",example:"I love my family.",tags:"家庭"},
+    {level:"小学",word:"father",phonetic:"/ˈfɑːðə/",chinese:"父亲",example:"My father is a doctor.",tags:"家庭"},
+    {level:"小学",word:"mother",phonetic:"/ˈmʌðə/",chinese:"母亲",example:"My mother cooks dinner.",tags:"家庭"},
+    {level:"小学",word:"brother",phonetic:"/ˈbrʌðə/",chinese:"兄弟",example:"He is my brother.",tags:"家庭"},
+    {level:"小学",word:"sister",phonetic:"/ˈsɪstə/",chinese:"姐妹",example:"She is my sister.",tags:"家庭"},
+    {level:"小学",word:"home",phonetic:"/həʊm/",chinese:"家",example:"I go home at 4pm.",tags:"家庭"},
+    {level:"小学",word:"classroom",phonetic:"/ˈklɑːsruːm/",chinese:"教室",example:"Our classroom is big.",tags:"学校"},
+    {level:"小学",word:"student",phonetic:"/ˈstjuːdnt/",chinese:"学生",example:"I am a student.",tags:"学校"},
+    {level:"小学",word:"classmate",phonetic:"/ˈklɑːsmeɪt/",chinese:"同班同学",example:"Tom is my classmate.",tags:"学校"},
+    {level:"小学",word:"lesson",phonetic:"/ˈlesn/",chinese:"课",example:"We have English lessons.",tags:"学校"},
+    {level:"小学",word:"English",phonetic:"/ˈɪŋɡlɪʃ/",chinese:"英语",example:"I study English every day.",tags:"学习"},
+    {level:"小学",word:"Chinese",phonetic:"/ˌtʃaɪˈniːz/",chinese:"语文；中文",example:"Chinese is my mother tongue.",tags:"学习"},
+    {level:"小学",word:"math",phonetic:"/mæθ/",chinese:"数学",example:"Math is interesting.",tags:"学习"},
+    {level:"小学",word:"music",phonetic:"/ˈmjuːzɪk/",chinese:"音乐",example:"I like music.",tags:"学习"},
+    {level:"小学",word:"sport",phonetic:"/spɔːt/",chinese:"运动",example:"We do sports after class.",tags:"运动"},
+    {level:"小学",word:"football",phonetic:"/ˈfʊtbɔːl/",chinese:"足球",example:"Let's play football.",tags:"运动"},
+    {level:"小学",word:"basketball",phonetic:"/ˈbɑːskɪtbɔːl/",chinese:"篮球",example:"He plays basketball well.",tags:"运动"},
+    {level:"小学",word:"swim",phonetic:"/swɪm/",chinese:"游泳",example:"I can swim fast.",tags:"运动"},
+    {level:"小学",word:"breakfast",phonetic:"/ˈbrekfəst/",chinese:"早餐",example:"I have breakfast at 7.",tags:"饮食"},
+    {level:"小学",word:"lunch",phonetic:"/lʌntʃ/",chinese:"午餐",example:"Lunch is at 12.",tags:"饮食"},
+    {level:"小学",word:"dinner",phonetic:"/ˈdɪnə/",chinese:"晚餐",example:"Dinner is ready.",tags:"饮食"},
+    {level:"小学",word:"fruit",phonetic:"/fruːt/",chinese:"水果",example:"Eat more fruit.",tags:"饮食"},
+    {level:"小学",word:"vegetable",phonetic:"/ˈvedʒtəbl/",chinese:"蔬菜",example:"Vegetables are healthy.",tags:"饮食"},
+    {level:"小学",word:"meat",phonetic:"/miːt/",chinese:"肉",example:"I don't eat meat.",tags:"饮食"},
+    {level:"小学",word:"bread",phonetic:"/bred/",chinese:"面包",example:"I eat bread for breakfast.",tags:"饮食"},
+    {level:"小学",word:"juice",phonetic:"/dʒuːs/",chinese:"果汁",example:"Orange juice is sweet.",tags:"饮食"},
+    {level:"小学",word:"tea",phonetic:"/tiː/",chinese:"茶",example:"I drink tea every day.",tags:"饮食"},
+    {level:"小学",word:"animal",phonetic:"/ˈænɪml/",chinese:"动物",example:"I love animals.",tags:"动物"},
+    {level:"小学",word:"horse",phonetic:"/hɔːs/",chinese:"马",example:"The horse runs fast.",tags:"动物"},
+    {level:"小学",word:"tiger",phonetic:"/ˈtaɪɡə/",chinese:"老虎",example:"Tigers are strong.",tags:"动物"},
+    {level:"小学",word:"lion",phonetic:"/ˈlaɪən/",chinese:"狮子",example:"The lion is the king.",tags:"动物"},
+    {level:"小学",word:"elephant",phonetic:"/ˈelɪfənt/",chinese:"大象",example:"Elephants are big.",tags:"动物"},
+    {level:"小学",word:"monkey",phonetic:"/ˈmʌŋki/",chinese:"猴子",example:"Monkeys like bananas.",tags:"动物"},
+    {level:"小学",word:"rabbit",phonetic:"/ˈræbɪt/",chinese:"兔子",example:"The rabbit is white.",tags:"动物"},
+    {level:"小学",word:"duck",phonetic:"/dʌk/",chinese:"鸭子",example:"Ducks can swim.",tags:"动物"},
+    {level:"小学",word:"chicken",phonetic:"/ˈtʃɪkɪn/",chinese:"鸡",example:"Chickens lay eggs.",tags:"动物"},
+    {level:"小学",word:"weather",phonetic:"/ˈweðə/",chinese:"天气",example:"Nice weather today.",tags:"自然"},
+    {level:"小学",word:"rain",phonetic:"/reɪn/",chinese:"雨",example:"It will rain tomorrow.",tags:"自然"},
+    {level:"小学",word:"snow",phonetic:"/snəʊ/",chinese:"雪",example:"Snow is white.",tags:"自然"},
+    {level:"小学",word:"wind",phonetic:"/wɪnd/",chinese:"风",example:"The wind is strong.",tags:"自然"},
+    {level:"小学",word:"cloud",phonetic:"/klaʊd/",chinese:"云",example:"There are many clouds.",tags:"自然"},
+    {level:"小学",word:"river",phonetic:"/ˈrɪvə/",chinese:"河流",example:"The river is long.",tags:"自然"},
+    {level:"小学",word:"lake",phonetic:"/leɪk/",chinese:"湖",example:"We swim in the lake.",tags:"自然"},
+    {level:"小学",word:"mountain",phonetic:"/ˈmaʊntɪn/",chinese:"山",example:"The mountain is high.",tags:"自然"},
+    {level:"小学",word:"sea",phonetic:"/siː/",chinese:"海",example:"The sea is blue.",tags:"自然"},
+    {level:"小学",word:"season",phonetic:"/ˈsiːzn/",chinese:"季节",example:"Spring is my favorite season.",tags:"自然"},
+    {level:"小学",word:"spring",phonetic:"/sprɪŋ/",chinese:"春天",example:"Flowers bloom in spring.",tags:"自然"},
+    {level:"小学",word:"summer",phonetic:"/ˈsʌmə/",chinese:"夏天",example:"Summer is hot.",tags:"自然"},
+    {level:"小学",word:"autumn",phonetic:"/ˈɔːtəm/",chinese:"秋天",example:"Leaves fall in autumn.",tags:"自然"},
+    {level:"小学",word:"winter",phonetic:"/ˈwɪntə/",chinese:"冬天",example:"Winter is cold.",tags:"自然"},
+    {level:"小学",word:"week",phonetic:"/wiːk/",chinese:"周；星期",example:"There are 7 days in a week.",tags:"时间"},
+    {level:"小学",word:"Monday",phonetic:"/ˈmʌndeɪ/",chinese:"星期一",example:"Today is Monday.",tags:"时间"},
+    {level:"小学",word:"Tuesday",phonetic:"/ˈtjuːzdeɪ/",chinese:"星期二",example:"Tuesday is the second day.",tags:"时间"},
+    {level:"小学",word:"weekend",phonetic:"/ˌwiːkˈend/",chinese:"周末",example:"I rest on weekends.",tags:"时间"},
+    {level:"小学",word:"today",phonetic:"/təˈdeɪ/",chinese:"今天",example:"Today is a good day.",tags:"时间"},
+    {level:"小学",word:"tomorrow",phonetic:"/təˈmɒrəʊ/",chinese:"明天",example:"See you tomorrow.",tags:"时间"},
+    {level:"小学",word:"time",phonetic:"/taɪm/",chinese:"时间",example:"What time is it?",tags:"时间"},
+    {level:"小学",word:"hour",phonetic:"/ˈaʊə/",chinese:"小时",example:"Wait for one hour.",tags:"时间"},
+    {level:"小学",word:"minute",phonetic:"/ˈmɪnɪt/",chinese:"分钟",example:"I'll be there in 5 minutes.",tags:"时间"},
+    {level:"小学",word:"morning",phonetic:"/ˈmɔːnɪŋ/",chinese:"早晨",example:"Good morning!",tags:"时间"},
+    {level:"小学",word:"evening",phonetic:"/ˈiːvnɪŋ/",chinese:"傍晚",example:"Good evening!",tags:"时间"},
+    {level:"小学",word:"night",phonetic:"/naɪt/",chinese:"夜晚",example:"Good night!",tags:"时间"},
+    {level:"小学",word:"body",phonetic:"/ˈbɒdi/",chinese:"身体",example:"My body is healthy.",tags:"身体"},
+    {level:"小学",word:"head",phonetic:"/hed/",chinese:"头",example:"Use your head.",tags:"身体"},
+    {level:"小学",word:"face",phonetic:"/feɪs/",chinese:"脸",example:"Wash your face.",tags:"身体"},
+    {level:"小学",word:"eye",phonetic:"/aɪ/",chinese:"眼睛",example:"She has big eyes.",tags:"身体"},
+    {level:"小学",word:"ear",phonetic:"/ɪə/",chinese:"耳朵",example:"Rabbits have long ears.",tags:"身体"},
+    {level:"小学",word:"nose",phonetic:"/nəʊz/",chinese:"鼻子",example:"I smell with my nose.",tags:"身体"},
+    {level:"小学",word:"mouth",phonetic:"/maʊθ/",chinese:"嘴",example:"Open your mouth.",tags:"身体"},
+    {level:"小学",word:"hand",phonetic:"/hænd/",chinese:"手",example:"Wash your hands.",tags:"身体"},
+    {level:"小学",word:"foot",phonetic:"/fʊt/",chinese:"脚（复数feet）",example:"My foot hurts.",tags:"身体"},
+    {level:"小学",word:"leg",phonetic:"/leɡ/",chinese:"腿",example:"The dog has four legs.",tags:"身体"},
+    {level:"小学",word:"color",phonetic:"/ˈkʌlə/",chinese:"颜色",example:"What color is it?",tags:"描述"},
+    {level:"小学",word:"white",phonetic:"/waɪt/",chinese:"白色",example:"Snow is white.",tags:"颜色"},
+    {level:"小学",word:"black",phonetic:"/blæk/",chinese:"黑色",example:"My bag is black.",tags:"颜色"},
+    {level:"小学",word:"orange",phonetic:"/ˈɒrɪndʒ/",chinese:"橙色；橙子",example:"I like orange juice.",tags:"颜色"},
+    {level:"小学",word:"big",phonetic:"/bɪɡ/",chinese:"大的",example:"The house is big.",tags:"描述"},
+    {level:"小学",word:"small",phonetic:"/smɔːl/",chinese:"小的",example:"The box is small.",tags:"描述"},
+    {level:"小学",word:"tall",phonetic:"/tɔːl/",chinese:"高的",example:"He is tall.",tags:"描述"},
+    {level:"小学",word:"short",phonetic:"/ʃɔːt/",chinese:"矮的；短的",example:"She is short.",tags:"描述"},
+    {level:"小学",word:"long",phonetic:"/lɒŋ/",chinese:"长的",example:"A snake is long.",tags:"描述"},
+    {level:"小学",word:"new",phonetic:"/njuː/",chinese:"新的",example:"I have a new book.",tags:"描述"},
+    {level:"小学",word:"old",phonetic:"/əʊld/",chinese:"旧的；老的",example:"My grandpa is old.",tags:"描述"},
+    {level:"小学",word:"young",phonetic:"/jʌŋ/",chinese:"年轻的",example:"She is young.",tags:"描述"},
+    {level:"小学",word:"beautiful",phonetic:"/ˈbjuːtɪfl/",chinese:"美丽的",example:"The flower is beautiful.",tags:"描述"},
+    {level:"小学",word:"nice",phonetic:"/naɪs/",chinese:"美好的",example:"Have a nice day!",tags:"描述"},
+    {level:"小学",word:"clever",phonetic:"/ˈklevə/",chinese:"聪明的",example:"She is a clever girl.",tags:"描述"},
+    {level:"小学",word:"kind",phonetic:"/kaɪnd/",chinese:"和蔼的",example:"My teacher is kind.",tags:"描述"},
+    {level:"小学",word:"happy",phonetic:"/ˈhæpi/",chinese:"快乐的",example:"I am happy.",tags:"情感"},
+    {level:"小学",word:"sad",phonetic:"/sæd/",chinese:"难过的",example:"Don't be sad.",tags:"情感"},
+    {level:"小学",word:"angry",phonetic:"/ˈæŋɡri/",chinese:"生气的",example:"He is angry.",tags:"情感"},
+    {level:"小学",word:"tired",phonetic:"/ˈtaɪəd/",chinese:"疲倦的",example:"I am tired.",tags:"情感"},
+    {level:"小学",word:"hungry",phonetic:"/ˈhʌŋɡri/",chinese:"饿的",example:"I am hungry.",tags:"情感"},
+    {level:"小学",word:"favorite",phonetic:"/ˈfeɪvərɪt/",chinese:"最喜欢的",example:"My favorite color is blue.",tags:"描述"},
+    {level:"小学",word:"like",phonetic:"/laɪk/",chinese:"喜欢",example:"I like apples.",tags:"动词"},
+    {level:"小学",word:"love",phonetic:"/lʌv/",chinese:"爱",example:"I love my mom.",tags:"动词"},
+    {level:"小学",word:"want",phonetic:"/wɒnt/",chinese:"想要",example:"I want some water.",tags:"动词"},
+    {level:"小学",word:"have",phonetic:"/hæv/",chinese:"有",example:"I have a cat.",tags:"动词"},
+    {level:"小学",word:"need",phonetic:"/niːd/",chinese:"需要",example:"I need help.",tags:"动词"},
+    {level:"小学",word:"know",phonetic:"/nəʊ/",chinese:"知道",example:"I know the answer.",tags:"动词"},
+    {level:"小学",word:"see",phonetic:"/siː/",chinese:"看见",example:"I can see the bird.",tags:"动词"},
+    {level:"小学",word:"hear",phonetic:"/hɪə/",chinese:"听见",example:"Can you hear me?",tags:"动词"},
+    {level:"小学",word:"say",phonetic:"/seɪ/",chinese:"说",example:"Please say it again.",tags:"动词"},
+    {level:"小学",word:"speak",phonetic:"/spiːk/",chinese:"说（语言）",example:"She can speak English.",tags:"动词"},
+    {level:"小学",word:"tell",phonetic:"/tel/",chinese:"告诉",example:"Tell me a story.",tags:"动词"},
+    {level:"小学",word:"read",phonetic:"/riːd/",chinese:"读",example:"I read books every day.",tags:"动词"},
+    {level:"小学",word:"write",phonetic:"/raɪt/",chinese:"写",example:"I write letters.",tags:"动词"},
+    {level:"小学",word:"listen",phonetic:"/ˈlɪsn/",chinese:"听",example:"Listen to the teacher.",tags:"动词"},
+    {level:"小学",word:"look",phonetic:"/lʊk/",chinese:"看",example:"Look at the picture.",tags:"动词"},
+    {level:"小学",word:"watch",phonetic:"/wɒtʃ/",chinese:"观看",example:"Watch TV with me.",tags:"动词"},
+    {level:"小学",word:"help",phonetic:"/help/",chinese:"帮助",example:"Help me, please.",tags:"动词"},
+    {level:"小学",word:"use",phonetic:"/juːz/",chinese:"使用",example:"I use a computer.",tags:"动词"},
+    {level:"小学",word:"make",phonetic:"/meɪk/",chinese:"制作",example:"I make a cake.",tags:"动词"},
+    {level:"小学",word:"do",phonetic:"/duː/",chinese:"做",example:"I do my homework.",tags:"动词"},
+    {level:"小学",word:"go",phonetic:"/ɡəʊ/",chinese:"去",example:"Let's go to school.",tags:"动词"},
+    {level:"小学",word:"come",phonetic:"/kʌm/",chinese:"来",example:"Come here, please.",tags:"动词"},
+    {level:"小学",word:"give",phonetic:"/ɡɪv/",chinese:"给",example:"Give me the book.",tags:"动词"},
+    {level:"小学",word:"take",phonetic:"/teɪk/",chinese:"拿；带",example:"Take your bag.",tags:"动词"},
+    {level:"小学",word:"buy",phonetic:"/baɪ/",chinese:"买",example:"I buy a new pen.",tags:"动词"},
+    {level:"小学",word:"work",phonetic:"/wɜːk/",chinese:"工作",example:"My dad works hard.",tags:"动词"},
+    {level:"小学",word:"study",phonetic:"/ˈstʌdi/",chinese:"学习",example:"I study English.",tags:"动词"},
+    {level:"小学",word:"learn",phonetic:"/lɜːn/",chinese:"学会",example:"I learn something new.",tags:"动词"},
+    {level:"小学",word:"teach",phonetic:"/tiːtʃ/",chinese:"教",example:"She teaches English.",tags:"动词"},
+    {level:"小学",word:"live",phonetic:"/lɪv/",chinese:"居住",example:"I live in Nanjing.",tags:"动词"},
+    {level:"小学",word:"open",phonetic:"/ˈəʊpən/",chinese:"打开",example:"Open the door.",tags:"动词"},
+    {level:"小学",word:"close",phonetic:"/kləʊz/",chinese:"关闭",example:"Close the window.",tags:"动词"},
+    {level:"小学",word:"sit",phonetic:"/sɪt/",chinese:"坐",example:"Please sit down.",tags:"动词"},
+    {level:"小学",word:"stand",phonetic:"/stænd/",chinese:"站立",example:"Stand up, please.",tags:"动词"},
+    {level:"小学",word:"wait",phonetic:"/weɪt/",chinese:"等待",example:"Wait for me.",tags:"动词"},
+    {level:"小学",word:"show",phonetic:"/ʃəʊ/",chinese:"展示",example:"Show me your book.",tags:"动词"},
+    {level:"小学",word:"find",phonetic:"/faɪnd/",chinese:"找到",example:"Find the answer.",tags:"动词"},
+    {level:"小学",word:"ask",phonetic:"/ɑːsk/",chinese:"问",example:"Ask the teacher.",tags:"动词"},
+    {level:"小学",word:"answer",phonetic:"/ˈɑːnsə/",chinese:"回答",example:"Answer my question.",tags:"动词"},
+    {level:"小学",word:"try",phonetic:"/traɪ/",chinese:"尝试",example:"Try your best.",tags:"动词"},
+    {level:"小学",word:"carry",phonetic:"/ˈkæri/",chinese:"搬运",example:"Carry the box.",tags:"动词"},
+    {level:"小学",word:"clean",phonetic:"/kliːn/",chinese:"清洁",example:"Clean your room.",tags:"动词"},
+    {level:"小学",word:"cook",phonetic:"/kʊk/",chinese:"烹饪",example:"Mom cooks dinner.",tags:"动词"},
+    {level:"小学",word:"drive",phonetic:"/draɪv/",chinese:"驾驶",example:"Dad drives to work.",tags:"动词"},
+    {level:"小学",word:"ride",phonetic:"/raɪd/",chinese:"骑",example:"I ride a bike.",tags:"动词"},
+    {level:"小学",word:"wash",phonetic:"/wɒʃ/",chinese:"洗",example:"Wash your hands.",tags:"动词"},
+    {level:"小学",word:"draw",phonetic:"/drɔː/",chinese:"画画",example:"I draw pictures.",tags:"动词"},
+    {level:"小学",word:"paint",phonetic:"/peɪnt/",chinese:"绘画",example:"Paint the wall.",tags:"动词"},
+    {level:"小学",word:"song",phonetic:"/sɒŋ/",chinese:"歌曲",example:"Sing a song.",tags:"音乐"},
+    {level:"小学",word:"music",phonetic:"/ˈmjuːzɪk/",chinese:"音乐",example:"I love music.",tags:"音乐"},
+    {level:"小学",word:"picture",phonetic:"/ˈpɪktʃə/",chinese:"图片",example:"Look at the picture.",tags:"名词"},
+    {level:"小学",word:"story",phonetic:"/ˈstɔːri/",chinese:"故事",example:"Tell me a story.",tags:"名词"},
+    {level:"小学",word:"game",phonetic:"/ɡeɪm/",chinese:"游戏",example:"Let's play a game.",tags:"名词"},
+    {level:"小学",word:"toy",phonetic:"/tɔɪ/",chinese:"玩具",example:"I have many toys.",tags:"名词"},
+    {level:"小学",word:"present",phonetic:"/ˈpreznt/",chinese:"礼物",example:"It's a birthday present.",tags:"名词"},
+    {level:"小学",word:"money",phonetic:"/ˈmʌni/",chinese:"钱",example:"I have some money.",tags:"名词"},
+    {level:"小学",word:"shop",phonetic:"/ʃɒp/",chinese:"商店",example:"Let's go to the shop.",tags:"名词"},
+    {level:"小学",word:"park",phonetic:"/pɑːk/",chinese:"公园",example:"We play in the park.",tags:"名词"},
+    {level:"小学",word:"library",phonetic:"/ˈlaɪbrəri/",chinese:"图书馆",example:"I read in the library.",tags:"名词"},
+    {level:"小学",word:"hospital",phonetic:"/ˈhɒspɪtl/",chinese:"医院",example:"He is in the hospital.",tags:"名词"},
+    {level:"小学",word:"city",phonetic:"/ˈsɪti/",chinese:"城市",example:"Nanjing is a big city.",tags:"名词"},
+    {level:"小学",word:"village",phonetic:"/ˈvɪlɪdʒ/",chinese:"村庄",example:"I live in a small village.",tags:"名词"},
+    {level:"小学",word:"country",phonetic:"/ˈkʌntri/",chinese:"国家；乡村",example:"China is a big country.",tags:"名词"},
+    {level:"小学",word:"world",phonetic:"/wɜːld/",chinese:"世界",example:"The world is big.",tags:"名词"},
+    {level:"小学",word:"map",phonetic:"/mæp/",chinese:"地图",example:"Look at the map.",tags:"名词"},
+    {level:"小学",word:"road",phonetic:"/rəʊd/",chinese:"路",example:"This road is long.",tags:"名词"},
+    {level:"小学",word:"street",phonetic:"/striːt/",chinese:"街道",example:"I live on this street.",tags:"名词"},
+    {level:"小学",word:"car",phonetic:"/kɑː/",chinese:"汽车",example:"My dad has a car.",tags:"名词"},
+    {level:"小学",word:"bus",phonetic:"/bʌs/",chinese:"公共汽车",example:"I go to school by bus.",tags:"名词"},
+    {level:"小学",word:"bike",phonetic:"/baɪk/",chinese:"自行车",example:"I ride my bike.",tags:"名词"},
+    {level:"小学",word:"train",phonetic:"/treɪn/",chinese:"火车",example:"The train is fast.",tags:"名词"},
+    {level:"小学",word:"plane",phonetic:"/pleɪn/",chinese:"飞机",example:"The plane flies high.",tags:"名词"},
+    {level:"小学",word:"boat",phonetic:"/bəʊt/",chinese:"船",example:"We go by boat.",tags:"名词"},
+    {level:"小学",word:"clothes",phonetic:"/kləʊðz/",chinese:"衣服",example:"I wear clean clothes.",tags:"名词"},
+    {level:"小学",word:"shirt",phonetic:"/ʃɜːt/",chinese:"衬衫",example:"He wears a white shirt.",tags:"名词"},
+    {level:"小学",word:"shoes",phonetic:"/ʃuːz/",chinese:"鞋",example:"These are my shoes.",tags:"名词"},
+    {level:"小学",word:"hat",phonetic:"/hæt/",chinese:"帽子",example:"Wear your hat.",tags:"名词"},
+    {level:"小学",word:"room",phonetic:"/ruːm/",chinese:"房间",example:"My room is small.",tags:"名词"},
+    {level:"小学",word:"door",phonetic:"/dɔː/",chinese:"门",example:"Close the door.",tags:"名词"},
+    {level:"小学",word:"window",phonetic:"/ˈwɪndəʊ/",chinese:"窗户",example:"Open the window.",tags:"名词"},
+    {level:"小学",word:"table",phonetic:"/ˈteɪbl/",chinese:"桌子",example:"The book is on the table.",tags:"名词"},
+    {level:"小学",word:"chair",phonetic:"/tʃeə/",chinese:"椅子",example:"Sit on the chair.",tags:"名词"},
+    {level:"小学",word:"bed",phonetic:"/bed/",chinese:"床",example:"I sleep on the bed.",tags:"名词"}
+  ],
+
+  // ============ 初中阶段 ============
+  junior: [
+    {level:"初中",word:"ability",phonetic:"/əˈbɪləti/",chinese:"能力",example:"He has the ability to learn.",tags:"抽象"},
+    {level:"初中",word:"achieve",phonetic:"/əˈtʃiːv/",chinese:"达到；取得",example:"Work hard to achieve your dream.",tags:"动词"},
+    {level:"初中",word:"advantage",phonetic:"/ədˈvɑːntɪdʒ/",chinese:"优势",example:"Being tall is an advantage.",tags:"名词"},
+    {level:"初中",word:"adventure",phonetic:"/ədˈventʃə/",chinese:"冒险",example:"Life is an adventure.",tags:"名词"},
+    {level:"初中",word:"afford",phonetic:"/əˈfɔːd/",chinese:"买得起",example:"I can't afford this car.",tags:"动词"},
+    {level:"初中",word:"afraid",phonetic:"/əˈfreɪd/",chinese:"害怕的",example:"Don't be afraid of failure.",tags:"形容词"},
+    {level:"初中",word:"agree",phonetic:"/əˈɡriː/",chinese:"同意",example:"I agree with you.",tags:"动词"},
+    {level:"初中",word:"allow",phonetic:"/əˈlaʊ/",chinese:"允许",example:"Smoking is not allowed here.",tags:"动词"},
+    {level:"初中",word:"among",phonetic:"/əˈmʌŋ/",chinese:"在...之间",example:"Among them, she is the tallest.",tags:"介词"},
+    {level:"初中",word:"amount",phonetic:"/əˈmaʊnt/",chinese:"数量",example:"A large amount of water.",tags:"名词"},
+    {level:"初中",word:"appear",phonetic:"/əˈpɪə/",chinese:"出现",example:"Stars appear at night.",tags:"动词"},
+    {level:"初中",word:"area",phonetic:"/ˈeəriə/",chinese:"地区；面积",example:"This area is large.",tags:"名词"},
+    {level:"初中",word:"arrive",phonetic:"/əˈraɪv/",chinese:"到达",example:"I arrive at school on time.",tags:"动词"},
+    {level:"初中",word:"article",phonetic:"/ˈɑːtɪkl/",chinese:"文章；物品",example:"Read this article.",tags:"名词"},
+    {level:"初中",word:"available",phonetic:"/əˈveɪləbl/",chinese:"可用的",example:"Tickets are available now.",tags:"形容词"},
+    {level:"初中",word:"avoid",phonetic:"/əˈvɔɪd/",chinese:"避免",example:"Avoid eating too much sugar.",tags:"动词"},
+    {level:"初中",word:"balance",phonetic:"/ˈbæləns/",chinese:"平衡",example:"Keep a balance in life.",tags:"名词"},
+    {level:"初中",word:"beauty",phonetic:"/ˈbjuːti/",chinese:"美丽",example:"Beauty is in the eye.",tags:"名词"},
+    {level:"初中",word:"behave",phonetic:"/bɪˈheɪv/",chinese:"表现",example:"Behave yourself!",tags:"动词"},
+    {level:"初中",word:"belief",phonetic:"/bɪˈliːf/",chinese:"信念",example:"Hold on to your belief.",tags:"名词"},
+    {level:"初中",word:"belong",phonetic:"/bɪˈlɒŋ/",chinese:"属于",example:"This book belongs to me.",tags:"动词"},
+    {level:"初中",word:"benefit",phonetic:"/ˈbenɪfɪt/",chinese:"好处",example:"Exercise has many benefits.",tags:"名词"},
+    {level:"初中",word:"beyond",phonetic:"/bɪˈjɒnd/",chinese:"超过",example:"It's beyond my ability.",tags:"介词"},
+    {level:"初中",word:"blame",phonetic:"/bleɪm/",chinese:"责备",example:"Don't blame yourself.",tags:"动词"},
+    {level:"初中",word:"borrow",phonetic:"/ˈbɒrəʊ/",chinese:"借",example:"Can I borrow your pen?",tags:"动词"},
+    {level:"初中",word:"brave",phonetic:"/breɪv/",chinese:"勇敢的",example:"He is a brave soldier.",tags:"形容词"},
+    {level:"初中",word:"breath",phonetic:"/breθ/",chinese:"呼吸",example:"Take a deep breath.",tags:"名词"},
+    {level:"初中",word:"brief",phonetic:"/briːf/",chinese:"简短的",example:"Please be brief.",tags:"形容词"},
+    {level:"初中",word:"broad",phonetic:"/brɔːd/",chinese:"宽的",example:"A broad smile.",tags:"形容词"},
+    {level:"初中",word:"calm",phonetic:"/kɑːm/",chinese:"平静的",example:"Stay calm.",tags:"形容词"},
+    {level:"初中",word:"career",phonetic:"/kəˈrɪə/",chinese:"职业",example:"Choose your career wisely.",tags:"名词"},
+    {level:"初中",word:"careful",phonetic:"/ˈkeəfl/",chinese:"小心的",example:"Be careful with the glass.",tags:"形容词"},
+    {level:"初中",word:"cause",phonetic:"/kɔːz/",chinese:"原因",example:"The cause of the fire.",tags:"名词"},
+    {level:"初中",word:"celebrate",phonetic:"/ˈselɪbreɪt/",chinese:"庆祝",example:"We celebrate Spring Festival.",tags:"动词"},
+    {level:"初中",word:"central",phonetic:"/ˈsentrəl/",chinese:"中心的",example:"Central Park is in New York.",tags:"形容词"},
+    {level:"初中",word:"century",phonetic:"/ˈsentʃəri/",chinese:"世纪",example:"In the 21st century.",tags:"名词"},
+    {level:"初中",word:"certain",phonetic:"/ˈsɜːtn/",chinese:"确定的",example:"I'm certain he will come.",tags:"形容词"},
+    {level:"初中",word:"chance",phonetic:"/tʃɑːns/",chinese:"机会",example:"Give me a chance.",tags:"名词"},
+    {level:"初中",word:"character",phonetic:"/ˈkærəktə/",chinese:"性格；角色",example:"He has a strong character.",tags:"名词"},
+    {level:"初中",word:"choice",phonetic:"/tʃɔɪs/",chinese:"选择",example:"Make a wise choice.",tags:"名词"},
+    {level:"初中",word:"communicate",phonetic:"/kəˈmjuːnɪkeɪt/",chinese:"交流",example:"Communicate with friends.",tags:"动词"},
+    {level:"初中",word:"community",phonetic:"/kəˈmjuːnəti/",chinese:"社区",example:"A friendly community.",tags:"名词"},
+    {level:"初中",word:"compare",phonetic:"/kəmˈpeə/",chinese:"比较",example:"Compare the two pictures.",tags:"动词"},
+    {level:"初中",word:"compete",phonetic:"/kəmˈpiːt/",chinese:"竞争",example:"We compete in games.",tags:"动词"},
+    {level:"初中",word:"complete",phonetic:"/kəmˈpliːt/",chinese:"完成",example:"Complete your homework.",tags:"动词"},
+    {level:"初中",word:"condition",phonetic:"/kənˈdɪʃn/",chinese:"条件；状况",example:"In good condition.",tags:"名词"},
+    {level:"初中",word:"confidence",phonetic:"/ˈkɒnfɪdəns/",chinese:"自信",example:"Believe in yourself with confidence.",tags:"名词"},
+    {level:"初中",word:"confuse",phonetic:"/kənˈfjuːz/",chinese:"使困惑",example:"Don't confuse them.",tags:"动词"},
+    {level:"初中",word:"consider",phonetic:"/kənˈsɪdə/",chinese:"考虑",example:"Consider all options.",tags:"动词"},
+    {level:"初中",word:"contain",phonetic:"/kənˈteɪn/",chinese:"包含",example:"The box contains books.",tags:"动词"},
+    {level:"初中",word:"continue",phonetic:"/kənˈtɪnjuː/",chinese:"继续",example:"Continue your work.",tags:"动词"},
+    {level:"初中",word:"control",phonetic:"/kənˈtrəʊl/",chinese:"控制",example:"Control your temper.",tags:"动词"},
+    {level:"初中",word:"courage",phonetic:"/ˈkʌrɪdʒ/",chinese:"勇气",example:"Have the courage to try.",tags:"名词"},
+    {level:"初中",word:"create",phonetic:"/kriˈeɪt/",chinese:"创造",example:"Create your future.",tags:"动词"},
+    {level:"初中",word:"culture",phonetic:"/ˈkʌltʃə/",chinese:"文化",example:"Learn different cultures.",tags:"名词"},
+    {level:"初中",word:"custom",phonetic:"/ˈkʌstəm/",chinese:"习俗",example:"Chinese customs are unique.",tags:"名词"},
+    {level:"初中",word:"danger",phonetic:"/ˈdeɪndʒə/",chinese:"危险",example:"Stay away from danger.",tags:"名词"},
+    {level:"初中",word:"decide",phonetic:"/dɪˈsaɪd/",chinese:"决定",example:"Decide for yourself.",tags:"动词"},
+    {level:"初中",word:"decrease",phonetic:"/dɪˈkriːs/",chinese:"减少",example:"Decrease the speed.",tags:"动词"},
+    {level:"初中",word:"defend",phonetic:"/dɪˈfend/",chinese:"保卫",example:"Defend your country.",tags:"动词"},
+    {level:"初中",word:"deliver",phonetic:"/dɪˈlɪvə/",chinese:"递送",example:"Deliver the package.",tags:"动词"},
+    {level:"初中",word:"depend",phonetic:"/dɪˈpend/",chinese:"依靠",example:"Don't depend on others.",tags:"动词"},
+    {level:"初中",word:"describe",phonetic:"/dɪˈskraɪb/",chinese:"描述",example:"Describe the picture.",tags:"动词"},
+    {level:"初中",word:"design",phonetic:"/dɪˈzaɪn/",chinese:"设计",example:"Design a new logo.",tags:"动词"},
+    {level:"初中",word:"develop",phonetic:"/dɪˈveləp/",chinese:"发展",example:"Develop good habits.",tags:"动词"},
+    {level:"初中",word:"differ",phonetic:"/ˈdɪfə/",chinese:"不同",example:"Opinions differ.",tags:"动词"},
+    {level:"初中",word:"disappear",phonetic:"/ˌdɪsəˈpɪə/",chinese:"消失",example:"The sun disappeared.",tags:"动词"},
+    {level:"初中",word:"discover",phonetic:"/dɪˈskʌvə/",chinese:"发现",example:"Discover the truth.",tags:"动词"},
+    {level:"初中",word:"discuss",phonetic:"/dɪˈskʌs/",chinese:"讨论",example:"Let's discuss this issue.",tags:"动词"},
+    {level:"初中",word:"distance",phonetic:"/ˈdɪstəns/",chinese:"距离",example:"What's the distance?",tags:"名词"},
+    {level:"初中",word:"doubt",phonetic:"/daʊt/",chinese:"怀疑",example:"I doubt his words.",tags:"动词"},
+    {level:"初中",word:"duty",phonetic:"/ˈdjuːti/",chinese:"责任",example:"It's my duty to help.",tags:"名词"},
+    {level:"初中",word:"economy",phonetic:"/ɪˈkɒnəmi/",chinese:"经济",example:"The economy is growing.",tags:"名词"},
+    {level:"初中",word:"effort",phonetic:"/ˈefət/",chinese:"努力",example:"Make an effort.",tags:"名词"},
+    {level:"初中",word:"encourage",phonetic:"/ɪnˈkʌrɪdʒ/",chinese:"鼓励",example:"Encourage your kids.",tags:"动词"},
+    {level:"初中",word:"enjoy",phonetic:"/ɪnˈdʒɔɪ/",chinese:"享受",example:"Enjoy your meal.",tags:"动词"},
+    {level:"初中",word:"enter",phonetic:"/ˈentə/",chinese:"进入",example:"Enter the room.",tags:"动词"},
+    {level:"初中",word:"environment",phonetic:"/ɪnˈvaɪrənmənt/",chinese:"环境",example:"Protect the environment.",tags:"名词"},
+    {level:"初中",word:"equal",phonetic:"/ˈiːkwəl/",chinese:"平等的",example:"All people are equal.",tags:"形容词"},
+    {level:"初中",word:"escape",phonetic:"/ɪˈskeɪp/",chinese:"逃跑",example:"The bird escaped.",tags:"动词"},
+    {level:"初中",word:"especially",phonetic:"/ɪˈspeʃəli/",chinese:"尤其",example:"Especially for kids.",tags:"副词"},
+    {level:"初中",word:"event",phonetic:"/ɪˈvent/",chinese:"事件",example:"A big event today.",tags:"名词"},
+    {level:"初中",word:"examine",phonetic:"/ɪɡˈzæmɪn/",chinese:"检查",example:"Examine the data.",tags:"动词"},
+    {level:"初中",word:"example",phonetic:"/ɪɡˈzɑːmpl/",chinese:"例子",example:"Give me an example.",tags:"名词"},
+    {level:"初中",word:"excite",phonetic:"/ɪkˈsaɪt/",chinese:"使兴奋",example:"The news excited me.",tags:"动词"},
+    {level:"初中",word:"excuse",phonetic:"/ɪkˈskjuːs/",chinese:"借口",example:"No excuse for being late.",tags:"名词"},
+    {level:"初中",word:"expect",phonetic:"/ɪkˈspekt/",chinese:"期待",example:"I expect good news.",tags:"动词"},
+    {level:"初中",word:"experience",phonetic:"/ɪkˈspɪəriəns/",chinese:"经历；经验",example:"A wonderful experience.",tags:"名词"},
+    {level:"初中",word:"experiment",phonetic:"/ɪkˈsperɪmənt/",chinese:"实验",example:"Do a science experiment.",tags:"名词"},
+    {level:"初中",word:"explain",phonetic:"/ɪkˈspleɪn/",chinese:"解释",example:"Explain the rule.",tags:"动词"},
+    {level:"初中",word:"explore",phonetic:"/ɪkˈsplɔː/",chinese:"探索",example:"Explore the world.",tags:"动词"},
+    {level:"初中",word:"express",phonetic:"/ɪkˈspres/",chinese:"表达",example:"Express your ideas.",tags:"动词"},
+    {level:"初中",word:"fail",phonetic:"/feɪl/",chinese:"失败",example:"Don't fear to fail.",tags:"动词"},
+    {level:"初中",word:"faith",phonetic:"/feɪθ/",chinese:"信任；信仰",example:"Have faith in yourself.",tags:"名词"},
+    {level:"初中",word:"famous",phonetic:"/ˈfeɪməs/",chinese:"著名的",example:"He is a famous singer.",tags:"形容词"},
+    {level:"初中",word:"fault",phonetic:"/fɔːlt/",chinese:"错误；过错",example:"It's not your fault.",tags:"名词"},
+    {level:"初中",word:"fear",phonetic:"/fɪə/",chinese:"害怕",example:"Face your fear.",tags:"动词"},
+    {level:"初中",word:"feature",phonetic:"/ˈfiːtʃə/",chinese:"特征",example:"Key features of the phone.",tags:"名词"},
+    {level:"初中",word:"festival",phonetic:"/ˈfestɪvl/",chinese:"节日",example:"The Spring Festival.",tags:"名词"},
+    {level:"初中",word:"field",phonetic:"/fiːld/",chinese:"田野；领域",example:"In the field of science.",tags:"名词"},
+    {level:"初中",word:"final",phonetic:"/ˈfaɪnl/",chinese:"最终的",example:"The final exam.",tags:"形容词"},
+    {level:"初中",word:"focus",phonetic:"/ˈfəʊkəs/",chinese:"集中",example:"Focus on your study.",tags:"动词"},
+    {level:"初中",word:"foreign",phonetic:"/ˈfɒrən/",chinese:"外国的",example:"Learn foreign languages.",tags:"形容词"},
+    {level:"初中",word:"former",phonetic:"/ˈfɔːmə/",chinese:"以前的",example:"The former president.",tags:"形容词"},
+    {level:"初中",word:"fortune",phonetic:"/ˈfɔːtʃuːn/",chinese:"财富；运气",example:"Make a fortune.",tags:"名词"},
+    {level:"初中",word:"forward",phonetic:"/ˈfɔːwəd/",chinese:"向前",example:"Look forward to the future.",tags:"副词"},
+    {level:"初中",word:"freedom",phonetic:"/ˈfriːdəm/",chinese:"自由",example:"Fight for freedom.",tags:"名词"},
+    {level:"初中",word:"frequently",phonetic:"/ˈfriːkwəntli/",chinese:"经常地",example:"He frequently travels.",tags:"副词"},
+    {level:"初中",word:"general",phonetic:"/ˈdʒenrəl/",chinese:"一般的",example:"In general, I agree.",tags:"形容词"},
+    {level:"初中",word:"generation",phonetic:"/ˌdʒenəˈreɪʃn/",chinese:"一代人",example:"The younger generation.",tags:"名词"},
+    {level:"初中",word:"gentle",phonetic:"/ˈdʒentl/",chinese:"温柔的",example:"A gentle smile.",tags:"形容词"},
+    {level:"初中",word:"global",phonetic:"/ˈɡləʊbl/",chinese:"全球的",example:"Global warming is real.",tags:"形容词"},
+    {level:"初中",word:"government",phonetic:"/ˈɡʌvənmənt/",chinese:"政府",example:"The government decided.",tags:"名词"},
+    {level:"初中",word:"gradually",phonetic:"/ˈɡrædʒuəli/",chinese:"逐渐地",example:"Things gradually improved.",tags:"副词"},
+    {level:"初中",word:"guess",phonetic:"/ɡes/",chinese:"猜",example:"Guess what happened next.",tags:"动词"},
+    {level:"初中",word:"habit",phonetic:"/ˈhæbɪt/",chinese:"习惯",example:"Form a good habit.",tags:"名词"},
+    {level:"初中",word:"harm",phonetic:"/hɑːm/",chinese:"伤害",example:"Smoking harms health.",tags:"动词"},
+    {level:"初中",word:"hesitate",phonetic:"/ˈhezɪteɪt/",chinese:"犹豫",example:"Don't hesitate to ask.",tags:"动词"},
+    {level:"初中",word:"history",phonetic:"/ˈhɪstri/",chinese:"历史",example:"Study world history.",tags:"名词"},
+    {level:"初中",word:"honor",phonetic:"/ˈɒnə/",chinese:"荣誉",example:"It's an honor to meet you.",tags:"名词"},
+    {level:"初中",word:"imagine",phonetic:"/ɪˈmædʒɪn/",chinese:"想象",example:"Imagine a perfect world.",tags:"动词"},
+    {level:"初中",word:"improve",phonetic:"/ɪmˈpruːv/",chinese:"改善",example:"Improve your English.",tags:"动词"},
+    {level:"初中",word:"include",phonetic:"/ɪnˈkluːd/",chinese:"包括",example:"Price includes tax.",tags:"动词"},
+    {level:"初中",word:"increase",phonetic:"/ɪnˈkriːs/",chinese:"增加",example:"Sales increased.",tags:"动词"},
+    {level:"初中",word:"industry",phonetic:"/ˈɪndəstri/",chinese:"工业",example:"The film industry.",tags:"名词"},
+    {level:"初中",word:"influence",phonetic:"/ˈɪnfluəns/",chinese:"影响",example:"Friends influence us.",tags:"名词"},
+    {level:"初中",word:"instead",phonetic:"/ɪnˈsted/",chinese:"代替",example:"Drink water instead of soda.",tags:"副词"},
+    {level:"初中",word:"intend",phonetic:"/ɪnˈtend/",chinese:"打算",example:"I intend to study abroad.",tags:"动词"},
+    {level:"初中",word:"international",phonetic:"/ˌɪntəˈnæʃnəl/",chinese:"国际的",example:"International news.",tags:"形容词"},
+    {level:"初中",word:"introduce",phonetic:"/ˌɪntrəˈdjuːs/",chinese:"介绍",example:"Let me introduce myself.",tags:"动词"},
+    {level:"初中",word:"invent",phonetic:"/ɪnˈvent/",chinese:"发明",example:"Invent a new machine.",tags:"动词"},
+    {level:"初中",word:"invite",phonetic:"/ɪnˈvaɪt/",chinese:"邀请",example:"Invite friends to dinner.",tags:"动词"},
+    {level:"初中",word:"judge",phonetic:"/dʒʌdʒ/",chinese:"判断",example:"Don't judge a book by its cover.",tags:"动词"},
+    {level:"初中",word:"knowledge",phonetic:"/ˈnɒlɪdʒ/",chinese:"知识",example:"Knowledge is power.",tags:"名词"},
+    {level:"初中",word:"language",phonetic:"/ˈlæŋɡwɪdʒ/",chinese:"语言",example:"Learn a foreign language.",tags:"名词"},
+    {level:"初中",word:"laugh",phonetic:"/lɑːf/",chinese:"笑",example:"We laugh together.",tags:"动词"},
+    {level:"初中",word:"law",phonetic:"/lɔː/",chinese:"法律",example:"Everyone must follow the law.",tags:"名词"},
+    {level:"初中",word:"leader",phonetic:"/ˈliːdə/",chinese:"领导者",example:"A great leader.",tags:"名词"},
+    {level:"初中",word:"lifestyle",phonetic:"/ˈlaɪfstaɪl/",chinese:"生活方式",example:"A healthy lifestyle.",tags:"名词"},
+    {level:"初中",word:"likely",phonetic:"/ˈlaɪkli/",chinese:"可能的",example:"It's likely to rain.",tags:"形容词"},
+    {level:"初中",word:"limit",phonetic:"/ˈlɪmɪt/",chinese:"限制",example:"Limit your screen time.",tags:"动词"},
+    {level:"初中",word:"lonely",phonetic:"/ˈləʊnli/",chinese:"孤独的",example:"Don't feel lonely.",tags:"形容词"},
+    {level:"初中",word:"manage",phonetic:"/ˈmænɪdʒ/",chinese:"管理",example:"Manage your time well.",tags:"动词"},
+    {level:"初中",word:"market",phonetic:"/ˈmɑːkɪt/",chinese:"市场",example:"The market is busy.",tags:"名词"},
+    {level:"初中",word:"material",phonetic:"/məˈtɪəriəl/",chinese:"材料",example:"Building materials.",tags:"名词"},
+    {level:"初中",word:"measure",phonetic:"/ˈmeʒə/",chinese:"测量；措施",example:"Take measures to help.",tags:"动词"},
+    {level:"初中",word:"memory",phonetic:"/ˈmeməri/",chinese:"记忆",example:"A good memory.",tags:"名词"},
+    {level:"初中",word:"method",phonetic:"/ˈmeθəd/",chinese:"方法",example:"A new method.",tags:"名词"},
+    {level:"初中",word:"mind",phonetic:"/maɪnd/",chinese:"想法；介意",example:"Never mind.",tags:"名词"},
+    {level:"初中",word:"modern",phonetic:"/ˈmɒdn/",chinese:"现代的",example:"Modern technology.",tags:"形容词"},
+    {level:"初中",word:"nature",phonetic:"/ˈneɪtʃə/",chinese:"自然",example:"Love the nature.",tags:"名词"},
+    {level:"初中",word:"necessary",phonetic:"/ˈnesəsəri/",chinese:"必要的",example:"Sleep is necessary.",tags:"形容词"},
+    {level:"初中",word:"normal",phonetic:"/ˈnɔːml/",chinese:"正常的",example:"A normal day.",tags:"形容词"},
+    {level:"初中",word:"notice",phonetic:"/ˈnəʊtɪs/",chinese:"注意",example:"Did you notice that?",tags:"动词"},
+    {level:"初中",word:"opportunity",phonetic:"/ˌɒpəˈtjuːnəti/",chinese:"机会",example:"A good opportunity.",tags:"名词"},
+    {level:"初中",word:"ordinary",phonetic:"/ˈɔːdnri/",chinese:"普通的",example:"An ordinary person.",tags:"形容词"},
+    {level:"初中",word:"organize",phonetic:"/ˈɔːɡənaɪz/",chinese:"组织",example:"Organize a party.",tags:"动词"},
+    {level:"初中",word:"patient",phonetic:"/ˈpeɪʃnt/",chinese:"耐心的",example:"Be patient with kids.",tags:"形容词"},
+    {level:"初中",word:"peace",phonetic:"/piːs/",chinese:"和平",example:"World peace.",tags:"名词"},
+    {level:"初中",word:"perform",phonetic:"/pəˈfɔːm/",chinese:"表演",example:"Perform on stage.",tags:"动词"},
+    {level:"初中",word:"perhaps",phonetic:"/pəˈhæps/",chinese:"也许",example:"Perhaps it will rain.",tags:"副词"},
+    {level:"初中",word:"period",phonetic:"/ˈpɪəriəd/",chinese:"时期",example:"A long period of time.",tags:"名词"},
+    {level:"初中",word:"personality",phonetic:"/ˌpɜːsəˈnæləti/",chinese:"个性",example:"A strong personality.",tags:"名词"},
+    {level:"初中",word:"popular",phonetic:"/ˈpɒpjələ/",chinese:"流行的",example:"A popular song.",tags:"形容词"},
+    {level:"初中",word:"positive",phonetic:"/ˈpɒzətɪv/",chinese:"积极的",example:"Stay positive.",tags:"形容词"},
+    {level:"初中",word:"possess",phonetic:"/pəˈzes/",chinese:"拥有",example:"He possesses great talent.",tags:"动词"},
+    {level:"初中",word:"praise",phonetic:"/preɪz/",chinese:"赞扬",example:"Praise the good work.",tags:"动词"},
+    {level:"初中",word:"predict",phonetic:"/prɪˈdɪkt/",chinese:"预测",example:"Predict the future.",tags:"动词"},
+    {level:"初中",word:"prepare",phonetic:"/prɪˈpeə/",chinese:"准备",example:"Prepare for the exam.",tags:"动词"},
+    {level:"初中",word:"present",phonetic:"/ˈpreznt/",chinese:"现在的；呈现",example:"The present situation.",tags:"形容词"},
+    {level:"初中",word:"pressure",phonetic:"/ˈpreʃə/",chinese:"压力",example:"Don't put pressure on me.",tags:"名词"},
+    {level:"初中",word:"pretend",phonetic:"/prɪˈtend/",chinese:"假装",example:"Don't pretend to know.",tags:"动词"},
+    {level:"初中",word:"prevent",phonetic:"/prɪˈvent/",chinese:"阻止",example:"Prevent the disease.",tags:"动词"},
+    {level:"初中",word:"produce",phonetic:"/prəˈdjuːs/",chinese:"生产",example:"Produce more food.",tags:"动词"},
+    {level:"初中",word:"progress",phonetic:"/ˈprəʊɡres/",chinese:"进步",example:"Make great progress.",tags:"名词"},
+    {level:"初中",word:"promise",phonetic:"/ˈprɒmɪs/",chinese:"承诺",example:"I promise to be there.",tags:"动词"},
+    {level:"初中",word:"protect",phonetic:"/prəˈtekt/",chinese:"保护",example:"Protect the children.",tags:"动词"},
+    {level:"初中",word:"provide",phonetic:"/prəˈvaɪd/",chinese:"提供",example:"Provide more information.",tags:"动词"},
+    {level:"初中",word:"purpose",phonetic:"/ˈpɜːpəs/",chinese:"目的",example:"The purpose of life.",tags:"名词"},
+    {level:"初中",word:"quality",phonetic:"/ˈkwɒləti/",chinese:"质量",example:"High quality products.",tags:"名词"},
+    {level:"初中",word:"realize",phonetic:"/ˈrɪəlaɪz/",chinese:"意识到",example:"I realized my mistake.",tags:"动词"},
+    {level:"初中",word:"reason",phonetic:"/ˈriːzn/",chinese:"原因",example:"The reason for being late.",tags:"名词"},
+    {level:"初中",word:"receive",phonetic:"/rɪˈsiːv/",chinese:"收到",example:"Receive a gift.",tags:"动词"},
+    {level:"初中",word:"recognize",phonetic:"/ˈrekəɡnaɪz/",chinese:"认出",example:"I recognize him.",tags:"动词"},
+    {level:"初中",word:"recommend",phonetic:"/ˌrekəˈmend/",chinese:"推荐",example:"I recommend this book.",tags:"动词"},
+    {level:"初中",word:"reduce",phonetic:"/rɪˈdjuːs/",chinese:"减少",example:"Reduce waste.",tags:"动词"},
+    {level:"初中",word:"refer",phonetic:"/rɪˈfɜː/",chinese:"参考",example:"Refer to a dictionary.",tags:"动词"},
+    {level:"初中",word:"reflect",phonetic:"/rɪˈflekt/",chinese:"反映",example:"Mirrors reflect light.",tags:"动词"},
+    {level:"初中",word:"regard",phonetic:"/rɪˈɡɑːd/",chinese:"认为",example:"I regard him as a friend.",tags:"动词"},
+    {level:"初中",word:"regular",phonetic:"/ˈreɡjələ/",chinese:"规律的",example:"Regular exercise helps.",tags:"形容词"},
+    {level:"初中",word:"relax",phonetic:"/rɪˈlæks/",chinese:"放松",example:"Take time to relax.",tags:"动词"},
+    {level:"初中",word:"remain",phonetic:"/rɪˈmeɪn/",chinese:"保持",example:"Remain calm.",tags:"动词"},
+    {level:"初中",word:"remember",phonetic:"/rɪˈmembə/",chinese:"记住",example:"Remember this rule.",tags:"动词"},
+    {level:"初中",word:"repeat",phonetic:"/rɪˈpiːt/",chinese:"重复",example:"Please repeat that.",tags:"动词"},
+    {level:"初中",word:"reply",phonetic:"/rɪˈplaɪ/",chinese:"回复",example:"Reply to the email.",tags:"动词"},
+    {level:"初中",word:"report",phonetic:"/rɪˈpɔːt/",chinese:"报告",example:"Write a report.",tags:"名词"},
+    {level:"初中",word:"require",phonetic:"/rɪˈkwaɪə/",chinese:"要求",example:"This job requires patience.",tags:"动词"},
+    {level:"初中",word:"respect",phonetic:"/rɪˈspekt/",chinese:"尊重",example:"Respect your parents.",tags:"动词"},
+    {level:"初中",word:"responsible",phonetic:"/rɪˈspɒnsəbl/",chinese:"负责的",example:"Be responsible for your actions.",tags:"形容词"},
+    {level:"初中",word:"result",phonetic:"/rɪˈzʌlt/",chinese:"结果",example:"The result is good.",tags:"名词"},
+    {level:"初中",word:"return",phonetic:"/rɪˈtɜːn/",chinese:"返回",example:"Return the book.",tags:"动词"},
+    {level:"初中",word:"rise",phonetic:"/raɪz/",chinese:"上升",example:"The sun rises.",tags:"动词"},
+    {level:"初中",word:"safety",phonetic:"/ˈseɪfti/",chinese:"安全",example:"Safety first.",tags:"名词"},
+    {level:"初中",word:"satisfy",phonetic:"/ˈsætɪsfaɪ/",chinese:"使满意",example:"The result satisfied me.",tags:"动词"},
+    {level:"初中",word:"search",phonetic:"/sɜːtʃ/",chinese:"搜索",example:"Search online for the answer.",tags:"动词"},
+    {level:"初中",word:"secret",phonetic:"/ˈsiːkrət/",chinese:"秘密",example:"Keep it a secret.",tags:"名词"},
+    {level:"初中",word:"sense",phonetic:"/sens/",chinese:"感觉",example:"A sense of humor.",tags:"名词"},
+    {level:"初中",word:"separate",phonetic:"/ˈseprət/",chinese:"分离的",example:"Separate the two groups.",tags:"动词"},
+    {level:"初中",word:"serious",phonetic:"/ˈsɪəriəs/",chinese:"严重的；认真的",example:"A serious problem.",tags:"形容词"},
+    {level:"初中",word:"service",phonetic:"/ˈsɜːvɪs/",chinese:"服务",example:"Good customer service.",tags:"名词"},
+    {level:"初中",word:"settle",phonetic:"/ˈsetl/",chinese:"安顿；解决",example:"Settle the dispute.",tags:"动词"},
+    {level:"初中",word:"silent",phonetic:"/ˈsaɪlənt/",chinese:"沉默的",example:"Stay silent.",tags:"形容词"},
+    {level:"初中",word:"similar",phonetic:"/ˈsɪmələ/",chinese:"相似的",example:"Similar problems.",tags:"形容词"},
+    {level:"初中",word:"social",phonetic:"/ˈsəʊʃl/",chinese:"社会的",example:"Social activities.",tags:"形容词"},
+    {level:"初中",word:"society",phonetic:"/səˈsaɪəti/",chinese:"社会",example:"Modern society.",tags:"名词"},
+    {level:"初中",word:"spread",phonetic:"/spred/",chinese:"传播",example:"Spread the news.",tags:"动词"},
+    {level:"初中",word:"standard",phonetic:"/ˈstændəd/",chinese:"标准",example:"High standards.",tags:"名词"},
+    {level:"初中",word:"strange",phonetic:"/streɪndʒ/",chinese:"奇怪的",example:"A strange sound.",tags:"形容词"},
+    {level:"初中",word:"strength",phonetic:"/streŋθ/",chinese:"力量",example:"Strength and courage.",tags:"名词"},
+    {level:"初中",word:"success",phonetic:"/səkˈses/",chinese:"成功",example:"Success comes from hard work.",tags:"名词"},
+    {level:"初中",word:"suddenly",phonetic:"/ˈsʌdənli/",chinese:"突然",example:"Suddenly it rained.",tags:"副词"},
+    {level:"初中",word:"suggest",phonetic:"/səˈdʒest/",chinese:"建议",example:"I suggest going now.",tags:"动词"},
+    {level:"初中",word:"support",phonetic:"/səˈpɔːt/",chinese:"支持",example:"Support your team.",tags:"动词"},
+    {level:"初中",word:"surprise",phonetic:"/səˈpraɪz/",chinese:"惊讶",example:"What a nice surprise!",tags:"名词"},
+    {level:"初中",word:"technology",phonetic:"/tekˈnɒlədʒi/",chinese:"技术",example:"Modern technology.",tags:"名词"},
+    {level:"初中",word:"therefore",phonetic:"/ˈðeəfɔː/",chinese:"因此",example:"Therefore, we must act.",tags:"副词"},
+    {level:"初中",word:"tradition",phonetic:"/trəˈdɪʃn/",chinese:"传统",example:"Chinese traditions.",tags:"名词"},
+    {level:"初中",word:"trust",phonetic:"/trʌst/",chinese:"信任",example:"Trust your friends.",tags:"动词"},
+    {level:"初中",word:"understand",phonetic:"/ˌʌndəˈstænd/",chinese:"理解",example:"I understand you.",tags:"动词"},
+    {level:"初中",word:"unusual",phonetic:"/ʌnˈjuːʒuəl/",chinese:"不寻常的",example:"An unusual event.",tags:"形容词"},
+    {level:"初中",word:"value",phonetic:"/ˈvæljuː/",chinese:"价值",example:"The value of education.",tags:"名词"},
+    {level:"初中",word:"various",phonetic:"/ˈveəriəs/",chinese:"各种各样的",example:"Various reasons.",tags:"形容词"},
+    {level:"初中",word:"wonder",phonetic:"/ˈwʌndə/",chinese:"想知道",example:"I wonder why.",tags:"动词"}
+  ],
+
+  // ============ 高中阶段 ============
+  senior: [
+    {level:"高中",word:"abandon",phonetic:"/əˈbændən/",chinese:"放弃；遗弃",example:"Never abandon your dream.",tags:"动词"},
+    {level:"高中",word:"absorb",phonetic:"/əbˈzɔːb/",chinese:"吸收",example:"Plants absorb water.",tags:"动词"},
+    {level:"高中",word:"abstract",phonetic:"/ˈæbstrækt/",chinese:"抽象的",example:"Abstract ideas.",tags:"形容词"},
+    {level:"高中",word:"academic",phonetic:"/ˌækəˈdemɪk/",chinese:"学术的",example:"Academic research.",tags:"形容词"},
+    {level:"高中",word:"accurate",phonetic:"/ˈækjərət/",chinese:"精确的",example:"Accurate information.",tags:"形容词"},
+    {level:"高中",word:"acknowledge",phonetic:"/əkˈnɒlɪdʒ/",chinese:"承认",example:"Acknowledge your mistakes.",tags:"动词"},
+    {level:"高中",word:"acquire",phonetic:"/əˈkwaɪə/",chinese:"获得",example:"Acquire new skills.",tags:"动词"},
+    {level:"高中",word:"adapt",phonetic:"/əˈdæpt/",chinese:"适应",example:"Adapt to change.",tags:"动词"},
+    {level:"高中",word:"adequate",phonetic:"/ˈædɪkwət/",chinese:"足够的",example:"Adequate sleep is important.",tags:"形容词"},
+    {level:"高中",word:"adjust",phonetic:"/əˈdʒʌst/",chinese:"调整",example:"Adjust to new situations.",tags:"动词"},
+    {level:"高中",word:"administration",phonetic:"/ədˌmɪnɪˈstreɪʃn/",chinese:"管理",example:"The school administration.",tags:"名词"},
+    {level:"高中",word:"admit",phonetic:"/ədˈmɪt/",chinese:"承认；准许进入",example:"Admit your fault.",tags:"动词"},
+    {level:"高中",word:"adopt",phonetic:"/əˈdɒpt/",chinese:"采用；收养",example:"Adopt a new method.",tags:"动词"},
+    {level:"高中",word:"advocate",phonetic:"/ˈædvəkeɪt/",chinese:"提倡",example:"Advocate for change.",tags:"动词"},
+    {level:"高中",word:"affect",phonetic:"/əˈfekt/",chinese:"影响",example:"Weather affects mood.",tags:"动词"},
+    {level:"高中",word:"afford",phonetic:"/əˈfɔːd/",chinese:"买得起",example:"Afford a house.",tags:"动词"},
+    {level:"高中",word:"alarm",phonetic:"/əˈlɑːm/",chinese:"警报",example:"A fire alarm.",tags:"名词"},
+    {level:"高中",word:"alike",phonetic:"/əˈlaɪk/",chinese:"相似的",example:"They look alike.",tags:"形容词"},
+    {level:"高中",word:"alphabet",phonetic:"/ˈælfəbet/",chinese:"字母表",example:"The English alphabet.",tags:"名词"},
+    {level:"高中",word:"analyze",phonetic:"/ˈænəlaɪz/",chinese:"分析",example:"Analyze the data.",tags:"动词"},
+    {level:"高中",word:"ancient",phonetic:"/ˈeɪnʃənt/",chinese:"古代的",example:"Ancient civilization.",tags:"形容词"},
+    {level:"高中",word:"announce",phonetic:"/əˈnaʊns/",chinese:"宣布",example:"Announce the result.",tags:"动词"},
+    {level:"高中",word:"annual",phonetic:"/ˈænjuəl/",chinese:"每年的",example:"An annual event.",tags:"形容词"},
+    {level:"高中",word:"anticipate",phonetic:"/ænˈtɪsɪpeɪt/",chinese:"预期",example:"Anticipate problems.",tags:"动词"},
+    {level:"高中",word:"apparent",phonetic:"/əˈpærənt/",chinese:"明显的",example:"Apparent mistakes.",tags:"形容词"},
+    {level:"高中",word:"appeal",phonetic:"/əˈpiːl/",chinese:"呼吁；吸引力",example:"Appeal to the public.",tags:"动词"},
+    {level:"高中",word:"appreciate",phonetic:"/əˈpriːʃieɪt/",chinese:"感激；欣赏",example:"I appreciate your help.",tags:"动词"},
+    {level:"高中",word:"approach",phonetic:"/əˈprəʊtʃ/",chinese:"方法；接近",example:"A new approach.",tags:"名词"},
+    {level:"高中",word:"appropriate",phonetic:"/əˈprəʊpriət/",chinese:"合适的",example:"Appropriate behavior.",tags:"形容词"},
+    {level:"高中",word:"approve",phonetic:"/əˈpruːv/",chinese:"批准",example:"Approve the plan.",tags:"动词"},
+    {level:"高中",word:"argue",phonetic:"/ˈɑːɡjuː/",chinese:"争论",example:"Don't argue with me.",tags:"动词"},
+    {level:"高中",word:"arise",phonetic:"/əˈraɪz/",chinese:"出现",example:"Problems arise.",tags:"动词"},
+    {level:"高中",word:"assemble",phonetic:"/əˈsembl/",chinese:"集合；组装",example:"Assemble the parts.",tags:"动词"},
+    {level:"高中",word:"assess",phonetic:"/əˈses/",chinese:"评估",example:"Assess the situation.",tags:"动词"},
+    {level:"高中",word:"associate",phonetic:"/əˈsəʊʃieɪt/",chinese:"联想；联系",example:"I associate summer with holidays.",tags:"动词"},
+    {level:"高中",word:"assume",phonetic:"/əˈsjuːm/",chinese:"假设",example:"Don't assume anything.",tags:"动词"},
+    {level:"高中",word:"atmosphere",phonetic:"/ˈætməsfɪə/",chinese:"大气；气氛",example:"A friendly atmosphere.",tags:"名词"},
+    {level:"高中",word:"attempt",phonetic:"/əˈtempt/",chinese:"尝试",example:"Attempt the challenge.",tags:"动词"},
+    {level:"高中",word:"attend",phonetic:"/əˈtend/",chinese:"参加",example:"Attend the meeting.",tags:"动词"},
+    {level:"高中",word:"attract",phonetic:"/əˈtrækt/",chinese:"吸引",example:"Magnets attract iron.",tags:"动词"},
+    {level:"高中",word:"authority",phonetic:"/ɔːˈθɒrəti/",chinese:"权威",example:"Respect authority.",tags:"名词"},
+    {level:"高中",word:"automatic",phonetic:"/ˌɔːtəˈmætɪk/",chinese:"自动的",example:"Automatic doors.",tags:"形容词"},
+    {level:"高中",word:"aware",phonetic:"/əˈweə/",chinese:"意识到的",example:"Be aware of the risks.",tags:"形容词"},
+    {level:"高中",word:"behalf",phonetic:"/bɪˈhɑːf/",chinese:"代表",example:"On behalf of the team.",tags:"名词"},
+    {level:"高中",word:"beneath",phonetic:"/bɪˈniːθ/",chinese:"在...之下",example:"Beneath the surface.",tags:"介词"},
+    {level:"高中",word:"besides",phonetic:"/bɪˈsaɪdz/",chinese:"除...之外",example:"Besides English, I study French.",tags:"介词"},
+    {level:"高中",word:"biology",phonetic:"/baɪˈɒlədʒi/",chinese:"生物",example:"Study biology at school.",tags:"名词"},
+    {level:"高中",word:"bless",phonetic:"/bles/",chinese:"祝福",example:"Bless you.",tags:"动词"},
+    {level:"高中",word:"briefly",phonetic:"/ˈbriːfli/",chinese:"简短地",example:"Briefly explain.",tags:"副词"},
+    {level:"高中",word:"brilliant",phonetic:"/ˈbrɪliənt/",chinese:"杰出的",example:"A brilliant idea.",tags:"形容词"},
+    {level:"高中",word:"budget",phonetic:"/ˈbʌdʒɪt/",chinese:"预算",example:"Plan a budget.",tags:"名词"},
+    {level:"高中",word:"bureau",phonetic:"/ˈbjʊərəʊ/",chinese:"局；办事处",example:"A travel bureau.",tags:"名词"},
+    {level:"高中",word:"campaign",phonetic:"/kæmˈpeɪn/",chinese:"运动；战役",example:"A marketing campaign.",tags:"名词"},
+    {level:"高中",word:"capacity",phonetic:"/kəˈpæsəti/",chinese:"容量；能力",example:"Production capacity.",tags:"名词"},
+    {level:"高中",word:"capture",phonetic:"/ˈkæptʃə/",chinese:"捕获",example:"Capture the moment.",tags:"动词"},
+    {level:"高中",word:"casual",phonetic:"/ˈkæʒuəl/",chinese:"随意的",example:"Casual clothes.",tags:"形容词"},
+    {level:"高中",word:"category",phonetic:"/ˈkætəɡəri/",chinese:"类别",example:"Different categories.",tags:"名词"},
+    {level:"高中",word:"cease",phonetic:"/siːs/",chinese:"停止",example:"Cease the fire.",tags:"动词"},
+    {level:"高中",word:"circumstance",phonetic:"/ˈsɜːkəmstəns/",chinese:"情况",example:"Under any circumstance.",tags:"名词"},
+    {level:"高中",word:"citizen",phonetic:"/ˈsɪtɪzn/",chinese:"公民",example:"A good citizen.",tags:"名词"},
+    {level:"高中",word:"civilian",phonetic:"/səˈvɪliən/",chinese:"平民",example:"Civilian life.",tags:"名词"},
+    {level:"高中",word:"clarify",phonetic:"/ˈklærəfaɪ/",chinese:"澄清",example:"Clarify the meaning.",tags:"动词"},
+    {level:"高中",word:"classify",phonetic:"/ˈklæsɪfaɪ/",chinese:"分类",example:"Classify the data.",tags:"动词"},
+    {level:"高中",word:"climate",phonetic:"/ˈklaɪmət/",chinese:"气候",example:"Climate change.",tags:"名词"},
+    {level:"高中",word:"collapse",phonetic:"/kəˈlæps/",chinese:"倒塌",example:"The building collapsed.",tags:"动词"},
+    {level:"高中",word:"colleague",phonetic:"/ˈkɒliːɡ/",chinese:"同事",example:"My colleague is helpful.",tags:"名词"},
+    {level:"高中",word:"commit",phonetic:"/kəˈmɪt/",chinese:"承诺；犯罪",example:"Commit to success.",tags:"动词"},
+    {level:"高中",word:"commodity",phonetic:"/kəˈmɒdəti/",chinese:"商品",example:"Essential commodities.",tags:"名词"},
+    {level:"高中",word:"compensate",phonetic:"/ˈkɒmpenseɪt/",chinese:"补偿",example:"Compensate for the loss.",tags:"动词"},
+    {level:"高中",word:"competent",phonetic:"/ˈkɒmpɪtənt/",chinese:"有能力的",example:"A competent worker.",tags:"形容词"},
+    {level:"高中",word:"complex",phonetic:"/ˈkɒmpleks/",chinese:"复杂的",example:"A complex problem.",tags:"形容词"},
+    {level:"高中",word:"complicate",phonetic:"/ˈkɒmplɪkeɪt/",chinese:"使复杂化",example:"Don't complicate things.",tags:"动词"},
+    {level:"高中",word:"compose",phonetic:"/kəmˈpəʊz/",chinese:"组成；创作",example:"Compose a song.",tags:"动词"},
+    {level:"高中",word:"comprehend",phonetic:"/ˌkɒmprɪˈhend/",chinese:"理解",example:"Comprehend the meaning.",tags:"动词"},
+    {level:"高中",word:"comprise",phonetic:"/kəmˈpraɪz/",chinese:"包含",example:"The team comprises five people.",tags:"动词"},
+    {level:"高中",word:"compromise",phonetic:"/ˈkɒmprəmaɪz/",chinese:"妥协",example:"Reach a compromise.",tags:"名词"},
+    {level:"高中",word:"concentrate",phonetic:"/ˈkɒnsntreɪt/",chinese:"集中",example:"Concentrate on study.",tags:"动词"},
+    {level:"高中",word:"concern",phonetic:"/kənˈsɜːn/",chinese:"关心",example:"Express concern.",tags:"动词"},
+    {level:"高中",word:"conclude",phonetic:"/kənˈkluːd/",chinese:"得出结论",example:"Conclude the speech.",tags:"动词"},
+    {level:"高中",word:"condemn",phonetic:"/kənˈdem/",chinese:"谴责",example:"Condemn violence.",tags:"动词"},
+    {level:"高中",word:"conduct",phonetic:"/kənˈdʌkt/",chinese:"进行；行为",example:"Conduct a survey.",tags:"动词"},
+    {level:"高中",word:"confess",phonetic:"/kənˈfes/",chinese:"坦白",example:"Confess the truth.",tags:"动词"},
+    {level:"高中",word:"confirm",phonetic:"/kənˈfɜːm/",chinese:"确认",example:"Confirm the booking.",tags:"动词"},
+    {level:"高中",word:"conflict",phonetic:"/ˈkɒnflɪkt/",chinese:"冲突",example:"A conflict of interest.",tags:"名词"},
+    {level:"高中",word:"confront",phonetic:"/kənˈfrʌnt/",chinese:"面对",example:"Confront your fears.",tags:"动词"},
+    {level:"高中",word:"confuse",phonetic:"/kənˈfjuːz/",chinese:"使困惑",example:"Confuse the issue.",tags:"动词"},
+    {level:"高中",word:"consequence",phonetic:"/ˈkɒnsɪkwəns/",chinese:"后果",example:"Face the consequences.",tags:"名词"},
+    {level:"高中",word:"conservative",phonetic:"/kənˈsɜːvətɪv/",chinese:"保守的",example:"Conservative ideas.",tags:"形容词"},
+    {level:"高中",word:"consistent",phonetic:"/kənˈsɪstənt/",chinese:"一致的",example:"Consistent effort.",tags:"形容词"},
+    {level:"高中",word:"constant",phonetic:"/ˈkɒnstənt/",chinese:"不断的",example:"Constant improvement.",tags:"形容词"},
+    {level:"高中",word:"constitute",phonetic:"/ˈkɒnstɪtjuːt/",chinese:"构成",example:"Constitute a team.",tags:"动词"},
+    {level:"高中",word:"contemporary",phonetic:"/kənˈtemprəri/",chinese:"当代的",example:"Contemporary art.",tags:"形容词"},
+    {level:"高中",word:"contend",phonetic:"/kənˈtend/",chinese:"主张；竞争",example:"Contend with difficulties.",tags:"动词"},
+    {level:"高中",word:"context",phonetic:"/ˈkɒntekst/",chinese:"上下文；环境",example:"In this context.",tags:"名词"},
+    {level:"高中",word:"contrary",phonetic:"/ˈkɒntrəri/",chinese:"相反的",example:"On the contrary.",tags:"形容词"},
+    {level:"高中",word:"contrast",phonetic:"/ˈkɒntrɑːst/",chinese:"对比",example:"Contrast the two.",tags:"动词"},
+    {level:"高中",word:"contribute",phonetic:"/kənˈtrɪbjuːt/",chinese:"贡献",example:"Contribute to society.",tags:"动词"},
+    {level:"高中",word:"controversial",phonetic:"/ˌkɒntrəˈvɜːʃl/",chinese:"有争议的",example:"A controversial topic.",tags:"形容词"},
+    {level:"高中",word:"convince",phonetic:"/kənˈvɪns/",chinese:"说服",example:"Convince me.",tags:"动词"},
+    {level:"高中",word:"cooperate",phonetic:"/kəʊˈɒpəreɪt/",chinese:"合作",example:"Cooperate with others.",tags:"动词"},
+    {level:"高中",word:"coordinate",phonetic:"/kəʊˈɔːdɪneɪt/",chinese:"协调",example:"Coordinate the work.",tags:"动词"},
+    {level:"高中",word:"corporate",phonetic:"/ˈkɔːpərət/",chinese:"公司的",example:"Corporate culture.",tags:"形容词"},
+    {level:"高中",word:"correspond",phonetic:"/ˌkɒrəˈspɒnd/",chinese:"通信；符合",example:"Correspond with friends.",tags:"动词"},
+    {level:"高中",word:"crucial",phonetic:"/ˈkruːʃl/",chinese:"至关重要的",example:"A crucial moment.",tags:"形容词"},
+    {level:"高中",word:"cultivate",phonetic:"/ˈkʌltɪveɪt/",chinese:"培养",example:"Cultivate good habits.",tags:"动词"},
+    {level:"高中",word:"deliberate",phonetic:"/dɪˈlɪbərət/",chinese:"故意的",example:"A deliberate choice.",tags:"形容词"},
+    {level:"高中",word:"demand",phonetic:"/dɪˈmɑːnd/",chinese:"要求",example:"Demand an answer.",tags:"动词"},
+    {level:"高中",word:"demonstrate",phonetic:"/ˈdemənstreɪt/",chinese:"证明；演示",example:"Demonstrate the skill.",tags:"动词"},
+    {level:"高中",word:"deny",phonetic:"/dɪˈnaɪ/",chinese:"否认",example:"Deny the rumor.",tags:"动词"},
+    {level:"高中",word:"depress",phonetic:"/dɪˈpres/",chinese:"使沮丧",example:"Bad news depresses me.",tags:"动词"},
+    {level:"高中",word:"derive",phonetic:"/dɪˈraɪv/",chinese:"得自；派生",example:"Derive from experience.",tags:"动词"},
+    {level:"高中",word:"deserve",phonetic:"/dɪˈzɜːv/",chinese:"应得",example:"You deserve it.",tags:"动词"},
+    {level:"高中",word:"despite",phonetic:"/dɪˈspaɪt/",chinese:"尽管",example:"Despite the rain.",tags:"介词"},
+    {level:"高中",word:"destruction",phonetic:"/dɪˈstrʌkʃn/",chinese:"破坏",example:"Environmental destruction.",tags:"名词"},
+    {level:"高中",word:"determine",phonetic:"/dɪˈtɜːmɪn/",chinese:"决定",example:"Determine the cause.",tags:"动词"},
+    {level:"高中",word:"diminish",phonetic:"/dɪˈmɪnɪʃ/",chinese:"减少",example:"Diminish the risk.",tags:"动词"},
+    {level:"高中",word:"disorder",phonetic:"/dɪsˈɔːdə/",chinese:"混乱；疾病",example:"Public disorder.",tags:"名词"},
+    {level:"高中",word:"display",phonetic:"/dɪˈspleɪ/",chinese:"展示",example:"Display the goods.",tags:"动词"},
+    {level:"高中",word:"dispose",phonetic:"/dɪˈspəʊz/",chinese:"处理",example:"Dispose of waste.",tags:"动词"},
+    {level:"高中",word:"dispute",phonetic:"/dɪˈspjuːt/",chinese:"争论",example:"A border dispute.",tags:"名词"},
+    {level:"高中",word:"distinct",phonetic:"/dɪˈstɪŋkt/",chinese:"明显的",example:"Distinct differences.",tags:"形容词"},
+    {level:"高中",word:"distinguish",phonetic:"/dɪˈstɪŋɡwɪʃ/",chinese:"区分",example:"Distinguish right from wrong.",tags:"动词"},
+    {level:"高中",word:"distribute",phonetic:"/dɪˈstrɪbjuːt/",chinese:"分配",example:"Distribute the books.",tags:"动词"},
+    {level:"高中",word:"disturb",phonetic:"/dɪˈstɜːb/",chinese:"打扰",example:"Don't disturb me.",tags:"动词"},
+    {level:"高中",word:"diverse",phonetic:"/daɪˈvɜːs/",chinese:"多种多样的",example:"Diverse cultures.",tags:"形容词"},
+    {level:"高中",word:"domestic",phonetic:"/dəˈmestɪk/",chinese:"国内的；家庭的",example:"Domestic flights.",tags:"形容词"},
+    {level:"高中",word:"dominant",phonetic:"/ˈdɒmɪnənt/",chinese:"占主导地位的",example:"The dominant party.",tags:"形容词"},
+    {level:"高中",word:"durable",phonetic:"/ˈdjʊərəbl/",chinese:"耐用的",example:"Durable goods.",tags:"形容词"},
+    {level:"高中",word:"economical",phonetic:"/ˌiːkəˈnɒmɪkl/",chinese:"经济的",example:"An economical car.",tags:"形容词"},
+    {level:"高中",word:"effective",phonetic:"/ɪˈfektɪv/",chinese:"有效的",example:"An effective method.",tags:"形容词"},
+    {level:"高中",word:"efficient",phonetic:"/ɪˈfɪʃnt/",chinese:"高效的",example:"An efficient worker.",tags:"形容词"},
+    {level:"高中",word:"elaborate",phonetic:"/ɪˈlæbərət/",chinese:"详细的",example:"Elaborate plans.",tags:"形容词"},
+    {level:"高中",word:"eliminate",phonetic:"/ɪˈlɪmɪneɪt/",chinese:"消除",example:"Eliminate errors.",tags:"动词"},
+    {level:"高中",word:"embarrass",phonetic:"/ɪmˈbærəs/",chinese:"使尴尬",example:"Don't embarrass me.",tags:"动词"},
+    {level:"高中",word:"emerge",phonetic:"/ɪˈmɜːdʒ/",chinese:"出现",example:"New problems emerge.",tags:"动词"},
+    {level:"高中",word:"emphasize",phonetic:"/ˈemfəsaɪz/",chinese:"强调",example:"Emphasize the key point.",tags:"动词"},
+    {level:"高中",word:"endure",phonetic:"/ɪnˈdjʊə/",chinese:"忍受",example:"Endure hardship.",tags:"动词"},
+    {level:"高中",word:"enhance",phonetic:"/ɪnˈhɑːns/",chinese:"增强",example:"Enhance the quality.",tags:"动词"},
+    {level:"高中",word:"ensure",phonetic:"/ɪnˈʃʊə/",chinese:"确保",example:"Ensure safety.",tags:"动词"},
+    {level:"高中",word:"establish",phonetic:"/ɪˈstæblɪʃ/",chinese:"建立",example:"Establish a company.",tags:"动词"},
+    {level:"高中",word:"evaluate",phonetic:"/ɪˈvæljueɪt/",chinese:"评估",example:"Evaluate the result.",tags:"动词"},
+    {level:"高中",word:"evident",phonetic:"/ˈevɪdənt/",chinese:"明显的",example:"Evident mistakes.",tags:"形容词"},
+    {level:"高中",word:"evolve",phonetic:"/ɪˈvɒlv/",chinese:"进化；发展",example:"Species evolve.",tags:"动词"},
+    {level:"高中",word:"exaggerate",phonetic:"/ɪɡˈzædʒəreɪt/",chinese:"夸大",example:"Don't exaggerate.",tags:"动词"},
+    {level:"高中",word:"exceed",phonetic:"/ɪkˈsiːd/",chinese:"超过",example:"Exceed expectations.",tags:"动词"},
+    {level:"高中",word:"exclude",phonetic:"/ɪkˈskluːd/",chinese:"排除",example:"Exclude the noise.",tags:"动词"},
+    {level:"高中",word:"exhibit",phonetic:"/ɪɡˈzɪbɪt/",chinese:"展示",example:"Exhibit paintings.",tags:"动词"},
+    {level:"高中",word:"explicit",phonetic:"/ɪkˈsplɪsɪt/",chinese:"明确的",example:"Explicit instructions.",tags:"形容词"},
+    {level:"高中",word:"facilitate",phonetic:"/fəˈsɪlɪteɪt/",chinese:"促进",example:"Facilitate communication.",tags:"动词"},
+    {level:"高中",word:"familiar",phonetic:"/fəˈmɪliə/",chinese:"熟悉的",example:"A familiar face.",tags:"形容词"},
+    {level:"高中",word:"feasible",phonetic:"/ˈfiːzəbl/",chinese:"可行的",example:"A feasible plan.",tags:"形容词"},
+    {level:"高中",word:"fluctuate",phonetic:"/ˈflʌktʃueɪt/",chinese:"波动",example:"Prices fluctuate.",tags:"动词"},
+    {level:"高中",word:"former",phonetic:"/ˈfɔːmə/",chinese:"以前的",example:"My former teacher.",tags:"形容词"},
+    {level:"高中",word:"formula",phonetic:"/ˈfɔːmjələ/",chinese:"公式",example:"A chemical formula.",tags:"名词"},
+    {level:"高中",word:"forthcoming",phonetic:"/ˌfɔːθˈkʌmɪŋ/",chinese:"即将到来的",example:"The forthcoming event.",tags:"形容词"},
+    {level:"高中",word:"fragile",phonetic:"/ˈfrædʒaɪl/",chinese:"脆弱的",example:"Fragile glass.",tags:"形容词"},
+    {level:"高中",word:"fulfill",phonetic:"/fʊlˈfɪl/",chinese:"履行；实现",example:"Fulfill your dream.",tags:"动词"},
+    {level:"高中",word:"fundamental",phonetic:"/ˌfʌndəˈmentl/",chinese:"基本的",example:"Fundamental skills.",tags:"形容词"},
+    {level:"高中",word:"generate",phonetic:"/ˈdʒenəreɪt/",chinese:"产生",example:"Generate electricity.",tags:"动词"},
+    {level:"高中",word:"genuine",phonetic:"/ˈdʒenjuɪn/",chinese:"真正的",example:"Genuine concern.",tags:"形容词"},
+    {level:"高中",word:"grateful",phonetic:"/ˈɡreɪtfl/",chinese:"感激的",example:"I'm grateful to you.",tags:"形容词"},
+    {level:"高中",word:"guarantee",phonetic:"/ˌɡærənˈtiː/",chinese:"保证",example:"Guarantee quality.",tags:"动词"},
+    {level:"高中",word:"harmony",phonetic:"/ˈhɑːməni/",chinese:"和谐",example:"Live in harmony.",tags:"名词"},
+    {level:"高中",word:"humble",phonetic:"/ˈhʌmbl/",chinese:"谦虚的",example:"Stay humble.",tags:"形容词"},
+    {level:"高中",word:"identical",phonetic:"/aɪˈdentɪkl/",chinese:"完全相同的",example:"Identical twins.",tags:"形容词"},
+    {level:"高中",word:"identify",phonetic:"/aɪˈdentɪfaɪ/",chinese:"识别",example:"Identify the problem.",tags:"动词"},
+    {level:"高中",word:"ignore",phonetic:"/ɪɡˈnɔː/",chinese:"忽视",example:"Don't ignore the problem.",tags:"动词"},
+    {level:"高中",word:"immense",phonetic:"/ɪˈmens/",chinese:"巨大的",example:"An immense building.",tags:"形容词"},
+    {level:"高中",word:"implement",phonetic:"/ˈɪmplɪment/",chinese:"实施",example:"Implement the plan.",tags:"动词"},
+    {level:"高中",word:"imply",phonetic:"/ɪmˈplaɪ/",chinese:"暗示",example:"What does it imply?",tags:"动词"},
+    {level:"高中",word:"impose",phonetic:"/ɪmˈpəʊz/",chinese:"强加",example:"Don't impose your views.",tags:"动词"},
+    {level:"高中",word:"impress",phonetic:"/ɪmˈpres/",chinese:"给...深刻印象",example:"Impress the audience.",tags:"动词"},
+    {level:"高中",word:"improvement",phonetic:"/ɪmˈpruːvmənt/",chinese:"改进",example:"A big improvement.",tags:"名词"},
+    {level:"高中",word:"incident",phonetic:"/ˈɪnsɪdənt/",chinese:"事件",example:"A strange incident.",tags:"名词"},
+    {level:"高中",word:"indicate",phonetic:"/ˈɪndɪkeɪt/",chinese:"表明",example:"Indicate the direction.",tags:"动词"},
+    {level:"高中",word:"inevitable",phonetic:"/ɪnˈevɪtəbl/",chinese:"不可避免的",example:"Change is inevitable.",tags:"形容词"},
+    {level:"高中",word:"infer",phonetic:"/ɪnˈfɜː/",chinese:"推断",example:"Infer from the data.",tags:"动词"},
+    {level:"高中",word:"inherent",phonetic:"/ɪnˈhɪərənt/",chinese:"固有的",example:"Inherent qualities.",tags:"形容词"},
+    {level:"高中",word:"initial",phonetic:"/ɪˈnɪʃl/",chinese:"最初的",example:"The initial stage.",tags:"形容词"},
+    {level:"高中",word:"initiative",phonetic:"/ɪˈnɪʃətɪv/",chinese:"主动；倡议",example:"Take the initiative.",tags:"名词"},
+    {level:"高中",word:"innovate",phonetic:"/ˈɪnəveɪt/",chinese:"创新",example:"Innovate constantly.",tags:"动词"},
+    {level:"高中",word:"insight",phonetic:"/ˈɪnsaɪt/",chinese:"洞察力",example:"A deep insight.",tags:"名词"},
+    {level:"高中",word:"inspire",phonetic:"/ɪnˈspaɪə/",chinese:"激励",example:"Inspire others.",tags:"动词"},
+    {level:"高中",word:"integrate",phonetic:"/ˈɪntɪɡreɪt/",chinese:"整合",example:"Integrate resources.",tags:"动词"},
+    {level:"高中",word:"integrity",phonetic:"/ɪnˈteɡrəti/",chinese:"正直",example:"Moral integrity.",tags:"名词"},
+    {level:"高中",word:"intense",phonetic:"/ɪnˈtens/",chinese:"强烈的",example:"Intense heat.",tags:"形容词"},
+    {level:"高中",word:"interaction",phonetic:"/ˌɪntəˈrækʃn/",chinese:"互动",example:"Social interaction.",tags:"名词"},
+    {level:"高中",word:"interpret",phonetic:"/ɪnˈtɜːprɪt/",chinese:"解释；翻译",example:"Interpret the meaning.",tags:"动词"},
+    {level:"高中",word:"interrupt",phonetic:"/ˌɪntəˈrʌpt/",chinese:"打断",example:"Don't interrupt me.",tags:"动词"},
+    {level:"高中",word:"intervene",phonetic:"/ˌɪntəˈviːn/",chinese:"干预",example:"Intervene in time.",tags:"动词"},
+    {level:"高中",word:"isolate",phonetic:"/ˈaɪsəleɪt/",chinese:"隔离",example:"Isolate the patient.",tags:"动词"},
+    {level:"高中",word:"judgement",phonetic:"/ˈdʒʌdʒmənt/",chinese:"判断",example:"Sound judgement.",tags:"名词"},
+    {level:"高中",word:"launch",phonetic:"/lɔːntʃ/",chinese:"发射；启动",example:"Launch a product.",tags:"动词"},
+    {level:"高中",word:"legislation",phonetic:"/ˌledʒɪsˈleɪʃn/",chinese:"立法",example:"New legislation.",tags:"名词"},
+    {level:"高中",word:"liberate",phonetic:"/ˈlɪbəreɪt/",chinese:"解放",example:"Liberate the mind.",tags:"动词"},
+    {level:"高中",word:"logical",phonetic:"/ˈlɒdʒɪkl/",chinese:"合逻辑的",example:"Logical thinking.",tags:"形容词"},
+    {level:"高中",word:"magnificent",phonetic:"/mæɡˈnɪfɪsnt/",chinese:"壮丽的",example:"A magnificent view.",tags:"形容词"},
+    {level:"高中",word:"maintain",phonetic:"/meɪnˈteɪn/",chinese:"维持",example:"Maintain health.",tags:"动词"},
+    {level:"高中",word:"manipulate",phonetic:"/məˈnɪpjuleɪt/",chinese:"操纵",example:"Manipulate data.",tags:"动词"},
+    {level:"高中",word:"mature",phonetic:"/məˈtʃʊə/",chinese:"成熟的",example:"A mature decision.",tags:"形容词"},
+    {level:"高中",word:"maximize",phonetic:"/ˈmæksɪmaɪz/",chinese:"最大化",example:"Maximize profit.",tags:"动词"},
+    {level:"高中",word:"meanwhile",phonetic:"/ˈmiːnwaɪl/",chinese:"同时",example:"Meanwhile, he waited.",tags:"副词"},
+    {level:"高中",word:"mediate",phonetic:"/ˈmiːdieɪt/",chinese:"调解",example:"Mediate the dispute.",tags:"动词"},
+    {level:"高中",word:"moderate",phonetic:"/ˈmɒdərət/",chinese:"适度的",example:"Moderate exercise.",tags:"形容词"},
+    {level:"高中",word:"motivate",phonetic:"/ˈməʊtɪveɪt/",chinese:"激励",example:"Motivate the team.",tags:"动词"},
+    {level:"高中",word:"mutual",phonetic:"/ˈmjuːtʃuəl/",chinese:"相互的",example:"Mutual respect.",tags:"形容词"},
+    {level:"高中",word:"negotiate",phonetic:"/nɪˈɡəʊʃieɪt/",chinese:"谈判",example:"Negotiate a deal.",tags:"动词"},
+    {level:"高中",word:"neutral",phonetic:"/ˈnjuːtrəl/",chinese:"中立的",example:"Stay neutral.",tags:"形容词"},
+    {level:"高中",word:"nevertheless",phonetic:"/ˌnevəðəˈles/",chinese:"然而",example:"Nevertheless, I tried.",tags:"副词"},
+    {level:"高中",word:"notion",phonetic:"/ˈnəʊʃn/",chinese:"概念",example:"A vague notion.",tags:"名词"},
+    {level:"高中",word:"objective",phonetic:"/əbˈdʒektɪv/",chinese:"客观的；目标",example:"An objective view.",tags:"形容词"},
+    {level:"高中",word:"obscure",phonetic:"/əbˈskjʊə/",chinese:"模糊的",example:"Obscure meaning.",tags:"形容词"},
+    {level:"高中",word:"occupy",phonetic:"/ˈɒkjupaɪ/",chinese:"占据",example:"Occupy the seat.",tags:"动词"},
+    {level:"高中",word:"oppose",phonetic:"/əˈpəʊz/",chinese:"反对",example:"Oppose the plan.",tags:"动词"},
+    {level:"高中",word:"optimistic",phonetic:"/ˌɒptɪˈmɪstɪk/",chinese:"乐观的",example:"Stay optimistic.",tags:"形容词"},
+    {level:"高中",word:"organism",phonetic:"/ˈɔːɡənɪzəm/",chinese:"生物体",example:"Living organisms.",tags:"名词"},
+    {level:"高中",word:"outline",phonetic:"/ˈaʊtlaɪn/",chinese:"概述",example:"Outline the plan.",tags:"动词"},
+    {level:"高中",word:"overcome",phonetic:"/ˌəʊvəˈkʌm/",chinese:"克服",example:"Overcome difficulties.",tags:"动词"},
+    {level:"高中",word:"overlook",phonetic:"/ˌəʊvəˈlʊk/",chinese:"忽视；俯瞰",example:"Don't overlook the details.",tags:"动词"},
+    {level:"高中",word:"paradox",phonetic:"/ˈpærədɒks/",chinese:"悖论",example:"A famous paradox.",tags:"名词"},
+    {level:"高中",word:"participate",phonetic:"/pɑːˈtɪsɪpeɪt/",chinese:"参与",example:"Participate in activities.",tags:"动词"},
+    {level:"高中",word:"perceive",phonetic:"/pəˈsiːv/",chinese:"感知",example:"Perceive the world.",tags:"动词"},
+    {level:"高中",word:"permanent",phonetic:"/ˈpɜːmənənt/",chinese:"永久的",example:"A permanent address.",tags:"形容词"},
+    {level:"高中",word:"persist",phonetic:"/pəˈsɪst/",chinese:"坚持",example:"Persist in learning.",tags:"动词"},
+    {level:"高中",word:"perspective",phonetic:"/pəˈspektɪv/",chinese:"观点",example:"A new perspective.",tags:"名词"},
+    {level:"高中",word:"persuade",phonetic:"/pəˈsweɪd/",chinese:"说服",example:"Persuade him to stay.",tags:"动词"},
+    {level:"高中",word:"phenomenon",phonetic:"/fəˈnɒmɪnən/",chinese:"现象",example:"A common phenomenon.",tags:"名词"},
+    {level:"高中",word:"philosophy",phonetic:"/fəˈlɒsəfi/",chinese:"哲学",example:"Eastern philosophy.",tags:"名词"},
+    {level:"高中",word:"pioneer",phonetic:"/ˌpaɪəˈnɪə/",chinese:"先驱",example:"A pioneer in science.",tags:"名词"},
+    {level:"高中",word:"pose",phonetic:"/pəʊz/",chinese:"提出；摆姿势",example:"Pose a question.",tags:"动词"},
+    {level:"高中",word:"precise",phonetic:"/prɪˈsaɪs/",chinese:"精确的",example:"Precise measurement.",tags:"形容词"},
+    {level:"高中",word:"predict",phonetic:"/prɪˈdɪkt/",chinese:"预测",example:"Predict the future.",tags:"动词"},
+    {level:"高中",word:"preserve",phonetic:"/prɪˈzɜːv/",chinese:"保护；保存",example:"Preserve the environment.",tags:"动词"},
+    {level:"高中",word:"prevail",phonetic:"/prɪˈveɪl/",chinese:"盛行",example:"Justice will prevail.",tags:"动词"},
+    {level:"高中",word:"prominent",phonetic:"/ˈprɒmɪnənt/",chinese:"突出的",example:"A prominent scientist.",tags:"形容词"},
+    {level:"高中",word:"proportion",phonetic:"/prəˈpɔːʃn/",chinese:"比例",example:"A large proportion.",tags:"名词"},
+    {level:"高中",word:"propose",phonetic:"/prəˈpəʊz/",chinese:"提议",example:"Propose a solution.",tags:"动词"},
+    {level:"高中",word:"pursue",phonetic:"/pəˈsjuː/",chinese:"追求",example:"Pursue your dream.",tags:"动词"},
+    {level:"高中",word:"rational",phonetic:"/ˈræʃnəl/",chinese:"理性的",example:"A rational choice.",tags:"形容词"},
+    {level:"高中",word:"reconcile",phonetic:"/ˈrekənsaɪl/",chinese:"调和",example:"Reconcile differences.",tags:"动词"},
+    {level:"高中",word:"reform",phonetic:"/rɪˈfɔːm/",chinese:"改革",example:"Reform the system.",tags:"动词"},
+    {level:"高中",word:"refute",phonetic:"/rɪˈfjuːt/",chinese:"反驳",example:"Refute the argument.",tags:"动词"},
+    {level:"高中",word:"relevant",phonetic:"/ˈreləvənt/",chinese:"相关的",example:"Relevant information.",tags:"形容词"},
+    {level:"高中",word:"reluctant",phonetic:"/rɪˈlʌktənt/",chinese:"不情愿的",example:"Reluctant to leave.",tags:"形容词"},
+    {level:"高中",word:"renovate",phonetic:"/ˈrenəveɪt/",chinese:"翻新",example:"Renovate the house.",tags:"动词"},
+    {level:"高中",word:"resolve",phonetic:"/rɪˈzɒlv/",chinese:"解决",example:"Resolve conflicts.",tags:"动词"},
+    {level:"高中",word:"restrain",phonetic:"/rɪˈstreɪn/",chinese:"抑制",example:"Restrain yourself.",tags:"动词"},
+    {level:"高中",word:"reveal",phonetic:"/rɪˈviːl/",chinese:"揭示",example:"Reveal the truth.",tags:"动词"},
+    {level:"高中",word:"revolution",phonetic:"/ˌrevəˈluːʃn/",chinese:"革命",example:"Industrial revolution.",tags:"名词"},
+    {level:"高中",word:"rigid",phonetic:"/ˈrɪdʒɪd/",chinese:"僵硬的",example:"Rigid rules.",tags:"形容词"},
+    {level:"高中",word:"sacrifice",phonetic:"/ˈsækrɪfaɪs/",chinese:"牺牲",example:"Sacrifice for love.",tags:"动词"},
+    {level:"高中",word:"saturate",phonetic:"/ˈsætʃəreɪt/",chinese:"使饱和",example:"Saturate the market.",tags:"动词"},
+    {level:"高中",word:"skeptical",phonetic:"/ˈskeptɪstɪk/",chinese:"怀疑的",example:"Skeptical about promises.",tags:"形容词"},
+    {level:"高中",word:"sophisticated",phonetic:"/səˈfɪstɪkeɪtɪd/",chinese:"复杂的；精致的",example:"Sophisticated equipment.",tags:"形容词"},
+    {level:"高中",word:"specific",phonetic:"/spəˈsɪfɪk/",chinese:"具体的",example:"Specific examples.",tags:"形容词"},
+    {level:"高中",word:"speculate",phonetic:"/ˈspekjuleɪt/",chinese:"推测",example:"Speculate on the future.",tags:"动词"},
+    {level:"高中",word:"stimulate",phonetic:"/ˈstɪmjuleɪt/",chinese:"刺激",example:"Stimulate the economy.",tags:"动词"},
+    {level:"高中",word:"strategy",phonetic:"/ˈstrætədʒi/",chinese:"策略",example:"A good strategy.",tags:"名词"},
+    {level:"高中",word:"substitute",phonetic:"/ˈsʌbstɪtjuːt/",chinese:"替代",example:"Substitute A with B.",tags:"动词"},
+    {level:"高中",word:"sufficient",phonetic:"/səˈfɪʃnt/",chinese:"足够的",example:"Sufficient evidence.",tags:"形容词"},
+    {level:"高中",word:"summarize",phonetic:"/ˈsʌməraɪz/",chinese:"总结",example:"Summarize the article.",tags:"动词"},
+    {level:"高中",word:"superior",phonetic:"/suːˈpɪəriə/",chinese:"优越的",example:"Superior quality.",tags:"形容词"},
+    {level:"高中",word:"suppress",phonetic:"/səˈpres/",chinese:"压制",example:"Suppress the rebellion.",tags:"动词"},
+    {level:"高中",word:"survive",phonetic:"/səˈvaɪv/",chinese:"幸存",example:"Survive the disaster.",tags:"动词"},
+    {level:"高中",word:"sustain",phonetic:"/səˈsteɪn/",chinese:"维持",example:"Sustain development.",tags:"动词"},
+    {level:"高中",word:"sympathize",phonetic:"/ˈsɪmpəθaɪz/",chinese:"同情",example:"Sympathize with you.",tags:"动词"},
+    {level:"高中",word:"symbol",phonetic:"/ˈsɪmbl/",chinese:"象征",example:"A symbol of peace.",tags:"名词"},
+    {level:"高中",word:"tackle",phonetic:"/ˈtækl/",chinese:"处理",example:"Tackle the issue.",tags:"动词"},
+    {level:"高中",word:"tendency",phonetic:"/ˈtendənsi/",chinese:"趋势",example:"A clear tendency.",tags:"名词"},
+    {level:"高中",word:"theory",phonetic:"/ˈθɪəri/",chinese:"理论",example:"Scientific theory.",tags:"名词"},
+    {level:"高中",word:"thorough",phonetic:"/ˈθʌrə/",chinese:"彻底的",example:"Thorough research.",tags:"形容词"},
+    {level:"高中",word:"tolerate",phonetic:"/ˈtɒləreɪt/",chinese:"容忍",example:"Tolerate differences.",tags:"动词"},
+    {level:"高中",word:"transform",phonetic:"/trænsˈfɔːm/",chinese:"转变",example:"Transform the world.",tags:"动词"},
+    {level:"高中",word:"tremendous",phonetic:"/trɪˈmendəs/",chinese:"巨大的",example:"A tremendous effort.",tags:"形容词"},
+    {level:"高中",word:"ultimate",phonetic:"/ˈʌltɪmət/",chinese:"最终的",example:"The ultimate goal.",tags:"形容词"},
+    {level:"高中",word:"undergo",phonetic:"/ˌʌndəˈɡəʊ/",chinese:"经历",example:"Undergo training.",tags:"动词"},
+    {level:"高中",word:"undertake",phonetic:"/ˌʌndəˈteɪk/",chinese:"承担",example:"Undertake a task.",tags:"动词"},
+    {level:"高中",word:"unique",phonetic:"/juˈniːk/",chinese:"独特的",example:"A unique idea.",tags:"形容词"},
+    {level:"高中",word:"utilize",phonetic:"/ˈjuːtəlaɪz/",chinese:"利用",example:"Utilize resources.",tags:"动词"},
+    {level:"高中",word:"vague",phonetic:"/veɪɡ/",chinese:"模糊的",example:"A vague answer.",tags:"形容词"},
+    {level:"高中",word:"valid",phonetic:"/ˈvælɪd/",chinese:"有效的",example:"A valid ticket.",tags:"形容词"},
+    {level:"高中",word:"vary",phonetic:"/ˈveəri/",chinese:"变化",example:"Prices vary.",tags:"动词"},
+    {level:"高中",word:"venture",phonetic:"/ˈventʃə/",chinese:"冒险",example:"A joint venture.",tags:"名词"},
+    {level:"高中",word:"verify",phonetic:"/ˈverɪfaɪ/",chinese:"核实",example:"Verify the data.",tags:"动词"},
+    {level:"高中",word:"vital",phonetic:"/ˈvaɪtl/",chinese:"至关重要的",example:"Vital information.",tags:"形容词"},
+    {level:"高中",word:"voluntary",phonetic:"/ˈvɒləntri/",chinese:"自愿的",example:"Voluntary work.",tags:"形容词"},
+    {level:"高中",word:"whereas",phonetic:"/weəˈræz/",chinese:"然而",example:"Whereas I disagree.",tags:"连词"},
+    {level:"高中",word:"witness",phonetic:"/ˈwɪtnəs/",chinese:"见证",example:"Witness the change.",tags:"动词"}
+  ],
+
+  // ============ 江苏特色 ============
+  jiangsu: [
+    {level:"江苏",word:"Nanjing",phonetic:"/ˌnænˈdʒɪŋ/",chinese:"南京",example:"Nanjing is the capital of Jiangsu.",tags:"江苏地名"},
+    {level:"江苏",word:"Suzhou",phonetic:"/ˈsuːdʒəʊ/",chinese:"苏州",example:"Suzhou gardens are famous.",tags:"江苏地名"},
+    {level:"江苏",word:"Wuxi",phonetic:"/ˈwuːʃiː/",chinese:"无锡",example:"Wuxi is near Tai Lake.",tags:"江苏地名"},
+    {level:"江苏",word:"Changzhou",phonetic:"/ˌtʃɑːŋˈdʒəʊ/",chinese:"常州",example:"Changzhou has a long history.",tags:"江苏地名"},
+    {level:"江苏",word:"Yangzhou",phonetic:"/jæŋˈdʒəʊ/",chinese:"扬州",example:"Yangzhou fried rice is delicious.",tags:"江苏地名"},
+    {level:"江苏",word:"Zhenjiang",phonetic:"/ˌdʒenˈdʒɪæŋ/",chinese:"镇江",example:"Zhenjiang vinegar is well known.",tags:"江苏地名"},
+    {level:"江苏",word:"Xuzhou",phonetic:"/ˈʃuːdʒəʊ/",chinese:"徐州",example:"Xuzhou is in northern Jiangsu.",tags:"江苏地名"},
+    {level:"江苏",word:"Nantong",phonetic:"/ˌnænˈtɒŋ/",chinese:"南通",example:"Nantong is near the sea.",tags:"江苏地名"},
+    {level:"江苏",word:"Huai'an",phonetic:"/ˈhwaɪɑːn/",chinese:"淮安",example:"Huai'an is famous for its history.",tags:"江苏地名"},
+    {level:"江苏",word:"Yancheng",phonetic:"/jænˈtʃʌŋ/",chinese:"盐城",example:"Yancheng has red-crowned cranes.",tags:"江苏地名"},
+    {level:"江苏",word:"Lianyungang",phonetic:"/ˌliːɑːnˈjuːnɡɑːŋ/",chinese:"连云港",example:"Lianyungang is a port city.",tags:"江苏地名"},
+    {level:"江苏",word:"Taizhou",phonetic:"/ˈtaɪdʒəʊ/",chinese:"泰州",example:"Taizhou is in central Jiangsu.",tags:"江苏地名"},
+    {level:"江苏",word:"Suqian",phonetic:"/ˈsuːtʃiːɑːn/",chinese:"宿迁",example:"Suqian is known for its wines.",tags:"江苏地名"},
+    {level:"江苏",word:"Yangtze River",phonetic:"/ˈjæŋtsi ˈrɪvə/",chinese:"长江",example:"The Yangtze River flows through Jiangsu.",tags:"地理"},
+    {level:"江苏",word:"Tai Lake",phonetic:"/taɪ luːk/",chinese:"太湖",example:"Tai Lake is the third largest in China.",tags:"地理"},
+    {level:"江苏",word:"Huai River",phonetic:"/ˈhwaɪ rɪvə/",chinese:"淮河",example:"The Huai River runs through Jiangsu.",tags:"地理"},
+    {level:"江苏",word:"Grand Canal",phonetic:"/ɡrænd kəˈnæl/",chinese:"京杭大运河",example:"The Grand Canal passes Suzhou.",tags:"地理"},
+    {level:"江苏",word:"Purple Mountain",phonetic:"/ˈpɜːpl ˈmaʊntɪn/",chinese:"紫金山",example:"Purple Mountain is in Nanjing.",tags:"地理"},
+    {level:"江苏",word:"Xuanwu Lake",phonetic:"/ˈʃwɑːnuː luːk/",chinese:"玄武湖",example:"Xuanwu Lake is in Nanjing.",tags:"地理"},
+    {level:"江苏",word:"Ming Xiaoling Mausoleum",phonetic:"/mɪŋ ˌʃaʊlɪŋ ˈmɔːsəliːm/",chinese:"明孝陵",example:"Ming Xiaoling Mausoleum is a UNESCO site.",tags:"文化"},
+    {level:"江苏",word:"Confucius Temple",phonetic:"/kənˈfjuːʃəs ˈtemplə/",chinese:"夫子庙",example:"Nanjing Confucius Temple is famous.",tags:"文化"},
+    {level:"江苏",word:"Humble Administrator's Garden",phonetic:"/ˈhʌmbl ədˈmɪnɪstreɪtəz ˈɡɑːdn/",chinese:"拙政园",example:"Humble Administrator's Garden is in Suzhou.",tags:"文化"},
+    {level:"江苏",word:"Lingering Garden",phonetic:"/ˈlɪŋɡərɪŋ ˈɡɑːdn/",chinese:"留园",example:"Lingering Garden is a classic.",tags:"文化"},
+    {level:"江苏",word:"Lion Grove Garden",phonetic:"/ˈlaɪən ɡrəʊv ˈɡɑːdn/",chinese:"狮子林",example:"Lion Grove Garden has funny rocks.",tags:"文化"},
+    {level:"江苏",word:"Master of Nets Garden",phonetic:"/ˈmɑːstə əv nets ˈɡɑːdn/",chinese:"网师园",example:"Master of Nets Garden is small but elegant.",tags:"文化"},
+    {level:"江苏",word:"silk",phonetic:"/sɪlk/",chinese:"丝绸",example:"Suzhou silk is world famous.",tags:"特产"},
+    {level:"江苏",word:"embroider",phonetic:"/ɪmˈbrɔɪdə/",chinese:"刺绣",example:"Su embroidery is delicate.",tags:"特产"},
+    {level:"江苏",word:"Yangzhou fried rice",phonetic:"/jæŋˈdʒəʊ fraɪd raɪs/",chinese:"扬州炒饭",example:"Yangzhou fried rice tastes great.",tags:"美食"},
+    {level:"江苏",word:"soup dumpling",phonetic:"/suːp ˈdʌmplɪŋ/",chinese:"小笼包",example:"Wuxi soup dumplings are famous.",tags:"美食"},
+    {level:"江苏",word:"duck blood soup",phonetic:"/dʌk bled suːp/",chinese:"鸭血粉丝汤",example:"Nanjing duck blood soup is popular.",tags:"美食"},
+    {level:"江苏",word:"salt duck",phonetic:"/sɔːlt dʌk/",chinese:"盐水鸭",example:"Nanjing salt duck is a local specialty.",tags:"美食"},
+    {level:"江苏",word:"Osmanthus",phonetic:"/ɒzˈmænθəs/",chinese:"桂花",example:"Osmanthus flowers bloom in autumn.",tags:"植物"},
+    {level:"江苏",word:"lotus",phonetic:"/ˈləʊtəs/",chinese:"荷花",example:"Lotus flowers grow in Tai Lake.",tags:"植物"},
+    {level:"江苏",word:"bamboo",phonetic:"/bæmˈbuː/",chinese:"竹子",example:"Bamboo grows in southern Jiangsu.",tags:"植物"},
+    {level:"江苏",word:"Kunqu Opera",phonetic:"/ˈkuːnkuː ˈɒpərə/",chinese:"昆曲",example:"Kunqu Opera is a world heritage.",tags:"文化"},
+    {level:"江苏",word:"Pingtan",phonetic:"/pɪŋˈtɑːn/",chinese:"评弹",example:"Suzhou Pingtan is a folk art.",tags:"文化"},
+    {level:"江苏",word:"Xuzhou battle",photograph:"",chinese:"徐州会战",example:"The Xuzhou battle was in WWII.",tags:"历史"},
+    {level:"江苏",word:"Nanjing Massacre",phonetic:"/ˌnænˈdʒɪŋ ˈmæsəkə/",chinese:"南京大屠杀",example:"We must remember the Nanjing Massacre.",tags:"历史"},
+    {level:"江苏",word:"Sun Yat-sen",phonetic:"/sʌn jɑːtˈsen/",chinese:"孙中山",example:"Sun Yat-sen rests in Nanjing.",tags:"人物"},
+    {level:"江苏",word:"Qinhuai River",phonetic:"/ˈtʃɪnhwaɪ rɪvə/",chinese:"秦淮河",example:"Qinhuai River flows in Nanjing.",tags:"地理"},
+    {level:"江苏",word:"Xinjiekou",phonetic:"/ˈʃɪndʒeɪkəʊ/",chinese:"新街口",example:"Xinjiekou is the center of Nanjing.",tags:"江苏地名"},
+    {level:"江苏",word:"Yanziji",phonetic:"/jɑːnˈtsiːdʒiː/",chinese:"燕子矶",example:"Yanziji is a scenic spot in Nanjing.",tags:"地理"},
+    {level:"江苏",word:"Jiangnan",phonetic:"/dʒɪɑːŋˈnɑːn/",chinese:"江南",example:"Jiangnan has beautiful scenery.",tags:"地理"},
+    {level:"江苏",word:"Wuxi film",photograph:"",chinese:"无锡影视",example:"Wuxi is a film-making hub.",tags:"无锡"},
+    {level:"江苏",word:"Yuantouzhu",phonetic:"/juːˈɑːntəʊdʒuː/",chinese:"鼋头渚",example:"Yuantouzhu is famous for cherry blossoms.",tags:"地理"},
+    {level:"江苏",word:"Liyuan Garden",phonetic:"/ˈliːjuːn ˈɡɑːdn/",chinese:"蠡园",example:"Liyuan Garden is in Wuxi.",tags:"文化"},
+    {level:"江苏",word:"Nanjing University",phonetic:"/ˌnænˈdʒɪŋ ˌjuːnɪˈvɜːsəti/",chinese:"南京大学",example:"Nanjing University is prestigious.",tags:"教育"},
+    {level:"江苏",word:"Southeast University",phonetic:"/ˌsaʊtˈiːst ˌjuːnɪˈvɜːsəti/",chinese:"东南大学",example:"Southeast University is in Nanjing.",tags:"教育"},
+    {level:"江苏",word:"Jiangsu Gaokao",phonetic:"/ˌdʒɪɑːŋˈsuː ɡaʊˈkaʊ/",chinese:"江苏高考",example:"Jiangsu Gaokao uses a special paper.",tags:"教育"},
+    {level:"江苏",word:"Su embroidery",phonetic:"/suː ɪmˈbrɔɪdəri/",chinese:"苏绣",example:"Su embroidery is one of the four famous embroideries.",tags:"文化"},
+    {level:"江苏",word:"Huaiyang cuisine",phonetic:"/ˈhwaɪjæŋ kɪˈziːn/",chinese:"淮扬菜",example:"Huaiyang cuisine is one of China's four great cuisines.",tags:"美食"},
+    {level:"江苏",word:"salted duck egg",phonetic:"/ˈsɔːltɪd dʌk eɡ/",chinese:"咸鸭蛋",example:"Salted duck eggs are popular in Jiangsu.",tags:"美食"},
+    {level:"江苏",word:"crab roe",phonetic:"/kræb rəʊ/",chinese:"蟹黄",example:"Yangcheng Lake crab roe is delicious.",tags:"美食"},
+    {level:"江苏",word:"Yangcheng Lake",phonetic:"/jɑːŋˈtʃʌŋ leɪk/",chinese:"阳澄湖",example:"Yangcheng Lake crabs are famous.",tags:"地理"},
+    {level:"江苏",word:"peony",phonetic:"/ˈpiːəni/",chinese:"牡丹",example:"Peony is the flower of Jiangsu.",tags:"植物"},
+    {level:"江苏",word:"ginkgo",phonetic:"/ˈɡɪŋkəʊ/",chinese:"银杏",example:"Ginkgo trees line the streets.",tags:"植物"},
+    {level:"江苏",word:"Wuyue culture",phonetic:"/wuːˈjuːeɪ ˈkʌltʃə/",chinese:"吴越文化",example:"Wuyue culture shaped Jiangsu.",tags:"文化"},
+    {level:"江苏",word:"Jinling",phonetic:"/ˈdʒɪnlɪŋ/",chinese:"金陵",example:"Jinling is the ancient name of Nanjing.",tags:"历史"},
+    {level:"江苏",word:"Moling",phonetic:"/ˈməʊlɪŋ/",chinese:"秣陵",example:"Moling was an old name for Nanjing.",tags:"历史"},
+    {level:"江苏",word:"Wu dialect",phonetic:"/wuː ˈdaɪəlekt/",chinese:"吴语",example:"Wu dialect is spoken in Suzhou.",tags:"语言"},
+    {level:"江苏",word:"Xiangshan",phonetic:"/ˈʃɪɑːŋʃɑːn/",chinese:"香山",example:"Xiangshan is in Nanjing's suburbs.",tags:"地理"}
+  ]
+};
+
+/* ====== 内置句子库 ====== */
+const SENTENCE_DATA = {
+  // ============ 启蒙短句 ============
+  enlighten: [
+    {level:"启蒙",en:"I love you.",cn:"我爱你。",grammar:"主语 + 动词 + 宾语",tags:"情感"},
+    {level:"启蒙",en:"Good morning!",cn:"早上好！",grammar:"问候语",tags:"问候"},
+    {level:"启蒙",en:"Thank you very much.",cn:"非常感谢。",grammar:"感谢语",tags:"问候"},
+    {level:"启蒙",en:"What is this?",cn:"这是什么？",grammar:"特殊疑问句",tags:"疑问"},
+    {level:"启蒙",en:"It is a book.",cn:"这是一本书。",grammar:"主系表结构",tags:"描述"},
+    {level:"启蒙",en:"I am a student.",cn:"我是一名学生。",grammar:"主系表结构",tags:"身份"},
+    {level:"启蒙",en:"This is my mom.",cn:"这是我妈妈。",grammar:"指示代词 + 系动词",tags:"家庭"},
+    {level:"启蒙",en:"I like apples.",cn:"我喜欢苹果。",grammar:"主谓宾结构",tags:"饮食"},
+    {level:"启蒙",en:"Let's play!",cn:"我们一起玩吧！",grammar:"祈使句",tags:"动作"},
+    {level:"启蒙",en:"How are you?",cn:"你好吗？",grammar:"特殊疑问句",tags:"问候"},
+    {level:"启蒙",en:"I am fine.",cn:"我很好。",grammar:"主系表结构",tags:"情感"},
+    {level:"启蒙",en:"What color is it?",cn:"它是什么颜色？",grammar:"特殊疑问句",tags:"颜色"},
+    {level:"启蒙",en:"It is red.",cn:"它是红色的。",grammar:"主系表结构",tags:"颜色"},
+    {level:"启蒙",en:"Where is the cat?",cn:"猫在哪里？",grammar:"特殊疑问句",tags:"疑问"},
+    {level:"启蒙",en:"It is under the chair.",cn:"它在椅子下面。",grammar:"方位介词",tags:"方位"},
+    {level:"启蒙",en:"I can swim.",cn:"我会游泳。",grammar:"情态动词 can",tags:"能力"},
+    {level:"启蒙",en:"Don't be afraid.",cn:"不要害怕。",grammar:"祈使句否定",tags:"情感"},
+    {level:"启蒙",en:"Open your book.",cn:"打开你的书。",grammar:"祈使句",tags:"动作"},
+    {level:"启蒙",en:"Close the door.",cn:"关上门。",grammar:"祈使句",tags:"动作"},
+    {level:"启蒙",en:"I have a dog.",cn:"我有一只狗。",grammar:"主谓宾结构",tags:"动物"},
+    {level:"启蒙",en:"My dog is cute.",cn:"我的狗很可爱。",grammar:"主系表结构",tags:"描述"},
+    {level:"启蒙",en:"The sun is bright.",cn:"太阳很明亮。",grammar:"主系表结构",tags:"自然"},
+    {level:"启蒙",en:"Look at the moon.",cn:"看月亮。",grammar:"祈使句",tags:"自然"},
+    {level:"启蒙",en:"I eat rice.",cn:"我吃米饭。",grammar:"主谓宾结构",tags:"饮食"},
+    {level:"启蒙",en:"Drink more water.",cn:"多喝水。",grammar:"祈使句",tags:"健康"}
+  ],
+
+  // ============ 小学简单句 ============
+  primary: [
+    {level:"小学",en:"I go to school every day.",cn:"我每天去上学。",grammar:"一般现在时",tags:"日常"},
+    {level:"小学",en:"She likes dancing very much.",cn:"她非常喜欢跳舞。",grammar:"一般现在时",tags:"爱好"},
+    {level:"小学",en:"Do you have a pen?",cn:"你有钢笔吗？",grammar:"一般疑问句",tags:"学习"},
+    {level:"小学",en:"Yes, I do.",cn:"是的，我有。",grammar:"一般现在时",tags:"对话"},
+    {level:"小学",en:"What do you want to eat?",cn:"你想吃什么？",grammar:"特殊疑问句",tags:"饮食"},
+    {level:"小学",en:"I want some rice and fish.",cn:"我想要米饭和鱼。",grammar:"want to do",tags:"饮食"},
+    {level:"小学",en:"My father works in a hospital.",cn:"我爸爸在医院工作。",grammar:"一般现在时",tags:"家庭"},
+    {level:"小学",en:"He is a doctor.",cn:"他是一名医生。",grammar:"主系表结构",tags:"职业"},
+    {level:"小学",en:"There are four seasons in a year.",cn:"一年有四个季节。",grammar:"There be 句型",tags:"自然"},
+    {level:"小学",en:"Spring is the best season.",cn:"春天是最好的季节。",grammar:"最高级",tags:"季节"},
+    {level:"小学",en:"We play football after school.",cn:"我们放学后踢足球。",grammar:"一般现在时",tags:"运动"},
+    {level:"小学",en:"Can you help me, please?",cn:"请问你能帮我吗？",grammar:"情态动词",tags:"请求"},
+    {level:"小学",en:"Of course, I can.",cn:"当然可以。",grammar:"一般现在时",tags:"对话"},
+    {level:"小学",en:"I usually get up at seven.",cn:"我通常七点起床。",grammar:"频度副词",tags:"日常"},
+    {level:"小学",en:"What time is it now?",cn:"现在几点了？",grammar:"特殊疑问句",tags:"时间"},
+    {level:"小学",en:"It's half past eight.",cn:"现在八点半。",grammar:"时间表达",tags:"时间"},
+    {level:"小学",en:"Where are you from?",cn:"你来自哪里？",grammar:"特殊疑问句",tags:"问候"},
+    {level:"小学",en:"I am from China.",cn:"我来自中国。",grammar:"主系表结构",tags:"国家"},
+    {level:"小学",en:"How old are you?",cn:"你多大了？",grammar:"特殊疑问句",tags:"年龄"},
+    {level:"小学",en:"I am ten years old.",cn:"我十岁了。",grammar:"主系表结构",tags:"年龄"},
+    {level:"小学",en:"Let's go to the park.",cn:"我们去公园吧。",grammar:"祈使句",tags:"地点"},
+    {level:"小学",en:"What is the weather like today?",cn:"今天天气怎么样？",grammar:"特殊疑问句",tags:"天气"},
+    {level:"小学",en:"It is sunny today.",cn:"今天是晴天。",grammar:"主系表结构",tags:"天气"},
+    {level:"小学",en:"The flowers are beautiful.",cn:"这些花很漂亮。",grammar:"主系表结构",tags:"描述"},
+    {level:"小学",en:"I am reading a book now.",cn:"我正在读一本书。",grammar:"现在进行时",tags:"动作"},
+    {level:"小学",en:"My mom is cooking dinner.",cn:"我妈妈正在做晚饭。",grammar:"现在进行时",tags:"家庭"},
+    {level:"小学",en:"Did you have fun yesterday?",cn:"你昨天玩得开心吗？",grammar:"一般过去时",tags:"过去"},
+    {level:"小学",en:"Yes, I did.",cn:"是的，我玩得很开心。",grammar:"一般过去时",tags:"对话"},
+    {level:"小学",en:"I will go to Beijing tomorrow.",cn:"我明天将要去北京。",grammar:"一般将来时",tags:"将来"},
+    {level:"小学",en:"We are going to have a party.",cn:"我们将举办一个聚会。",grammar:"be going to",tags:"计划"},
+    {level:"小学",en:"This book is very interesting.",cn:"这本书非常有趣。",grammar:"主系表结构",tags:"阅读"},
+    {level:"小学",en:"Please speak louder.",cn:"请说大声一点。",grammar:"祈使句",tags:"请求"},
+    {level:"小学",en:"I don't like spicy food.",cn:"我不喜欢辛辣的食物。",grammar:"否定句",tags:"饮食"},
+    {level:"小学",en:"He can play the piano.",cn:"他会弹钢琴。",grammar:"情态动词",tags:"能力"},
+    {level:"小学",en:"She is good at singing.",cn:"她擅长唱歌。",grammar:"be good at",tags:"能力"}
+  ],
+
+  // ============ 初中时态从句 ============
+  junior: [
+    {level:"初中",en:"If it rains tomorrow, I will stay at home.",cn:"如果明天下雨，我就待在家里。",grammar:"条件状语从句",tags:"条件"},
+    {level:"初中",en:"When I grow up, I want to be a teacher.",cn:"我长大后想当老师。",grammar:"时间状语从句",tags:"将来"},
+    {level:"初中",en:"Because he worked hard, he passed the exam.",cn:"因为他努力学习，他通过了考试。",grammar:"原因状语从句",tags:"原因"},
+    {level:"初中",en:"She is reading a book while her brother is playing.",cn:"她弟弟在玩的时候，她在读书。",grammar:"时间状语从句",tags:"对比"},
+    {level:"初中",en:"I have lived in Nanjing for ten years.",cn:"我在南京住了十年。",grammar:"现在完成时",tags:"经历"},
+    {level:"初中",en:"He has already finished his homework.",cn:"他已经完成了作业。",grammar:"现在完成时",tags:"完成"},
+    {level:"初中",en:"Have you ever been to Beijing?",cn:"你去过北京吗？",grammar:"现在完成时",tags:"经历"},
+    {level:"初中",en:"I went to the park yesterday.",cn:"我昨天去了公园。",grammar:"一般过去时",tags:"过去"},
+    {level:"初中",en:"They were playing football when it began to rain.",cn:"开始下雨时，他们正在踢足球。",grammar:"过去进行时",tags:"过去"},
+    {level:"初中",en:"By the time I arrived, the train had left.",cn:"我到达时，火车已经开走了。",grammar:"过去完成时",tags:"过去"},
+    {level:"初中",en:"I was doing homework while my mother was cooking.",cn:"我妈妈做饭时，我正在写作业。",grammar:"过去进行时",tags:"过去"},
+    {level:"初中",en:"She said that she was very tired.",cn:"她说她很累。",grammar:"宾语从句",tags:"从句"},
+    {level:"初中",en:"I don't know where he went.",cn:"我不知道他去了哪里。",grammar:"宾语从句",tags:"从句"},
+    {level:"初中",en:"Could you tell me how to get to the station?",cn:"你能告诉我怎么去车站吗？",grammar:"宾语从句",tags:"问路"},
+    {level:"初中",en:"The teacher told us that the sun is a star.",cn:"老师告诉我们太阳是一颗恒星。",grammar:"宾语从句",tags:"知识"},
+    {level:"初中",en:"If I were you, I would not do that.",cn:"如果我是你，我不会那样做。",grammar:"虚拟语气",tags:"假设"},
+    {level:"初中",en:"I wish I could fly to the moon.",cn:"我希望我能飞到月球。",grammar:"wish 虚拟",tags:"愿望"},
+    {level:"初中",en:"The book that I bought yesterday is interesting.",cn:"我昨天买的书很有趣。",grammar:"定语从句",tags:"从句"},
+    {level:"初中",en:"The man who is standing there is my father.",cn:"站在那里的人是我爸爸。",grammar:"定语从句",tags:"人物"},
+    {level:"初中",en:"This is the best movie that I have ever seen.",cn:"这是我看过的最好的电影。",grammar:"定语从句",tags:"评价"},
+    {level:"初中",en:"I will call you as soon as I arrive.",cn:"我一到就给你打电话。",grammar:"时间状语从句",tags:"时间"},
+    {level:"初中",en:"He runs faster than I do.",cn:"他跑得比我快。",grammar:"比较级",tags:"比较"},
+    {level:"初中",en:"This is the most beautiful park in the city.",cn:"这是这座城市里最漂亮的公园。",grammar:"最高级",tags:"比较"},
+    {level:"初中",en:"I am looking forward to seeing you again.",cn:"我期待再次见到你。",grammar:"look forward to",tags:"情感"},
+    {level:"初中",en:"It is important for us to learn English well.",cn:"学好英语对我们很重要。",grammar:"it is + adj + to do",tags:"重要"},
+    {level:"初中",en:"The book is worth reading.",cn:"这本书值得一读。",grammar:"be worth doing",tags:"评价"},
+    {level:"初中",en:"I used to play football after school.",cn:"我过去常常放学后踢足球。",grammar:"used to do",tags:"过去"},
+    {level:"初中",en:"You had better not go out alone at night.",cn:"你最好不要晚上单独外出。",grammar:"had better",tags:"建议"},
+    {level:"初中",en:"The more you practice, the better you speak.",cn:"你练习得越多，就说得越好。",grammar:"the more... the more.../",tags:"比较"},
+    {level:"初中",en:"He is too young to go to school.",cn:"他太小了，不能上学。",grammar:"too... to...",tags:"结果"},
+    {level:"初中",en:"I enjoy listening to music in my free time.",cn:"我在空闲时间喜欢听音乐。",grammar:"enjoy doing",tags:"爱好"},
+    {level:"初中",en:"Would you like some coffee?",cn:"你想要点咖啡吗？",grammar:"would like",tags:"请求"},
+    {level:"初中",en:"Let's not waste time on this.",cn:"我们不要在这上面浪费时间了。",grammar:"祈使句",tags:"建议"},
+    {level:"初中",en:"My hobby is collecting stamps.",cn:"我的爱好是收集邮票。",grammar:"动名词作表语",tags:"爱好"},
+    {level:"初中",en:"He is interested in learning Chinese.",cn:"他对学中文感兴趣。",grammar:"be interested in",tags:"兴趣"}
+  ],
+
+  // ============ 高中长难句 ============
+  senior: [
+    {level:"高中",en:"Not until he failed the exam did he realize the importance of studying hard.",cn:"直到考试不及格，他才意识到努力学习的重要性。",grammar:"倒装句",tags:"倒装"},
+    {level:"高中",en:"It is high time that we took action to protect the environment.",cn:"我们早该采取行动保护环境了。",grammar:"虚拟语气",tags:"虚拟"},
+    {level:"高中",en:"Hardly had I entered the room when the phone rang.",cn:"我刚进房间电话就响了。",grammar:"倒装句",tags:"倒装"},
+    {level:"高中",en:"So deeply was he moved by the speech that tears came to his eyes.",cn:"他被演讲深深打动，眼里涌出了泪水。",grammar:"倒装句",tags:"倒装"},
+    {level:"高中",en:"Only by working hard can we achieve our dreams.",cn:"只有通过努力工作，我们才能实现梦想。",grammar:"倒装句",tags:"倒装"},
+    {level:"高中",en:"The proposal that he put forward at the meeting was finally accepted.",cn:"他在会议上提出的提议最终被采纳了。",grammar:"同位语从句",tags:"从句"},
+    {level:"高中",en:"He made a suggestion that we should hold a meeting to solve the problem.",cn:"他建议我们召开会议来解决这个问题。",grammar:"虚拟语气",tags:"从句"},
+    {level:"高中",en:"It is universally acknowledged that hard work leads to success.",cn:"努力工作带来成功是普遍公认的。",grammar:"主语从句",tags:"从句"},
+    {level:"高中",en:"What matters most is not the result but the process.",cn:"最重要的不是结果而是过程。",grammar:"主语从句",tags:"从句"},
+    {level:"高中",en:"Whoever comes to visit our school will be warmly welcomed.",cn:"无论谁来参观我们学校，都将受到热烈欢迎。",grammar:"主语从句",tags:"从句"},
+    {level:"高中",en:"The reason why he was late is that his car broke down on the way.",cn:"他迟到的原因是他的车在路上抛锚了。",grammar:"表语从句",tags:"从句"},
+    {level:"高中",en:"I have no idea whether he will come or not.",cn:"我不知道他是否会来。",grammar:"宾语从句",tags:"从句"},
+    {level:"高中",en:"The moment I heard the news, I called my parents.",cn:"我一听到这个消息就给父母打了电话。",grammar:"时间状语从句",tags:"从句"},
+    {level:"高中",en:"No sooner had I left than it began to rain heavily.",cn:"我一离开就下起了大雨。",grammar:"倒装句",tags:"倒装"},
+    {level:"高中",en:"It is not who is right that matters, but what is right that counts.",cn:"重要的不是谁对，而是什么是对的。",grammar:"强调句",tags:"强调"},
+    {level:"高中",en:"Only those who never give up can achieve great success in life.",cn:"只有那些永不放弃的人才能在生活中取得巨大的成功。",grammar:"定语从句",tags:"从句"},
+    {level:"高中",en:"Had it not been for your help, I would have failed the exam.",cn:"要不是你的帮助，我考试就会不及格。",grammar:"倒装虚拟",tags:"虚拟"},
+    {level:"高中",en:"The fact that he succeeded in the experiment surprised everyone.",cn:"他在实验中取得成功的事实让每个人都感到惊讶。",grammar:"同位语从句",tags:"从句"},
+    {level:"高中",en:"It is no use crying over spilt milk.",cn:"覆水难收。",grammar:"谚语",tags:"谚语"},
+    {level:"高中",en:"Where there is a will, there is a way.",cn:"有志者事竟成。",grammar:"谚语",tags:"谚语"},
+    {level:"高中",en:"Practice makes perfect.",cn:"熟能生巧。",grammar:"谚语",tags:"谚语"},
+    {level:"高中",en:"All that glitters is not gold.",cn:"闪光的未必都是金子。",grammar:"谚语",tags:"谚语"},
+    {level:"高中",en:"Reading is to the mind what exercise is to the body.",cn:"阅读对心灵之重要，犹如运动对身体之重要。",grammar:"比喻",tags:"阅读"},
+    {level:"高中",en:"The harder you work, the more progress you will make.",cn:"你工作越努力，进步就越大。",grammar:"比较结构",tags:"努力"},
+    {level:"高中",en:"It is our determination, not our talent, that determines our success.",cn:"决定我们成功的是决心，而非天赋。",grammar:"强调句",tags:"强调"},
+    {level:"高中",en:"Many people who say they lack confidence actually lack effort.",cn:"许多说自己缺乏信心的人，实际上是缺乏努力。",grammar:"定语从句",tags:"努力"},
+    {level:"高中",en:"He is one of those rare people who enjoy working under challenging conditions.",cn:"他是少数喜欢在挑战性条件下工作的人之一。",grammar:"定语从句",tags:"人物"},
+    {level:"高中",en:"As is known to all, China is a developing country.",cn:"众所周知，中国是一个发展中国家。",grammar:"非限制性定语从句",tags:"从句"},
+    {level:"高中",en:"I have no doubt that he will overcome all the difficulties and succeed.",cn:"我毫不怀疑他会克服一切困难并取得成功。",grammar:"同位语从句",tags:"从句"},
+    {level:"高中",en:"Not only does he speak English well, but he also speaks French fluently.",cn:"他不仅英语说得好，而且法语也说得很流利。",grammar:"倒装句",tags:"倒装"},
+    {level:"高中",en:"It took them three years to build this bridge.",cn:"他们花了三年时间建造这座桥。",grammar:"it takes... to do",tags:"句型"},
+    {level:"高中",en:"He was so excited that he could not say a word.",cn:"他激动得说不出话来。",grammar:"so... that...",tags:"结果"},
+    {level:"高中",en:"Such is the power of education that it can change a person's life.",cn:"教育的力量如此强大，它能改变一个人的一生。",grammar:"such... that...",tags:"结果"},
+    {level:"高中",en:"It is obvious that he is lying.",cn:"很明显他在撒谎。",grammar:"主语从句",tags:"从句"},
+    {level:"高中",en:"There is no denying that reading broadens our horizons.",cn:"不可否认，阅读开阔了我们的视野。",grammar:"There is no denying",tags:"从句"},
+    {level:"高中",en:"Every coin has two sides, as does the technology.",cn:"凡事皆有两面性，技术也是如此。",grammar:"非限制性定语从句",tags:"从句"},
+    {level:"高中",en:"What surprised me most was that he had mastered five foreign languages.",cn:"最令我惊讶的是他已经掌握了五门外语。",grammar:"主语从句",tags:"从句"},
+    {level:"高中",en:"The young man, whose parents died in the earthquake, was admitted to Peking University.",cn:"那个年轻人，父母在地震中去世了，被北京大学录取了。",grammar:"非限制性定语从句",tags:"从句"},
+    {level:"高中",en:"He is the kind of person who always thinks of others first.",cn:"他是那种总是先想到别人的人。",grammar:"定语从句",tags:"人物"},
+    {level:"高中",en:"Given more time, we could have done the job better.",cn:"如果给我们更多时间，我们本可以把工作做得更好。",grammar:"虚拟语气",tags:"虚拟"},
+    {level:"高中",en:"It is suggested that every student should have a clear goal.",cn:"建议每个学生都应该有明确的目标。",grammar:"虚拟语气",tags:"从句"},
+    {level:"高中",en:"The professor, together with his students, is doing an experiment.",cn:"教授和他的学生们一起在做实验。",grammar:"主谓一致",tags:"语法"},
+    {level:"高中",en:"Not until he took off his coat did I realize he was the thief.",cn:"直到他脱掉外套，我才意识到他就是小偷。",grammar:"倒装句",tags:"倒装"}
+  ],
+
+  // ============ 江苏特色句 ============
+  jiangsu: [
+    {level:"江苏",en:"Nanjing is the capital city of Jiangsu Province.",cn:"南京是江苏省的省会。",grammar:"主系表结构",tags:"南京"},
+    {level:"江苏",en:"Suzhou is famous for its classical gardens.",cn:"苏州以其古典园林而闻名。",grammar:"被动语态",tags:"苏州"},
+    {level:"江苏",en:"The Yangtze River flows through Nanjing.",cn:"长江流经南京。",grammar:"一般现在时",tags:"地理"},
+    {level:"江苏",en:"Tai Lake is the third largest freshwater lake in China.",cn:"太湖是中国第三大淡水湖。",grammar:"最高级",tags:"地理"},
+    {level:"江苏",en:"Wuxi is known as the Pearl of Tai Lake.",cn:"无锡被称为太湖之珠。",grammar:"被动语态",tags:"无锡"},
+    {level:"江苏",en:"Yangzhou fried rice is one of the most famous dishes in China.",cn:"扬州炒饭是中国最有名的菜肴之一。",grammar:"最高级",tags:"美食"},
+    {level:"江苏",en:"Su embroidery is one of the four famous embroideries in China.",cn:"苏绣是中国四大名绣之一。",grammar:"主系表结构",tags:"文化"},
+    {level:"江苏",en:"Kunqu Opera was listed as a UNESCO Intangible Cultural Heritage.",cn:"昆曲被列入联合国教科文组织非物质文化遗产。",grammar:"被动语态",tags:"文化"},
+    {level:"江苏",en:"The Grand Canal is the longest artificial river in the world.",cn:"京杭大运河是世界上最长的人工河。",grammar:"最高级",tags:"地理"},
+    {level:"江苏",en:"Yangcheng Lake hairy crabs are a specialty of Suzhou.",cn:"阳澄湖大闸蟹是苏州的特产。",grammar:"主系表结构",tags:"美食"},
+    {level:"江苏",en:"The Confucius Temple in Nanjing is a popular tourist spot.",cn:"南京夫子庙是热门旅游景点。",grammar:"主系表结构",tags:"南京"},
+    {level:"江苏",en:"Purple Mountain is a beautiful scenic area in Nanjing.",cn:"紫金山是南京美丽的风景区。",grammar:"主系表结构",tags:"地理"},
+    {level:"江苏",en:"Jiangnan culture has a long history of over 7000 years.",cn:"江南文化有7000多年的悠久历史。",grammar:"一般现在时",tags:"文化"},
+    {level:"江苏",en:"Huaiyang cuisine is one of China's four great traditional cuisines.",cn:"淮扬菜是中国四大传统菜系之一。",grammar:"主系表结构",tags:"美食"},
+    {level:"江苏",en:"Nanjing University is among the top universities in China.",cn:"南京大学是中国顶尖大学之一。",grammar:"主系表结构",tags:"教育"},
+    {level:"江苏",en:"Jiangsu Gaokao uses its own unique exam paper.",cn:"江苏高考使用自己独特的试卷。",grammar:"一般现在时",tags:"教育"},
+    {level:"江苏",en:"Wuxi is a city with beautiful lakes and mountains.",cn:"无锡是一座山水美丽的城市。",grammar:"主系表结构",tags:"无锡"},
+    {level:"江苏",en:"Suzhou Pingtan is a traditional storytelling art from Suzhou.",cn:"苏州评弹是苏州的传统说唱艺术。",grammar:"主系表结构",tags:"文化"},
+    {level:"江苏",en:"Liyuan Garden is one of the famous gardens in Wuxi.",cn:"蠡园是无锡著名的园林之一。",grammar:"主系表结构",tags:"无锡"},
+    {level:"江苏",en:"Osmanthus flowers bloom in autumn in Nanjing.",cn:"南京的桂花在秋天盛开。",grammar:"一般现在时",tags:"植物"},
+    {level:"江苏",en:"Sun Yat-sen's Mausoleum is on the southern slope of Purple Mountain.",cn:"中山陵位于紫金山的南坡。",grammar:"方位介词",tags:"南京"},
+    {level:"江苏",en:"Nanjing salt duck is a traditional local dish.",cn:"南京盐水鸭是传统的地方菜。",grammar:"主系表结构",tags:"美食"},
+    {level:"江苏",en:"The Qinhuai River is the mother river of Nanjing.",cn:"秦淮河是南京的母亲河。",grammar:"主系表结构",tags:"南京"},
+    {level:"江苏",en:"Jiangsu has a strong economy and rich culture.",cn:"江苏经济发达，文化丰富。",grammar:"并列句",tags:"江苏"},
+    {level:"江苏",en:"Many foreign tourists come to visit Suzhou every year.",cn:"每年有许多外国游客来苏州旅游。",grammar:"一般现在时",tags:"旅游"},
+    {level:"江苏",en:"Jiangsu is located in the east of China.",cn:"江苏位于中国东部。",grammar:"被动语态",tags:"地理"},
+    {level:"江苏",en:"Wuxi's film industry is developing rapidly.",cn:"无锡的影视业发展迅速。",grammar:"现在进行时",tags:"无锡"},
+    {level:"江苏",en:"Huai'an is the birthplace of Premier Zhou Enlai.",cn:"淮安是周恩来总理的故乡。",grammar:"主系表结构",tags:"淮安"},
+    {level:"江苏",en:"Changzhou is a modern industrial city.",cn:"常州是一座现代工业城市。",grammar:"主系表结构",tags:"常州"},
+    {level:"江苏",en:"Yancheng's red-crowned cranes are world-famous.",cn:"盐城的丹顶鹤世界闻名。",grammar:"被动语态",tags:"盐城"}
+  ]
+};
+
+/* =====================================================
+ * 状态管理 - localStorage 封装
+ * ===================================================== */
+const STORAGE_KEY = 'eng_vocab_app_v1';
+const DEFAULT_STATE = {
+  currentLevel: 'enlighten',
+  currentView: 'home',
+  vocabProgress: {},   // { 'enlighten_apple': 'master'|'fuzzy'|'wrong'|'new' }
+  sentenceProgress: {},
+  wrongBook: [],        // [{type:'vocab'|'sentence', level, ref, error, ts}]
+  exerciseStats: [],    // [{type, level, total, correct, time, ts}]
+  settings: {
+    theme: 'light',
+    voiceRate: 1.0,
+    voiceEnabled: true,
+    batchSize: 10,
+    autoNext: false
+  }
+};
+let state = loadState();
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      return Object.assign({}, DEFAULT_STATE, parsed, {
+        settings: Object.assign({}, DEFAULT_STATE.settings, parsed.settings || {})
+      });
+    }
+  } catch (e) { console.error('Load state error:', e); }
+  return JSON.parse(JSON.stringify(DEFAULT_STATE));
+}
+function saveState() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+  catch (e) { console.error('Save state error:', e); }
+}
+
+/* =====================================================
+ * 工具函数
+ * ===================================================== */
+function $(sel) { return document.querySelector(sel); }
+function $$(sel) { return document.querySelectorAll(sel); }
+function el(tag, attrs = {}, ...children) {
+  const e = document.createElement(tag);
+  for (const k in attrs) {
+    if (k === 'class') e.className = attrs[k];
+    else if (k === 'style' && typeof attrs[k] === 'object') Object.assign(e.style, attrs[k]);
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2).toLowerCase(), attrs[k]);
+    else if (k === 'html') e.innerHTML = attrs[k];
+    else e.setAttribute(k, attrs[k]);
+  }
+  children.flat().forEach(c => {
+    if (c == null || c === undefined) return;
+    if (typeof c === 'string' || typeof c === 'number') {
+      e.appendChild(document.createTextNode(String(c)));
+    } else if (c instanceof Node) {
+      e.appendChild(c);
+    } else if (Array.isArray(c)) {
+      c.forEach(sub => {
+        if (sub == null) return;
+        if (typeof sub === 'string' || typeof sub === 'number') {
+          e.appendChild(document.createTextNode(String(sub)));
+        } else if (sub instanceof Node) {
+          e.appendChild(sub);
+        }
+      });
+    }
+  });
+  return e;
+}
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function speak(text) {
+  if (!state.settings.voiceEnabled) return;
+  if (!('speechSynthesis' in window)) return;
+  try {
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-US';
+    u.rate = state.settings.voiceRate || 1.0;
+    window.speechSynthesis.speak(u);
+  } catch (e) { console.warn('Speak error:', e); }
+}
+function timeStr(s) {
+  s = Math.max(0, Math.floor(s));
+  const m = Math.floor(s / 60), r = s % 60;
+  return `${m}:${String(r).padStart(2, '0')}`;
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+/* =====================================================
+ * 视图渲染
+ * ===================================================== */
+function setView(name) {
+  try {
+    state.currentView = name;
+    saveState();
+    $$('.nav-tab').forEach(t => t.classList.toggle('active', t.dataset.view === name));
+    // 移动端：点击导航后自动收起侧边栏（健壮性：sidebar 可能不存在）
+    const sb = document.getElementById('sidebar');
+    if (sb) sb.classList.remove('open');
+    render();
+  } catch (e) {
+    console.error('[setView error]', name, e);
+  }
+}
+
+function setLevel(lv) {
+  try {
+    state.currentLevel = lv;
+    saveState();
+    $$('.level-item').forEach(t => t.classList.toggle('active', t.dataset.level === lv));
+    render();
+  } catch (e) {
+    console.error('[setLevel error]', lv, e);
+  }
+}
+
+function render() {
+  try {
+    const main = document.getElementById('mainView');
+    if (!main) { console.warn('mainView not found'); return; }
+    switch (state.currentView) {
+      case 'home': renderHome(main); break;
+      case 'vocab': renderVocab(main); break;
+      case 'sentences': renderSentences(main); break;
+      case 'practice': renderPractice(main); break;
+      case 'wrongbook': renderWrongBook(main); break;
+      case 'stats': renderStats(main); break;
+      case 'settings': renderSettings(main); break;
+      default: renderHome(main); break;
+    }
+  } catch (e) {
+    console.error('[render error]', state.currentView, e);
+    const main = document.getElementById('mainView');
+    if (main) {
+      main.innerHTML = '<div class="card text-center text-soft" style="padding:40px">⚠️ 渲染出错：' + (e.message || '未知错误') + '<br><br><button class="btn" onclick="location.reload()">刷新页面</button></div>';
+    }
+  }
+}
+
+/* ====== 首页 ====== */
+function renderHome(main) {
+  main.innerHTML = '';
+  // 顶部 hero
+  const hero = el('div', { class: 'hero' },
+    el('div', { class: 'hero-title' }, '英语分级练习 · 江苏版'),
+    el('div', { class: 'hero-sub' }, '覆盖启蒙→小学→初中→高中 + 江苏特色词汇，纯本地浏览器运行，数据保存在你的设备上')
+  );
+  main.appendChild(hero);
+
+  // 当前学习等级卡片
+  const lv = state.currentLevel;
+  const lvInfo = LEVELS[lv];
+  const lvData = VOCAB_DATA[lv] || [];
+  const total = lvData.length;
+  const learned = lvData.filter(w => state.vocabProgress[`${lv}_${w.word}`] === 'master').length;
+  const progress = total ? Math.round(learned * 100 / total) : 0;
+  const statCard = el('div', { class: 'card' },
+    el('div', { class: 'card-title' },
+      el('span', {}, `当前学段：${lvInfo.name}`),
+      el('span', { class: 'tag tag-primary' }, `已学 ${progress}%`)
+    ),
+    el('div', { class: 'progress-bar' }, el('div', { class: 'progress-bar-fill', style: { width: progress + '%' } })),
+    el('div', { class: 'text-soft', style: { fontSize: '12px' } },
+      `本等级共 ${total} 个内置词汇，已掌握 ${learned} 个`)
+  );
+  main.appendChild(statCard);
+
+  // 功能入口
+  const grid = el('div', { class: 'feature-grid' });
+  const features = [
+    { icon: '📇', name: '单词卡片', desc: '翻卡复习、标记记忆状态', view: 'vocab' },
+    { icon: '📖', name: '句子练习', desc: '阅读、遮挡、挖空、默写', view: 'sentences' },
+    { icon: '✏️', name: '练习中心', desc: '英译汉、汉译英、选择题', view: 'practice' },
+    { icon: '📒', name: '错题本', desc: '错题复习与清空', view: 'wrongbook' },
+    { icon: '📊', name: '学习统计', desc: '进度与正确率', view: 'stats' },
+    { icon: '⚙️', name: '设置', desc: '主题、语音、导入导出', view: 'settings' }
+  ];
+  features.forEach(f => {
+    grid.appendChild(el('div', { class: 'feature-card', onclick: () => setView(f.view) },
+      el('div', { class: 'feature-icon' }, f.icon),
+      el('div', { class: 'feature-name' }, f.name),
+      el('div', { class: 'feature-desc' }, f.desc)
+    ));
+  });
+  main.appendChild(grid);
+
+  // 学习小贴士
+  const tipCard = el('div', { class: 'card' },
+    el('div', { class: 'card-title' }, '💡 学习小贴士'),
+    el('div', { class: 'text-soft', style: { fontSize: '13px' } },
+      '1. 建议每日固定时间学习 20-30 分钟，比长时间突击更有效。'),
+    el('div', { class: 'text-soft', style: { fontSize: '13px' } },
+      '2. 江苏高考英语侧重词汇深度与篇章理解，建议扎实初中词汇后拓展高中高频词。'),
+    el('div', { class: 'text-soft', style: { fontSize: '13px' } },
+      '3. 错题本里的题目建议每周复习一次，加深印象。'),
+    el('div', { class: 'text-soft', style: { fontSize: '13px' } },
+      '4. 通过"设置 → 自定义词库导入"可以补充个人学习词单。')
+  );
+  main.appendChild(tipCard);
+}
+
+/* ====== 词汇库 + 单词卡片 ====== */
+let vocabFilter = 'all';
+let vocabSession = null;
+let vocabIdx = 0;
+
+function renderVocab(main) {
+  main.innerHTML = '';
+  const lv = state.currentLevel;
+  const lvInfo = LEVELS[lv];
+  const data = VOCAB_DATA[lv] || [];
+  const sessionSize = Math.min(state.settings.batchSize, data.length);
+
+  // 顶部信息
+  main.appendChild(el('div', { class: 'card' },
+    el('div', { class: 'card-title' },
+      el('span', {}, `${lvInfo.name} · 词汇库（${data.length} 词）`),
+      el('span', { class: 'tag tag-primary' }, `江苏版`)
+    ),
+    el('div', { class: 'btn-group' },
+      el('button', { class: 'btn', onclick: () => { vocabSession = shuffle(data).slice(0, sessionSize); vocabIdx = 0; vocabFilter = 'all'; renderVocab($('#mainView')); } }, `🎯 开始复习 (${sessionSize} 词)`),
+      el('button', { class: 'btn btn-ghost', onclick: () => { vocabSession = null; renderVocab($('#mainView')); } }, '📋 浏览全部')
+    )
+  ));
+
+  if (vocabSession) renderVocabCard();
+  else renderVocabList();
+}
+
+function renderVocabCard() {
+  const main = $('#mainView');
+  // 替换前两个卡片（标题+按钮）与单词卡片
+  const old = main.querySelector('.flashcard-wrap');
+  if (old) old.remove();
+  if (vocabIdx >= vocabSession.length) {
+    vocabSession = null;
+    return renderVocab($('#mainView'));
+  }
+  const w = vocabSession[vocabIdx];
+  const key = `${state.currentLevel}_${w.word}`;
+  const prog = state.vocabProgress[key] || 'new';
+
+  const wrap = el('div', { class: 'flashcard-wrap' });
+
+  // 进度条
+  const pct = Math.round(vocabIdx * 100 / vocabSession.length);
+  wrap.appendChild(el('div', { class: 'quiz-progress' },
+    el('span', {}, `${vocabIdx + 1} / ${vocabSession.length}`),
+    el('span', {}, `已学:${countLearned(vocabSession)}`),
+    el('span', {}, `错题:${countWrong(vocabSession)}`)
+  ));
+  wrap.appendChild(el('div', { class: 'progress-bar' }, el('div', { class: 'progress-bar-fill', style: { width: pct + '%' } })));
+
+  // 卡片
+  const card = el('div', { class: 'flashcard', onclick: e => {
+    if (e.target.closest('button')) return;
+    card.classList.toggle('flipped');
+  } },
+    el('div', { class: 'flashcard-inner' },
+      el('div', { class: 'flashcard-front' },
+        el('div', { class: 'fc-level-tag' }, `${LEVELS[state.currentLevel].name} · ${w.tags || ''}`),
+        el('button', { class: 'btn btn-sm btn-ghost', style: { position: 'absolute', top: '12px', left: '12px' }, onclick: e => { e.stopPropagation(); speak(w.word); } }, '🔊'),
+        el('div', { class: 'fc-word' }, w.word),
+        el('div', { class: 'fc-phonetic' }, w.phonetic || ''),
+        el('div', { class: 'text-soft', style: { fontSize: '12px' } }, '点击卡片查看释义')
+      ),
+      el('div', { class: 'flashcard-back' },
+        el('div', { class: 'fc-level-tag' }, `${LEVELS[state.currentLevel].name}`),
+        el('div', { class: 'fc-chinese' }, w.chinese),
+        el('div', { class: 'fc-phonetic' }, w.phonetic || ''),
+        el('div', { class: 'fc-example' }, w.example || ''),
+        el('div', { class: 'fc-actions', onclick: e => e.stopPropagation() },
+          el('button', { class: 'btn btn-sm btn-ghost', onclick: () => speak(w.word) }, '🔊 朗读')
+        )
+      )
+    )
+  );
+  wrap.appendChild(card);
+
+  // 记忆标记
+  wrap.appendChild(el('div', { class: 'fc-actions', style: { marginTop: '16px' } },
+    el('button', { class: 'btn btn-danger', onclick: () => { markVocab(w, 'wrong'); nextVocab(); } }, '❌ 不认识'),
+    el('button', { class: 'btn btn-warning', onclick: () => { markVocab(w, 'fuzzy'); nextVocab(); } }, '🤔 模糊'),
+    el('button', { class: 'btn btn-success', onclick: () => { markVocab(w, 'master'); nextVocab(); } }, '✅ 已掌握'),
+    el('button', { class: 'btn btn-ghost', onclick: () => nextVocab() }, '⏭ 跳过')
+  ));
+
+  main.appendChild(wrap);
+}
+function countLearned(arr) { return arr.filter(w => state.vocabProgress[`${state.currentLevel}_${w.word}`] === 'master').length; }
+function countWrong(arr) { return arr.filter(w => state.vocabProgress[`${state.currentLevel}_${w.word}`] === 'wrong').length; }
+function markVocab(w, status) {
+  state.vocabProgress[`${state.currentLevel}_${w.word}`] = status;
+  if (status === 'wrong') {
+    state.wrongBook.push({ type: 'vocab', level: state.currentLevel, ref: w.word, error: w.chinese, ts: Date.now() });
+  }
+  saveState();
+}
+function nextVocab() {
+  vocabIdx++;
+  renderVocabCard();
+}
+
+function renderVocabList() {
+  const main = $('#mainView');
+  const old = main.querySelector('.vocab-list-wrap');
+  if (old) old.remove();
+
+  const lv = state.currentLevel;
+  const data = VOCAB_DATA[lv] || [];
+
+  const wrap = el('div', { class: 'vocab-list-wrap card' });
+
+  // 筛选器
+  const filters = [
+    { v: 'all', label: '全部' },
+    { v: 'new', label: '未学习' },
+    { v: 'master', label: '已掌握' },
+    { v: 'fuzzy', label: '模糊' },
+    { v: 'wrong', label: '错题' }
+  ];
+  const fg = el('div', { class: 'btn-group' });
+  filters.forEach(f => {
+    const btn = el('button', { class: 'btn btn-sm ' + (vocabFilter === f.v ? '' : 'btn-ghost'), onclick: () => { vocabFilter = f.v; renderVocabList(); } }, f.label);
+    fg.appendChild(btn);
+  });
+  wrap.appendChild(el('div', { class: 'card-title', style: { marginBottom: '8px' } }, el('span', {}, '筛选')));
+  wrap.appendChild(fg);
+
+  // 词汇列表
+  const filtered = data.filter(w => {
+    const p = state.vocabProgress[`${lv}_${w.word}`] || 'new';
+    if (vocabFilter === 'all') return true;
+    return p === vocabFilter;
+  });
+
+  if (!filtered.length) {
+    wrap.appendChild(el('div', { class: 'text-center text-soft', style: { padding: '20px' } }, '暂无符合条件的词汇'));
+  } else {
+    const list = el('div', {});
+    filtered.forEach(w => {
+      const key = `${lv}_${w.word}`;
+      const prog = state.vocabProgress[key] || 'new';
+      const tag = prog === 'master' ? 'tag-success' : prog === 'wrong' ? 'tag-danger' : prog === 'fuzzy' ? 'tag-warning' : '';
+      const tagLabel = prog === 'master' ? '已掌握' : prog === 'wrong' ? '错题' : prog === 'fuzzy' ? '模糊' : '未学';
+      list.appendChild(el('div', { class: 'list-item' },
+        el('div', { class: 'list-main' },
+          el('div', {}, el('span', { style: { fontWeight: 600, fontSize: '15px' } }, w.word), ' ',
+            el('span', { class: 'tag ' + tag }, tagLabel)),
+          el('div', { class: 'list-sub' }, `${w.phonetic || ''} · ${w.chinese}`),
+          w.example ? el('div', { class: 'list-sub' }, w.example) : null
+        ),
+        el('div', { class: 'list-actions' },
+          el('button', { class: 'btn btn-sm btn-ghost', onclick: () => speak(w.word) }, '🔊')
+        )
+      ));
+    });
+    wrap.appendChild(list);
+  }
+  main.appendChild(wrap);
+}
+
+/* ====== 句子库 ====== */
+let sentenceMode = 'read'; // read | hideEn | hideCn | fill | dictation
+let sentenceSession = null;
+let sentenceIdx = 0;
+
+function renderSentences(main) {
+  main.innerHTML = '';
+  const lv = state.currentLevel;
+  const data = SENTENCE_DATA[lv] || [];
+  const lvInfo = LEVELS[lv];
+
+  main.appendChild(el('div', { class: 'card' },
+    el('div', { class: 'card-title' },
+      el('span', {}, `${lvInfo.name} · 句子库（${data.length} 句）`),
+      el('span', { class: 'tag tag-primary' }, `江苏版`)
+    ),
+    el('div', { class: 'btn-group' },
+      el('button', { class: 'btn', onclick: () => { sentenceMode = 'read'; sentenceSession = shuffle(data).slice(0, Math.min(10, data.length)); sentenceIdx = 0; renderSentences($('#mainView')); } }, '📖 阅读模式'),
+      el('button', { class: 'btn btn-warning', onclick: () => { sentenceMode = 'hide'; sentenceSession = shuffle(data).slice(0, Math.min(10, data.length)); sentenceIdx = 0; renderSentences($('#mainView')); } }, '🙈 遮挡模式'),
+      el('button', { class: 'btn btn-success', onclick: () => { sentenceMode = 'fill'; sentenceSession = shuffle(data).slice(0, Math.min(10, data.length)); sentenceIdx = 0; renderSentences($('#mainView')); } }, '✏️ 挖空填空'),
+      el('button', { class: 'btn btn-danger', onclick: () => { sentenceMode = 'dictation'; sentenceSession = shuffle(data).slice(0, Math.min(10, data.length)); sentenceIdx = 0; renderSentences($('#mainView')); } }, '📝 默写模式')
+    )
+  ));
+
+  if (sentenceSession) renderSentenceCard();
+}
+
+function renderSentenceCard() {
+  const main = $('#mainView');
+  const old = main.querySelector('.sentence-wrap');
+  if (old) old.remove();
+  if (sentenceIdx >= sentenceSession.length) {
+    sentenceSession = null;
+    return renderSentences($('#mainView'));
+  }
+
+  const s = sentenceSession[sentenceIdx];
+  const lv = state.currentLevel;
+  const wrap = el('div', { class: 'sentence-wrap card' });
+
+  // 进度
+  const pct = Math.round(sentenceIdx * 100 / sentenceSession.length);
+  wrap.appendChild(el('div', { class: 'quiz-progress' },
+    el('span', {}, `${sentenceIdx + 1} / ${sentenceSession.length}`),
+    el('span', {}, sentenceMode === 'read' ? '阅读模式' : sentenceMode === 'hide' ? '遮挡模式' : sentenceMode === 'fill' ? '挖空填空' : '默写模式')
+  ));
+  wrap.appendChild(el('div', { class: 'progress-bar' }, el('div', { class: 'progress-bar-fill', style: { width: pct + '%' } })));
+
+  // 句子展示
+  const sc = el('div', { class: 'sentence-cover' });
+  if (sentenceMode === 'read') {
+    sc.appendChild(el('div', { class: 'sentence-en' }, s.en, ' ',
+      el('button', { class: 'btn btn-sm btn-ghost', onclick: () => speak(s.en) }, '🔊')));
+    sc.appendChild(el('div', { class: 'sentence-cn' }, s.cn));
+    sc.appendChild(el('div', { class: 'text-soft', style: { fontSize: '12px', marginTop: '8px' } }, '语法：' + s.grammar));
+  } else if (sentenceMode === 'hide') {
+    // 随机隐藏英文或中文
+    const hideEn = Math.random() > 0.5;
+    if (hideEn) {
+      sc.appendChild(el('div', { class: 'sentence-en', style: { background: 'var(--bg-soft)', color: 'transparent', userSelect: 'none' } }, s.en,
+        el('button', { class: 'btn btn-sm', style: { marginLeft: '8px' }, onclick: e => {
+          e.target.parentElement.style.color = 'var(--text)';
+          speak(s.en);
+        } }, '👁 显示')));
+      sc.appendChild(el('div', { class: 'sentence-cn' }, s.cn));
+    } else {
+      sc.appendChild(el('div', { class: 'sentence-en' }, s.en, ' ',
+        el('button', { class: 'btn btn-sm btn-ghost', onclick: () => speak(s.en) }, '🔊')));
+      sc.appendChild(el('div', { class: 'sentence-cn', style: { background: 'var(--bg-soft)', color: 'transparent', userSelect: 'none' } }, s.cn,
+        el('button', { class: 'btn btn-sm', style: { marginLeft: '8px' }, onclick: e => { e.target.parentElement.style.color = 'var(--text)'; } }, '👁 显示')));
+    }
+    sc.appendChild(el('div', { class: 'text-soft', style: { fontSize: '12px', marginTop: '8px' } }, '语法：' + s.grammar));
+  } else if (sentenceMode === 'fill') {
+    // 挖掉一个关键词让用户填
+    const words = s.en.split(/\s+/);
+    const blankIdx = Math.min(words.length - 1, Math.max(0, Math.floor(Math.random() * words.length)));
+    const blankWord = words[blankIdx].replace(/[^\w]/g, '');
+    words[blankIdx] = `<span class="sentence-blank" contenteditable="true" data-blank="${escapeHtml(blankWord)}" data-original="${escapeHtml(words[blankIdx])}"></span>`;
+    const html = words.join(' ') + ' ';
+    const cardDiv = el('div');
+    cardDiv.innerHTML = html;
+    const checkBtn = el('button', { class: 'btn btn-success btn-sm', style: { marginLeft: '8px' }, onclick: () => {
+      cardDiv.querySelectorAll('.sentence-blank').forEach(b => {
+        const ans = (b.textContent || '').trim().toLowerCase().replace(/[^\w]/g, '');
+        const target = (b.dataset.blank || '').toLowerCase();
+        b.textContent = b.dataset.original;
+        if (ans === target) b.classList.add('filled');
+        else { b.classList.add('wrong'); addWrongSentence(s, lv); }
+      });
+    } }, '✓ 检查');
+    sc.appendChild(el('div', { class: 'sentence-en' }, ...Array.from(cardDiv.childNodes), checkBtn));
+    sc.appendChild(el('div', { class: 'sentence-cn' }, s.cn));
+    sc.appendChild(el('div', { class: 'text-soft', style: { fontSize: '12px', marginTop: '8px' } }, '点击下划线处填入单词'));
+  } else if (sentenceMode === 'dictation') {
+    sc.appendChild(el('div', { class: 'sentence-cn' }, s.cn));
+    const ta = el('textarea', { class: 'quiz-input', placeholder: '根据中文写出英文...', style: { minHeight: '80px' } });
+    const checkBtn = el('button', { class: 'btn btn-success', onclick: () => {
+      const userAns = (ta.value || '').toLowerCase().replace(/[^a-z\s]/g, '').replace(/\s+/g, ' ').trim();
+      const refAns = s.en.toLowerCase().replace(/[^a-z\s]/g, '').replace(/\s+/g, ' ').trim();
+      const correct = userAns === refAns;
+      if (correct) {
+        sc.appendChild(el('div', { class: 'quiz-feedback correct' }, '✅ 完全正确！'));
+      } else {
+        sc.appendChild(el('div', { class: 'quiz-feedback wrong' }, '❌ 你的答案：' + ta.value));
+        sc.appendChild(el('div', { class: 'sentence-en' }, '参考答案：' + s.en));
+        addWrongSentence(s, lv);
+      }
+      sc.querySelector('button.check-btn-extra')?.remove();
+      ta.disabled = true;
+    } });
+    checkBtn.classList.add('check-btn-extra');
+    sc.appendChild(ta);
+    sc.appendChild(el('div', { class: 'btn-group mt-12' }, checkBtn));
+  }
+  wrap.appendChild(sc);
+
+  // 操作按钮
+  wrap.appendChild(el('div', { class: 'btn-group', style: { justifyContent: 'flex-end' } },
+    el('button', { class: 'btn btn-ghost', onclick: () => { sentenceIdx++; renderSentenceCard(); } }, '下一句 →')
+  ));
+
+  main.appendChild(wrap);
+}
+
+function addWrongSentence(s, lv) {
+  state.wrongBook.push({ type: 'sentence', level: lv, ref: s.en, error: s.cn, ts: Date.now() });
+  saveState();
+}
+
+/* ====== 练习中心 ====== */
+let practice = null;
+function renderPractice(main) {
+  main.innerHTML = '';
+  const lv = state.currentLevel;
+  const lvInfo = LEVELS[lv];
+  const vdata = VOCAB_DATA[lv] || [];
+  const sdata = SENTENCE_DATA[lv] || [];
+
+  main.appendChild(el('div', { class: 'card' },
+    el('div', { class: 'card-title' },
+      el('span', {}, `练习中心 · ${lvInfo.name}`),
+      el('span', { class: 'tag tag-primary' }, `词汇 ${vdata.length} · 句子 ${sdata.length}`)
+    ),
+    el('div', { class: 'text-soft', style: { fontSize: '12px', marginBottom: '10px' } },
+      '💡 所有题目均为 4 选 1 选择题；答对自动进入下一题，答错显示正确答案后可手动继续。'),
+    el('div', { class: 'btn-group' },
+      el('button', { class: 'btn', onclick: () => startPractice('choice') }, '🎯 看英文选中文'),
+      el('button', { class: 'btn btn-success', onclick: () => startPractice('choice_cn') }, '🇨🇳 看中文选英文'),
+      el('button', { class: 'btn btn-warning', onclick: () => startPractice('listen') }, '🔊 听音选词'),
+      el('button', { class: 'btn btn-danger', onclick: () => startPractice('sentence') }, '📖 句子翻译选择')
+    )
+  ));
+
+  if (practice) renderPracticeCard();
+}
+
+function startPractice(type) {
+  const lv = state.currentLevel;
+  const vdata = VOCAB_DATA[lv] || [];
+  if (!vdata.length) {
+    alert('当前等级暂无词汇');
+    return;
+  }
+  const size = Math.min(state.settings.batchSize, vdata.length);
+  practice = {
+    type,
+    lv,
+    questions: shuffle(vdata).slice(0, size),
+    idx: 0,
+    correct: 0,
+    startTime: Date.now(),
+    finished: false
+  };
+  renderPracticeCard();
+}
+
+function renderPracticeCard() {
+  const main = $('#mainView');
+  const old = main.querySelector('.practice-wrap');
+  if (old) old.remove();
+  if (!practice || practice.finished) {
+    if (practice && practice.finished) {
+      // 显示结果
+      const wrap = el('div', { class: 'practice-wrap card' });
+      const t = (Date.now() - practice.startTime) / 1000;
+      const acc = practice.questions.length ? Math.round(practice.correct * 100 / practice.questions.length) : 0;
+      // 记录到统计
+      state.exerciseStats.push({ type: practice.type, level: practice.lv, total: practice.questions.length, correct: practice.correct, time: t, ts: Date.now() });
+      saveState();
+      wrap.appendChild(el('div', { class: 'text-center', style: { padding: '20px' } },
+        el('div', { style: { fontSize: '48px' } }, acc >= 80 ? '🎉' : acc >= 60 ? '👍' : '💪'),
+        el('div', { style: { fontSize: '24px', fontWeight: 700, margin: '12px 0' } }, `本次正确率：${acc}%`),
+        el('div', { class: 'text-soft' }, `共 ${practice.questions.length} 题，正确 ${practice.correct} 题，用时 ${timeStr(t)}`)
+      ));
+      wrap.appendChild(el('div', { class: 'btn-group', style: { justifyContent: 'center' } },
+        el('button', { class: 'btn', onclick: () => { practice = null; renderPractice($('#mainView')); } }, '再来一组')
+      ));
+      main.appendChild(wrap);
+      practice = null;
+    }
+    return;
+  }
+  const wrap = el('div', { class: 'practice-wrap' });
+  const q = practice.questions[practice.idx];
+  const pct = Math.round(practice.idx * 100 / practice.questions.length);
+  wrap.appendChild(el('div', { class: 'quiz-progress' },
+    el('span', {}, `${practice.idx + 1} / ${practice.questions.length}`),
+    el('span', {}, `正确 ${practice.correct}`),
+    el('span', {}, `用时 ${timeStr((Date.now() - practice.startTime)/1000)}`)
+  ));
+  wrap.appendChild(el('div', { class: 'progress-bar' }, el('div', { class: 'progress-bar-fill', style: { width: pct + '%' } })));
+
+  const card = el('div', { class: 'quiz-card' });
+  const opts = el('div', { class: 'quiz-options' });
+  const fb = el('div', {});
+
+  // 共用：构造 4 选 1 选项
+  const buildOptions = (correctVal, getter) => {
+    const pool = VOCAB_DATA[practice.lv] || [];
+    const others = shuffle(pool.filter(w => getter(w) !== getter(q))).slice(0, 3);
+    return shuffle([q, ...others]);
+  };
+
+  // 处理答题结果：答对自动跳转下一题，答错等手动
+  const handleAnswer = (chosenEl, correctVal, refWord) => {
+    const isCorrect = chosenEl.textContent === correctVal;
+    // 锁定所有选项
+    opts.querySelectorAll('.quiz-option').forEach(o => o.style.pointerEvents = 'none');
+    if (isCorrect) {
+      practice.correct++;
+      chosenEl.classList.add('correct');
+      fb.appendChild(el('div', { class: 'quiz-feedback correct' }, '✅ 正确！下一题即将出现…'));
+      // 1.2 秒后自动跳到下一题
+      practice._timer = setTimeout(() => {
+        practice._timer = null;
+        practice.idx++;
+        if (practice.idx >= practice.questions.length) practice.finished = true;
+        renderPracticeCard();
+      }, 1200);
+    } else {
+      chosenEl.classList.add('wrong');
+      // 高亮正确答案
+      opts.querySelectorAll('.quiz-option').forEach(o => {
+        if (o.textContent === correctVal) o.classList.add('correct');
+      });
+      // 记录错题
+      state.wrongBook.push({
+        type: practice.type === 'sentence' ? 'sentence' : 'vocab',
+        level: practice.lv,
+        ref: refWord,
+        error: chosenEl.textContent,
+        ts: Date.now()
+      });
+      saveState();
+      fb.appendChild(el('div', { class: 'quiz-feedback wrong' }, '❌ 正确答案：' + correctVal));
+      fb.appendChild(el('div', { class: 'btn-group mt-12', style: { justifyContent: 'flex-end' } },
+        el('button', { class: 'btn', onclick: () => {
+          practice.idx++;
+          if (practice.idx >= practice.questions.length) practice.finished = true;
+          renderPracticeCard();
+        } }, '下一题 →')));
+    }
+  };
+
+  // 渲染一个选项（用闭包保存 chosenEl 引用，比 lastChild 更可靠）
+  const renderOption = (val, correctVal, refWord) => {
+    const optEl = el('div', { class: 'quiz-option' }, val);
+    optEl.addEventListener('click', () => handleAnswer(optEl, correctVal, refWord));
+    opts.appendChild(optEl);
+  };
+
+  // 不同题型：仅展示形式不同，选项都是 4 选 1
+  if (practice.type === 'choice') {
+    // 看英文选中文
+    const optsList = buildOptions(q.chinese, w => w.chinese);
+    card.appendChild(el('div', { class: 'quiz-prompt' }, q.word,
+      el('button', { class: 'btn btn-sm btn-ghost', style: { marginLeft: '8px', fontSize: '12px' }, onclick: () => speak(q.word) }, '🔊')));
+    card.appendChild(el('div', { class: 'text-soft text-center', style: { fontSize: '13px', marginBottom: '8px' } }, '请选择「' + q.word + '」的正确中文释义'));
+    optsList.forEach(w => renderOption(w.chinese, q.chinese, q.word));
+    card.appendChild(opts);
+    card.appendChild(fb);
+  } else if (practice.type === 'choice_cn') {
+    // 看中文选英文
+    const optsList = buildOptions(q.word, w => w.word);
+    card.appendChild(el('div', { class: 'quiz-prompt' }, q.chinese));
+    card.appendChild(el('div', { class: 'text-soft text-center', style: { fontSize: '13px', marginBottom: '8px' } }, '请选择对应英文单词'));
+    optsList.forEach(w => renderOption(w.word, q.word, q.word));
+    card.appendChild(opts);
+    card.appendChild(fb);
+  } else if (practice.type === 'listen') {
+    // 听音选词（仍是选择题）
+    const optsList = buildOptions(q.word, w => w.word);
+    card.appendChild(el('div', { class: 'quiz-prompt' },
+      el('button', { class: 'btn btn-lg', onclick: () => speak(q.word) }, '🔊 点击播放发音')));
+    card.appendChild(el('div', { class: 'text-soft text-center', style: { fontSize: '13px', marginBottom: '8px' } }, '请选择听到的英文单词'));
+    setTimeout(() => speak(q.word), 250);
+    optsList.forEach(w => renderOption(w.word, q.word, q.word));
+    card.appendChild(opts);
+    card.appendChild(fb);
+  } else if (practice.type === 'sentence') {
+    // 句子翻译选择
+    const sPool = SENTENCE_DATA[practice.lv] || [];
+    if (sPool.length >= 4) {
+      // 从句子库抽取题目
+      const sQ = sPool[Math.floor(Math.random() * sPool.length)];
+      const sOthers = shuffle(sPool.filter(x => x.en !== sQ.en)).slice(0, 3);
+      const sOpts = shuffle([sQ, ...sOthers]);
+      card.appendChild(el('div', { class: 'quiz-prompt' }, sQ.en,
+        el('button', { class: 'btn btn-sm btn-ghost', style: { marginLeft: '8px' }, onclick: () => speak(sQ.en) }, '🔊')));
+      card.appendChild(el('div', { class: 'text-soft text-center', style: { fontSize: '13px', marginBottom: '8px' } }, '请选择正确中文翻译'));
+      sOpts.forEach(x => renderOption(x.cn, sQ.cn, sQ.en));
+    } else {
+      // 句子库不足时回退到词汇题
+      const optsList = buildOptions(q.chinese, w => w.chinese);
+      card.appendChild(el('div', { class: 'quiz-prompt' }, q.word));
+      card.appendChild(el('div', { class: 'text-soft text-center', style: { fontSize: '13px', marginBottom: '8px' } }, '当前学段句子数据不足，回退为词汇题'));
+      optsList.forEach(w => renderOption(w.chinese, q.chinese, q.word));
+    }
+    card.appendChild(opts);
+    card.appendChild(fb);
+  }
+
+  wrap.appendChild(card);
+  main.appendChild(wrap);
+}
+
+/* ====== 错题本 ====== */
+function renderWrongBook(main) {
+  main.innerHTML = '';
+  const wrongs = state.wrongBook || [];
+  main.appendChild(el('div', { class: 'card' },
+    el('div', { class: 'card-title' },
+      el('span', {}, `错题本（${wrongs.length} 题）`),
+      el('button', { class: 'btn btn-danger btn-sm', onclick: () => {
+        if (confirm('确定要清空全部错题吗？此操作不可撤销。')) { state.wrongBook = []; saveState(); render(); }
+      } }, '🗑 一键清空')
+    )
+  ));
+
+  if (!wrongs.length) {
+    main.appendChild(el('div', { class: 'card text-center text-soft' }, '暂无错题，继续保持！'));
+    return;
+  }
+  const card = el('div', { class: 'card' });
+  // 按等级分组
+  const groups = {};
+  wrongs.slice().reverse().forEach(w => {
+    const k = `${LEVELS[w.level]?.name || w.level} · ${w.type === 'vocab' ? '单词' : '句子'}`;
+    if (!groups[k]) groups[k] = [];
+    groups[k].push(w);
+  });
+  Object.entries(groups).forEach(([k, list]) => {
+    card.appendChild(el('div', { class: 'section-title' }, `${k} (${list.length})`));
+    list.forEach((w, i) => {
+      const ref = w.type === 'vocab' ? VOCAB_DATA[w.level]?.find(x => x.word === w.ref) : null;
+      card.appendChild(el('div', { class: 'list-item' },
+        el('div', { class: 'list-main' },
+          el('div', { class: 'list-title' }, w.type === 'vocab' ? w.ref : w.ref),
+          el('div', { class: 'list-sub' }, '你的答案：' + (w.error || '(空)')),
+          ref ? el('div', { class: 'list-sub', style: { color: 'var(--success)' } }, '正确：' + ref.chinese) : null,
+          w.type === 'vocab' && ref ? el('div', { class: 'list-sub' }, ref.phonetic + ' · ' + ref.example) : null
+        ),
+        el('div', { class: 'list-actions' },
+          el('button', { class: 'btn btn-sm btn-ghost', onclick: () => speak(w.ref) }, '🔊'),
+          el('button', { class: 'btn btn-sm btn-danger', onclick: () => {
+            const idx = state.wrongBook.findIndex(x => x.ts === w.ts);
+            if (idx >= 0) { state.wrongBook.splice(idx, 1); saveState(); render(); }
+          } }, '移除')
+        )
+      ));
+    });
+  });
+  main.appendChild(card);
+}
+
+/* ====== 统计 ====== */
+function renderStats(main) {
+  main.innerHTML = '';
+  // 全局
+  const allVocab = Object.values(VOCAB_DATA).flat();
+  const total = allVocab.length;
+  const learned = allVocab.filter(w => state.vocabProgress[`${w.level === '启蒙' ? 'enlighten' : w.level === '小学' ? 'primary' : w.level === '初中' ? 'junior' : w.level === '高中' ? 'senior' : 'jiangsu'}_${w.word}`] === 'master').length;
+  const wrong = state.wrongBook.length;
+  const exercises = state.exerciseStats || [];
+  const totalEx = exercises.length;
+  const avgAcc = exercises.length ? Math.round(exercises.reduce((s, e) => s + (e.correct * 100 / Math.max(1, e.total)), 0) / exercises.length) : 0;
+
+  main.appendChild(el('div', { class: 'card' },
+    el('div', { class: 'card-title' }, '📊 学习统计'),
+    el('div', { class: 'stats-grid' },
+      el('div', { class: 'stat-card' }, el('div', { class: 'stat-value' }, total), el('div', { class: 'stat-label' }, '内置词汇总数')),
+      el('div', { class: 'stat-card' }, el('div', { class: 'stat-value' }, learned), el('div', { class: 'stat-label' }, '已掌握')),
+      el('div', { class: 'stat-card' }, el('div', { class: 'stat-value' }, wrong), el('div', { class: 'stat-label' }, '错题数')),
+      el('div', { class: 'stat-card' }, el('div', { class: 'stat-value' }, totalEx), el('div', { class: 'stat-label' }, '练习次数')),
+      el('div', { class: 'stat-card' }, el('div', { class: 'stat-value' }, avgAcc + '%'), el('div', { class: 'stat-label' }, '平均正确率'))
+    )
+  ));
+
+  // 分级统计
+  const card = el('div', { class: 'card' });
+  card.appendChild(el('div', { class: 'card-title' }, '📚 分级进度'));
+  Object.entries(LEVELS).forEach(([key, info]) => {
+    const data = VOCAB_DATA[key] || [];
+    const learned2 = data.filter(w => state.vocabProgress[`${key}_${w.word}`] === 'master').length;
+    const wrong2 = data.filter(w => state.vocabProgress[`${key}_${w.word}`] === 'wrong').length;
+    const pct = data.length ? Math.round(learned2 * 100 / data.length) : 0;
+    card.appendChild(el('div', { style: { marginBottom: '12px' } },
+      el('div', { style: { display: 'flex', justifyContent: 'space-between', marginBottom: '4px' } },
+        el('span', {}, `${info.name} (${data.length} 词)`),
+        el('span', { class: 'text-soft' }, `${learned2} 掌握 · ${wrong2} 错题 · ${pct}%`)
+      ),
+      el('div', { class: 'progress-bar' }, el('div', { class: 'progress-bar-fill', style: { width: pct + '%' } }))
+    ));
+  });
+  main.appendChild(card);
+
+  // 练习记录
+  if (exercises.length) {
+    const exCard = el('div', { class: 'card' });
+    exCard.appendChild(el('div', { class: 'card-title' }, '📝 最近练习'));
+    exercises.slice(-10).reverse().forEach(e => {
+      const acc = Math.round(e.correct * 100 / Math.max(1, e.total));
+      const date = new Date(e.ts).toLocaleString('zh-CN');
+      const typeLabel = { ec: '英译汉', ce: '汉译英', choice: '选择题', listen: '听音' }[e.type] || e.type;
+      exCard.appendChild(el('div', { class: 'list-item' },
+        el('div', { class: 'list-main' },
+          el('div', { class: 'list-title' }, `${typeLabel} · ${LEVELS[e.level]?.name || e.level}`),
+          el('div', { class: 'list-sub' }, `${date} · ${e.correct}/${e.total} 正确 · ${timeStr(e.time)} · ${acc}%`)
+        )
+      ));
+    });
+    main.appendChild(exCard);
+  }
+}
+
+/* ====== 设置 ====== */
+function renderSettings(main) {
+  main.innerHTML = '';
+  const s = state.settings;
+  const card = el('div', { class: 'card' });
+  card.appendChild(el('div', { class: 'card-title' }, '⚙️ 设置'));
+
+  // 主题
+  card.appendChild(el('div', { class: 'section-title' }, '主题'));
+  const themeRow = el('div', { class: 'btn-group' });
+  ['light', 'dark'].forEach(t => {
+    const btn = el('button', { class: 'btn btn-sm ' + (s.theme === t ? '' : 'btn-ghost'), onclick: () => {
+      s.theme = t;
+      applyTheme();
+      saveState();
+      renderSettings($('#mainView'));
+    } }, t === 'light' ? '☀️ 浅色' : '🌙 深色');
+    themeRow.appendChild(btn);
+  });
+  card.appendChild(themeRow);
+
+  // 语音
+  card.appendChild(el('div', { class: 'section-title' }, '语音朗读'));
+  card.appendChild(el('div', { class: 'form-row' },
+    el('label', {}, '启用语音朗读'),
+    el('select', { onchange: e => { s.voiceEnabled = e.target.value === '1'; saveState(); } },
+      el('option', { value: '1', selected: s.voiceEnabled ? '' : null }, '开启'),
+      el('option', { value: '0', selected: !s.voiceEnabled ? '' : null }, '关闭')
+    )
+  ));
+  card.appendChild(el('div', { class: 'form-row' },
+    el('label', {}, '语速：' + s.voiceRate.toFixed(1) + 'x'),
+    (() => {
+      const inp = el('input', { type: 'range', min: '0.5', max: '2', step: '0.1', value: s.voiceRate });
+      inp.oninput = e => { s.voiceRate = parseFloat(e.target.value); saveState(); renderSettings($('#mainView')); };
+      return inp;
+    })()
+  ));
+  card.appendChild(el('div', { class: 'btn-group' },
+    el('button', { class: 'btn btn-sm', onclick: () => speak('Hello, this is a test of voice rate.') }, '🔊 测试')
+  ));
+
+  // 抽题数量
+  card.appendChild(el('div', { class: 'section-title' }, '单次练习抽取数量'));
+  const sizeRow = el('div', { class: 'btn-group' });
+  [5, 10, 20, 30].forEach(n => {
+    const btn = el('button', { class: 'btn btn-sm ' + (s.batchSize === n ? '' : 'btn-ghost'), onclick: () => { s.batchSize = n; saveState(); renderSettings($('#mainView')); } }, n + ' 题');
+    sizeRow.appendChild(btn);
+  });
+  card.appendChild(sizeRow);
+
+  // 重置
+  card.appendChild(el('div', { class: 'section-title' }, '数据管理'));
+  card.appendChild(el('div', { class: 'btn-group' },
+    el('button', { class: 'btn btn-warning btn-sm', onclick: () => {
+      if (confirm('确认重置当前学段 [' + LEVELS[state.currentLevel].name + '] 的所有进度？')) {
+        Object.keys(state.vocabProgress).forEach(k => { if (k.startsWith(state.currentLevel + '_')) delete state.vocabProgress[k]; });
+        state.wrongBook = state.wrongBook.filter(w => w.level !== state.currentLevel);
+        saveState(); alert('已重置');
+        render();
+      }
+    } }, '🔄 重置当前学段'),
+    el('button', { class: 'btn btn-danger btn-sm', onclick: () => {
+      if (confirm('警告：将清空所有学习数据！\n\n确认要继续吗？')) {
+        if (confirm('再次确认：所有进度、错题、统计将被清空（不可恢复），是否继续？')) {
+          state = JSON.parse(JSON.stringify(DEFAULT_STATE));
+          applyTheme();
+          saveState();
+          alert('已重置全部数据');
+          render();
+        }
+      }
+    } }, '⚠️ 重置全部进度')
+  ));
+
+  // 导入导出
+  card.appendChild(el('div', { class: 'section-title' }, '导入 / 导出'));
+  card.appendChild(el('div', { class: 'btn-group' },
+    el('button', { class: 'btn btn-sm', onclick: exportData }, '📤 导出学习记录'),
+    el('button', { class: 'btn btn-sm btn-ghost', onclick: () => $('#importFile').click() }, '📥 导入（可多选）'),
+    (() => {
+      const inp = el('input', { type: 'file', id: 'importFile', accept: '.json', multiple: 'multiple', style: { display: 'none' } });
+      inp.onchange = e => {
+        const files = Array.from(e.target.files || []);
+        if (!files.length) return;
+        let idx = 0;
+        const next = () => {
+          if (idx >= files.length) {
+            applyTheme(); saveState();
+            const total = Object.values(state.vocabProgress || {}).length;
+            alert(`✅ 已导入 ${files.length} 个文件！\\n\\n当前累计学习词数：${total}\\n\\n请到【词汇库】查看新词。`);
+            render();
+            return;
+          }
+          importData(files[idx++], next);
+        };
+        next();
+      };
+      return inp;
+    })()
+  ));
+  card.appendChild(el('div', { class: 'text-soft', style: { fontSize: '12px', marginTop: '6px' } },
+    '💡 提示：按住 Ctrl/Shift 可一次选中 vocab-data 目录下多个 JSON 文件批量导入。'));
+
+  // 自定义词库导入
+  card.appendChild(el('div', { class: 'section-title' }, '自定义词库导入'));
+  card.appendChild(el('div', { class: 'text-soft', style: { fontSize: '12px', marginBottom: '6px' } },
+    '每行一个单词，格式：英文/音标/中文/例句/标签（音标、例句、标签可省略）',
+    el('br'), '例：apple/ˈæpl/苹果/I eat an apple./水果'
+  ));
+  const ta = el('textarea', { id: 'customWordInput', placeholder: 'apple/ˈæpl/苹果/I eat an apple./水果\nbook/bʊk/书/I read a book./学习' });
+  card.appendChild(ta);
+  card.appendChild(el('div', { class: 'btn-group mt-12' },
+    el('button', { class: 'btn', onclick: () => {
+      const text = ta.value.trim();
+      if (!text) { alert('请输入单词'); return; }
+      const lines = text.split(/\n+/);
+      let count = 0;
+      lines.forEach(line => {
+        const parts = line.split('/');
+        if (!parts[0]) return;
+        const w = {
+          level: LEVELS[state.currentLevel].cn,
+          word: parts[0].trim(),
+          phonetic: (parts[1] || '').trim(),
+          chinese: (parts[2] || '').trim(),
+          example: (parts[3] || '').trim(),
+          tags: (parts[4] || '').trim()
+        };
+        if (w.word && w.chinese) {
+          if (!VOCAB_DATA[state.currentLevel].some(x => x.word === w.word)) {
+            VOCAB_DATA[state.currentLevel].push(w);
+            count++;
+          }
+        }
+      });
+      if (count) { alert('成功导入 ' + count + ' 个单词到 [' + LEVELS[state.currentLevel].name + ']'); ta.value = ''; }
+      else alert('未导入任何新单词（请检查格式）');
+    } }, '📥 导入到当前学段')
+  ));
+
+  main.appendChild(card);
+
+  // 关于
+  main.appendChild(el('div', { class: 'card' },
+    el('div', { class: 'card-title' }, 'ℹ️ 关于'),
+    el('div', { class: 'text-soft', style: { fontSize: '13px' } }, '英语分级词汇 & 句子练习网页 · 江苏版'),
+    el('div', { class: 'text-soft', style: { fontSize: '12px' } }, '覆盖：启蒙 / 小学 / 初中 / 高中 + 江苏特色'),
+    el('div', { class: 'text-soft', style: { fontSize: '12px' } }, '纯前端运行，数据保存在浏览器 localStorage')
+  ));
+}
+
+function exportData() {
+  const blob = new Blob([JSON.stringify({
+    exportTime: new Date().toISOString(),
+    version: '1.0',
+    state,
+    customVocab: VOCAB_DATA
+  }, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `英语学习记录_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+function importData(file, onDone) {
+  if (!file) { if (onDone) onDone(); return; }
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      let added = 0;
+      if (data.state) { state = Object.assign({}, DEFAULT_STATE, data.state, { settings: Object.assign({}, DEFAULT_STATE.settings, data.state.settings || {}) }); }
+      if (data.customVocab) {
+        Object.keys(data.customVocab).forEach(k => {
+          if (VOCAB_DATA[k]) {
+            data.customVocab[k].forEach(w => {
+              if (!VOCAB_DATA[k].some(x => x.word === w.word)) { VOCAB_DATA[k].push(w); added++; }
+            });
+          }
+        });
+      }
+      console.log(`[导入] ${file.name}: +${added} 词`);
+    } catch (err) {
+      alert(`导入 ${file.name} 失败：${err.message}`);
+    }
+    if (onDone) onDone();
+  };
+  reader.onerror = () => {
+    alert(`读取 ${file.name} 失败`);
+    if (onDone) onDone();
+  };
+  reader.readAsText(file);
+}
+
+/* =====================================================
+ * 主题
+ * ===================================================== */
+function applyTheme() {
+  document.documentElement.setAttribute('data-theme', state.settings.theme || 'light');
+}
+
+/* =====================================================
+ * 事件绑定
+ * ===================================================== */
+function initEvents() {
+  // 使用事件委托统一处理点击 - 解决动态重渲染 / 直接绑定可能失效的问题
+  document.addEventListener('click', e => {
+    try {
+      // 顶部导航 tab
+      const navTab = e.target.closest('.nav-tab');
+      if (navTab && navTab.dataset.view) {
+        e.preventDefault();
+        setView(navTab.dataset.view);
+        return;
+      }
+      // 侧边等级 tab
+      const levelItem = e.target.closest('.level-item');
+      if (levelItem && levelItem.dataset.level) {
+        e.preventDefault();
+        setLevel(levelItem.dataset.level);
+        return;
+      }
+    } catch (err) {
+      console.error('[click delegation]', err);
+    }
+  });
+
+  // 汉堡按钮独立绑定（带 stopPropagation 防止误触委托）
+  const hb = document.getElementById('hamburgerBtn');
+  if (hb) {
+    hb.addEventListener('click', e => {
+      e.stopPropagation();
+      const sb = document.getElementById('sidebar');
+      if (sb) sb.classList.toggle('open');
+    });
+  }
+
+  // 跨标签页同步状态
+  window.addEventListener('storage', e => {
+    if (e.key === STORAGE_KEY) { state = loadState(); applyTheme(); render(); }
+  });
+
+  // 加载外部 vocab-data-js 中的词库批（自动合并到 VOCAB_DATA）
+  if (window.__VOCAB_DATA_BATCHES__ && window.__VOCAB_DATA_BATCHES__.length) {
+    let merged = 0;
+    window.__VOCAB_DATA_BATCHES__.forEach(batch => {
+      Object.keys(batch).forEach(level => {
+        if (VOCAB_DATA[level]) {
+          batch[level].forEach(w => {
+            if (!VOCAB_DATA[level].some(x => x.word === w.word)) {
+              VOCAB_DATA[level].push(w);
+              merged++;
+            }
+          });
+        }
+      });
+    });
+    console.log(`[词库扩展] 自动合并 ${merged} 个新词（来自 vocab-data-js）`);
+  }
+  // 加载外部 sentence-data-js 中的句子库批（自动合并到 SENTENCE_DATA）
+  if (window.__SENTENCE_BATCHES__ && window.__SENTENCE_BATCHES__.length) {
+    let sMerged = 0;
+    window.__SENTENCE_BATCHES__.forEach(batch => {
+      batch.forEach(s => {
+        const lv = s.level;
+        if (!SENTENCE_DATA[lv]) SENTENCE_DATA[lv] = [];
+        if (!SENTENCE_DATA[lv].some(x => x.en === s.en)) {
+          SENTENCE_DATA[lv].push(s);
+          sMerged++;
+        }
+      });
+    });
+    console.log(`[句子扩展] 自动合并 ${sMerged} 个新句（来自 sentence-data-js）`);
+  }
+
+  // 全局兜底：捕获未处理错误，避免页面静默失效
+  window.addEventListener('error', ev => {
+    console.error('[runtime error]', ev.error || ev.message);
+  });
+  window.addEventListener('unhandledrejection', ev => {
+    console.error('[unhandled rejection]', ev.reason);
+  });
+}
+
+/* =====================================================
+ * 启动
+ * ===================================================== */
+function init() {
+  try {
+    applyTheme();
+    initEvents();
+    // 默认当前等级
+    document.querySelectorAll('.level-item').forEach(t => t.classList.toggle('active', t.dataset.level === state.currentLevel));
+    render();
+  } catch (e) {
+    console.error('[init error]', e);
+  }
+}
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,662 @@
+{
+  "customVocab": {
+    "primary": [
+      {
+        "level": "小学",
+        "word": "alphabet",
+        "phonetic": "/ˈælfəbet/",
+        "chinese": "字母表",
+        "example": "Learn the alphabet.",
+        "tags": "英语"
+      },
+      {
+        "level": "小学",
+        "word": "biology",
+        "phonetic": "/baɪˈɒlədʒi/",
+        "chinese": "生物",
+        "example": "Study biology.",
+        "tags": "学科"
+      },
+      {
+        "level": "小学",
+        "word": "composition",
+        "phonetic": "/ˌkɒmpəˈzɪʃn/",
+        "chinese": "作文",
+        "example": "Write a composition.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "conversation",
+        "phonetic": "/ˌkɒnvəˈseɪʃn/",
+        "chinese": "对话",
+        "example": "A friendly conversation.",
+        "tags": "英语"
+      },
+      {
+        "level": "小学",
+        "word": "dictionary",
+        "phonetic": "/ˈdɪkʃənri/",
+        "chinese": "词典",
+        "example": "Use a dictionary.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "education",
+        "phonetic": "/ˌedjuˈkeɪʃn/",
+        "chinese": "教育",
+        "example": "Get a good education.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "geography",
+        "phonetic": "/dʒiˈɒɡrəfi/",
+        "chinese": "地理",
+        "example": "Study geography.",
+        "tags": "学科"
+      },
+      {
+        "level": "小学",
+        "word": "history",
+        "phonetic": "/ˈhɪstri/",
+        "chinese": "历史",
+        "example": "Learn history.",
+        "tags": "学科"
+      },
+      {
+        "level": "小学",
+        "word": "knowledge",
+        "phonetic": "/ˈnɒlɪdʒ/",
+        "chinese": "知识",
+        "example": "Gain knowledge.",
+        "tags": "学习"
+      },
+      {
+        "level": "小学",
+        "word": "language",
+        "phonetic": "/ˈlæŋɡwɪdʒ/",
+        "chinese": "语言",
+        "example": "Learn a language.",
+        "tags": "英语"
+      },
+      {
+        "level": "小学",
+        "word": "lesson",
+        "phonetic": "/ˈlesn/",
+        "chinese": "课程",
+        "example": "Today's lesson.",
+        "tags": "学校"
+      },
+      {
+        "level": "小学",
+        "word": "library",
+        "phonetic": "/ˈlaɪbrəri/",
+        "chinese": "图书馆",
+        "example": "Visit the library.",
+        "tags": "学校"
+      },
+      {
+        "level": "小学",
+        "word": "pronunciation",
+        "phonetic": "/prəˌnʌnsɪˈeɪʃn/",
+        "chinese": "发音",
+        "example": "Good pronunciation.",
+        "tags": "英语"
+      },
+      {
+        "level": "小学",
+        "word": "subject",
+        "phonetic": "/ˈsʌbdʒɪkt/",
+        "chinese": "科目",
+        "example": "A school subject.",
+        "tags": "学校"
+      },
+      {
+        "level": "小学",
+        "word": "vocabulary",
+        "phonetic": "/vəˈkæbjʊləri/",
+        "chinese": "词汇",
+        "example": "Build vocabulary.",
+        "tags": "英语"
+      },
+      {
+        "level": "小学",
+        "word": "eighteen",
+        "phonetic": "/ˌeɪˈtiːn/",
+        "chinese": "十八",
+        "example": "I am eighteen.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "fifteen",
+        "phonetic": "/ˌfɪfˈtiːn/",
+        "chinese": "十五",
+        "example": "I am fifteen.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "fifty",
+        "phonetic": "/ˈfɪfti/",
+        "chinese": "五十",
+        "example": "Fifty students.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "forty",
+        "phonetic": "/ˈfɔːti/",
+        "chinese": "四十",
+        "example": "Forty people.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "fourteen",
+        "phonetic": "/ˌfɔːˈtiːn/",
+        "chinese": "十四",
+        "example": "I am fourteen.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "nineteen",
+        "phonetic": "/ˌnaɪnˈtiːn/",
+        "chinese": "十九",
+        "example": "I am nineteen.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "seventeen",
+        "phonetic": "/ˌsevnˈtiːn/",
+        "chinese": "十七",
+        "example": "I am seventeen.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "sixteen",
+        "phonetic": "/ˌsɪksˈtiːn/",
+        "chinese": "十六",
+        "example": "I am sixteen.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "sixty",
+        "phonetic": "/ˈsɪksti/",
+        "chinese": "六十",
+        "example": "Sixty years.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "thirty",
+        "phonetic": "/ˈθɜːti/",
+        "chinese": "三十",
+        "example": "Thirty days.",
+        "tags": "数字"
+      },
+      {
+        "level": "小学",
+        "word": "weekday",
+        "phonetic": "/ˈwiːkdeɪ/",
+        "chinese": "工作日",
+        "example": "A busy weekday.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "January",
+        "phonetic": "/ˈdʒænjʊəri/",
+        "chinese": "一月",
+        "example": "In January.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "February",
+        "phonetic": "/ˈfebrʊəri/",
+        "chinese": "二月",
+        "example": "In February.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "Tuesday",
+        "phonetic": "/ˈtjuːzdeɪ/",
+        "chinese": "星期二",
+        "example": "Today is Tuesday.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "Wednesday",
+        "phonetic": "/ˈwenzdeɪ/",
+        "chinese": "星期三",
+        "example": "Today is Wednesday.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "artichoke",
+        "phonetic": "/ˈɑːtɪtʃəʊk/",
+        "chinese": "朝鲜蓟",
+        "example": "An artichoke.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "beet",
+        "phonetic": "/biːt/",
+        "chinese": "甜菜",
+        "example": "Red beet.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "blackberry",
+        "phonetic": "/ˈblækbəri/",
+        "chinese": "黑莓",
+        "example": "Sweet blackberries.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "cantaloupe",
+        "phonetic": "/ˈkæntəluːp/",
+        "chinese": "哈密瓜",
+        "example": "Sweet cantaloupe.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "eggplant",
+        "phonetic": "/ˈeɡplɑːnt/",
+        "chinese": "茄子",
+        "example": "Purple eggplant.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "fig",
+        "phonetic": "/fɪɡ/",
+        "chinese": "无花果",
+        "example": "Fresh figs.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "guava",
+        "phonetic": "/ˈɡwɑːvə/",
+        "chinese": "番石榴",
+        "example": "Sweet guava.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "kale",
+        "phonetic": "/keɪl/",
+        "chinese": "羽衣甘蓝",
+        "example": "Green kale.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "leek",
+        "phonetic": "/liːk/",
+        "chinese": "韭葱",
+        "example": "A leek soup.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "lychee",
+        "phonetic": "/ˈliːtʃiː/",
+        "chinese": "荔枝",
+        "example": "Sweet lychees.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "melon",
+        "phonetic": "/ˈmelən/",
+        "chinese": "甜瓜",
+        "example": "Sweet melon.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "peanut",
+        "phonetic": "/ˈpiːnʌt/",
+        "chinese": "花生",
+        "example": "Roasted peanuts.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "plum",
+        "phonetic": "/plʌm/",
+        "chinese": "李子",
+        "example": "Sweet plum.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "watermelon",
+        "phonetic": "/ˈwɔːtəmelən/",
+        "chinese": "西瓜",
+        "example": "Big watermelon.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "badger",
+        "phonetic": "/ˈbædʒə/",
+        "chinese": "獾",
+        "example": "A badger.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "beetle",
+        "phonetic": "/ˈbiːtl/",
+        "chinese": "甲虫",
+        "example": "A black beetle.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "chimpanzee",
+        "phonetic": "/ˌtʃɪmpænˈziː/",
+        "chinese": "黑猩猩",
+        "example": "A chimpanzee.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "crocodile",
+        "phonetic": "/ˈkrɒkədaɪl/",
+        "chinese": "鳄鱼",
+        "example": "A big crocodile.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "elephant",
+        "phonetic": "/ˈelɪfənt/",
+        "chinese": "大象",
+        "example": "A big elephant.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "fox",
+        "phonetic": "/fɒks/",
+        "chinese": "狐狸",
+        "example": "A clever fox.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "hyena",
+        "phonetic": "/haɪˈiːnə/",
+        "chinese": "鬣狗",
+        "example": "A laughing hyena.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "leopard",
+        "phonetic": "/ˈlepəd/",
+        "chinese": "豹",
+        "example": "A fast leopard.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "llama",
+        "phonetic": "/ˈlɑːmə/",
+        "chinese": "骆驼羊",
+        "example": "A woolly llama.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "magpie",
+        "phonetic": "/ˈmæɡpaɪ/",
+        "chinese": "喜鹊",
+        "example": "A noisy magpie.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "mongoose",
+        "phonetic": "/ˈmɒŋɡuːs/",
+        "chinese": "猫鼬",
+        "example": "A mongoose.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "squirrel",
+        "phonetic": "/ˈskwɪrəl/",
+        "chinese": "松鼠",
+        "example": "A cute squirrel.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "wombat",
+        "phonetic": "/ˈwɒmbæt/",
+        "chinese": "袋熊",
+        "example": "A wombat.",
+        "tags": "动物"
+      },
+      {
+        "level": "小学",
+        "word": "alarm",
+        "phonetic": "/əˈlɑːm/",
+        "chinese": "闹钟",
+        "example": "Set the alarm.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "anchor",
+        "phonetic": "/ˈæŋkə/",
+        "chinese": "锚",
+        "example": "Drop the anchor.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "blanket",
+        "phonetic": "/ˈblæŋkɪt/",
+        "chinese": "毯子",
+        "example": "A warm blanket.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "calendar",
+        "phonetic": "/ˈkælɪndə/",
+        "chinese": "日历",
+        "example": "A wall calendar.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "candy",
+        "phonetic": "/ˈkændi/",
+        "chinese": "糖果",
+        "example": "Sweet candy.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "envelope",
+        "phonetic": "/ˈenvələʊp/",
+        "chinese": "信封",
+        "example": "Put in envelope.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "fan",
+        "phonetic": "/fæn/",
+        "chinese": "风扇",
+        "example": "Turn on the fan.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "flask",
+        "phonetic": "/flɑːsk/",
+        "chinese": "保温瓶",
+        "example": "A tea flask.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "freezer",
+        "phonetic": "/ˈfriːzə/",
+        "chinese": "冰柜",
+        "example": "In the freezer.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "heater",
+        "phonetic": "/ˈhiːtə/",
+        "chinese": "加热器",
+        "example": "Turn on heater.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "needle",
+        "phonetic": "/ˈniːdl/",
+        "chinese": "针",
+        "example": "A sharp needle.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "pillow",
+        "phonetic": "/ˈpɪləʊ/",
+        "chinese": "枕头",
+        "example": "A soft pillow.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "thread",
+        "phonetic": "/θred/",
+        "chinese": "线",
+        "example": "A piece of thread.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "tissue",
+        "phonetic": "/ˈtɪʃuː/",
+        "chinese": "纸巾",
+        "example": "Use a tissue.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "wallet",
+        "phonetic": "/ˈwɒlɪt/",
+        "chinese": "钱包",
+        "example": "In my wallet.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "after",
+        "phonetic": "/ˈɑːftə/",
+        "chinese": "在...之后",
+        "example": "After school.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "because",
+        "phonetic": "/bɪˈkɒz/",
+        "chinese": "因为",
+        "example": "Because I was tired.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "but",
+        "phonetic": "/bʌt/",
+        "chinese": "但是",
+        "example": "But it rained.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "during",
+        "phonetic": "/ˈdjʊərɪŋ/",
+        "chinese": "在...期间",
+        "example": "During lunch.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "either",
+        "phonetic": "/ˈaɪðə/",
+        "chinese": "任一",
+        "example": "Either way.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "however",
+        "phonetic": "/haʊˈevə/",
+        "chinese": "然而",
+        "example": "However, I tried.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "neither",
+        "phonetic": "/ˈnaɪðə/",
+        "chinese": "也不",
+        "example": "Neither do I.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "since",
+        "phonetic": "/sɪns/",
+        "chinese": "自从",
+        "example": "Since yesterday.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "though",
+        "phonetic": "/ðəʊ/",
+        "chinese": "虽然",
+        "example": "Though tired.",
+        "tags": "语法"
+      },
+      {
+        "level": "小学",
+        "word": "whether",
+        "phonetic": "/ˈweðə/",
+        "chinese": "是否",
+        "example": "Whether to go.",
+        "tags": "语法"
+      }
+    ]
+  }
+}

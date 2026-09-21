@@ -1,0 +1,686 @@
+{
+  "customVocab": {
+    "primary": [
+      {
+        "level": "小学",
+        "word": "archery",
+        "phonetic": "/ˈɑːtʃəri/",
+        "chinese": "射箭",
+        "example": "Practice archery.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "badminton",
+        "phonetic": "/ˈbædmɪntən/",
+        "chinese": "羽毛球",
+        "example": "Play badminton.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "boxing",
+        "phonetic": "/ˈbɒksɪŋ/",
+        "chinese": "拳击",
+        "example": "Boxing match.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "chess",
+        "phonetic": "/tʃes/",
+        "chinese": "国际象棋",
+        "example": "Play chess.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "cricket",
+        "phonetic": "/ˈkrɪkɪt/",
+        "chinese": "板球",
+        "example": "Cricket match.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "cycling",
+        "phonetic": "/ˈsaɪklɪŋ/",
+        "chinese": "骑行",
+        "example": "Go cycling.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "golf",
+        "phonetic": "/ɡɒlf/",
+        "chinese": "高尔夫",
+        "example": "Play golf.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "gymnastics",
+        "phonetic": "/dʒɪmˈnæstɪks/",
+        "chinese": "体操",
+        "example": "Do gymnastics.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "hockey",
+        "phonetic": "/ˈhɒki/",
+        "chinese": "曲棍球",
+        "example": "Ice hockey.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "jogging",
+        "phonetic": "/ˈdʒɒɡɪŋ/",
+        "chinese": "慢跑",
+        "example": "Go jogging.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "karate",
+        "phonetic": "/kəˈrɑːti/",
+        "chinese": "空手道",
+        "example": "Learn karate.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "rugby",
+        "phonetic": "/ˈrʌɡbi/",
+        "chinese": "橄榄球",
+        "example": "Play rugby.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "skiing",
+        "phonetic": "/ˈskiːɪŋ/",
+        "chinese": "滑雪",
+        "example": "Go skiing.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "tennis",
+        "phonetic": "/ˈtenɪs/",
+        "chinese": "网球",
+        "example": "Play tennis.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "volleyball",
+        "phonetic": "/ˈvɒlibɔːl/",
+        "chinese": "排球",
+        "example": "Play volleyball.",
+        "tags": "运动"
+      },
+      {
+        "level": "小学",
+        "word": "apartment",
+        "phonetic": "/əˈpɑːtmənt/",
+        "chinese": "公寓",
+        "example": "An apartment.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "bakery",
+        "phonetic": "/ˈbeɪkəri/",
+        "chinese": "面包店",
+        "example": "Visit the bakery.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "bank",
+        "phonetic": "/bæŋk/",
+        "chinese": "银行",
+        "example": "Go to the bank.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "bookstore",
+        "phonetic": "/ˈbʊkstɔː/",
+        "chinese": "书店",
+        "example": "Visit the bookstore.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "church",
+        "phonetic": "/tʃɜːtʃ/",
+        "chinese": "教堂",
+        "example": "A beautiful church.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "cinema",
+        "phonetic": "/ˈsɪnəmə/",
+        "chinese": "电影院",
+        "example": "At the cinema.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "factory",
+        "phonetic": "/ˈfæktəri/",
+        "chinese": "工厂",
+        "example": "A big factory.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "fire station",
+        "phonetic": "/ˈfaɪə steɪʃn/",
+        "chinese": "消防站",
+        "example": "A fire station.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "gym",
+        "phonetic": "/dʒɪm/",
+        "chinese": "体育馆",
+        "example": "At the gym.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "harbor",
+        "phonetic": "/ˈhɑːbə/",
+        "chinese": "港口",
+        "example": "A busy harbor.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "market",
+        "phonetic": "/ˈmɑːkɪt/",
+        "chinese": "市场",
+        "example": "At the market.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "museum",
+        "phonetic": "/mjuːˈzɪəm/",
+        "chinese": "博物馆",
+        "example": "Visit the museum.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "pharmacy",
+        "phonetic": "/ˈfɑːməsi/",
+        "chinese": "药店",
+        "example": "Go to the pharmacy.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "playground",
+        "phonetic": "/ˈpleɪɡraʊnd/",
+        "chinese": "操场",
+        "example": "At the playground.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "post office",
+        "phonetic": "/pəʊst ˈɒfɪs/",
+        "chinese": "邮局",
+        "example": "At the post office.",
+        "tags": "场所"
+      },
+      {
+        "level": "小学",
+        "word": "active",
+        "phonetic": "/ˈæktɪv/",
+        "chinese": "活跃的",
+        "example": "An active child.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "awful",
+        "phonetic": "/ˈɔːfl/",
+        "chinese": "糟糕的",
+        "example": "An awful day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "boring",
+        "phonetic": "/ˈbɔːrɪŋ/",
+        "chinese": "无聊的",
+        "example": "A boring movie.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "bright",
+        "phonetic": "/braɪt/",
+        "chinese": "明亮的",
+        "example": "A bright room.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "comfortable",
+        "phonetic": "/ˈkʌmftəbl/",
+        "chinese": "舒适的",
+        "example": "A comfortable chair.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "cool",
+        "phonetic": "/kuːl/",
+        "chinese": "凉爽的",
+        "example": "Cool weather.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "dark",
+        "phonetic": "/dɑːk/",
+        "chinese": "黑暗的",
+        "example": "A dark room.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "empty",
+        "phonetic": "/ˈempti/",
+        "chinese": "空的",
+        "example": "An empty box.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "expensive",
+        "phonetic": "/ɪkˈspensɪv/",
+        "chinese": "贵的",
+        "example": "An expensive car.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "full",
+        "phonetic": "/fʊl/",
+        "chinese": "满的",
+        "example": "A full glass.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "hard",
+        "phonetic": "/hɑːd/",
+        "chinese": "困难的",
+        "example": "A hard question.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "lucky",
+        "phonetic": "/ˈlʌki/",
+        "chinese": "幸运的",
+        "example": "A lucky day.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "poor",
+        "phonetic": "/pɔː/",
+        "chinese": "贫穷的",
+        "example": "A poor family.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "rich",
+        "phonetic": "/rɪtʃ/",
+        "chinese": "富有的",
+        "example": "A rich man.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "soft",
+        "phonetic": "/sɒft/",
+        "chinese": "柔软的",
+        "example": "Soft hair.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "broom",
+        "phonetic": "/bruːm/",
+        "chinese": "扫帚",
+        "example": "Use the broom.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "bucket",
+        "phonetic": "/ˈbʌkɪt/",
+        "chinese": "水桶",
+        "example": "A water bucket.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "candle",
+        "phonetic": "/ˈkændl/",
+        "chinese": "蜡烛",
+        "example": "Light a candle.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "carpet",
+        "phonetic": "/ˈkɑːpɪt/",
+        "chinese": "地毯",
+        "example": "A soft carpet.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "chair",
+        "phonetic": "/tʃeə/",
+        "chinese": "椅子",
+        "example": "Sit on the chair.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "cup",
+        "phonetic": "/kʌp/",
+        "chinese": "杯子",
+        "example": "A tea cup.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "curtain",
+        "phonetic": "/ˈkɜːtn/",
+        "chinese": "窗帘",
+        "example": "Close the curtain.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "cushion",
+        "phonetic": "/ˈkʊʃn/",
+        "chinese": "靠垫",
+        "example": "A soft cushion.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "fork",
+        "phonetic": "/fɔːk/",
+        "chinese": "叉子",
+        "example": "Use a fork.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "fountain",
+        "phonetic": "/ˈfaʊntɪn/",
+        "chinese": "喷泉",
+        "example": "A water fountain.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "frame",
+        "phonetic": "/freɪm/",
+        "chinese": "相框",
+        "example": "A picture frame.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "knife",
+        "phonetic": "/naɪf/",
+        "chinese": "刀",
+        "example": "A sharp knife.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "plate",
+        "phonetic": "/pleɪt/",
+        "chinese": "盘子",
+        "example": "A clean plate.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "spoon",
+        "phonetic": "/spuːn/",
+        "chinese": "勺子",
+        "example": "Use a spoon.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "umbrella",
+        "phonetic": "/ʌmˈbrelə/",
+        "chinese": "雨伞",
+        "example": "Take an umbrella.",
+        "tags": "物品"
+      },
+      {
+        "level": "小学",
+        "word": "answer",
+        "phonetic": "/ˈɑːnsə/",
+        "chinese": "回答",
+        "example": "Answer the question.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "check",
+        "phonetic": "/tʃek/",
+        "chinese": "检查",
+        "example": "Check the answer.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "choose",
+        "phonetic": "/tʃuːz/",
+        "chinese": "选择",
+        "example": "Choose one.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "copy",
+        "phonetic": "/ˈkɒpi/",
+        "chinese": "抄",
+        "example": "Copy the words.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "count",
+        "phonetic": "/kaʊnt/",
+        "chinese": "数",
+        "example": "Count the numbers.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "draw",
+        "phonetic": "/drɔː/",
+        "chinese": "画",
+        "example": "Draw a picture.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "explain",
+        "phonetic": "/ɪkˈspleɪn/",
+        "chinese": "解释",
+        "example": "Explain the rule.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "fill",
+        "phonetic": "/fɪl/",
+        "chinese": "填",
+        "example": "Fill the cup.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "guess",
+        "phonetic": "/ɡes/",
+        "chinese": "猜",
+        "example": "Guess the answer.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "learn",
+        "phonetic": "/lɜːn/",
+        "chinese": "学习",
+        "example": "Learn English.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "listen",
+        "phonetic": "/ˈlɪsn/",
+        "chinese": "听",
+        "example": "Listen to music.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "mark",
+        "phonetic": "/mɑːk/",
+        "chinese": "标记",
+        "example": "Mark the answer.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "practice",
+        "phonetic": "/ˈpræktɪs/",
+        "chinese": "练习",
+        "example": "Practice every day.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "spell",
+        "phonetic": "/spel/",
+        "chinese": "拼写",
+        "example": "Spell the word.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "study",
+        "phonetic": "/ˈstʌdi/",
+        "chinese": "学习",
+        "example": "Study hard.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "above",
+        "phonetic": "/əˈbʌv/",
+        "chinese": "在...上面",
+        "example": "Above the table.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "across",
+        "phonetic": "/əˈkrɒs/",
+        "chinese": "穿过",
+        "example": "Across the street.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "against",
+        "phonetic": "/əˈɡenst/",
+        "chinese": "反对",
+        "example": "Against the wall.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "behind",
+        "phonetic": "/bɪˈhaɪnd/",
+        "chinese": "在...后面",
+        "example": "Behind the door.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "between",
+        "phonetic": "/bɪˈtwiːn/",
+        "chinese": "在...之间",
+        "example": "Between A and B.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "inside",
+        "phonetic": "/ɪnˈsaɪd/",
+        "chinese": "在...里面",
+        "example": "Inside the box.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "outside",
+        "phonetic": "/ˌaʊtˈsaɪd/",
+        "chinese": "在...外面",
+        "example": "Outside the house.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "through",
+        "phonetic": "/θruː/",
+        "chinese": "穿过",
+        "example": "Through the tunnel.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "toward",
+        "phonetic": "/təˈwɔːd/",
+        "chinese": "向",
+        "example": "Toward the school.",
+        "tags": "介词"
+      },
+      {
+        "level": "小学",
+        "word": "within",
+        "phonetic": "/wɪˈðɪn/",
+        "chinese": "在...内",
+        "example": "Within an hour.",
+        "tags": "介词"
+      }
+    ]
+  }
+}

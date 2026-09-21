@@ -1,0 +1,806 @@
+{
+  "customVocab": {
+    "junior": [
+      {
+        "level": "初中",
+        "word": "ancestor",
+        "phonetic": "/ˈænsestə/",
+        "chinese": "祖先",
+        "example": "My ancestors.",
+        "tags": "家庭"
+      },
+      {
+        "level": "初中",
+        "word": "ancestor",
+        "phonetic": "/ˈænsestə/",
+        "chinese": "祖先",
+        "example": "Family ancestors.",
+        "tags": "家庭"
+      },
+      {
+        "level": "初中",
+        "word": "boyfriend",
+        "phonetic": "/ˈbɔɪfrend/",
+        "chinese": "男朋友",
+        "example": "Her boyfriend.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "bride",
+        "phonetic": "/braɪd/",
+        "chinese": "新娘",
+        "example": "The bride.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "bridegroom",
+        "phonetic": "/ˈbraɪdɡruːm/",
+        "chinese": "新郎",
+        "example": "The bridegroom.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "classmate",
+        "phonetic": "/ˈklɑːsmeɪt/",
+        "chinese": "同学",
+        "example": "My classmate.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "colleague",
+        "phonetic": "/ˈkɒliːɡ/",
+        "chinese": "同事",
+        "example": "My colleague.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "companion",
+        "phonetic": "/kəmˈpænjən/",
+        "chinese": "同伴",
+        "example": "A good companion.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "couple",
+        "phonetic": "/ˈkʌpl/",
+        "chinese": "夫妇",
+        "example": "A married couple.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "daughter",
+        "phonetic": "/ˈdɔːtə/",
+        "chinese": "女儿",
+        "example": "My daughter.",
+        "tags": "家庭"
+      },
+      {
+        "level": "初中",
+        "word": "descendant",
+        "phonetic": "/dɪˈsendənt/",
+        "chinese": "后裔",
+        "example": "Descendants.",
+        "tags": "家庭"
+      },
+      {
+        "level": "初中",
+        "word": "elder",
+        "phonetic": "/ˈeldə/",
+        "chinese": "长者",
+        "example": "Respect elders.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "forefather",
+        "phonetic": "/ˈfɔːfɑːðə/",
+        "chinese": "祖先",
+        "example": "Forefathers.",
+        "tags": "家庭"
+      },
+      {
+        "level": "初中",
+        "word": "girlfriend",
+        "phonetic": "/ˈɡɜːlfrend/",
+        "chinese": "女朋友",
+        "example": "His girlfriend.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "grandchild",
+        "phonetic": "/ˈɡræntʃaɪld/",
+        "chinese": "孙辈",
+        "example": "My grandchild.",
+        "tags": "家庭"
+      },
+      {
+        "level": "初中",
+        "word": "grown-up",
+        "phonetic": "/ˈɡrəʊnʌp/",
+        "chinese": "成年人",
+        "example": "A grown-up.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "heir",
+        "phonetic": "/eə/",
+        "chinese": "继承人",
+        "example": "The heir.",
+        "tags": "家庭"
+      },
+      {
+        "level": "初中",
+        "word": "mate",
+        "phonetic": "/meɪt/",
+        "chinese": "伙伴",
+        "example": "My mate.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "neighbor",
+        "phonetic": "/ˈneɪbə/",
+        "chinese": "邻居",
+        "example": "My neighbor.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "orphan",
+        "phonetic": "/ˈɔːfn/",
+        "chinese": "孤儿",
+        "example": "A poor orphan.",
+        "tags": "人物"
+      },
+      {
+        "level": "初中",
+        "word": "academy",
+        "phonetic": "/əˈkædəmi/",
+        "chinese": "学院",
+        "example": "A music academy.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "assignment",
+        "phonetic": "/əˈsaɪnmənt/",
+        "chinese": "作业",
+        "example": "Finish the assignment.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "attendance",
+        "phonetic": "/əˈtendəns/",
+        "chinese": "出勤",
+        "example": "Perfect attendance.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "auditorium",
+        "phonetic": "/ˌɔːdɪˈtɔːriəm/",
+        "chinese": "礼堂",
+        "example": "In the auditorium.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "cafeteria",
+        "phonetic": "/ˌkæfəˈtɪəriə/",
+        "chinese": "自助餐厅",
+        "example": "In the cafeteria.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "campus",
+        "phonetic": "/ˈkæmpəs/",
+        "chinese": "校园",
+        "example": "On campus.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "classroom",
+        "phonetic": "/ˈklɑːsruːm/",
+        "chinese": "教室",
+        "example": "In the classroom.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "curriculum",
+        "phonetic": "/kəˈrɪkjʊləm/",
+        "chinese": "课程",
+        "example": "School curriculum.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "dean",
+        "phonetic": "/diːn/",
+        "chinese": "院长",
+        "example": "The dean.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "diploma",
+        "phonetic": "/dɪˈpləʊmə/",
+        "chinese": "文凭",
+        "example": "Get a diploma.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "discipline",
+        "phonetic": "/ˈdɪsɪplɪn/",
+        "chinese": "纪律",
+        "example": "Strict discipline.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "dormitory",
+        "phonetic": "/ˈdɔːmɪtri/",
+        "chinese": "宿舍",
+        "example": "In the dormitory.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "elective",
+        "phonetic": "/ɪˈlektɪv/",
+        "chinese": "选修课",
+        "example": "An elective course.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "essay",
+        "phonetic": "/ˈeseɪ/",
+        "chinese": "论文",
+        "example": "Write an essay.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "examiner",
+        "phonetic": "/ɪɡˈzæmɪnə/",
+        "chinese": "考官",
+        "example": "The examiner.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "fellowship",
+        "phonetic": "/ˈfeləʊʃɪp/",
+        "chinese": "奖学金",
+        "example": "Get a fellowship.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "graduate",
+        "phonetic": "/ˈɡrædʒʊeɪt/",
+        "chinese": "毕业",
+        "example": "I will graduate.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "gymnasium",
+        "phonetic": "/dʒɪmˈneɪziəm/",
+        "chinese": "体育馆",
+        "example": "At the gymnasium.",
+        "tags": "学校"
+      },
+      {
+        "level": "初中",
+        "word": "lecture",
+        "phonetic": "/ˈlektʃə/",
+        "chinese": "讲座",
+        "example": "Attend a lecture.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "major",
+        "phonetic": "/ˈmeɪdʒə/",
+        "chinese": "专业",
+        "example": "My major.",
+        "tags": "学习"
+      },
+      {
+        "level": "初中",
+        "word": "apprentice",
+        "phonetic": "/əˈprentɪs/",
+        "chinese": "学徒",
+        "example": "An apprentice.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "boss",
+        "phonetic": "/bɒs/",
+        "chinese": "老板",
+        "example": "My boss.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "career",
+        "phonetic": "/kəˈrɪə/",
+        "chinese": "职业",
+        "example": "My career.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "colleague",
+        "phonetic": "/ˈkɒliːɡ/",
+        "chinese": "同事",
+        "example": "My colleague.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "consultant",
+        "phonetic": "/kənˈsʌltənt/",
+        "chinese": "顾问",
+        "example": "A consultant.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "employee",
+        "phonetic": "/ɪmˈplɔɪiː/",
+        "chinese": "雇员",
+        "example": "An employee.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "employer",
+        "phonetic": "/ɪmˈplɔɪə/",
+        "chinese": "雇主",
+        "example": "The employer.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "income",
+        "phonetic": "/ˈɪnkʌm/",
+        "chinese": "收入",
+        "example": "My income.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "interview",
+        "phonetic": "/ˈɪntəvjuː/",
+        "chinese": "面试",
+        "example": "A job interview.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "job",
+        "phonetic": "/dʒɒb/",
+        "chinese": "工作",
+        "example": "Find a job.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "promotion",
+        "phonetic": "/prəˈməʊʃn/",
+        "chinese": "晋升",
+        "example": "Get a promotion.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "salary",
+        "phonetic": "/ˈsæləri/",
+        "chinese": "薪水",
+        "example": "Monthly salary.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "shift",
+        "phonetic": "/ʃɪft/",
+        "chinese": "轮班",
+        "example": "Work shift.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "staff",
+        "phonetic": "/stɑːf/",
+        "chinese": "员工",
+        "example": "Company staff.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "workforce",
+        "phonetic": "/ˈwɜːkfɔːs/",
+        "chinese": "劳动力",
+        "example": "National workforce.",
+        "tags": "职业"
+      },
+      {
+        "level": "初中",
+        "word": "blood",
+        "phonetic": "/blʌd/",
+        "chinese": "血液",
+        "example": "Red blood.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "bone",
+        "phonetic": "/bəʊn/",
+        "chinese": "骨头",
+        "example": "Strong bones.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "cough",
+        "phonetic": "/kɒf/",
+        "chinese": "咳嗽",
+        "example": "I have a cough.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "diet",
+        "phonetic": "/ˈdaɪət/",
+        "chinese": "饮食",
+        "example": "A healthy diet.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "fever",
+        "phonetic": "/ˈfiːvə/",
+        "chinese": "发烧",
+        "example": "High fever.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "flu",
+        "phonetic": "/fluː/",
+        "chinese": "流感",
+        "example": "Catch the flu.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "health",
+        "phonetic": "/helθ/",
+        "chinese": "健康",
+        "example": "Stay healthy.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "hurt",
+        "phonetic": "/hɜːt/",
+        "chinese": "受伤",
+        "example": "I am hurt.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "illness",
+        "phonetic": "/ˈɪlnəs/",
+        "chinese": "疾病",
+        "example": "A serious illness.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "medicine",
+        "phonetic": "/ˈmedsn/",
+        "chinese": "药",
+        "example": "Take medicine.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "muscle",
+        "phonetic": "/ˈmʌsl/",
+        "chinese": "肌肉",
+        "example": "Strong muscle.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "pain",
+        "phonetic": "/peɪn/",
+        "chinese": "疼痛",
+        "example": "Feel pain.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "patient",
+        "phonetic": "/ˈpeɪʃnt/",
+        "chinese": "病人",
+        "example": "A patient.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "pill",
+        "phonetic": "/pɪl/",
+        "chinese": "药丸",
+        "example": "Take a pill.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "symptom",
+        "phonetic": "/ˈsɪmptəm/",
+        "chinese": "症状",
+        "example": "Cold symptoms.",
+        "tags": "健康"
+      },
+      {
+        "level": "初中",
+        "word": "Asia",
+        "phonetic": "/ˈeɪʒə/",
+        "chinese": "亚洲",
+        "example": "In Asia.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "Europe",
+        "phonetic": "/ˈjʊərəp/",
+        "chinese": "欧洲",
+        "example": "In Europe.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "Africa",
+        "phonetic": "/ˈæfrɪkə/",
+        "chinese": "非洲",
+        "example": "In Africa.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "America",
+        "phonetic": "/əˈmerɪkə/",
+        "chinese": "美洲",
+        "example": "In America.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "continent",
+        "phonetic": "/ˈkɒntɪnənt/",
+        "chinese": "大陆",
+        "example": "A continent.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "ocean",
+        "phonetic": "/ˈəʊʃn/",
+        "chinese": "海洋",
+        "example": "The Pacific Ocean.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "equator",
+        "phonetic": "/ɪˈkweɪtə/",
+        "chinese": "赤道",
+        "example": "Near the equator.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "hemisphere",
+        "phonetic": "/ˈhemɪsfɪə/",
+        "chinese": "半球",
+        "example": "Northern hemisphere.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "border",
+        "phonetic": "/ˈbɔːdə/",
+        "chinese": "边界",
+        "example": "Cross the border.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "capital",
+        "phonetic": "/ˈkæpɪtl/",
+        "chinese": "首都",
+        "example": "Beijing is the capital.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "population",
+        "phonetic": "/ˌpɒpjʊˈleɪʃn/",
+        "chinese": "人口",
+        "example": "Large population.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "language",
+        "phonetic": "/ˈlæŋɡwɪdʒ/",
+        "chinese": "语言",
+        "example": "Native language.",
+        "tags": "地理"
+      },
+      {
+        "level": "初中",
+        "word": "tradition",
+        "phonetic": "/trəˈdɪʃn/",
+        "chinese": "传统",
+        "example": "Family tradition.",
+        "tags": "文化"
+      },
+      {
+        "level": "初中",
+        "word": "festival",
+        "phonetic": "/ˈfestɪvl/",
+        "chinese": "节日",
+        "example": "A music festival.",
+        "tags": "文化"
+      },
+      {
+        "level": "初中",
+        "word": "holiday",
+        "phonetic": "/ˈhɒlədeɪ/",
+        "chinese": "假日",
+        "example": "Summer holiday.",
+        "tags": "文化"
+      },
+      {
+        "level": "初中",
+        "word": "appetite",
+        "phonetic": "/ˈæpɪtaɪt/",
+        "chinese": "食欲",
+        "example": "Good appetite.",
+        "tags": "饮食"
+      },
+      {
+        "level": "初中",
+        "word": "bacon",
+        "phonetic": "/ˈbeɪkən/",
+        "chinese": "培根",
+        "example": "Crispy bacon.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "beverage",
+        "phonetic": "/ˈbevərɪdʒ/",
+        "chinese": "饮料",
+        "example": "Cold beverage.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "biscuit",
+        "phonetic": "/ˈbɪskɪt/",
+        "chinese": "饼干",
+        "example": "Have a biscuit.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "butter",
+        "phonetic": "/ˈbʌtə/",
+        "chinese": "黄油",
+        "example": "Spread butter.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "cereal",
+        "phonetic": "/ˈsɪəriəl/",
+        "chinese": "麦片",
+        "example": "Eat cereal.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "condiment",
+        "phonetic": "/ˈkɒndɪmənt/",
+        "chinese": "调味品",
+        "example": "Add condiment.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "cream",
+        "phonetic": "/kriːm/",
+        "chinese": "奶油",
+        "example": "Whipped cream.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "delicious",
+        "phonetic": "/dɪˈlɪʃəs/",
+        "chinese": "美味的",
+        "example": "Delicious food.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "ingredient",
+        "phonetic": "/ɪnˈɡriːdiənt/",
+        "chinese": "成分",
+        "example": "List ingredients.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "nutrition",
+        "phonetic": "/njuːˈtrɪʃn/",
+        "chinese": "营养",
+        "example": "Good nutrition.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "recipe",
+        "phonetic": "/ˈresɪpi/",
+        "chinese": "食谱",
+        "example": "A good recipe.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "refreshment",
+        "phonetic": "/rɪˈfreʃmənt/",
+        "chinese": "点心",
+        "example": "Light refreshment.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "snack",
+        "phonetic": "/snæk/",
+        "chinese": "零食",
+        "example": "Have a snack.",
+        "tags": "食物"
+      },
+      {
+        "level": "初中",
+        "word": "vegetarian",
+        "phonetic": "/ˌvedʒɪˈteəriən/",
+        "chinese": "素食者",
+        "example": "I'm a vegetarian.",
+        "tags": "食物"
+      }
+    ]
+  }
+}

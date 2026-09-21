@@ -1,0 +1,358 @@
+{
+  "customVocab": {
+    "enlighten": [
+      {
+        "level": "启蒙",
+        "word": "doctor",
+        "phonetic": "/ˈdɒktə/",
+        "chinese": "医生",
+        "example": "The doctor helps me.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "nurse",
+        "phonetic": "/nɜːs/",
+        "chinese": "护士",
+        "example": "The nurse is kind.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "farmer",
+        "phonetic": "/ˈfɑːmə/",
+        "chinese": "农民",
+        "example": "The farmer grows food.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "driver",
+        "phonetic": "/ˈdraɪvə/",
+        "chinese": "司机",
+        "example": "Dad is a driver.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "cook",
+        "phonetic": "/kʊk/",
+        "chinese": "厨师",
+        "example": "The cook makes food.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "singer",
+        "phonetic": "/ˈsɪŋə/",
+        "chinese": "歌手",
+        "example": "She is a singer.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "police",
+        "phonetic": "/pəˈliːs/",
+        "chinese": "警察",
+        "example": "The police helps us.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "firefighter",
+        "phonetic": "/ˈfaɪəfaɪtə/",
+        "chinese": "消防员",
+        "example": "Firefighters are brave.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "worker",
+        "phonetic": "/ˈwɜːkə/",
+        "chinese": "工人",
+        "example": "Workers build houses.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "student",
+        "phonetic": "/ˈstjuːdnt/",
+        "chinese": "学生",
+        "example": "I am a student.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "artist",
+        "phonetic": "/ˈɑːtɪst/",
+        "chinese": "艺术家",
+        "example": "The artist paints.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "pilot",
+        "phonetic": "/ˈpaɪlət/",
+        "chinese": "飞行员",
+        "example": "The pilot flies the plane.",
+        "tags": "职业"
+      },
+      {
+        "level": "启蒙",
+        "word": "weather",
+        "phonetic": "/ˈweðə/",
+        "chinese": "天气",
+        "example": "Nice weather today.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "sunny",
+        "phonetic": "/ˈsʌni/",
+        "chinese": "晴朗的",
+        "example": "It is sunny today.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "rainy",
+        "phonetic": "/ˈreɪni/",
+        "chinese": "下雨的",
+        "example": "It is a rainy day.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "snowy",
+        "phonetic": "/ˈsnəʊi/",
+        "chinese": "下雪的",
+        "example": "It is snowy.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "cloudy",
+        "phonetic": "/ˈklaʊdi/",
+        "chinese": "多云的",
+        "example": "It is cloudy.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "windy",
+        "phonetic": "/ˈwɪndi/",
+        "chinese": "有风的",
+        "example": "It is windy.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "stormy",
+        "phonetic": "/ˈstɔːmi/",
+        "chinese": "暴风雨的",
+        "example": "A stormy night.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "warm",
+        "phonetic": "/wɔːm/",
+        "chinese": "温暖的",
+        "example": "Today is warm.",
+        "tags": "天气"
+      },
+      {
+        "level": "启蒙",
+        "word": "spring",
+        "phonetic": "/sprɪŋ/",
+        "chinese": "春天",
+        "example": "Flowers bloom in spring.",
+        "tags": "季节"
+      },
+      {
+        "level": "启蒙",
+        "word": "summer",
+        "phonetic": "/ˈsʌmə/",
+        "chinese": "夏天",
+        "example": "Summer is hot.",
+        "tags": "季节"
+      },
+      {
+        "level": "启蒙",
+        "word": "autumn",
+        "phonetic": "/ˈɔːtəm/",
+        "chinese": "秋天",
+        "example": "Leaves fall in autumn.",
+        "tags": "季节"
+      },
+      {
+        "level": "启蒙",
+        "word": "winter",
+        "phonetic": "/ˈwɪntə/",
+        "chinese": "冬天",
+        "example": "Winter is cold.",
+        "tags": "季节"
+      },
+      {
+        "level": "启蒙",
+        "word": "season",
+        "phonetic": "/ˈsiːzn/",
+        "chinese": "季节",
+        "example": "Spring is my favorite season.",
+        "tags": "季节"
+      },
+      {
+        "level": "启蒙",
+        "word": "Monday",
+        "phonetic": "/ˈmʌndeɪ/",
+        "chinese": "星期一",
+        "example": "Today is Monday.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "Sunday",
+        "phonetic": "/ˈsʌndeɪ/",
+        "chinese": "星期日",
+        "example": "Sunday is fun.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "weekend",
+        "phonetic": "/ˌwiːkˈend/",
+        "chinese": "周末",
+        "example": "I love weekends.",
+        "tags": "时间"
+      },
+      {
+        "level": "启蒙",
+        "word": "China",
+        "phonetic": "/ˈtʃaɪnə/",
+        "chinese": "中国",
+        "example": "I am from China.",
+        "tags": "国家"
+      },
+      {
+        "level": "启蒙",
+        "word": "America",
+        "phonetic": "/əˈmerɪkə/",
+        "chinese": "美国",
+        "example": "America is far.",
+        "tags": "国家"
+      },
+      {
+        "level": "启蒙",
+        "word": "city",
+        "phonetic": "/ˈsɪti/",
+        "chinese": "城市",
+        "example": "I live in a city.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "country",
+        "phonetic": "/ˈkʌntri/",
+        "chinese": "乡村；国家",
+        "example": "China is a big country.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "world",
+        "phonetic": "/wɜːld/",
+        "chinese": "世界",
+        "example": "The world is big.",
+        "tags": "场所"
+      },
+      {
+        "level": "启蒙",
+        "word": "Beijing",
+        "phonetic": "/beɪˈdʒɪŋ/",
+        "chinese": "北京",
+        "example": "Beijing is the capital.",
+        "tags": "城市"
+      },
+      {
+        "level": "启蒙",
+        "word": "Shanghai",
+        "phonetic": "/ʃæŋˈhaɪ/",
+        "chinese": "上海",
+        "example": "Shanghai is a big city.",
+        "tags": "城市"
+      },
+      {
+        "level": "启蒙",
+        "word": "Nanjing",
+        "phonetic": "/nænˈdʒɪŋ/",
+        "chinese": "南京",
+        "example": "Nanjing is beautiful.",
+        "tags": "城市"
+      },
+      {
+        "level": "启蒙",
+        "word": "toy",
+        "phonetic": "/tɔɪ/",
+        "chinese": "玩具",
+        "example": "I have many toys.",
+        "tags": "玩具"
+      },
+      {
+        "level": "启蒙",
+        "word": "ball",
+        "phonetic": "/bɔːl/",
+        "chinese": "球",
+        "example": "I play with a ball.",
+        "tags": "玩具"
+      },
+      {
+        "level": "启蒙",
+        "word": "kite",
+        "phonetic": "/kaɪt/",
+        "chinese": "风筝",
+        "example": "We fly a kite.",
+        "tags": "玩具"
+      },
+      {
+        "level": "启蒙",
+        "word": "doll",
+        "phonetic": "/dɒl/",
+        "chinese": "玩偶",
+        "example": "She has a doll.",
+        "tags": "玩具"
+      },
+      {
+        "level": "启蒙",
+        "word": "puzzle",
+        "phonetic": "/ˈpʌzl/",
+        "chinese": "拼图",
+        "example": "I love puzzles.",
+        "tags": "玩具"
+      },
+      {
+        "level": "启蒙",
+        "word": "game",
+        "phonetic": "/ɡeɪm/",
+        "chinese": "游戏",
+        "example": "Let's play a game.",
+        "tags": "玩具"
+      },
+      {
+        "level": "启蒙",
+        "word": "robot",
+        "phonetic": "/ˈrəʊbɒt/",
+        "chinese": "机器人",
+        "example": "I like robots.",
+        "tags": "玩具"
+      },
+      {
+        "level": "启蒙",
+        "word": "yo-yo",
+        "phonetic": "/ˈjəʊjəʊ/",
+        "chinese": "悠悠球",
+        "example": "I can play with a yo-yo.",
+        "tags": "玩具"
+      }
+    ]
+  }
+}

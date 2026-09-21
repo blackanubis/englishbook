@@ -1,0 +1,806 @@
+{
+  "customVocab": {
+    "primary": [
+      {
+        "level": "小学",
+        "word": "apricot",
+        "phonetic": "/ˈeɪprɪkɒt/",
+        "chinese": "杏",
+        "example": "Dried apricot.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "asparagus",
+        "phonetic": "/əˈspærəɡəs/",
+        "chinese": "芦笋",
+        "example": "Green asparagus.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "avocado",
+        "phonetic": "/ˌævəˈkɑːdəʊ/",
+        "chinese": "牛油果",
+        "example": "Eat avocado.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "blueberry",
+        "phonetic": "/ˈbluːbəri/",
+        "chinese": "蓝莓",
+        "example": "Sweet blueberries.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "cauliflower",
+        "phonetic": "/ˈkɒlɪflaʊə/",
+        "chinese": "花椰菜",
+        "example": "White cauliflower.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "celery",
+        "phonetic": "/ˈseləri/",
+        "chinese": "芹菜",
+        "example": "Crunchy celery.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "crab",
+        "phonetic": "/kræb/",
+        "chinese": "螃蟹",
+        "example": "Fresh crab.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "croissant",
+        "phonetic": "/ˈkrwæsɑːŋ/",
+        "chinese": "羊角面包",
+        "example": "A French croissant.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "cucumber",
+        "phonetic": "/ˈkjuːkʌmbə/",
+        "chinese": "黄瓜",
+        "example": "Fresh cucumber.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "garlic",
+        "phonetic": "/ˈɡɑːlɪk/",
+        "chinese": "大蒜",
+        "example": "Smell of garlic.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "ginger",
+        "phonetic": "/ˈdʒɪndʒə/",
+        "chinese": "姜",
+        "example": "Ginger tea.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "lobster",
+        "phonetic": "/ˈlɒbstə/",
+        "chinese": "龙虾",
+        "example": "Expensive lobster.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "noodle",
+        "phonetic": "/ˈnuːdl/",
+        "chinese": "面条",
+        "example": "Eat noodles.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "raspberry",
+        "phonetic": "/ˈrɑːzbəri/",
+        "chinese": "树莓",
+        "example": "Red raspberries.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "spinach",
+        "phonetic": "/ˈspɪnɪdʒ/",
+        "chinese": "菠菜",
+        "example": "Eat spinach.",
+        "tags": "食物"
+      },
+      {
+        "level": "小学",
+        "word": "ancient",
+        "phonetic": "/ˈeɪnʃənt/",
+        "chinese": "古老的",
+        "example": "Ancient temple.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "brave",
+        "phonetic": "/breɪv/",
+        "chinese": "勇敢的",
+        "example": "A brave boy.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "careful",
+        "phonetic": "/ˈkeəfl/",
+        "chinese": "小心的",
+        "example": "Be careful.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "curious",
+        "phonetic": "/ˈkjʊəriəs/",
+        "chinese": "好奇的",
+        "example": "A curious child.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "dangerous",
+        "phonetic": "/ˈdeɪndʒərəs/",
+        "chinese": "危险的",
+        "example": "A dangerous road.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "delicious",
+        "phonetic": "/dɪˈlɪʃəs/",
+        "chinese": "美味的",
+        "example": "Delicious food.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "difficult",
+        "phonetic": "/ˈdɪfɪkəlt/",
+        "chinese": "困难的",
+        "example": "A difficult test.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "easy",
+        "phonetic": "/ˈiːzi/",
+        "chinese": "容易的",
+        "example": "An easy game.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "famous",
+        "phonetic": "/ˈfeɪməs/",
+        "chinese": "著名的",
+        "example": "A famous star.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "favorite",
+        "phonetic": "/ˈfeɪvərɪt/",
+        "chinese": "最喜欢的",
+        "example": "My favorite color.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "famous",
+        "phonetic": "/ˈfeɪməs/",
+        "chinese": "著名的",
+        "example": "A famous person.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "funny",
+        "phonetic": "/ˈfʌni/",
+        "chinese": "有趣的",
+        "example": "A funny story.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "lazy",
+        "phonetic": "/ˈleɪzi/",
+        "chinese": "懒惰的",
+        "example": "Don't be lazy.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "loud",
+        "phonetic": "/laʊd/",
+        "chinese": "大声的",
+        "example": "A loud noise.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "quiet",
+        "phonetic": "/ˈkwaɪət/",
+        "chinese": "安静的",
+        "example": "A quiet room.",
+        "tags": "形容词"
+      },
+      {
+        "level": "小学",
+        "word": "always",
+        "phonetic": "/ˈɔːlweɪz/",
+        "chinese": "总是",
+        "example": "I always wake up early.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "never",
+        "phonetic": "/ˈnevə/",
+        "chinese": "从不",
+        "example": "I never lie.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "often",
+        "phonetic": "/ˈɒfn/",
+        "chinese": "经常",
+        "example": "I often read.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "sometimes",
+        "phonetic": "/ˈsʌmtaɪmz/",
+        "chinese": "有时",
+        "example": "Sometimes I sing.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "usually",
+        "phonetic": "/ˈjuːʒʊəli/",
+        "chinese": "通常",
+        "example": "I usually walk.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "quickly",
+        "phonetic": "/ˈkwɪkli/",
+        "chinese": "快速地",
+        "example": "Run quickly.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "slowly",
+        "phonetic": "/ˈsləʊli/",
+        "chinese": "慢地",
+        "example": "Walk slowly.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "happily",
+        "phonetic": "/ˈhæpɪli/",
+        "chinese": "开心地",
+        "example": "Sing happily.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "together",
+        "phonetic": "/təˈɡeðə/",
+        "chinese": "一起",
+        "example": "Play together.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "everywhere",
+        "phonetic": "/ˈevriweə/",
+        "chinese": "到处",
+        "example": "Look everywhere.",
+        "tags": "副词"
+      },
+      {
+        "level": "小学",
+        "word": "ask",
+        "phonetic": "/ɑːsk/",
+        "chinese": "问",
+        "example": "Ask a question.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "bring",
+        "phonetic": "/brɪŋ/",
+        "chinese": "带来",
+        "example": "Bring a book.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "buy",
+        "phonetic": "/baɪ/",
+        "chinese": "买",
+        "example": "Buy a gift.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "call",
+        "phonetic": "/kɔːl/",
+        "chinese": "打电话",
+        "example": "Call me.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "carry",
+        "phonetic": "/ˈkæri/",
+        "chinese": "搬",
+        "example": "Carry a bag.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "catch",
+        "phonetic": "/kætʃ/",
+        "chinese": "抓住",
+        "example": "Catch the ball.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "clean",
+        "phonetic": "/kliːn/",
+        "chinese": "清洁",
+        "example": "Clean the room.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "come",
+        "phonetic": "/kʌm/",
+        "chinese": "来",
+        "example": "Come here.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "cook",
+        "phonetic": "/kʊk/",
+        "chinese": "煮",
+        "example": "Cook dinner.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "cut",
+        "phonetic": "/kʌt/",
+        "chinese": "切",
+        "example": "Cut paper.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "dance",
+        "phonetic": "/dɑːns/",
+        "chinese": "跳舞",
+        "example": "Dance to music.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "drive",
+        "phonetic": "/draɪv/",
+        "chinese": "开车",
+        "example": "Drive carefully.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "enjoy",
+        "phonetic": "/ɪnˈdʒɔɪ/",
+        "chinese": "享受",
+        "example": "Enjoy the show.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "fix",
+        "phonetic": "/fɪks/",
+        "chinese": "修理",
+        "example": "Fix the bike.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "forget",
+        "phonetic": "/fəˈɡet/",
+        "chinese": "忘记",
+        "example": "Don't forget.",
+        "tags": "动词"
+      },
+      {
+        "level": "小学",
+        "word": "century",
+        "phonetic": "/ˈsentʃəri/",
+        "chinese": "世纪",
+        "example": "21st century.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "daily",
+        "phonetic": "/ˈdeɪli/",
+        "chinese": "每天",
+        "example": "Daily routine.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "hour",
+        "phonetic": "/ˈaʊə/",
+        "chinese": "小时",
+        "example": "One hour.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "midnight",
+        "phonetic": "/ˈmɪdnaɪt/",
+        "chinese": "午夜",
+        "example": "At midnight.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "minute",
+        "phonetic": "/ˈmɪnɪt/",
+        "chinese": "分钟",
+        "example": "Ten minutes.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "moment",
+        "phonetic": "/ˈməʊmənt/",
+        "chinese": "时刻",
+        "example": "Wait a moment.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "month",
+        "phonetic": "/mʌnθ/",
+        "chinese": "月",
+        "example": "This month.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "noon",
+        "phonetic": "/nuːn/",
+        "chinese": "中午",
+        "example": "At noon.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "past",
+        "phonetic": "/pɑːst/",
+        "chinese": "过去",
+        "example": "In the past.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "present",
+        "phonetic": "/ˈpreznt/",
+        "chinese": "现在",
+        "example": "At present.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "second",
+        "phonetic": "/ˈsekənd/",
+        "chinese": "秒",
+        "example": "One second.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "spring",
+        "phonetic": "/sprɪŋ/",
+        "chinese": "春天",
+        "example": "In spring.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "summer",
+        "phonetic": "/ˈsʌmə/",
+        "chinese": "夏天",
+        "example": "Summer holiday.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "week",
+        "phonetic": "/wiːk/",
+        "chinese": "周",
+        "example": "This week.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "weekend",
+        "phonetic": "/ˌwiːkˈend/",
+        "chinese": "周末",
+        "example": "This weekend.",
+        "tags": "时间"
+      },
+      {
+        "level": "小学",
+        "word": "afraid",
+        "phonetic": "/əˈfreɪd/",
+        "chinese": "害怕",
+        "example": "Don't be afraid.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "amazed",
+        "phonetic": "/əˈmeɪzd/",
+        "chinese": "惊讶的",
+        "example": "I am amazed.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "bored",
+        "phonetic": "/bɔːd/",
+        "chinese": "无聊的",
+        "example": "I am bored.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "calm",
+        "phonetic": "/kɑːm/",
+        "chinese": "冷静的",
+        "example": "Stay calm.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "confused",
+        "phonetic": "/kənˈfjuːzd/",
+        "chinese": "困惑的",
+        "example": "I am confused.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "curious",
+        "phonetic": "/ˈkjʊəriəs/",
+        "chinese": "好奇的",
+        "example": "Be curious.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "delighted",
+        "phonetic": "/dɪˈlaɪtɪd/",
+        "chinese": "高兴的",
+        "example": "I am delighted.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "disappointed",
+        "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+        "chinese": "失望的",
+        "example": "Don't be disappointed.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "embarrassed",
+        "phonetic": "/ɪmˈbærəst/",
+        "chinese": "尴尬的",
+        "example": "I am embarrassed.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "excited",
+        "phonetic": "/ɪkˈsaɪtɪd/",
+        "chinese": "兴奋的",
+        "example": "I am excited.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "frightened",
+        "phonetic": "/ˈfraɪtnd/",
+        "chinese": "害怕的",
+        "example": "I'm frightened.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "glad",
+        "phonetic": "/ɡlæd/",
+        "chinese": "高兴的",
+        "example": "I am glad.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "nervous",
+        "phonetic": "/ˈnɜːvəs/",
+        "chinese": "紧张的",
+        "example": "I am nervous.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "proud",
+        "phonetic": "/praʊd/",
+        "chinese": "自豪的",
+        "example": "I am proud.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "surprised",
+        "phonetic": "/səˈpraɪzd/",
+        "chinese": "惊讶的",
+        "example": "I am surprised.",
+        "tags": "情感"
+      },
+      {
+        "level": "小学",
+        "word": "carnival",
+        "phonetic": "/ˈkɑːnɪvl/",
+        "chinese": "嘉年华",
+        "example": "A fun carnival.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "celebration",
+        "phonetic": "/ˌselɪˈbreɪʃn/",
+        "chinese": "庆祝",
+        "example": "Big celebration.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "custom",
+        "phonetic": "/ˈkʌstəm/",
+        "chinese": "习俗",
+        "example": "Chinese custom.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "decoration",
+        "phonetic": "/ˌdekəˈreɪʃn/",
+        "chinese": "装饰",
+        "example": "Festive decoration.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "Easter",
+        "phonetic": "/ˈiːstə/",
+        "chinese": "复活节",
+        "example": "Happy Easter.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "firework",
+        "phonetic": "/ˈfaɪəwɜːk/",
+        "chinese": "烟花",
+        "example": "Light fireworks.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "gift",
+        "phonetic": "/ɡɪft/",
+        "chinese": "礼物",
+        "example": "A birthday gift.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "Halloween",
+        "phonetic": "/ˌhæləʊˈiːn/",
+        "chinese": "万圣节",
+        "example": "Happy Halloween.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "lantern",
+        "phonetic": "/ˈlæntən/",
+        "chinese": "灯笼",
+        "example": "Light a lantern.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "lantern festival",
+        "phonetic": "/ˈlæntən ˈfestɪvl/",
+        "chinese": "元宵节",
+        "example": "Lantern festival.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "Mid-autumn",
+        "phonetic": "/mɪd ˈɔːtəm/",
+        "chinese": "中秋",
+        "example": "Mid-autumn festival.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "National Day",
+        "phonetic": "/ˈnæʃənəl deɪ/",
+        "chinese": "国庆节",
+        "example": "Happy National Day.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "parade",
+        "phonetic": "/pəˈreɪd/",
+        "chinese": "游行",
+        "example": "A big parade.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "reunion",
+        "phonetic": "/ˌriːˈjuːniən/",
+        "chinese": "团聚",
+        "example": "Family reunion.",
+        "tags": "节日"
+      },
+      {
+        "level": "小学",
+        "word": "Spring Festival",
+        "phonetic": "/sprɪŋ ˈfestɪvl/",
+        "chinese": "春节",
+        "example": "Happy Spring Festival.",
+        "tags": "节日"
+      }
+    ]
+  }
+}
