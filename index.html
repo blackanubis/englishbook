@@ -620,42 +620,80 @@ textarea { resize: vertical; min-height: 80px; }
 
 </div>
 
-<!-- 自动加载 vocab-data-js 中的扩充词库（无需手动导入） -->
-<script>window.__VOCAB_DATA_BATCHES__ = [];</script>
-<script src="vocab-data-js/vocab-enlighten-1.js"></script>
-<script src="vocab-data-js/vocab-enlighten-2.js"></script>
-<script src="vocab-data-js/vocab-enlighten-3.js"></script>
-<script src="vocab-data-js/vocab-enlighten-4.js"></script>
-<script src="vocab-data-js/vocab-enlighten-5.js"></script>
-<script src="vocab-data-js/vocab-primary.js"></script>
-<script src="vocab-data-js/vocab-primary-1.js"></script>
-<script src="vocab-data-js/vocab-primary-2.js"></script>
-<script src="vocab-data-js/vocab-primary-3.js"></script>
-<script src="vocab-data-js/vocab-primary-4.js"></script>
-<script src="vocab-data-js/vocab-primary-5.js"></script>
-<script src="vocab-data-js/vocab-primary-6.js"></script>
-<script src="vocab-data-js/vocab-junior.js"></script>
-<script src="vocab-data-js/vocab-junior-1.js"></script>
-<script src="vocab-data-js/vocab-junior-2.js"></script>
-<script src="vocab-data-js/vocab-junior-3.js"></script>
-<script src="vocab-data-js/vocab-junior-4.js"></script>
-<script src="vocab-data-js/vocab-junior-5.js"></script>
-<script src="vocab-data-js/vocab-senior.js"></script>
-<script src="vocab-data-js/vocab-senior-1.js"></script>
-<script src="vocab-data-js/vocab-senior-2.js"></script>
-<script src="vocab-data-js/vocab-senior-3.js"></script>
-<script src="vocab-data-js/vocab-senior-4.js"></script>
-<script src="vocab-data-js/vocab-senior-5.js"></script>
-<script src="vocab-data-js/vocab-senior-6.js"></script>
-<script src="vocab-data-js/vocab-senior-7.js"></script>
-<script src="vocab-data-js/vocab-senior-8.js"></script>
-<script src="vocab-data-js/vocab-senior-9.js"></script>
+<!-- 运行时动态加载扩展词库和句子库（从 JSON 自动 fetch，无需预先打包为 JS） -->
+<script>
+  // ============ 中文学段 → 英文 key 映射 ============
+  const LV_CN_TO_EN = { '启蒙':'enlighten', '小学':'primary', '初中':'junior', '高中':'senior', '江苏':'jiangsu' };
 
-<!-- 自动加载扩展句子库 -->
-<script>window.__SENTENCE_BATCHES__ = [];</script>
-<script src="sentence-data-js/sentences-batch-1.js"></script>
-<script src="sentence-data-js/sentences-batch-2.js"></script>
-<script src="sentence-data-js/sentences-batch-3.js"></script>
+  // ============ 扩展词库：运行时自动 fetch 所有 vocab-data/vocab-*.json ============
+  (async function autoLoadExtensions() {
+    const VOCAB_FILES = [
+      'vocab-enlighten-1','vocab-enlighten-2','vocab-enlighten-3','vocab-enlighten-4','vocab-enlighten-5',
+      'vocab-primary','vocab-primary-1','vocab-primary-2','vocab-primary-3','vocab-primary-4','vocab-primary-5','vocab-primary-6',
+      'vocab-junior','vocab-junior-1','vocab-junior-2','vocab-junior-3','vocab-junior-4','vocab-junior-5',
+      'vocab-senior','vocab-senior-1','vocab-senior-2','vocab-senior-3','vocab-senior-4',
+      'vocab-senior-5','vocab-senior-6','vocab-senior-7','vocab-senior-8','vocab-senior-9'
+    ];
+    window.__VOCAB_DATA_BATCHES__ = window.__VOCAB_DATA_BATCHES__ || [];
+    for (const name of VOCAB_FILES) {
+      try {
+        const r = await fetch(`vocab-data/${name}.json`, { cache: 'force-cache' });
+        if (!r.ok) continue;
+        const data = await r.json();
+        // 兼容两种 JSON 结构：
+        //   A. {wordBank: [...]}  → 直接按 level 分组
+        //   B. {customVocab: {enlighten: [...]}} → 已按 level 分组（英文 key）
+        const grouped = {};
+        if (data.customVocab && typeof data.customVocab === 'object') {
+          for (const [lv, arr] of Object.entries(data.customVocab)) {
+            const enKey = LV_CN_TO_EN[lv] || lv;
+            if (!grouped[enKey]) grouped[enKey] = [];
+            for (const w of (arr || [])) {
+              // 标准化字段：chinese → cn
+              const norm = { ...w, cn: w.cn || w.chinese, level: enKey };
+              delete norm.chinese;
+              grouped[enKey].push(norm);
+            }
+          }
+        } else if (Array.isArray(data.wordBank)) {
+          for (const w of data.wordBank) {
+            const lv = LV_CN_TO_EN[w.level] || w.level || 'enlighten';
+            if (!grouped[lv]) grouped[lv] = [];
+            const norm = { ...w, cn: w.cn || w.chinese, level: lv };
+            delete norm.chinese;
+            grouped[lv].push(norm);
+          }
+        }
+        if (Object.keys(grouped).length > 0) {
+          window.__VOCAB_DATA_BATCHES__.push(grouped);
+        }
+      } catch (e) { /* 单文件失败不影响整体 */ }
+    }
+
+    // ============ 扩展句子库：运行时自动 fetch 所有 sentence-data/sentences-batch-*.json ============
+    const SENTENCE_FILES = ['sentences-batch-1','sentences-batch-2','sentences-batch-3'];
+    window.__SENTENCE_BATCHES__ = window.__SENTENCE_BATCHES__ || [];
+    for (const name of SENTENCE_FILES) {
+      try {
+        const r = await fetch(`sentence-data/${name}.json`, { cache: 'force-cache' });
+        if (!r.ok) continue;
+        const data = await r.json();
+        // 把中文 level 转为英文 key
+        const arr = (data.sentenceBank || []).map(s => ({
+          ...s,
+          level: LV_CN_TO_EN[s.level] || s.level
+        }));
+        if (arr.length > 0) {
+          window.__SENTENCE_BATCHES__.push(arr);
+        }
+      } catch (e) { /* 单文件失败不影响整体 */ }
+    }
+
+    // 通知主程序：扩展数据已加载
+    window.__EXTENSIONS_LOADED__ = true;
+    window.dispatchEvent(new CustomEvent('extensions-loaded'));
+  })();
+</script>
 
 <script>
 /* =====================================================
@@ -2750,38 +2788,48 @@ function initEvents() {
     if (e.key === STORAGE_KEY) { state = loadState(); applyTheme(); render(); }
   });
 
-  // 加载外部 vocab-data-js 中的词库批（自动合并到 VOCAB_DATA）
-  if (window.__VOCAB_DATA_BATCHES__ && window.__VOCAB_DATA_BATCHES__.length) {
+  // 合并运行时加载的扩展词库和句子库
+  // （扩展数据由 <script> 中的 autoLoadExtensions 异步加载，加载完成触发 extensions-loaded 事件）
+  function mergeExtensions() {
     let merged = 0;
-    window.__VOCAB_DATA_BATCHES__.forEach(batch => {
-      Object.keys(batch).forEach(level => {
-        if (VOCAB_DATA[level]) {
-          batch[level].forEach(w => {
-            if (!VOCAB_DATA[level].some(x => x.word === w.word)) {
-              VOCAB_DATA[level].push(w);
-              merged++;
-            }
-          });
-        }
+    if (window.__VOCAB_DATA_BATCHES__ && window.__VOCAB_DATA_BATCHES__.length) {
+      window.__VOCAB_DATA_BATCHES__.forEach(batch => {
+        Object.keys(batch).forEach(level => {
+          if (VOCAB_DATA[level]) {
+            batch[level].forEach(w => {
+              if (!VOCAB_DATA[level].some(x => x.word === w.word)) {
+                VOCAB_DATA[level].push(w);
+                merged++;
+              }
+            });
+          }
+        });
       });
-    });
-    console.log(`[词库扩展] 自动合并 ${merged} 个新词（来自 vocab-data-js）`);
-  }
-  // 加载外部 sentence-data-js 中的句子库批（自动合并到 SENTENCE_DATA）
-  if (window.__SENTENCE_BATCHES__ && window.__SENTENCE_BATCHES__.length) {
+      console.log(`[词库扩展] 自动合并 ${merged} 个新词（来自 vocab-data/*.json）`);
+    }
     let sMerged = 0;
-    window.__SENTENCE_BATCHES__.forEach(batch => {
-      batch.forEach(s => {
-        const lv = s.level;
-        if (!SENTENCE_DATA[lv]) SENTENCE_DATA[lv] = [];
-        if (!SENTENCE_DATA[lv].some(x => x.en === s.en)) {
-          SENTENCE_DATA[lv].push(s);
-          sMerged++;
-        }
+    if (window.__SENTENCE_BATCHES__ && window.__SENTENCE_BATCHES__.length) {
+      window.__SENTENCE_BATCHES__.forEach(batch => {
+        batch.forEach(s => {
+          const lv = s.level;
+          if (!SENTENCE_DATA[lv]) SENTENCE_DATA[lv] = [];
+          if (!SENTENCE_DATA[lv].some(x => x.en === s.en)) {
+            SENTENCE_DATA[lv].push(s);
+            sMerged++;
+          }
+        });
       });
-    });
-    console.log(`[句子扩展] 自动合并 ${sMerged} 个新句（来自 sentence-data-js）`);
+      console.log(`[句子扩展] 自动合并 ${sMerged} 个新句（来自 sentence-data/*.json）`);
+    }
+    if (merged + sMerged > 0) {
+      // 重新渲染所有页面以显示新数据
+      render();
+    }
   }
+  // 立即合并一次（同步加载模式）
+  mergeExtensions();
+  // 监听异步加载完成
+  window.addEventListener('extensions-loaded', mergeExtensions);
 
   // 全局兜底：捕获未处理错误，避免页面静默失效
   window.addEventListener('error', ev => {

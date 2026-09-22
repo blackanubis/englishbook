@@ -1,0 +1,11 @@
+# 排除 build-time 不需要的目录
+.git/
+.github/
+.workbuddy/
+node_modules/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+README.md
+.dockerignore

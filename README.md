@@ -67,7 +67,6 @@ docker run -d \
 
 **镜像地址**：
 - GitHub Container Registry：`ghcr.io/blackanubis/englishbook:latest`
-- Docker Hub：`blackanubis/englishbook:latest`
 
 ### 方式 B：从源码构建（适合二次开发）
 
@@ -118,20 +117,11 @@ docker logs englishbook
 仓库自带 `.github/workflows/docker.yml`，**每次 push 到 main 分支会自动触发构建**：
 
 1. ✅ 自动构建多架构镜像（amd64 + arm64）
-2. ✅ 自动推送到 GHCR + Docker Hub（配置了 secrets 时）
+2. ✅ 自动推送到 GHCR
 3. ✅ 自动生成 tags：`latest` / `<branch>` / `<sha>` / `<semver>`
 4. ✅ 启用 GHA 缓存加速构建
 
-**首次配置 Docker Hub（可选）**：
-
-GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret：
-
-| Secret 名 | 值 |
-|----------|------|
-| `DOCKERHUB_USERNAME` | 您的 Docker Hub 用户名 |
-| `DOCKERHUB_TOKEN` | Docker Hub Access Token（在 hub.docker.com/settings/security 创建） |
-
-配置后 workflow 会同时推送到 Docker Hub。
+查看构建进度：https://github.com/blackanubis/englishbook/actions
 
 ## 🔧 不使用 Docker 的部署
 
@@ -179,16 +169,22 @@ start index.html  # Windows
 - ✅ MIME 类型兜底
 - ✅ 健康检查（自动监控容器状态）
 
-## 📊 词汇库统计
+## 📊 词汇库统计（内置 + 扩展）
 
-| 学段 | 词数 |
-|------|------|
-| 启蒙 | 300 |
-| 小学 | 800 |
-| 初中 | 1675 |
-| 高中 | 3536 |
-| 江苏特色 | 400+ |
-| **总计** | **5300+** |
+| 学段 | 内置 | 扩展 | **合计** |
+|------|------|------|----------|
+| 启蒙 | 52 | 245 | **297** |
+| 小学 | 177 | 594 | **771** |
+| 初中 | 233 | 1387 | **1620** |
+| 高中 | 288 | 2644 | **2932** |
+| 江苏特色 | 61 | 0 | **61** |
+| **总计** | **811** | **4870** | **5681** |
+
+> 扩展词库运行时从 `vocab-data/*.json` 动态加载，无需重新构建镜像即可更新词库。
+
+## 📖 句子库
+
+3 批共 **677 句**，覆盖高考作文模板、阅读理解、日常口语、商务职场、江苏特色场景。
 
 ## 📝 许可证
 
