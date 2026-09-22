@@ -10,6 +10,10 @@
 
 version: "3.8"
 
+# ============ 项目名称 ============
+# 显式设置顶层 name，强制容器名为 englishbook（不被目录名污染）
+name: englishbook
+
 services:
   englishbook:
     # ────────────── 镜像来源（选其一） ──────────────
@@ -25,6 +29,8 @@ services:
     #   dockerfile: Dockerfile
 
     container_name: englishbook
+    # 注：container_name + 顶层 name: englishbook 双重保险
+    # 如果某些 Compose V2 版本忽略 container_name，顶层 name 仍生效
     restart: unless-stopped
 
     # ────────────── 端口映射 ──────────────
