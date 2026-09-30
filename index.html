@@ -260,7 +260,7 @@ textarea { resize: vertical; min-height: 80px; }
   perspective: 1000px;
   width: 100%;
   max-width: 480px;
-  height: 280px;
+  height: 300px;
   margin: 0 auto;
   cursor: pointer;
 }
@@ -291,10 +291,10 @@ textarea { resize: vertical; min-height: 80px; }
   background: linear-gradient(135deg, var(--primary-light), var(--bg-card));
   transform: rotateY(180deg);
 }
-.fc-word { font-size: 36px; font-weight: 700; color: var(--primary); margin-bottom: 8px; }
+.fc-word { font-size: 44px; font-weight: 700; color: var(--primary); margin-bottom: 10px; line-height: 1.2; }
 .fc-phonetic { color: var(--text-soft); font-size: 14px; margin-bottom: 16px; font-style: italic; }
-.fc-chinese { font-size: 22px; font-weight: 600; margin-bottom: 12px; }
-.fc-example { font-size: 13px; color: var(--text-soft); font-style: italic; max-width: 100%; }
+.fc-chinese { font-size: 26px; font-weight: 600; margin-bottom: 14px; line-height: 1.35; }
+.fc-example { font-size: 16px; color: var(--text-soft); font-style: italic; max-width: 100%; line-height: 1.5; }
 .fc-level-tag {
   position: absolute;
   top: 12px; right: 12px;
@@ -527,8 +527,10 @@ textarea { resize: vertical; min-height: 80px; }
   .hamburger { display: block; }
   .topbar-inner { padding: 10px 12px; }
   .nav-tab { padding: 6px 10px; font-size: 12px; }
-  .flashcard { height: 240px; }
-  .fc-word { font-size: 28px; }
+  .flashcard { height: 260px; }
+  .fc-word { font-size: 34px; }
+  .fc-chinese { font-size: 22px; }
+  .fc-example { font-size: 15px; }
   .quiz-options { grid-template-columns: 1fr; }
   .quiz-prompt { font-size: 18px; }
   .brand span:not(.brand-icon) { display: none; }
@@ -652,9 +654,9 @@ textarea { resize: vertical; min-height: 80px; }
             const enKey = LV_CN_TO_EN[lv] || lv;
             if (!grouped[enKey]) grouped[enKey] = [];
             for (const w of (arr || [])) {
-              // 标准化字段：chinese → cn
-              const norm = { ...w, cn: w.cn || w.chinese, level: enKey };
-              delete norm.chinese;
+              // 标准化字段：统一 chinese（同时保留 cn 以兼容两种来源）
+              const cnVal = w.cn || w.chinese || '';
+              const norm = { ...w, cn: cnVal, chinese: cnVal, level: enKey };
               grouped[enKey].push(norm);
             }
           }
@@ -662,8 +664,8 @@ textarea { resize: vertical; min-height: 80px; }
           for (const w of data.wordBank) {
             const lv = LV_CN_TO_EN[w.level] || w.level || 'enlighten';
             if (!grouped[lv]) grouped[lv] = [];
-            const norm = { ...w, cn: w.cn || w.chinese, level: lv };
-            delete norm.chinese;
+            const cnVal = w.cn || w.chinese || '';
+            const norm = { ...w, cn: cnVal, chinese: cnVal, level: lv };
             grouped[lv].push(norm);
           }
         }
@@ -2018,7 +2020,7 @@ function renderVocabCard() {
       ),
       el('div', { class: 'flashcard-back' },
         el('div', { class: 'fc-level-tag' }, `${LEVELS[state.currentLevel].name}`),
-        el('div', { class: 'fc-chinese' }, w.chinese),
+        el('div', { class: 'fc-chinese' }, w.cn || w.chinese || ''),
         el('div', { class: 'fc-phonetic' }, w.phonetic || ''),
         el('div', { class: 'fc-example' }, w.example || ''),
         el('div', { class: 'fc-actions', onclick: e => e.stopPropagation() },
@@ -2044,7 +2046,7 @@ function countWrong(arr) { return arr.filter(w => state.vocabProgress[`${state.c
 function markVocab(w, status) {
   state.vocabProgress[`${state.currentLevel}_${w.word}`] = status;
   if (status === 'wrong') {
-    state.wrongBook.push({ type: 'vocab', level: state.currentLevel, ref: w.word, error: w.chinese, ts: Date.now() });
+    state.wrongBook.push({ type: 'vocab', level: state.currentLevel, ref: w.word, error: w.cn || w.chinese, ts: Date.now() });
   }
   saveState();
 }
@@ -2099,7 +2101,7 @@ function renderVocabList() {
         el('div', { class: 'list-main' },
           el('div', {}, el('span', { style: { fontWeight: 600, fontSize: '15px' } }, w.word), ' ',
             el('span', { class: 'tag ' + tag }, tagLabel)),
-          el('div', { class: 'list-sub' }, `${w.phonetic || ''} · ${w.chinese}`),
+          el('div', { class: 'list-sub' }, `${w.phonetic || ''} · ${w.cn || w.chinese || ''}`),
           w.example ? el('div', { class: 'list-sub' }, w.example) : null
         ),
         el('div', { class: 'list-actions' },
