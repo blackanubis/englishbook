@@ -9,3 +9,4 @@ node_modules/
 Thumbs.db
 README.md
 .dockerignore
+build_favicon.py

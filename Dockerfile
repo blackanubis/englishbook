@@ -16,6 +16,7 @@ RUN rm -rf /usr/share/nginx/html/*
 
 # 拷贝静态资源
 COPY index.html /usr/share/nginx/html/index.html
+COPY favicon.svg favicon.ico apple-touch-icon.png icon-192.png icon-512.png /usr/share/nginx/html/
 COPY vocab-data/ /usr/share/nginx/html/vocab-data/
 COPY sentence-data/ /usr/share/nginx/html/sentence-data/
 COPY vocab-data-js/ /usr/share/nginx/html/vocab-data-js/
